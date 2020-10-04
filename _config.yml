@@ -5,9 +5,9 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Eon
-description:            Multipurpose Jekyll theme.
-url:                    "https://eon.unbound.studio" # Site base hostname & protocol, e.g. http://example.com
+title:                  Ethical Frenchie
+description:            We are a family and friends based French Bulldog Breeder located in New York, NY. We welcome you to Learn more about us and our Ethically Bred French Bulldog puppies.
+url:                    "https://ethicalfrenchie.com"  # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
 logo:                   logo-dark.svg
@@ -22,51 +22,51 @@ paginate_path:          "/blog/:num/" # Blog path
 
 # Default author settings
 author:
-  name:                 Pete Seth
+  name:                 James
   avatar:               avatar-tom.png
-  title:                Support     
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
+  title:                CEO     
+  bio:                  I was unemployed, and started throwing every "business idea" I had at the fridge.. a few years later I didn't have to worry about employment again.  Weird.
   url:
-  email:                info@blacompany.com
+  email:                james@ashlandharrison.com
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             https://www.facebook.com/ethicalfrenchie
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            https://www.instagram.com/ethicalfrenchie
+  linkedin:             
   pinterest:
-  twitter:
+  twitter:              https://twitter.com/ethicalfrenchie
   vimeo:
   youtube:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-  john:
-    name:               John Brown
-    title:              Support     
-    avatar:             avatar-john.png
-  evan:
-    name:               Evan Wells
-    title:              Support    
-    avatar:             avatar-evan.png
-  sara:
-    name:               Sara Galen
-    title:              Lead Developer     
-    avatar:             avatar-sara.png
-  alex:
-    title:              Design Engineer     
-    name:               Alex Koch
-    avatar:             avatar-alex.png
-  daniel:
-    title:              Developer      
-    name:               Daniel Shultz
-    avatar:             avatar-daniel.png
-  tom:
-    title:              Developer     
-    name:               Tom Farrell
-    avatar:             avatar-tom.png
+  james:
+    name:               James
+    title:              Founder     
+    avatar:             james.jpg
+  renee:
+    name:               Renee
+    title:              Puppy Whisperer   
+    avatar:             renee.jpg
+  erica:
+    name:               Partner Breeder
+    title:              Partner Breeder - VA    
+    avatar:             firstpartnerbreeder.jpg
+  ely:
+    name:               Ely
+    title:              Records and Compliance    
+    avatar:             ely.jpg
+  nick:
+    name:               Nick
+    title:              Logistics    
+    avatar:             nick.jpg
+  david:
+    name:               David
+    title:              Puppy Whisperer    
+    avatar:             david.jpg
 
 navbar:
   layout:               default # default, center
@@ -77,20 +77,20 @@ navbar:
 
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
-  layout:               columns # center or columns
-  copyright:            Made by <a href="https://unbound.studio/">Unbound Studio</a> in Mexico City.
+  layout:               center # center or columns
+  copyright:            17 State St Suite 4000, New York, NY 10004 <a href="tel:212 739-0182">212 739-0182</a>
 
 mailchimp:
-  form_action:          000000
-  hidden_name:          000000
+  form_action:          https://ethicalfrenchie.us4.list-manage.com/subscribe/post?u=c988e5278e5c6e821426b531a&amp;id=8f4cdc99ab
+  hidden_name:          b_c988e5278e5c6e821426b531a_8f4cdc99ab
   
-google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
-google_maps_api_key:    # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+google_analytics:       UA-131053938-1 # Google analytics code, get your code here https://www.google.com/analytics/
+google_maps_api_key:    AIzaSyBWpK890qcen1qMLVH6GUpBKegBZUXWCHo # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 disqus:
-  shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
+  shortname:            # https-ethicalfrenchie-com.disqus.com
 
-instagram_accesstoken:  
+instagram_accesstoken:  9550633131.1677ed0.71683616f6b54a89b565f76872ee0dd1
 
 donations:
   paypal:
@@ -103,22 +103,22 @@ social_share:
   facebook:             true
   linkedin:             true
   pinterest:            true
-  reddit:               true
+  reddit:               false
 
 # Social buttons
 social_networks:
-  email:                info@blacompany.com
-  website:
-  facebook:             https://www.facebook.com/
+  email:                adopt@ethicalfrenchie.com
+  website:              https://ethicalfrenchie.com
+  facebook:             https://www.facebook.com/ethicalfrenchie
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            https://www.instagram.com/ethicalfrenchie
+  linkedin:             https://www.linkedin.com/company/ethicalfrenchie/
   pinterest:
-  twitter:
-  vimeo:
+  twitter:              
+  vimeo:                
   youtube:
 
 # Build settings
@@ -134,6 +134,7 @@ plugins:
   - jekyll-gist
   - jekyll-sitemap
   - jemoji
+
 
 exclude: 
   - vendor
@@ -195,6 +196,12 @@ defaults:
   - scope:
       path:                 ""
       type:                 pages
+    values:
+      layout:               page
+  # _puppies
+  - scope:
+      path:                 ""
+      type:                 puppies
     values:
       layout:               page
   # _portfolio
