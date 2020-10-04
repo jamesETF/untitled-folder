@@ -3,4 +3,5 @@ title: Cards
 icon: ios-unchecked-checkbox.svg
 ---
 
-Display content such as features or pricing options in card layout.
+We we go to great lengths to ensure each puppy is ready for your family.
+Through proper socialization puppies are less prone to transitional shock are more prepared to become stable adults.

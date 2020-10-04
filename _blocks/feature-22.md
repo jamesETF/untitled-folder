@@ -1,6 +1,7 @@
 ---
-title: Portfolio
-icon: ios-diamond.svg
+title: Puppy Health gaurantee
+icon: ios-user-groups.svg
 ---
 
-Show off your work and process with image and video galleries.
+Being an ethical French Bulldog Breeder requires a lot of preparation and health testing before producing a litter.
+"Click Here" to learn view our puppy health garuntee.

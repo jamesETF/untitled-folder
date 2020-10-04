@@ -1,6 +1,6 @@
 ---
-title: Tired of never ending site maintenance
-subtitle: Put an end to constant theme and plugin updates. Build your website with Jekyll static generator and get on with what matters the most, your business.
+title: Look No Further for your Furbaby.
+subtitle: We take our time to understand your needs regarding your future furbaby, and its here waiting to go home with you. NYS License 1118
 ---
 
-{% include button.html text="Purchase" url="#" style="default" size="xlarge" icon="cart" %}
+{% include button.html text="View our Puppies" url="/puppies/" style="primary" size="xlarge" icon="heart" %}

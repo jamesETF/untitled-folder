@@ -1,9 +1,10 @@
 ---
-title: Create your new website today!
-subtitle: Dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam ac posuere. leo dapibus idras fringilla convallis elit.
+title: French Bulldog Puppies for Sale in New York
+subtitle: Are you looking f
 button:
   style: success
   text: Join Us
-  url: https://www.envato.com
+  url: /puppies
   blank: true
 ---
+

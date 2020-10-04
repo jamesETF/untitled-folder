@@ -1,10 +1,13 @@
 ---
-title: Are updates and bug fixes included in the cost of the item?
+title: Why are French Bulldogs So Expensive?
 categories: [presale]
 ---
 
-Regardless of whether you have support or not:
+French Bulldog Puppies are expensive because: 
 
-- When we release an update, it will be available for you to download for free
-- You can report bugs
-- You can expect us to keep the item in good working order, working as described and protected against major security issues
+- They cannot mate or breed naturally.
+- They require artificial insemination
+- French Bulldogs also cannot have natural births, each birth must be a C-Section.
+
+However, to help you with the costs you can apply for financing for one of our puppies through our partner.
+Regardless of whether you have support or not:

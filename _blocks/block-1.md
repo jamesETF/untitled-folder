@@ -1,8 +1,5 @@
 ---
 title: The block title
-subtitle: Quis ullamco laboris nisi ut aliquip ex ea commodo consequat
+subtitle: 30% off Autoship with Chewy!
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-Dorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullamco nisi ut aliquip ex ea commodo. 
+<a href="https://prf.hn/click/camref:1100l86im/creativeref:1100l44382" target="_blank"><img src="https://creative.prf.hn/source/camref:1100l86im/creativeref:1100l44382" width="160" height="600" border="0"/></a>

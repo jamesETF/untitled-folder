@@ -1,6 +1,6 @@
 ---
 title: Didn't find the answer, get in touch
-subtitle: Support is provided five days a week Mon - Fri with tipical 24 hour response time. 
+subtitle: For the time being, use the "Chat widget" on the bottom right of your screen to schedule a phone interview
 ---
 
-{% include button.html text="Contact Us" url="/contact/" style="primary" size="xlarge" %}
+{% include button.html text="Contact Us" url="/contact-us/" style="primary" size="xlarge" %}

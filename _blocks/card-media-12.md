@@ -1,8 +1,8 @@
 ---
-title: Are of brief house annoyed
-image: card-2.jpeg
+title: Ego
+image: /ego.jpg
 ---
 
-Suspendisse quis turpis quis, semper consequat vehicula dolor consequat quam, ac consequat posuere leo dapibus.
+Hey! My name is Ego and I will spice up your life.
 
-{% include button.html text="Join Us" url="#" style="default" %}
+{% include button.html text="Inquire About Me" url="/puppies/" style="default" %}

@@ -1,6 +1,6 @@
 ---
-title: Center aligned header
-subtitle: Header come in two layouts one or two columns, each column accepting any content, text, images, videos or any includes.
+title: Look Ma! We're on TV!
+subtitle: We're proud to work with Animal Actors Inc and the NY Lottery to "Make your day". Now here are some puppies.
 ---
 
-{% include button.html size="xlarge" text="Download" icon="download" url="#" style="default" %} {% include button.html size="xlarge" text="Purchase" icon="cart" url="#" style="primary" %}
+{% include button.html size="large" text="Text/Imessage Us us" icon="download" url="tel:1-212-739-0182" style="default" %} 
