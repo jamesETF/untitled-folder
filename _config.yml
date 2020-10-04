@@ -10,8 +10,8 @@ description:            We are a family and friends based French Bulldog Breeder
 url:                    "https://ethicalfrenchie.com"  # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
-logo:                   logo-dark.svg
-logo_light:             logo-light.svg
+logo:                   logo-dark.png
+logo_light:             logo-light.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
