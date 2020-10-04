@@ -31,6 +31,7 @@ hubspotneeded: true
   filter="true"
 %}
 
+
 {% include cards.html 
   block="puppies-list-page" 
   media="top" 

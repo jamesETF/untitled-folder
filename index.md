@@ -22,34 +22,49 @@ header:
 
 [comment]: # (This actually is the most platform independent comment)
 
+[comment]: # (This actually is the most platform independent comment)
+
 {% if site.template == 'base' %}
 
-  {% include cards.html 
-    block="feature" 
-    section_background="default" 
-    section_size="large"
-    section_title="The first multipurpose Jekyll theme" 
-    section_header_align="center"
-    section_content_align="center"
-    media="top"
-    grid="1-4"
-    gutter="large"
-    icon_color="#1B33BF"
-  %}
 
-  {% include cards.html 
-    block="home-why" 
-    section_title="Why use Eon theme?"
-    section_header_align="center"
-    section_size="large"
-    section_background="muted"
-    grid="1-3"
-    gutter="large"
-  %}
+{% include cards.html 
+  block="homeabout" 
+  section_title="Trusted Source for Ethically Bred Frenchie Furbabies"
+  section_header_align="center"
+  section_size="large"
+  section_padding_remove="bottom"
+  section_background="muted"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
+%}
 
-  {% include cta.html 
-    section_size="large"
-    section_image="header-9.jpeg"
+{% include cards.html 
+  block="frenchie-breeder" 
+  media="top" 
+  section_size="large"
+  section_background="muted"
+  section_content_align="center"
+  card_style="default"
+  grid="1-3"
+%}
+{% else %}
+
+{% endif %}
+
+{% include cards.html 
+  block="index-blog-portion" 
+  media="top" 
+  section_size="large"
+  section_background="muted"
+  section_content_align="center"
+  card_style="default"
+  grid="1-1"
+%}
+{% include cta.html 
+    
+    section_size="small"
+    section_image="header-6.jpg"
     section_overlay="rgba(0, 0, 0, 0.5)"
     section_container="small"
     section_content_align="center"
@@ -57,8 +72,3 @@ header:
     layout="1"
     block="cta-4"
   %}
-  
-{% else %}
-
-
-{% endif %}
