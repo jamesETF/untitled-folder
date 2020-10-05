@@ -2,11 +2,19 @@
 - title: Home
   url: /
 
-- title: Faq
-  url: /faq/
+- title: Our Puppies
+  url: /puppies/
+
+- title: About Us
+  url: /about-us/
+
+- title: Education Center
+  url: /blog/
+
+- title: Insta!
+  url: https://instagram.com/ethicalfrenchie
 
 - title: Contact
-  url: /contact/
+  url: /contact-us/
 
-- title: Blog
-  url: /blog/
+

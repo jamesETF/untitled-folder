@@ -3,35 +3,29 @@ blog:
   - widget: tagged
     type: posts
     primary:
-      title: Product news
+      title: Frenchie News
       tag: news
     secondary:
-      title: Editor picks
+      title: Renee's Picks
       tag: pick
 
   - widget: latest
     type: posts
-    count: 15
+    count: 10
     title: Latest Posts
+
+  - widget: block
+    block: block-2
+    title: Save 30%
 
 page:
   - widget: author
-    author: john
+    author: james
 
   - widget: latest
     type: posts
     count: 15
     title: Latest Posts
-
-allwidgets:
-  - widget: tagged
-    type: posts
-    primary:
-      title: Product news
-      tag: news
-    secondary:
-      title: Editor picks
-      tag: pick
 
   - widget: latest
     type: posts
@@ -44,16 +38,12 @@ allwidgets:
       links:
         - title: Home Page
           url: /
-        - title: Portfolio
-          url: /portfolio/
+        - title: puppies
+          url: /puppies/
         - title: Blog
           url: /blog/
-        - title: 404 Page
-          url: /404/
+        - title: Contact Us
+          url: /contact-us/
 
   - widget: author
-    author: ivan
-
-  - widget: block
-    block: block-1
-    title: Content of a block
+    author: james

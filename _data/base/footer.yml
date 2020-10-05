@@ -1,82 +1,17 @@
 # Center style footer navigation
 center:
-  - title: Services
-    url: /services/
+  - title: About Us
+    url: /about-us/
 
-  - title: News
+  - title: Our Blog
     url: /blog/
 
-  - title: Jurisdictions
-    url: /jurisdictions/
+  - title: Our Puppies
+    url: /puppies/
 
-  - title: Directory
-    url: /directory/
+  - title: License & Legal
+    url: /license/
 
   - title: Contact
-    url: /contact/
+    url: /contact-us/
 
-
-# Columns style footer navigation
-columns:
-  - title: COMPANY
-    links:
-      - title: Marketing Tools
-        url: /#
-      - title: Presentations
-        url: /#
-      - title: Professionals
-        url: /#
-      - title: Appointments
-        url: /#
-      - title: Stores
-        url: /#
-
-  - title: PRODUCTS
-    links:
-      - title: Small Businesses
-        url: /#
-      - title: Photographers
-        url: /#
-      - title: Restaurants
-        url: /#
-      - title: Designers
-        url: /#
-      - title: Artists
-        url: /#
-
-  - title: JOIN US
-    links:
-      - title: Our Initiatives
-        url: /#
-      - title: Giving Back
-        url: /#
-      - title: Communities
-        url: /#
-      - title: Youth Program
-        url: /#
-      - title: Charity
-        url: /#
-
-  - title: COMMUNITY
-    links:
-      - title: Webinars
-        url: /#
-      - title: Developers
-        url: /#
-      - title: Platforms
-        url: /#
-      - title: Workshops
-        url: /#
-      - title: Local Meetups
-        url: /#
-
-  - title: CONTACT
-    links:
-      - title: Contact Form
-        url: /#
-      - title: LinkedIn
-        url: /#
-      - title: Facebook
-        url: /#
-      - title: Visit Us
-        url: /#
