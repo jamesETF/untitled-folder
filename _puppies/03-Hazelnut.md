@@ -17,7 +17,8 @@ header:
   header_size: medium
   parallax: true
 permalink: /puppies/fawn-french-bulldog-puppy-hazelnut/
-pipedrive: true
+hubspotneeded: true
+applechat: true
 
 ---
 
