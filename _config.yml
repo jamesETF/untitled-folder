@@ -20,6 +20,8 @@ template:               base
 paginate:               6 # Number of posts displayed on blog page
 paginate_path:          "/blog/:num/" # Blog path
 
+
+
 # Default author settings
 author:
   name:                 James
@@ -134,6 +136,7 @@ plugins:
   - jekyll-gist
   - jekyll-sitemap
   - jemoji
+  - jekyll-redirect-from
 
 
 exclude: 
