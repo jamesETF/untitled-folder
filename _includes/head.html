@@ -1,31 +1,522 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %}
-  <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
- 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
-  <link  async rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
-  <meta name="p:domain_verify" content="50390198c9a42575196138cfd965928c"/>
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ page.image | absolute_url }}{{ site.brand.image }}{% endif %}"/>
-   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-   <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
-   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-   <script src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
-   <meta name="p:domain_verify" content="50390198c9a42575196138cfd965928c"/>
-  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
+    <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+    <meta name="p:domain_verify" content="50390198c9a42575196138cfd965928c"/>
+      {% include google-analytics.html %}
+
+    
+    <script type="application/ld+json">
+    {
+        "@context":"http://schema.org",
+        "@type":"Organization",
+        "name":"Ethical Frenchie LLC",
+        "url":"https://ethicalfrenchie.com/",
+        "logo":"https://ethicalfrenchie.com/images/logo.png",
+        "sameAs":[
+            "https://www.facebook.com/ethicalfrenchie",
+            "https://www.instagram.com/ethicalfrenchie"
+        ],
+        "contactPoint":[
+            {
+                "@type":"ContactPoint",
+                "telephone":"+1.212.739.0182",
+                "contactType":"customer support"
+            }
+        ]
+    }
+    </script>
+    <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "WPHeader",
+        "@id":"#nav",
+        "cssSelector": ".navbar",
+        "@graph": [
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "Home",
+                "url": "https://ethicalfrenchie.com/"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "About Us",
+                "url": "https://ethicalfrenchie.com/about-us"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "Puppies",
+                "url": "https://ethicalfrenchie.com/puppies/"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "Blog",
+                "url": "https://ethicalfrenchie.com/blog/"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "Contact Us",
+                "url": "https://ethicalfrenchie.com/contact-us/"
+            }
+        ]
+    }
+    </script>
+    
+    <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org/",
+        "@type": "WPFooter",
+        "@id":"#footer",
+        "cssSelector": "#footer",
+        "@graph": [
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "Connect with us on Facebook",
+                "url": "https://www.facebook.com/ethicalfrenchie/"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type":"SiteNavigationElement",
+                "name": "Connect with us on Instagram",
+                "url": "https://www.instagram.com/ethicalfrenchie/"
+            }
+        ],
+    }
+    </script>
     {% seo %}
-    {% include google-analytics.html %}
+    {% if page.extraseoabout %}
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "AboutPage",
+        "description":"Ethical Frenchie is a family based French Bulldog Breeder in New York. Learn more about us and our de-centralized kennel concept.",
+        "image":"https://ethicalfrenchie.com/images/logo.png",
+        "name":"About Us",
+        "url":"https://ethicalfrenchie.com/about-us/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "About Us",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hi! We’re James & Renee (and now Bryan!), nice to meet you. We are a small, exclusive French Bulldog breeder located on the East Coast. Our breeding program is focused on extra care, socialization and improving the breed. We aren’t your typical “Mom and Pops breeder” that has been around for 20 years. We are started breeding 3 years ago but expanded our program in 2018. We are responsible, knowledgeable and caring which makes us stand out in the sea of faulty backyard breeders and puppy mills."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What We Do",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We’re passionate about what we do, but more importantly we understand the frustrations of searching high and low while trying to avoid scams and puppy mills alike. We work diligently to ensure that we are following the best French Bulldog breeding practices and work extra hard to make sure your future family member is healthy & socialized to fit your specific family’s needs. After getting one of our puppies we offer life-time support when it comes to caring and raising your new baby. If something happens you won’t be left alone in the dark – we will assist you, so you can reach out anytime."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why We Do It",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<p>We started Ethical Frenchie because of what we saw as a lack of transparency and the proliferation of scam artists taking advantage of people when they are most vulnerable. We also breed to better the breed. Most of our dogs are sold as pet only. We won’t offer full AKC registration on each and every puppy – that’s not a responsible thing to do. We will however offer full breeding rights if a puppy from the litter catches our eye and stands out. Too many people are trying to earn an extra buck by selling their dogs with a full AKC registration to get more money for it. Not all dogs are meant to be bred. Some of them lack the “structure”, others are too small or too big and don’t fall under the “standard” French Bulldog look.</p><p>Full AKC will also only be offered to an ethical, in house breeder, that has the same vision of bettering the breed, after being extensively screened by us. We would hate for our dogs to end up in hands for someone who lacks knowledge or is only in it for profit.</p>"
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@graph": 
+        [
+            {
+                "@type": "Person",
+                "name": "James Harisson",
+                "image": "https://ethicalfrenchie.com/images/james.jpg",
+                "sameAs": [
+                    "https://www.facebook.com/jamerson.nc",
+                    "https://linkedin.com/in/jamesharrisoniii"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Renee Harrison",
+                "image": "https://ethicalfrenchie.com/images/renee.jpg"
+            },
+            {
+                "@type": "Person",
+                "name": "Brian Lee",
+                "image": "https://ethicalfrenchie.com/images/bryan.jpg"
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Service",
+            "name": "Healthy Frenchie Gaurantee",
+            "description": "Newborn French Bulldog puppies require extra care. The first 10 days of their life are crucial. Puppies can fade away in an instant if you aren’t present at all times. Making sure they eat every 2 hours, that their temperature doesn’t drop, that they are all gaining weight equally and of course just observing their overall behavior – not missing something that would indicate a major health issue. But of course, the whole process of “producing a healthy French Bulldog” starts way before they are even conceived. Health testing the parents is the responsible thing to do. The last thing you would want is take a risk of dam or sire being a carrier or them having some kind of hereditary condition, that would only bring heartbreak and vet bills to the new potential family. After the French bulldog puppies are old enough, they get their first extensive vet visit. Only after their well being is confirmed and documented is when we start advertising our puppies/taking deposits.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Ethical Frenchie LLC"
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Service",
+            "name": "Early Puppy Socialization",
+            "description": "The socialization of your French Bulldog puppy starts early. Since they are raised inside the house they get exposed to variety of sounds and people as soon as their “ears open” at around 10-14 days of age. Yes, all puppies are born deaf and blind – they rely on their sense of smell to crawl around and find their mother during “feeding time”. It’s hard to believe but some puppies show their dominance and alpha qualities at a very early age. We pay special attention to those and make sure we don’t enforce those traits. We try to establish ourselves as the leader of the pack, which will make your training easier once the puppy is in your care. By the time they are ready they understand the concept of peeing on the pee pad and those that stay with us longer are familiar with the “potty” command. Some are more stubborn than others, so consistency with training is key. You can read more about French Bulldog potty training here(https://ethicalfrenchie.com/potty-train-your-frenchie/). Overall exposing the puppies to positive and versatile experiences is what will predispose them to grow into stable, happy individuals with the absence of phobias and behavioral issues.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Ethical Frenchie LLC"
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Service",
+            "name": "Adopt a Frenchie = Save an Animal",
+            "description": "There are 60-70 million stray dogs and cats in USA. We, by no means want to increase this number, so we ask our potential buyers to please research the breed or ask as many questions as possible. We want to make sure the puppy is a match for your home, and that you will commit to accepting your new addition and caring for it for the next 10+ years. Don’t get one because it’s a trend, or because your neighbor has one and they look cute. They are funny and quirky but also delicate and require a lot of work. If you feel like your heart is in the right place and you are ready for the responsibility, we want you to know that we donate a portion of each puppy purchase to an organization of your or our choice. That way you aren’t only opening your home to a new puppy, but are also helping an abandoned neglected one that wasn’t as fortunate.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Ethical Frenchie LLC"
+            }
+        }
+    ]
+    </script>
+    {% endif %}
+    {% if page.extraseo4types %}
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://ethicalfrenchie.com/the-ethics-of-where-to-find-a-french-bulldog-puppy-for-your-family/"
+          },
+          "headline": "Here are the 4 types of French Bulldog Breeders near you | by Ethical Frenchie",
+          "description": "Listed here in order from least ethical to most ethical, in my opinion: puppy mills, backyard breeders, pet stores, show breeders, and family breeders.",
+          "image": "https://ethicalfrenchie.com/uploads/../uploads/ethical_french_bulldog_puppy_sourcing.jpg",  
+          "author": {
+            "@type": "Person",
+            "name": "James Harrison"
+          },  
+          "publisher": {
+            "@type": "Organization",
+            "name": "Ethical Frenchie",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://ethicalfrenchie.com/uploads/logo-dark.png",
+              "width": 250,
+              "height": 33
+            }
+          },
+          "datePublished": "2019-12-30",
+          "dateModified": "2020-01-08"
+        }
+    </script>
+    {% endif %}
+    {% if page.applechat %}
+    <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
+    {% endif %}
+    {% if page.extraseopuppies %}
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "French Bulldog Puppies",
+        "description": "View our upcoming litters and avaialbe frenchie puppies the story behind each of our puppies. Contact us for more information if you are looking for a blue french bulldog puppy.",
+        "url": "https://ethicalfrenchie.com/puppies/"
+    }
+    </script>
+    {% endif %}
+    
+    {% if page.extraseoblog %}
+    <script type="application/ld+json">
+    { 
+        "@context": "https://schema.org", 
+        "@type": "BlogPosting",
+        "headline": {{.Params.title}},
+        "image": {
+            "@type": "ImageObject",
+            "url": {{ if eq .Params.page_type "blog" }}{{ printf "%s" .Params.asset.image | absURL }}{{ else }}{{ printf "/images%s" .Params.asset.image | absURL }}{{ end }}
+        },
+        "keywords": {{ .Params.categories }},
+        "publisher": {
+          "@type": "Organization",
+            "name":"Ethical Frenchie LLC",
+            "url":"https://ethicalfrenchie.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://ethicalfrenchie.com/images/logo.png"
+            },
+            "sameAs":[
+                "https://www.facebook.com/ethicalfrenchie",
+                "https://www.instagram.com/ethicalfrenchie"
+            ],
+            "contactPoint":[
+                {
+                    "@type":"ContactPoint",
+                    "telephone":"+1.212.739.0182",
+                    "contactType":"customer support"
+                }
+            ]
+        },
+        "url": {{ .Permalink }},
+        "dateCreated": {{ .Params.date }},
+        "datePublished": {{ .Params.date }},
+        "dateModified": {{ .Params.date }},
+        "description": {{ .Params.description }},
+        "inLanguage": "en-US",
+        "author": {
+            "@type": "Person",
+            "name": {{ .Params.author }}
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage"
+        },
+        "articleBody": {{ .Content }}
+    }
+    </script>
+    {% endif %}
+    
+    {% if page.extraseocontactus %}
+    <script type="application/ld+json">
+    {
+        "@context": "http://www.schema.org",
+        "@type": [
+        "Organization",
+        "LocalBusiness"
+      ],
+        "name": "Ethical Frenchie LLC",
+        "logo": "https://ethicalfrenchie.com/images/logo.png",
+        "url": "https://ethicalfrenchie.com/",
+        "image": [
+            "https://ethicalfrenchie.com/images/logo.png",
+            "https://ethicalfrenchie.com/images/Ethical_Frenchie_Home_Picture.jpg",
+            "https://ethicalfrenchie.com/images/hero-1.jpg"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "17 State Street, 40th floor",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10004",
+            "addressCountry": "US"
+        },
+        "telephone": "+12127390182",
+        "priceRange": "$$$",
+        "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1 212 739-0182",
+                "contactType": "customer service",
+                "email": "adopt@ethicalfrenchie.com"
+        }
+      ],
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://ethicalfrenchie.com/"
+        },
+        "sameAs":[
+            "https://www.facebook.com/ethicalfrenchie",
+            "https://www.instagram.com/ethicalfrenchie"
+        ]
+    }
+    </script>
+    
+    
+    {% endif %}
+    {% if page.extraseo500 %}
+    <script type="application/ld+json">
+        { 
+            "@context": "https://schema.org", 
+            "@type": "BlogPosting",
+            "headline": {{.Params.title}},
+            "image": {
+                "@type": "ImageObject",
+                "url": {{ if eq .Params.page_type "blog" }}{{ printf "%s" .Params.asset.image | absURL }}{{ else }}{{ printf "/images%s" .Params.asset.image | absURL }}{{ end }}
+            },
+            "keywords": {{ .Params.categories }},
+            "publisher": {
+                "@type": "Organization",
+                "name":"Ethical Frenchie LLC",
+                "url":"https://ethicalfrenchie.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://ethicalfrenchie.com/images/logo.png"
+                },
+                "sameAs":[
+                    "https://www.facebook.com/ethicalfrenchie",
+                    "https://www.instagram.com/ethicalfrenchie"
+                ],
+                "contactPoint":[
+                    {
+                        "@type":"ContactPoint",
+                        "telephone":"+1.212.739.0182",
+                        "contactType":"customer support"
+                    }
+                ]
+            },
+            "url": {{ .Permalink }},
+            "dateCreated": {{ .Params.date }},
+            "datePublished": {{ .Params.date }},
+            "dateModified": {{ .Params.date }},
+            "description": {{ .Params.description }},
+            "inLanguage": "en-US",
+            "author": {
+                "@type": "Person",
+                "name": {{ .Params.author }}
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage"
+            },
+            "articleBody": {{ .Content }}
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Do $500 French Bulldog puppies exist?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, French Bulldog’s exist at a shelter, but if you’re looking for a baby to raise as your own, anyone who asks $500 will likely be a scam. The prices for French Bulldog Puppies start at 2000$ on the lower end."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why are French Bulldogs so expensive?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "French Bulldog Puppies are expensive because they cannot mate or breed naturally and require artificial insemination. French Bulldogs also cannot have natural births, each birth must be a C-Section. However, to help you with the costs you can apply for financing for one of our puppies through our partner."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I’m on a budget, can I get a French Bulldog this week?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes! Financing a French Bulldog Puppy is an option with Ethical Frenchie (Ethical Kennel). All you must do is apply with one of the 2 financing companies we work with. The process is very smooth and fast after you get approved and you can bring your Frenchie puppy home within days."
+                    } 
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does financing work?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It’s quick and easy, we have had a few people apply for financing and were successful, in fact, nobody we know has been denied yet. If you are seriously interested in qualifying for a Frenchie puppy, don’t hesitate and visit us to apply today."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long is the application process?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The process is very quick and only takes a few minutes to get pre-approved. After the paperwork is filled out by both parties, we can start scheduling the date of the puppy pick up/delivery. 
+                        We work with a highly reliable flight nanny in case the delivery to another state Is required. The cost of the flight nanny (if you are out of state) can be included in your financing fee as well."
+                   }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are my options, other than financing?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You can always reach out to local rescues, or nationwide French Bulldog rescues and open your home to a French Bulldog adult in need. 
+                        Another suggestion that we have would be reaching out to local breeders and inquiring about their adult French Bulldogs that they are planning to retire. The fee is usually anything between 500-1000$, depending on the breeder and the area."
+                   }
+                }
+            ]
+        }
+    </script>
+    {% endif %}
+    
+    
+    {% if page.extraseofinance %}
+    
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Do $500 French Bulldog puppies exist?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, French Bulldog’s exist at a shelter, but if you’re looking for a baby to raise as your own, anyone who asks $500 will likely be a scam. The prices for French Bulldog Puppies start at 2000$ on the lower end."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why are French Bulldogs so expensive?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "French Bulldog Puppies are expensive because they cannot mate or breed naturally and require artificial insemination. French Bulldogs also cannot have natural births, each birth must be a C-Section. However, to help you with the costs you can apply for financing for one of our puppies through our partner."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "I’m on a budget, can I get a French Bulldog this week?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes! Financing a French Bulldog Puppy is an option with Ethical Frenchie (Ethical Kennel). All you must do is apply with one of the 2 financing companies we work with. The process is very smooth and fast after you get approved and you can bring your Frenchie puppy home within days."
+                    } 
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does financing work?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It’s quick and easy, we have had a few people apply for financing and were successful, in fact, nobody we know has been denied yet. If you are seriously interested in qualifying for a Frenchie puppy, don’t hesitate and visit us to apply today."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long is the application process?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The process is very quick and only takes a few minutes to get pre-approved. After the paperwork is filled out by both parties, we can start scheduling the date of the puppy pick up/delivery. 
+                        We work with a highly reliable flight nanny in case the delivery to another state Is required. The cost of the flight nanny (if you are out of state) can be included in your financing fee as well."
+                   }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are my options, other than financing?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You can always reach out to local rescues, or nationwide French Bulldog rescues and open your home to a French Bulldog adult in need. 
+                        Another suggestion that we have would be reaching out to local breeders and inquiring about their adult French Bulldogs that they are planning to retire. The fee is usually anything between 500-1000$, depending on the breeder and the area."
+                   }
+                }
+            ]
+        }
+    </script>
+    {% endif %}
+    
+ 
+
+      
+    
     <!-- Twitter cards -->
     <meta name="twitter:site"    content="@ethicalfrenchie">
     <meta name="twitter:creator" content="@{{ page.author }}">
@@ -44,486 +535,5 @@
     <meta name="twitter:card"  content="summary">
     <meta name="twitter:image" content="{{ site.title_image }}">
     {% endif %}
-    <!-- end of Twitter cards -->  
-  <script type="application/ld+json">
-  {
-      "@context":"http://schema.org",
-      "@type":"Organization",
-      "name":"Ethical Frenchie LLC",
-      "url":"https://ethicalfrenchie.com/",
-      "logo":"https://ethicalfrenchie.com/images/logo.png",
-      "sameAs":[
-          "https://www.facebook.com/ethicalfrenchie",
-          "https://www.instagram.com/ethicalfrenchie"
-      ],
-      "contactPoint":[
-          {
-              "@type":"ContactPoint",
-              "telephone":"+1.212.739.0182",
-              "contactType":"customer support"
-          }
-      ]
-  }
-  </script>
-  <script type='application/ld+json'>
-  {
-      "@context": "http://schema.org/",
-      "@type": "WPHeader",
-      "@id":"#nav",
-      "cssSelector": ".navbar",
-      "@graph": [
-          {
-              "@context": "https://schema.org",
-              "@type":"SiteNavigationElement",
-              "name": "Home",
-              "url": "https://ethicalfrenchie.com/"
-          },
-          {
-              "@context": "https://schema.org",
-              "@type":"SiteNavigationElement",
-              "name": "About Us",
-              "url": "https://ethicalfrenchie.com/about-us"
-          },
-          {
-              "@context": "https://schema.org",
-              "@type":"SiteNavigationElement",
-              "name": "Puppies",
-              "url": "https://ethicalfrenchie.com/puppies/"
-          },
-          {
-              "@context": "https://schema.org",
-              "@type":"SiteNavigationElement",
-              "name": "Blog",
-              "url": "https://ethicalfrenchie.com/blog/"
-          },
-          {
-              "@context": "https://schema.org",
-              "@type":"SiteNavigationElement",
-              "name": "Contact Us",
-              "url": "https://ethicalfrenchie.com/contact-us/"
-          }
-      ]
-  }
-  </script>
-  
-  {% if page.extraseoabout %}
-  <script type="application/ld+json">
-  {
-      "@context": "http://schema.org/",
-      "@type": "AboutPage",
-      "description":"Ethical Frenchie is a family based French Bulldog Breeder in New York. Learn more about us and our de-centralized kennel concept.",
-      "image":"https://ethicalfrenchie.com/images/logo.png",
-      "name":"About Us",
-      "url":"https://ethicalfrenchie.com/about-us/"
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-          {
-              "@type": "Question",
-              "name": "About Us",
-              "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Hi! We’re James & Renee (and now Bryan!), nice to meet you. We are a small, exclusive French Bulldog breeder located on the East Coast. Our breeding program is focused on extra care, socialization and improving the breed. We aren’t your typical “Mom and Pops breeder” that has been around for 20 years. We are started breeding 3 years ago but expanded our program in 2018. We are responsible, knowledgeable and caring which makes us stand out in the sea of faulty backyard breeders and puppy mills."
-              }
-          },
-          {
-              "@type": "Question",
-              "name": "What We Do",
-              "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We’re passionate about what we do, but more importantly we understand the frustrations of searching high and low while trying to avoid scams and puppy mills alike. We work diligently to ensure that we are following the best French Bulldog breeding practices and work extra hard to make sure your future family member is healthy & socialized to fit your specific family’s needs. After getting one of our puppies we offer life-time support when it comes to caring and raising your new baby. If something happens you won’t be left alone in the dark – we will assist you, so you can reach out anytime."
-              }
-          },
-          {
-              "@type": "Question",
-              "name": "Why We Do It",
-              "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "<p>We started Ethical Frenchie because of what we saw as a lack of transparency and the proliferation of scam artists taking advantage of people when they are most vulnerable. We also breed to better the breed. Most of our dogs are sold as pet only. We won’t offer full AKC registration on each and every puppy – that’s not a responsible thing to do. We will however offer full breeding rights if a puppy from the litter catches our eye and stands out. Too many people are trying to earn an extra buck by selling their dogs with a full AKC registration to get more money for it. Not all dogs are meant to be bred. Some of them lack the “structure”, others are too small or too big and don’t fall under the “standard” French Bulldog look.</p><p>Full AKC will also only be offered to an ethical, in house breeder, that has the same vision of bettering the breed, after being extensively screened by us. We would hate for our dogs to end up in hands for someone who lacks knowledge or is only in it for profit.</p>"
-              }
-          }
-      ]
-  }
-  </script>
-  
-  <script type="application/ld+json">
-  {
-      "@context": "http://schema.org",
-      "@graph": 
-      [
-          {
-              "@type": "Person",
-              "name": "James Harisson",
-              "image": "https://ethicalfrenchie.com/images/james.jpg",
-              "sameAs": [
-                  "https://www.facebook.com/jamerson.nc",
-                  "https://linkedin.com/in/jamesharrisoniii"
-              ]
-          },
-          {
-              "@type": "Person",
-              "name": "Renee Harrison",
-              "image": "https://ethicalfrenchie.com/images/renee.jpg"
-          },
-          {
-              "@type": "Person",
-              "name": "Brian Lee",
-              "image": "https://ethicalfrenchie.com/images/bryan.jpg"
-          }
-      ]
-  }
-  </script>
-  <script type="application/ld+json">
-  [
-      {
-          "@context": "http://schema.org/",
-          "@type": "Service",
-          "name": "Healthy Frenchie Gaurantee",
-          "description": "Newborn French Bulldog puppies require extra care. The first 10 days of their life are crucial. Puppies can fade away in an instant if you aren’t present at all times. Making sure they eat every 2 hours, that their temperature doesn’t drop, that they are all gaining weight equally and of course just observing their overall behavior – not missing something that would indicate a major health issue. But of course, the whole process of “producing a healthy French Bulldog” starts way before they are even conceived. Health testing the parents is the responsible thing to do. The last thing you would want is take a risk of dam or sire being a carrier or them having some kind of hereditary condition, that would only bring heartbreak and vet bills to the new potential family. After the French bulldog puppies are old enough, they get their first extensive vet visit. Only after their well being is confirmed and documented is when we start advertising our puppies/taking deposits.",
-          "provider": {
-              "@type": "Organization",
-              "name": "Ethical Frenchie LLC"
-          }
-      },
-      {
-          "@context": "http://schema.org/",
-          "@type": "Service",
-          "name": "Early Puppy Socialization",
-          "description": "The socialization of your French Bulldog puppy starts early. Since they are raised inside the house they get exposed to variety of sounds and people as soon as their “ears open” at around 10-14 days of age. Yes, all puppies are born deaf and blind – they rely on their sense of smell to crawl around and find their mother during “feeding time”. It’s hard to believe but some puppies show their dominance and alpha qualities at a very early age. We pay special attention to those and make sure we don’t enforce those traits. We try to establish ourselves as the leader of the pack, which will make your training easier once the puppy is in your care. By the time they are ready they understand the concept of peeing on the pee pad and those that stay with us longer are familiar with the “potty” command. Some are more stubborn than others, so consistency with training is key. You can read more about French Bulldog potty training here(https://ethicalfrenchie.com/potty-train-your-frenchie/). Overall exposing the puppies to positive and versatile experiences is what will predispose them to grow into stable, happy individuals with the absence of phobias and behavioral issues.",
-          "provider": {
-              "@type": "Organization",
-              "name": "Ethical Frenchie LLC"
-          }
-      },
-      {
-          "@context": "http://schema.org/",
-          "@type": "Service",
-          "name": "Adopt a Frenchie = Save an Animal",
-          "description": "There are 60-70 million stray dogs and cats in USA. We, by no means want to increase this number, so we ask our potential buyers to please research the breed or ask as many questions as possible. We want to make sure the puppy is a match for your home, and that you will commit to accepting your new addition and caring for it for the next 10+ years. Don’t get one because it’s a trend, or because your neighbor has one and they look cute. They are funny and quirky but also delicate and require a lot of work. If you feel like your heart is in the right place and you are ready for the responsibility, we want you to know that we donate a portion of each puppy purchase to an organization of your or our choice. That way you aren’t only opening your home to a new puppy, but are also helping an abandoned neglected one that wasn’t as fortunate.",
-          "provider": {
-              "@type": "Organization",
-              "name": "Ethical Frenchie LLC"
-          }
-      }
-  ]
-  </script>
-  {% endif %}
-  {% if page.extraseo4types %}
-  <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://ethicalfrenchie.com/the-ethics-of-where-to-find-a-french-bulldog-puppy-for-your-family/"
-        },
-        "headline": "Here are the 4 types of French Bulldog Breeders near you | by Ethical Frenchie",
-        "description": "Listed here in order from least ethical to most ethical, in my opinion: puppy mills, backyard breeders, pet stores, show breeders, and family breeders.",
-        "image": "https://ethicalfrenchie.com/uploads/../uploads/ethical_french_bulldog_puppy_sourcing.jpg",  
-        "author": {
-          "@type": "Person",
-          "name": "James Harrison"
-        },  
-        "publisher": {
-          "@type": "Organization",
-          "name": "Ethical Frenchie",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://ethicalfrenchie.com/uploads/logo-dark.png",
-            "width": 250,
-            "height": 33
-          }
-        },
-        "datePublished": "2019-12-30",
-        "dateModified": "2020-01-08"
-      }
-  </script>
-  {% endif %}
-  {% if page.applechat %}
-  <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
-  {% endif %}
-  {% if page.extraseopuppies %}
-  <script type="application/ld+json">
-  {
-      "@context": "http://schema.org",
-      "@type": "WebPage",
-      "name": "French Bulldog Puppies",
-      "description": "View our upcoming litters and avaialbe frenchie puppies the story behind each of our puppies. Contact us for more information if you are looking for a blue french bulldog puppy.",
-      "url": "https://ethicalfrenchie.com/puppies/"
-  }
-  </script>
-  {% endif %}
-  
-  {% if page.extraseoblog %}
-  <script type="application/ld+json">
-  { 
-      "@context": "https://schema.org", 
-      "@type": "BlogPosting",
-      "headline": {{.Params.title}},
-      "image": {
-          "@type": "ImageObject",
-          "url": {{ if eq .Params.page_type "blog" }}{{ printf "%s" .Params.asset.image | absURL }}{{ else }}{{ printf "/images%s" .Params.asset.image | absURL }}{{ end }}
-      },
-      "keywords": {{ .Params.categories }},
-      "publisher": {
-        "@type": "Organization",
-          "name":"Ethical Frenchie LLC",
-          "url":"https://ethicalfrenchie.com/",
-          "logo": {
-              "@type": "ImageObject",
-              "url": "https://ethicalfrenchie.com/images/logo.png"
-          },
-          "sameAs":[
-              "https://www.facebook.com/ethicalfrenchie",
-              "https://www.instagram.com/ethicalfrenchie"
-          ],
-          "contactPoint":[
-              {
-                  "@type":"ContactPoint",
-                  "telephone":"+1.212.739.0182",
-                  "contactType":"customer support"
-              }
-          ]
-      },
-      "url": {{ .Permalink }},
-      "dateCreated": {{ .Params.date }},
-      "datePublished": {{ .Params.date }},
-      "dateModified": {{ .Params.date }},
-      "description": {{ .Params.description }},
-      "inLanguage": "en-US",
-      "author": {
-          "@type": "Person",
-          "name": {{ .Params.author }}
-      },
-      "mainEntityOfPage": {
-          "@type": "WebPage"
-      },
-      "articleBody": {{ .Content }}
-  }
-  </script>
-  {% endif %}
-  
-  {% if page.extraseocontactus %}
-  <script type="application/ld+json">
-  {
-      "@context": "http://www.schema.org",
-      "@type": [
-      "Organization",
-      "LocalBusiness"
-    ],
-      "name": "Ethical Frenchie LLC",
-      "logo": "https://ethicalfrenchie.com/images/logo.png",
-      "url": "https://ethicalfrenchie.com/",
-      "image": [
-          "https://ethicalfrenchie.com/images/logo.png",
-          "https://ethicalfrenchie.com/images/Ethical_Frenchie_Home_Picture.jpg",
-          "https://ethicalfrenchie.com/images/hero-1.jpg"
-      ],
-      "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "17 State Street, 40th floor",
-          "addressLocality": "New York",
-          "addressRegion": "NY",
-          "postalCode": "10004",
-          "addressCountry": "US"
-      },
-      "telephone": "+12127390182",
-      "priceRange": "$$$",
-      "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "+1 212 739-0182",
-              "contactType": "customer service",
-              "email": "adopt@ethicalfrenchie.com"
-      }
-    ],
-      "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://ethicalfrenchie.com/"
-      },
-      "sameAs":[
-          "https://www.facebook.com/ethicalfrenchie",
-          "https://www.instagram.com/ethicalfrenchie"
-      ]
-  }
-  </script>
-  
-  
-  {% endif %}
-  {% if page.extraseo500 %}
-  <script type="application/ld+json">
-      { 
-          "@context": "https://schema.org", 
-          "@type": "BlogPosting",
-          "headline": {{.Params.title}},
-          "image": {
-              "@type": "ImageObject",
-              "url": {{ if eq .Params.page_type "blog" }}{{ printf "%s" .Params.asset.image | absURL }}{{ else }}{{ printf "/images%s" .Params.asset.image | absURL }}{{ end }}
-          },
-          "keywords": {{ .Params.categories }},
-          "publisher": {
-              "@type": "Organization",
-              "name":"Ethical Frenchie LLC",
-              "url":"https://ethicalfrenchie.com/",
-              "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://ethicalfrenchie.com/images/logo.png"
-              },
-              "sameAs":[
-                  "https://www.facebook.com/ethicalfrenchie",
-                  "https://www.instagram.com/ethicalfrenchie"
-              ],
-              "contactPoint":[
-                  {
-                      "@type":"ContactPoint",
-                      "telephone":"+1.212.739.0182",
-                      "contactType":"customer support"
-                  }
-              ]
-          },
-          "url": {{ .Permalink }},
-          "dateCreated": {{ .Params.date }},
-          "datePublished": {{ .Params.date }},
-          "dateModified": {{ .Params.date }},
-          "description": {{ .Params.description }},
-          "inLanguage": "en-US",
-          "author": {
-              "@type": "Person",
-              "name": {{ .Params.author }}
-          },
-          "mainEntityOfPage": {
-              "@type": "WebPage"
-          },
-          "articleBody": {{ .Content }}
-      }
-  </script>
-  <script type="application/ld+json">
-      {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-              {
-                  "@type": "Question",
-                  "name": "Do $500 French Bulldog puppies exist?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes, French Bulldog’s exist at a shelter, but if you’re looking for a baby to raise as your own, anyone who asks $500 will likely be a scam. The prices for French Bulldog Puppies start at 2000$ on the lower end."
-                  }
-              },
-              {
-                  "@type": "Question",
-                  "name": "Why are French Bulldogs so expensive?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "French Bulldog Puppies are expensive because they cannot mate or breed naturally and require artificial insemination. French Bulldogs also cannot have natural births, each birth must be a C-Section. However, to help you with the costs you can apply for financing for one of our puppies through our partner."
-                  }
-              },
-              {
-                  "@type": "Question",
-                  "name": "I’m on a budget, can I get a French Bulldog this week?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes! Financing a French Bulldog Puppy is an option with Ethical Frenchie (Ethical Kennel). All you must do is apply with one of the 2 financing companies we work with. The process is very smooth and fast after you get approved and you can bring your Frenchie puppy home within days."
-                  } 
-              },
-              {
-                  "@type": "Question",
-                  "name": "How does financing work?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "It’s quick and easy, we have had a few people apply for financing and were successful, in fact, nobody we know has been denied yet. If you are seriously interested in qualifying for a Frenchie puppy, don’t hesitate and visit us to apply today."
-                  }
-              },
-              {
-                  "@type": "Question",
-                  "name": "How long is the application process?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "The process is very quick and only takes a few minutes to get pre-approved. After the paperwork is filled out by both parties, we can start scheduling the date of the puppy pick up/delivery. 
-                      We work with a highly reliable flight nanny in case the delivery to another state Is required. The cost of the flight nanny (if you are out of state) can be included in your financing fee as well."
-                 }
-              },
-              {
-                  "@type": "Question",
-                  "name": "What are my options, other than financing?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "You can always reach out to local rescues, or nationwide French Bulldog rescues and open your home to a French Bulldog adult in need. 
-                      Another suggestion that we have would be reaching out to local breeders and inquiring about their adult French Bulldogs that they are planning to retire. The fee is usually anything between 500-1000$, depending on the breeder and the area."
-                 }
-              }
-          ]
-      }
-  </script>
-  {% endif %}
-  
-  
-  {% if page.extraseofinance %}
-  
-  <script type="application/ld+json">
-      {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-              {
-                  "@type": "Question",
-                  "name": "Do $500 French Bulldog puppies exist?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes, French Bulldog’s exist at a shelter, but if you’re looking for a baby to raise as your own, anyone who asks $500 will likely be a scam. The prices for French Bulldog Puppies start at 2000$ on the lower end."
-                  }
-              },
-              {
-                  "@type": "Question",
-                  "name": "Why are French Bulldogs so expensive?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "French Bulldog Puppies are expensive because they cannot mate or breed naturally and require artificial insemination. French Bulldogs also cannot have natural births, each birth must be a C-Section. However, to help you with the costs you can apply for financing for one of our puppies through our partner."
-                  }
-              },
-              {
-                  "@type": "Question",
-                  "name": "I’m on a budget, can I get a French Bulldog this week?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes! Financing a French Bulldog Puppy is an option with Ethical Frenchie (Ethical Kennel). All you must do is apply with one of the 2 financing companies we work with. The process is very smooth and fast after you get approved and you can bring your Frenchie puppy home within days."
-                  } 
-              },
-              {
-                  "@type": "Question",
-                  "name": "How does financing work?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "It’s quick and easy, we have had a few people apply for financing and were successful, in fact, nobody we know has been denied yet. If you are seriously interested in qualifying for a Frenchie puppy, don’t hesitate and visit us to apply today."
-                  }
-              },
-              {
-                  "@type": "Question",
-                  "name": "How long is the application process?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "The process is very quick and only takes a few minutes to get pre-approved. After the paperwork is filled out by both parties, we can start scheduling the date of the puppy pick up/delivery. 
-                      We work with a highly reliable flight nanny in case the delivery to another state Is required. The cost of the flight nanny (if you are out of state) can be included in your financing fee as well."
-                 }
-              },
-              {
-                  "@type": "Question",
-                  "name": "What are my options, other than financing?",
-                  "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "You can always reach out to local rescues, or nationwide French Bulldog rescues and open your home to a French Bulldog adult in need. 
-                      Another suggestion that we have would be reaching out to local breeders and inquiring about their adult French Bulldogs that they are planning to retire. The fee is usually anything between 500-1000$, depending on the breeder and the area."
-                 }
-              }
-          ]
-      }
-  </script>
-  {% endif %}
-  
-
-  </head>
-</head>
+    <!-- end of Twitter cards -->
+    </head>
