@@ -26,7 +26,29 @@
     <script src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
     <meta name="p:domain_verify" content="50390198c9a42575196138cfd965928c"/>
   
-  
+    {% seo %}
+    {% include google-analytics.html %}
+      
+    
+    <!-- Twitter cards -->
+    <meta name="twitter:site"    content="@ethicalfrenchie">
+    <meta name="twitter:creator" content="@{{ page.author }}">
+    <meta name="twitter:title"   content="{{ page.title }}">
+    
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{ page.summary }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    
+    {% if page.image %}
+    <meta name="twitter:card"  content="{{ page.summary }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.title_image }}">
+    {% endif %}
+    <!-- end of Twitter cards -->  
   <script type="application/ld+json">
   {
       "@context":"http://schema.org",
@@ -529,28 +551,6 @@
   </script>
   {% endif %}
   
-  {% seo %}
-  {% include google-analytics.html %}
-    
-  
-  <!-- Twitter cards -->
-  <meta name="twitter:site"    content="@ethicalfrenchie">
-  <meta name="twitter:creator" content="@{{ page.author }}">
-  <meta name="twitter:title"   content="{{ page.title }}">
-  
-  {% if page.summary %}
-  <meta name="twitter:description" content="{{ page.summary }}">
-  {% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
-  {% endif %}
-  
-  {% if page.image %}
-  <meta name="twitter:card"  content="{{ page.summary }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-  {% else %}
-  <meta name="twitter:card"  content="summary">
-  <meta name="twitter:image" content="{{ site.title_image }}">
-  {% endif %}
-  <!-- end of Twitter cards -->
+
   </head>
 </head>
