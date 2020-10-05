@@ -17,6 +17,7 @@ header:
   header_size: medium
   parallax: true
 permalink: /puppies/blue-french-bulldog-puppy-beth/
+redirect_from: /bronx-blue-french-bulldog-puppy/
 chat: false
 applechat: true
 hubspotneeded: true

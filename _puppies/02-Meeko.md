@@ -17,6 +17,7 @@ header:
   header_size: medium
   parallax: true
 permalink: /puppies/meeko/
+redirect_from: /puppies/chocolate-tan-french-bulldog-puppy-mari/
 chat: false
 applechat: true
 hubspotneeded: true

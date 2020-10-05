@@ -17,6 +17,7 @@ header:
   header_size: medium
   parallax: true
 permalink: /puppies/fawn-french-bulldog-puppy-hazelnut/
+redirect_from: /puppies/Ace-lilac-tan-french-bulldog/
 hubspotneeded: true
 applechat: true
 
