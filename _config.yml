@@ -137,6 +137,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
+  
 
 
 exclude: 
