@@ -22,6 +22,7 @@ chat: false
 applechat: true
 hubspotneeded: false
 podium: true
+applike: true
 ---
 
 {% include imessagecontact.html %}
