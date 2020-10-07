@@ -21,21 +21,20 @@ redirect_from: /bronx-blue-french-bulldog-puppy/
 chat: false
 applechat: true
 hubspotneeded: false
-podium: true
+podium: false
 applike: true
 ---
 
 {% include imessagecontact.html %}
 
 {% include gallery.html 
-	grid="1-2"
+	grid="1-2"c
 	gallery="blue-french-bulldog-puppy-beth"
 	caption="true"
 	lightbox="true"
   section_size="medium"
   section_padding_remove="top"
 %}
-
 
 
 ## About Me
@@ -61,16 +60,6 @@ No question that I am healthy; I mean, look at this finely formed canine body! T
 
 I am a Frenchie, and we have very particular needs. You should probably do a little research before getting your heart set on one of us. Our faces make us very desirable because it looks like we chased a cement wall. How many other animals have you seen whose eyes can look inside their own nostrils? Just kidding! Mostly. Brachycephalic is the name. It means our faces are squished flat and we sometimes have trouble breathing easily. Because of the short nasal passages, you better like snorting and snoring…oh, and farting.
 
-
-
-{% include block.html 
-  block="vimeovideos2"
-  block_title="false"
-  section_size="large"
-  section_title="Video of Me and My 9 Siblings!" 
-  section_container="xsmall"
-  section_header_align="center"
-%}
 
 ## What I Need in a Human
 

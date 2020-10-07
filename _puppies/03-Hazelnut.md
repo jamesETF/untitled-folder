@@ -32,7 +32,14 @@ applechat: true
   section_size="large"
   section_padding_remove="top"
 %}
-
+{% include block.html 
+  block="vimeovideos"
+  block_title="false"
+  section_size="large"
+  section_title="A Day in the Garden" 
+  section_container="xsmall"
+  section_header_align="center"
+%}
 ### Personality: Well hello there. I’m Hazelnut, or should I say Hazle-nuts..
 My name is Hazlenut, but they also call me Hazel, Nut and Nutty. I’m a fawn French Bulldog girl with a black mask. My mom says I’m pretty energetic and that I talk back. I can’t confirm or deny that. But you can come meet me and find out for yourself. 
 I will enjoy and thrive in a family that is active, a family with kids that will wear me out by playing and running around the house, or a household with other dogs to keep me company. I’m a social butterfly and I love everyone I meet. If you give me the slightest amount of attention, I will consider you a best friend and start following you around with a little toy in my mouth – which means come play with me. 
@@ -48,14 +55,7 @@ Hazel eats a mixture of kibble and freshly prepared food. While I usually prepar
 She is fed 3-4x per day and is pretty good at eating slow (which is so rarely seen in French Bulldogs). She takes her time to enjoy her meal. We still add some supplements to her food like a Kefir probiotic and occasionally some fresh turmeric. 
 Hazelnut is food motivated so it won’t be too hard to train and completely housebreak her. With consistency, it shouldn’t take longer than a couple of weeks. 
 
-{% include block.html 
-  block="vimeovideos"
-  block_title="false"
-  section_size="large"
-  section_title="A Day in the Garden" 
-  section_container="xsmall"
-  section_header_align="center"
-%}
+
 
 {% include block.html 
   block="acespecs2"

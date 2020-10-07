@@ -20,6 +20,7 @@ permalink: /puppies/blue-french-bulldog-puppy-Axel/
 chat: false
 applechat: true
 hubspotneeded: true
+applike: true
 ---
 {% include imessagecontact.html %}
 {% include gallery.html 
@@ -29,6 +30,15 @@ hubspotneeded: true
 	lightbox="true"
   section_size="large"
   section_padding_remove="top"
+%}
+
+{% include block.html 
+  block="vimeovideos"
+  block_title="false"
+  section_size="large"
+  section_title="A Day in the Garden" 
+  section_container="xsmall"
+  section_header_align="center"
 %}
 ### About Me 
 
