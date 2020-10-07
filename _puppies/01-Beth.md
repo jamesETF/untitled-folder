@@ -61,6 +61,9 @@ No question that I am healthy; I mean, look at this finely formed canine body! T
 I am a Frenchie, and we have very particular needs. You should probably do a little research before getting your heart set on one of us. Our faces make us very desirable because it looks like we chased a cement wall. How many other animals have you seen whose eyes can look inside their own nostrils? Just kidding! Mostly. Brachycephalic is the name. It means our faces are squished flat and we sometimes have trouble breathing easily. Because of the short nasal passages, you better like snorting and snoring…oh, and farting.
 
 
+
+
+
 ## What I Need in a Human
 
 You need to always be alert and keep a close eye on me. If you do not hear any noises, I am probably doing something to get your attention. Remember I said I like to play? Well, you better like buying me toys and playing with me. When you buy me toys, think of what a Tasmanian Devil with the bite force of an alligator will do to it. If it will last more than ten minutes, then that is a toy made fur a Frenchie. Of course, I LOVE pulling the stuffing out of toys, but you have to watch as I do because sometimes, I eat the stuff. (Hey! The commercials say to eat more fiber. If they did not mean that fiber, they should have said so.) I like long walks on trails, in the bark, I mean park, or on the beach, only you have to be sure it is not too hot or not too cold. Both can cause breathing problems after just a few minutes of exertion. I do need exercise, I do need to run, I do need to catch squirrels, and I do need to dig. The one thing I do not need to do is swim. Our bodies are made to sink like a pallet of bricks, and since we have no snout, swimming pushes water into our nostrils. Trust me; it is not a good thing. Now, playing in the rain is a different story. That [bleep], excuse my French, is fun!
@@ -89,4 +92,10 @@ So, what time can I schedule you to come by to see me? Be sure to leave enough t
   section_padding_remove="top"
   section_container="small"
 %}
-
+{% include reviewsg.html 
+   layout="1-1"
+  section_size="large"
+  section_background="muted"
+  section_container="large"
+  section_content_align="center"
+%}
