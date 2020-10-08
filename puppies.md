@@ -4,7 +4,7 @@ subtitle: Actively Updated list of our availalbe french bulldogs for sale. This 
 layout: full
 width: full
 navbar:
-  sticky: true
+  sticky: false
   scroll_up: true
   animation: true
   transparent: true

@@ -3,7 +3,7 @@ title: About Us
 subtitle: Look Ma! We're on TV!
 width: full
 navbar:
-  sticky: true
+  sticky: false
   scroll_up: true
   animation: true
   transparent: true
