@@ -33,7 +33,7 @@ $(document).ready(function(){
         var footerMenuClose = '</div>';    
 
         //To change order of elements, move them around below, don't move footerMenuOpen and footerMenuClose.
-        body.append(footerMenuOpen  + footerHomeMenu + footerPuppiesMenu + footerAboutMenu + footerBlogMenu + footerContactMenu + footerMenuClose);
+        body.append(footerMenuOpen  + footerHomeMenu + footerAboutMenu + footerPuppiesMenu + footerBlogMenu + footerContactMenu + footerMenuClose);
 
         //Defining existing pages
         var pageHome = "/";

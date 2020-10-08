@@ -74,7 +74,7 @@ navbar:
   layout:               default # default, center
   color:                dark # text color, dark or light
   animation:            true
-  sticky:               true
+  sticky:               false
   search:               false
 
 footer:                 # Default footer image settings
