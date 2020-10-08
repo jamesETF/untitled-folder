@@ -53,13 +53,6 @@ podium: true
 
 {% endif %}
 {% include igcta.html %}
-{% include reviewsg.html 
-   layout="1-1"
-  section_size="small"
-  section_background="muted"
-  section_container="small"
-  section_content_align="center"
-%}
     
     section_size="small"
     section_image="header-6.jpg"
