@@ -52,13 +52,7 @@ podium: true
 {% else %}
 
 {% endif %}
-{% include reviewsg.html
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
+{% include igcta.html %}
 {% include reviewsg.html 
    layout="1-1"
   section_size="large"
@@ -66,7 +60,6 @@ podium: true
   section_container="large"
   section_content_align="center"
 %}
-{% include cta.html 
     
     section_size="small"
     section_image="header-6.jpg"
