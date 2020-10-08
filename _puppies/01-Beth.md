@@ -92,10 +92,4 @@ So, what time can I schedule you to come by to see me? Be sure to leave enough t
   section_padding_remove="top"
   section_container="small"
 %}
-{% include reviewsg.html 
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
+
