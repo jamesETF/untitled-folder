@@ -18,7 +18,7 @@ header:
   container: small
   content:
     block: header-home
-podium: true
+podium: false
 ---
 
 [comment]: # (This actually is the most platform independent comment)
