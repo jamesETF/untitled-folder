@@ -50,7 +50,6 @@ podium: true
   grid="1-3"
 %}
 {% else %}
-
 {% endif %}
 {% include cards.html 
   block="googlereviews" 
@@ -61,7 +60,7 @@ podium: true
   card_style="default"
   grid="1-1"
 %}
-{%   
+{% include cta.html 
     section_size="small"
     section_image="header-6.jpg"
     section_overlay="rgba(0, 0, 0, 0.5)"
