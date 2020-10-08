@@ -52,8 +52,16 @@ podium: true
 {% else %}
 
 {% endif %}
-{% include igcta.html %}
-    
+{% include cards.html 
+  block="googlereviews" 
+  media="top" 
+  section_size="large"
+  section_background="muted"
+  section_content_align="center"
+  card_style="default"
+  grid="1-1"
+%}
+{%   
     section_size="small"
     section_image="header-6.jpg"
     section_overlay="rgba(0, 0, 0, 0.5)"
