@@ -51,15 +51,7 @@ podium: true
 %}
 {% else %}
 {% endif %}
-{% include cards.html 
-  block="googlereviews" 
-  media="top" 
-  section_size="large"
-  section_background="muted"
-  section_content_align="center"
-  card_style="default"
-  grid="1-1"
-%}
+
 {% include cta.html 
     section_size="small"
     section_image="header-6.jpg"
