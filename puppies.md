@@ -19,7 +19,10 @@ header:
   parallax: true
   height: full
 description: Actively Updated list of our availalbe french bulldogs for sale. This list also now includes "Partner Puppies"
-hubspotneeded: true
+chat: false
+applechat: true
+hubspotneeded: false
+podium: true
 ---
 
 {% include puppies.html 
