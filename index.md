@@ -1,5 +1,6 @@
 ---
 width: full
+layout: full
 navbar:
   sticky: true
   scroll_up: true
