@@ -18,7 +18,7 @@ header:
   container: small
   content:
     block: header-home
-
+indexcss: false
 ---
 
 [comment]: # (This actually is the most platform independent comment)
@@ -51,6 +51,7 @@ header:
 %}
 {% else %}
 {% endif %}
+{% include cards.html block="index-blog-portion" media="top" section_size="large" section_background="muted" section_content_align="center" card_style="default" grid="1-1" %}
 
 {% include cta.html 
     section_size="small"
