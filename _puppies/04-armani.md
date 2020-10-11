@@ -18,7 +18,7 @@ header:
   parallax: true
 permalink: /puppies/black-french-bulldog-puppy-armani/
 applechat: true
-podium: true
+podium: false
 ---
 {% include imessagecontact.html %}
 {% include gallery.html 

@@ -22,7 +22,7 @@ description: Actively Updated list of our availalbe french bulldogs for sale. Th
 chat: false
 applechat: true
 hubspotneeded: false
-podium: true
+podium: false
 ---
 
 {% include puppies.html 
