@@ -17,11 +17,10 @@ header:
   header_size: medium
   parallax: false
 permalink: /puppies/cream-french-bulldog-puppy-charlie/
-
 chat: true
 applechat: true
 ---
-
+{% include imessagecontact.html %}
 {% include gallery.html 
 	grid="1-2"
 	gallery="/cream-french-bulldog-puppy-charlie/"
