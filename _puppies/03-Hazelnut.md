@@ -20,7 +20,7 @@ permalink: /puppies/fawn-french-bulldog-puppy-hazelnut/
 redirect_from: /puppies/Ace-lilac-tan-french-bulldog/
 applechat: true
 podium: false
-
+ubspotneeded: true
 ---
 
 {% include imessagecontact.html %}

@@ -20,7 +20,7 @@ permalink: /puppies/meeko/
 redirect_from: /puppies/chocolate-tan-french-bulldog-puppy-mari/
 chat: false
 applechat: true
-hubspotneeded: false
+hubspotneeded: true
 podium: false
 ---
 
