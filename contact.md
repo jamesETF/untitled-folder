@@ -26,7 +26,7 @@ extraseocontactus: true
 chat: false
 applechat: true
 hubspotneeded: false
-podium: true
+podium: false
 ---
 
 {% include reviewsg.html 
