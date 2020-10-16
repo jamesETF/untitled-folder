@@ -21,7 +21,7 @@ redirect_from: /bronx-blue-french-bulldog-puppy/
 chat: false
 applechat: true
 hubspotneeded: true
-podium: false
+podium: true
 ---
 
 {% include imessagecontact.html %}

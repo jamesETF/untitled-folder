@@ -20,7 +20,7 @@ permalink: /puppies/blue-french-bulldog-puppy-Axel/
 chat: false
 applechat: true
 hubspotneeded: true
-podium: false
+podium: true
 ---
 {% include imessagecontact.html %}
 {% include gallery.html 

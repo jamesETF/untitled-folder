@@ -21,7 +21,7 @@ redirect_from: /puppies/chocolate-tan-french-bulldog-puppy-mari/
 chat: false
 applechat: true
 hubspotneeded: true
-podium: false
+podium: true
 ---
 
 {% include block.html 
