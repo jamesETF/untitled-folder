@@ -21,7 +21,7 @@ header:
 indexcss: false
 ---
 
-[comment]: # (This actually is the most platform independent comment)
+
 
 [comment]: # (This actually is the most platform independent comment)
 
@@ -63,4 +63,4 @@ indexcss: false
     layout="1"
     block="cta-4"
   %}
-  {% include menuz.html %}
+{% include menuz.html %}

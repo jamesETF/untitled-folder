@@ -4,13 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
   
-    <script defer type="text/javascript" src="https://ethicalfrenchie.com/assets/js/jquery.js"></script>
-    <script defer type="text/javascript" src="https://ethicalfrenchie.com/assets/js/custom.js"></script>
+    <script defer type="text/javascript" src="/assets/js/jquery.js"></script>
+    <script defer type="text/javascript" src="/assets/js/custom.js"></script>
 
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/assets/footer_style/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="/assets/footer_style/scripts/jquery.js"></script>
+	<script type="text/javascript" src="/assets/footer_style/scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/footer_style/scripts/custom.js"></script> 
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    
     {% include schema.html %}
 
         {% seo %}
