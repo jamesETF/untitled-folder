@@ -14,7 +14,16 @@ From here, the places to find the Frenchie of your dreams become somewhat contro
 
 Including show breeders, there are other sources with varying ethical concerns for prospective owners of Frenchie puppies. Listed here in order from least ethical to most ethical, in my opinion: puppy mills, backyard breeders, pet stores, show breeders, and family breeders.
 
-{% include igcta4.html %}
+{% include cards.html 
+  block="igcta4" 
+  media="top" 
+  section_size="large"
+  section_padding_remove="top"
+  section_container="xsmall"
+  section_background="default"
+  card_style="default"
+  section_content_align="center"
+%}
 ## French Bulldog Puppy Mills
 
 These are just what the name implies; a French Bulldog Puppy Mills is a setup that allows for the commercial breeding of dogs while housing the dogs outside of the home. Many puppy mills use prefabricated buildings with stacks of kennels along the walls, and those dogs spend most of their lives living in those confined kennels. The dogs get outside for a minimum amount to exercise and hopefully avoid soiling their cages. You will usually find multiple breeds of dogs in a puppy mill. You also see more of the breeds whose puppies bring hefty prices. You will also find some midrange priced breeds in many of these operations.
@@ -36,7 +45,6 @@ These are individuals who pick a breed or two and set up a lot like a puppy mill
 Generally speaking, the two breeder types above supply pet stores with puppies (and other animals). The difference is, stores have to pass health inspections, and veterinary care is required. Unfortunately, these animals are also confined to kennels most of the time. Also, unfortunately, they get handled by multiple shoppers several times each day. If you want to buy from a pet store, be cautious and observant. If the employees enforce the rule of hand washing before handling different puppies, then consider them a store that cares about the health of the puppies. If there are no signs, and the employees do not enforce a handwashing policy before and after handling each puppy, walk away without buying. Otherwise, you run the risk of buying a sick puppy. Also, understand that pet stores generally mark puppies up 50% to 100%, and sometimes more. They have rent to pay, power bills, food, insurance, employee wages, and other overhead costs. Plus, buying a puppy is an emotional decision for most people, and buyers do not consider asking if there is any wiggle room on the price of the wriggling pup because they are in a retail setting.
 
 {% include igcta2.html %}
-
 ## Show Breeders¹ 
 
 Once again, the name says it all. These are the people who consider themselves as “professional breeders.” These breeders are heavy into showing their dogs. They research lineage and can talk about the great-great-great-grandparents of both the parents of the puppies. Their record-keeping is meticulous. They feed a very high-quality food, possibly even mixing different foods with fresh ingredients for the health benefits. They will talk your ears off about how you can get into shows and who the best trainers are. They can give you page and paragraph number on every judge and likely school you on the moods of different judges based on the color clothes they are wearing. They provide you with song and verse about their competitors, who to listen to, and who to ignore.

@@ -21,10 +21,6 @@ header:
 indexcss: false
 ---
 
-
-
-[comment]: # (This actually is the most platform independent comment)
-
 {% if site.template == 'base' %}
 
 
