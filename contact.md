@@ -1,6 +1,7 @@
 ---
 title: Contact Us
-width: small
+layout: full
+width: full
 section: normal
 navbar:
   sticky: true
@@ -26,7 +27,7 @@ extraseocontactus: true
 chat: false
 applechat: true
 hubspotneeded: false
-podium: false
+podium: podium
 ---
 
 {% include reviewsg.html 
@@ -47,5 +48,4 @@ podium: false
   section_title="How The Process Works..."
   block_title="false"
 %}
-
 {% include menuz.html %}

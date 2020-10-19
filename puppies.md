@@ -21,7 +21,7 @@ header:
 description: Actively Updated list of our availalbe french bulldogs for sale. This list also now includes "Partner Puppies"
 chat: false
 applechat: true
-hubspotneeded: true
+hubspotneeded: false
 podium: true
 ---
 
