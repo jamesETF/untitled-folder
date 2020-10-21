@@ -1,24 +1,30 @@
 ---
+title: Ethical Frenchie
 width: full
-layout: full
+section: large
+description: A family and friends based French Bulldog Breeder located in New York, NY. We welcome you to Learn more about us and our ethically bred french bulldog puppies.
+header:
+  layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  background_color: "#901941"
+  background_image: "../uploads/nylotto.jpg"
+  color: light
+  height: medium
+  header_size: medium
+  heading_size: large
+  content:
+    block: block-video
+  content-2:
+    block: block-video-2
+    title: false
 navbar:
-  sticky: false
+  sticky: true
   scroll_up: true
   animation: true
   transparent: true
   transparent_color: light
-header:
-  layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: Working-Space.jpg
-  background_overlay: "linear-gradient(to left top,rgba(218, 91, 197, 0.8) 0%,rgba(151, 27, 191, 0.8) 30%,rgba(2, 8, 212, 0.8) 80%)"
-  color: light
-  heading_size: medium
-  height: full
-  parallax: true
-  container: small
-  content:
-    block: header-home
-indexcss: false
+extraseohome: true
+pipedrive: false
+netlify: false
 ---
 
 {% if site.template == 'base' %}

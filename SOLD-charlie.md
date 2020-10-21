@@ -41,7 +41,7 @@ I'm 8 weeks old and very healthy. I know this because I can hear when the vet te
 
 Like I said, I am in charge. My siblings might disagree, but they only do that when I am not around to hear them talking. I can chase balls as good as anyone, but I have to let the others win sometimes. Otherwise, they pout because I beat them. Since I know how good-looking I am, when I know people are looking, I proudly strut my stuff. I would hold my tail high, but I did not get one.
 
-There are lots of Frenchies fur adoption, but if you let me pick you, I guarantee that there will not be any dull moments. I am definitely eye candy, so when we go for a walk, everyone will stop to admire me. If you are single, you might want to get cards with your name and number to hand out to the good-looking ones. Hint: put my name on the card too: it will help start the conversation.
+There are lots of french bulldogs around, but if you let me pick you, I guarantee that there will not be any dull moments. I am definitely eye candy, so when we go for a walk, everyone will stop to admire me. If you are single, you might want to get cards with your name and number to hand out to the good-looking ones. Hint: put my name on the card too: it will help start the conversation.
 
 ### Health
 
