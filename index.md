@@ -69,6 +69,8 @@ parallax: true
 %}
 {% else %}
 {% endif %}
+
+
 {% include cta.html 
     section_size="small"
     section_image="header-6.jpg"
