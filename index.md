@@ -26,10 +26,10 @@ extraseohome: true
 pipedrive: false
 netlify: false
 parallax: true
+indexfaq: true
 ---
 
 {% if site.template == 'base' %}
-
 
 {% include cards.html 
   block="homeabout" 
@@ -41,13 +41,12 @@ parallax: true
   grid="1-1"
   gutter="small"
   section_content_align="center"
+  section_padding_remove="bottom"
 %}
-
 {% include cards.html 
   block="frenchie-breeder-1" 
   media="right" 
   section_size="large"
-  section_padding_remove="top"
   section_background="default"
   card_style="primary"
 %}
@@ -63,12 +62,33 @@ parallax: true
   block="frenchie-breeder-3" 
   media="right" 
   section_size="large"
-  section_padding_remove="top"
   section_background="default"
   card_style="primary"
+  section_padding_remove="top"
 %}
 {% else %}
 {% endif %}
+{% include cards.html 
+  block="homescams" 
+  section_header_align="center"
+  section_size="large"
+  section_background="muted"
+  card_style="default"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
+  section_padding_remove="top"
+%}
+{% include faqs.html 
+  multiple="true" 
+  category="indexfaq" 
+  section_title="Quick #FACTS" 
+  section_size="small"
+  section_background="default"
+  section_container="xsmall"
+  section_header_align="center"
+  section_padding_remove="top"
+%}
 
 {% include cta.html 
     section_size="small"

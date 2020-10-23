@@ -485,3 +485,46 @@
             }
         </script>
         {% endif %}
+        {% if page.indexfaq %}
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "What is the French bulldog price?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our French bulldog prices is “fair market rate”. We constantly scan the internet and other breeders to ensure that are pricing appropriately. Blue and Merle Frenchies are usually bit higher than standard colors."
+                }
+              },{
+                "@type": "Question",
+                "name": "What is the process?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "- First Step is a txt or phone interview
+            - Second Step is a videochat/facetime to meet your potential furbaby.
+            - Third step we provide you with our puppy preparation guide and all the things you need to prepare your home."
+                }
+              },{
+                "@type": "Question",
+                "name": "Who are the breeders?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our family breeds blue french bulldogs and merle frenchies. We also have friends and former customers who breed frenchie puppies with us. (We often reach out to old customers and ask if they would like to set up a “date” between dogs)."
+                }
+              },{
+                "@type": "Question",
+                "name": "What French Bulldog colors do you breed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We breed 
+            - [Merle French Bulldogs](/blog/blue-merle-french-bulldog-everything-you-wanted-to-know)
+            - Blue French Bulldogs
+            - Lilac & Pied Frenchies
+            - Furry Frenchies *Wait List"
+                }
+              }]
+            }
+            </script>
+        {% endif %}
