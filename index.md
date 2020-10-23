@@ -2,7 +2,7 @@
 title: Ethical Frenchie
 width: full
 section: large
-description: A family and friends based French Bulldog Breeder located in New York, NY. We welcome you to Learn more about us and our ethically bred french bulldog puppies.
+description: A family and friends based French Bulldog Breeder near New York, NY and North Carolina. We welcome you to Learn more about us and our french bulldog puppies for sale.
 header:
   layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_color: "#901941"
@@ -25,6 +25,7 @@ navbar:
 extraseohome: true
 pipedrive: false
 netlify: false
+parallax: true
 ---
 
 {% if site.template == 'base' %}
@@ -32,29 +33,42 @@ netlify: false
 
 {% include cards.html 
   block="homeabout" 
-  section_title="Trusted Source for Ethically Bred Frenchie Furbabies"
+  section_title="Ethically Bred French Bulldog Puppies for sale"
   section_header_align="center"
   section_size="large"
-  section_padding_remove="bottom"
   section_background="muted"
+  card_style="default"
   grid="1-1"
   gutter="small"
   section_content_align="center"
 %}
 
 {% include cards.html 
-  block="frenchie-breeder" 
-  media="top" 
+  block="frenchie-breeder-1" 
+  media="right" 
   section_size="large"
-  section_background="muted"
-  section_content_align="center"
-  card_style="default"
-  grid="1-3"
+  section_padding_remove="top"
+  section_background="default"
+  card_style="primary"
+%}
+{% include cards.html 
+  block="frenchie-breeder-2" 
+  media="left" 
+  section_size="large"
+  section_padding_remove="top"
+  section_background="default"
+  card_style="secondary"
+%}
+{% include cards.html 
+  block="frenchie-breeder-3" 
+  media="right" 
+  section_size="large"
+  section_padding_remove="top"
+  section_background="default"
+  card_style="primary"
 %}
 {% else %}
 {% endif %}
-{% include cards.html block="index-blog-portion" media="top" section_size="large" section_background="muted" section_content_align="center" card_style="default" grid="1-1" %}
-
 {% include cta.html 
     section_size="small"
     section_image="header-6.jpg"

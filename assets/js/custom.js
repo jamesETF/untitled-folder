@@ -11,8 +11,6 @@ $(document).ready(function(){
     //The init_template() function will be triggered when pages open.
 	function init_template(){        
         
-        //Disable Page Jump on Empty Links.
-        $('a').on('click', function(){var attrs = $(this).attr('href'); if(attrs === '#'){return false;}});
         
         //Adding Background for Gradient
         if(!$('.menu-hider').length){$('#page').append('<div class="menu-hider"><div>');}

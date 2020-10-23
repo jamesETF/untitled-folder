@@ -25,9 +25,21 @@ hubspotneeded: false
 podium: true
 ---
 
+{% include cards.html 
+  block="puppiesquote" 
+  section_padding_remove="bottom"
+  section_header_align="center"
+  section_size="large"
+  section_background="muted"
+  card_style="default"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
+%}
+
+
 {% include puppies.html 
   section_size="large"
-  section_title="Our Puppies / Partner Puppies"
   section_header_align="center"
   grid="1-3"
   filter="true"
