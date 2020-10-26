@@ -19,7 +19,7 @@ header:
   heading_size: medium
   parallax: true
 extraseoabout: false
-permalink: /location/southampton/ß
+permalink: /locations/southampton-ny
 applechat: true
 southampton: true
 ---
