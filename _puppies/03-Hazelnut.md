@@ -49,6 +49,13 @@ She is fed 3-4x per day and is pretty good at eating slow (which is so rarely se
 Hazelnut is food motivated so it won’t be too hard to train and completely housebreak her. With consistency, it shouldn’t take longer than a couple of weeks. 
 
 
+{% include reviewsg.html
+   layout="1-1"
+  section_size="large"
+  section_background="muted"
+  section_container="large"
+  section_content_align="center"
+%}
 
 {% include block.html 
   block="acespecs2"

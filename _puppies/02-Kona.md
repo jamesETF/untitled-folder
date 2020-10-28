@@ -68,6 +68,20 @@ So, what time can I schedule you to come by to see me? Be sure to leave enough t
 
 
 
+{% include reviewsg.html 
+   layout="1-1"
+  section_size="large"
+  section_background="muted"
+  section_container="large"
+  section_content_align="center"
+%}
+{% include image.html 
+	src="/Black-french-bulldog-puppy-Kona/Kona.jpg"
+  alt="Kona the French bulldog"
+  section_size="medium"
+  section_padding_remove="top"
+  section_container="small"
+%}
 
 {% include block.html 
   block="acespecs2"
@@ -79,18 +93,5 @@ So, what time can I schedule you to come by to see me? Be sure to leave enough t
   block_title="false"
 %}
 
-{% include image.html 
-	src="/Black-french-bulldog-puppy-Kona/Kona.jpg"
-  alt="Kona the French bulldog"
-  section_size="medium"
-  section_padding_remove="top"
-  section_container="small"
-%}
-{% include reviewsg.html 
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
+
 {% include menuz.html %}

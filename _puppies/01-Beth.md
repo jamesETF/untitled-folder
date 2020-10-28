@@ -73,6 +73,13 @@ I will be OK with a human that does not get too angry when I do things that anno
 So, what time can I schedule you to come by to see me? Be sure to leave enough time for me to cuddle in your lap and time to play. If you try to be in a hurry, I will not want to go with you. You have to make time fur me. If I am not the most important thing in your life, you do not deserve me. Got it?
 
 
+{% include reviewsg.html
+   layout="1-1"
+  section_size="large"
+  section_background="muted"
+  section_container="large"
+  section_content_align="center"
+%}
 
 
 {% include block.html 

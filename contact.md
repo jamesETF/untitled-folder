@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 layout: full
-width: full
+width: small
 section: normal
 navbar:
   sticky: true

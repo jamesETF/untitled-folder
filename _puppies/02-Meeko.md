@@ -57,7 +57,13 @@ Ideal family for Meeko? A family where she will be the center of attention and c
 
 
 
-
+{% include reviewsg.html
+   layout="1-1"
+  section_size="large"
+  section_background="muted"
+  section_container="large"
+  section_content_align="center"
+%}
 
 {% include block.html
   block="acespecs2"
@@ -70,11 +76,5 @@ Ideal family for Meeko? A family where she will be the center of attention and c
 %}
 
 
-{% include reviewsg.html
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
+
 {% include menuz.html %}
