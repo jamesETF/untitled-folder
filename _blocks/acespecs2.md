@@ -18,7 +18,7 @@ title: How it works
 ### Financing Options:
 We are not a bank, but if you need financing there are options including the link below.
 If you are considering financing we would seriously ask you to consider adopting from a shelter first!
-However if you've made up your mind, and nothing will get between you and your furbaby [Click Here to Apply with Community Finance LLC ](https://communityfinancellc.com/apply/?source=ethicalfrenchie5216) . 
+However if you've made up your mind, and nothing will get between you and your furbaby [Click Here to Apply with Terrace Pet! ](https://cutt.ly/Ethical-Frenchie) . 
 
 ### Health Testing: 
 Our French bulldogs for sale come from health tested parents, but additional health testing can be performed on the specific puppy. We use [Embark.com](https://embarkvet.com/) (it’s like a 23&me for dogs!).  Lead time is 3-6 weeks for results.

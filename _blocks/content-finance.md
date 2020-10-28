@@ -2,7 +2,7 @@
 ---
 
 
-1. We should make it clear that while we don't recommend financing a pet, we do understand that the desire for comfort and a companion can be overwhelming.  Because of that we are working with Community Finance LLC via our kennel (Ethical Kennel) to provide that option those interested.
+1. We should make it clear that while we don't recommend financing a pet, we do understand that the desire for comfort and a companion can be overwhelming.  Because of that we are working with Terrace Pet Finance via our kennel (Ethical Kennel) to provide that option those interested.
 2. We also don't know what your APR will be, from our experience people have had payments around $100/month depending on how long they stretched it out.
 {% include image.html 
 	src="french-bulldog-financing.jpg"
@@ -20,4 +20,4 @@ You will need a "decent" credit rating to finance a french bulldog puppy, Howeve
   caption="French Bulldog Financing"
 %}
 After getting approved (Whether for a payment plan or through community finance) You will get an email, We will receive a confirmation as well that you're only days away from your future furbaby. Click above to apply and let us know what they say.
-{% include button.html text="Apply with Community Finance!" url="https://communityfinancellc.com/application-form/?source=ethicalfrenchie5216" style="primary" size="xlarge" width="full" %}
+{% include button.html text="Apply with Terrace Pet!" url="https://cutt.ly/Ethical-Frenchie" style="primary" size="xlarge" width="full" %}  
