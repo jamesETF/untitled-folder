@@ -3,19 +3,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
-    <script defer type="text/javascript" src="/assets/js/custom.js"></script>
-    <script type="text/javascript" src="/assets/footer_style/scripts/jquerys.js"></script>
-
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
-    
+    {% if page.chicago %}
+    {% else %}
     <link rel="stylesheet" type="text/css" href="/assets/footer_style/css/style.css">
-
-
+    <script defer type="text/javascript" src="/assets/js/custom.js"></script>
+    <script type="text/javascript" src="/assets/footer_style/scripts/jquerys.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    {% endif %}
 
     {% if page.applechat %}
     <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
@@ -32,7 +30,7 @@
     {% if page.summary %}
     <meta name="twitter:description" content="{{ page.summary }}">
     {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:description" content="{{ page.description }}">
     {% endif %}
         
     {% if page.image %}

@@ -14,13 +14,8 @@ center:
   - title: About Us
     url: /about-us/
     
-  - title: How To Reach Us
-    dropdown:
-      - title: Contact Us
-      - title: Contact Us
-        url: /contact-us/
-      - title: Instagram
-        url: https://instagram.com/ethicalfrenchie 
+  - title: Contact Us
+    url: /contact-us/
 
 right:
   - title: Available Litters

@@ -1,0 +1,20 @@
+# Navbar menu navigation links
+- title: Home
+  url: /
+
+- title: Our Puppies
+  url: /Illinois/Chicago/french-bulldog-puppies
+
+- title: About Us
+  url: /about-us/
+
+- title: Blog
+  url: /blog/
+
+- title: Insta!
+  url: https://instagram.com/ethicalfrenchie
+
+- title: Contact
+  url: /Illinois/Chicago/contact-us/
+
+

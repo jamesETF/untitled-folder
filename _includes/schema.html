@@ -1,10 +1,53 @@
-     <script type="application/ld+json">
+ {% if page.chicago %}
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ethical Frenchie - Chicago",
+      "image": "https://ethicalfrenchie.com/uploads/logo.png",
+      "@id": "",
+      "url": "https://ethicalfrenchie.com/Illinois/Chicago",
+      "telephone": "+1 773-798-0950",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "155 North Wacker Drive #FL 42",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "postalCode": "60606",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.8847435,
+        "longitude": -87.6363389
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "12:00",
+        "closes": "21:00"
+      },
+      "sameAs": "https://instagram.com/ethicalfrenchie" 
+    }
+    </script>
+ {% else %}
+
+ <script type="application/ld+json">
         {
             "@context":"http://schema.org",
             "@type":"Organization",
             "name":"Ethical Frenchie LLC",
             "url":"https://ethicalfrenchie.com",
-            "logo":"https://ethicalfrenchie.com/images/logo.png",
+            "logo":"https://ethicalfrenchie.com/uploads/logo.png",
             "sameAs":[
                 "https://www.facebook.com/ethicalfrenchie",
                 "https://www.instagram.com/ethicalfrenchie"
@@ -58,6 +101,7 @@
             ]
         }
         </script>
+        {% endif %}
         {% if page.extraseoabout %}
         <script type="application/ld+json">
         {
@@ -492,14 +536,20 @@
               "@type": "FAQPage",
               "mainEntity": [{
                 "@type": "Question",
-                "name": "What is the French bulldog price?",
+                "name": "How Much do French Bulldogs Cost?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Our French bulldog prices is “fair market rate”. We constantly scan the internet and other breeders to ensure that are pricing appropriately. Blue and Merle Frenchies are usually bit higher than standard colors."
+                  "text": "Our French bulldog prices is “fair market rate”. We constantly scan the internet and other breeders to ensure that are pricing appropriately. Blue and Merle Frenchies are usually bit higher than standard colors.
+            
+            We breed 
+            - [Merle French Bulldogs](/blog/blue-merle-french-bulldog-everything-you-wanted-to-know)
+            - Blue French Bulldogs
+            - Lilac & Pied Frenchies
+            - Furry Frenchies *Wait List"
                 }
               },{
                 "@type": "Question",
-                "name": "What is the process?",
+                "name": "What is the Application Process?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "- First Step is a txt or phone interview
@@ -508,21 +558,10 @@
                 }
               },{
                 "@type": "Question",
-                "name": "Who are the breeders?",
+                "name": "Who are the Breeders?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Our family breeds blue french bulldogs and merle frenchies. We also have friends and former customers who breed frenchie puppies with us. (We often reach out to old customers and ask if they would like to set up a “date” between dogs)."
-                }
-              },{
-                "@type": "Question",
-                "name": "What French Bulldog colors do you breed?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "We breed 
-            - [Merle French Bulldogs](/blog/blue-merle-french-bulldog-everything-you-wanted-to-know)
-            - Blue French Bulldogs
-            - Lilac & Pied Frenchies
-            - Furry Frenchies *Wait List"
                 }
               }]
             }
