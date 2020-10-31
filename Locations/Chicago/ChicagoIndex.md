@@ -1,7 +1,8 @@
 ---
 width: full
+title: French Bulldog Breeder in Chicago, IL. We specialize in French Bulldog Puppies only (only frenchie puppies)
 subtitle: French Bulldog Breeder in Chicago, IL
-description: Ethical Frenchie of Chicago, IL, if you are looking for a legitmately bred french bulldog puppies look no further.
+description: Ethical Frenchie of Chicago, IL, if you are looking for ethically bred french bulldog puppies look no further. Learn more about our breeding process.
 permalink: /Illinois/Chicago
 navbar:
   sticky: true
@@ -26,8 +27,8 @@ hubspotneeded: true
 ---
 
 [comment]: # (This actually is the most platform independent comment)
-{% include cards.html 
-  block="chicagohomeabout" 
+{% include cards.html
+  block="chicagohomeabout"
   section_title="French Bulldog Puppies for sale in Chicago, IL"
   section_header_align="center"
   section_size="large"
@@ -39,32 +40,32 @@ hubspotneeded: true
   section_padding_remove="bottom"
 %}
 
-  {% include cards.html 
-  block="frenchie-breeder-1" 
-  media="right" 
+  {% include cards.html
+  block="frenchie-breeder-1"
+  media="right"
   section_size="large"
   section_background="default"
   card_style="primary"
 %}
-{% include cards.html 
-  block="frenchie-breeder-2" 
-  media="left" 
+{% include cards.html
+  block="frenchie-breeder-2"
+  media="left"
   section_size="large"
   section_padding_remove="top"
   section_background="default"
   card_style="secondary"
 %}
-{% include cards.html 
-  block="frenchie-breeder-3" 
-  media="right" 
+{% include cards.html
+  block="frenchie-breeder-3"
+  media="right"
   section_size="large"
   section_background="default"
   card_style="primary"
   section_padding_remove="top"
 %}
 
-{% include cards.html 
-  block="homescams" 
+{% include cards.html
+  block="homescams"
   section_header_align="center"
   section_size="large"
   section_background="muted"
@@ -74,10 +75,10 @@ hubspotneeded: true
   section_content_align="center"
   section_padding_remove="top"
 %}
-{% include faqs.html 
-  multiple="true" 
-  category="indexfaq" 
-  section_title="Quick #FACTS" 
+{% include faqs.html
+  multiple="true"
+  category="indexfaq"
+  section_title="Quick #FACTS"
   section_size="small"
   section_background="default"
   section_container="xsmall"
@@ -85,7 +86,7 @@ hubspotneeded: true
   section_padding_remove="top"
   %}
 
-  {% include cta.html 
+  {% include cta.html
     section_size="large"
     section_image="header-6.jpg"
     section_overlay="rgba(0, 0, 0, 0.5)"
