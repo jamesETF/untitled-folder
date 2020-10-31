@@ -32,7 +32,7 @@ indexfaq: true
 {% if site.template == 'base' %}
 
 {% include cards.html 
-  block="homeabout" 
+  block="abaaba" 
   section_title="Ethically Bred French Bulldog Puppies for sale"
   section_header_align="center"
   section_size="large"
