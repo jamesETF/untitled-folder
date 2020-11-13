@@ -30,14 +30,7 @@ hubspotneeded: false
 podium: podium
 ---
 
-{% include alert.html text="Want a Fast Response? Use The Chat (Bottom Right Icon)  Otherwise use the contact form below :-(" style="danger" %}
-{% include hubspotform.html 
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
+
 {% include reviewsg.html 
    layout="1-1"
   section_size="large"
