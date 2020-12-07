@@ -28,7 +28,7 @@ hubspotneeded: true
 
 [comment]: # (This actually is the most platform independent comment)
 {% include cards.html
-  block="chicagohomeabout"
+  block="atlantahomeabout"
   section_title="French Bulldog Puppies for sale in Atlanta, GA"
   section_header_align="center"
   section_size="large"
