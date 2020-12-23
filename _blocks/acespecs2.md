@@ -2,14 +2,6 @@
 title: How it works
 ---
 
-{% include cards.html 
-  block="application-process" 
-  media="top" 
-  section_size="large"
-  section_content_align="center"
-  card_style="primary"
-  grid="1-3"
-%}
 - #### Step 1 - Use the Chat!
 - #### Step 2 - Phone Interview
 - #### Step 3 - Quality Time with Puppies (In Person)!

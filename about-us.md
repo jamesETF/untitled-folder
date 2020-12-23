@@ -19,7 +19,7 @@ header:
 extraseoabout: true
 applechat: true
 podium: true
-hubspotneeded: false
+hubspotneeded: true
 ---
 {% include block.html 
   block="content-about-us"

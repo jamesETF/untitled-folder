@@ -1,6 +1,6 @@
 ---
-title: Family Approved!
+title: Zoom Call!
 icon: ios-checklist.svg
 ---
 
-Whether you are bringing home a puppy in the future or within a week, Once approved, we immediately begin our relationship together on your during the next and most exciting step, your puppy match!
+Not only are you interviewing us and your potential puppy, but we are also ensuring your family is a good fit. Lights, Webcamera, Action!

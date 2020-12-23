@@ -26,10 +26,17 @@ permalink: /contact-us/
 extraseocontactus: true
 chat: false
 applechat: true
-hubspotneeded: false
-podium: podium
+hubspotneeded: true
+podium: false
 ---
-
+{% include cards.html 
+  block="application-process" 
+  media="top" 
+  section_size="large"
+  section_content_align="center"
+  card_style="primary"
+  grid="1-3"
+%}
 
 {% include reviewsg.html 
    layout="1-1"
