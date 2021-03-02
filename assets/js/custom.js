@@ -1,7 +1,7 @@
 // Custom JS Applike Footer Menu
 
 $(document).ready(function(){      
-    'use strict'
+    'use strict';
     /*Menu Extender Global Function*/
     $.fn.showMenu = function() {$(this).addClass('menu-active'); $('#footer-bar').addClass('footer-menu-hidden');setTimeout(function(){$('.menu-hider').addClass('menu-active');},250);}; 
     $.fn.hideMenu = function() {$(this).removeClass('menu-active'); $('#footer-bar').removeClass('footer-menu-hidden');$('.menu-hider').removeClass('menu-active');}; 
