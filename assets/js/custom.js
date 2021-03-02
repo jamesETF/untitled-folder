@@ -21,8 +21,8 @@ $(document).ready(function(){
         //Footer Menu Active Elements
         if($('.footer-bar-6').length){
             if(!$('.footer-bar-6 strong').length){
-                $('.footer-bar-6 .circle-nav').append('<strong><u></u></strong>')
-                $('.footer-bar-6 .active-nav').append('<em></em>')
+                $('.footer-bar-6 .circle-nav').append('<strong><u></u></strong>');
+                $('.footer-bar-6 .active-nav').append('<em></em>');
             }
         }     
     }
