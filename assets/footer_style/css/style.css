@@ -10,7 +10,11 @@ body {
 a {
   text-decoration: none !important;
 }
-
+#ThreadHistoryFetcher {
+  width: 600px;
+    height: 500px;
+    border: none;
+}
 /*-Footer Menu-*/
 #footer-bar {
   position: fixed;
