@@ -34,7 +34,7 @@ applechat: true
 
 ## About Me
 
-Cora just like Paketa is in that she's almost identical, but its nice to have a twin in this rainbow litter of pups. She’s petite but spunky, playful and absolutely adorable. Her markings are uniquely placed and make her so special and unique. 
+Cora just like Paketa meaning she's almost identical, but its nice to have a twin in this rainbow litter of pups. She’s petite but spunky, playful and absolutely adorable. Her markings are uniquely placed and make her so special and unique. 
 She is an explorer and loves sniffing every corner of the house. Playing wrestle with her siblings, testing new squeaky toys and cuddling in her donut bed are the things she considers essential. So make sure you get that donut bed if you are bringing Cora home. 
 
 This little sweetheart, along with her siblings are ready for their forever home. Cora will be a perfect fit for any family that has an equal amount of love to give as she does.
