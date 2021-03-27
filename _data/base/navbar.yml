@@ -18,8 +18,8 @@ center:
     url: https://gtly.to/qojiWsl_e
 
 right:
-  - title: Available Litters
-    url: /puppies
-    button: default
+  - title: Instagram
+    url: https://instagram.com/ethicalfrenchie
+    button: danger
 
 
