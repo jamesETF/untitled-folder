@@ -21,7 +21,7 @@ header:
   container: small
   content:
     block: header-home
-LA: true
+Boston: true
 indexfaq: true
 hubspotneeded: true
 ---
