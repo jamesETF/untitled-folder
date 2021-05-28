@@ -6,7 +6,7 @@
 
 # Site settings
 title:                  Ethical Frenchie
-description:            We are a family and friends based French Bulldog Breeder located in New York, NY. We welcome you to Learn more about us and our Ethically Bred French Bulldog puppies.
+description:            We are a family and friends based French Bulldog Breeder. We welcome you to Learn more about us and our Ethically Bred French Bulldog puppies.
 url:                    "https://ethicalfrenchie.com"  # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en

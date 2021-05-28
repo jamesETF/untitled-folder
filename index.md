@@ -2,7 +2,7 @@
 title: Ethical Frenchie
 width: full
 section: large
-description: A family and friends based French Bulldog Breeder near New York, NY and North Carolina. We welcome you to Learn more about us and our french bulldog puppies for sale.
+description: A family and friends based French Bulldog Breeder. We welcome you to Learn more about us and our french bulldog puppies for sale.
 header:
   layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_color: "#901941"
