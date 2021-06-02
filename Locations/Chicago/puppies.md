@@ -24,6 +24,7 @@ chat: false
 applechat: true
 hubspotneeded: true
 podium: true
+chicago: true
 ---
 
 {% include cards.html 
