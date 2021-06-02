@@ -28,6 +28,7 @@ chat: false
 applechat: true
 hubspotneeded: true
 podium: false
+nyc: true
 ---
 {% include cards.html 
   block="application-process" 

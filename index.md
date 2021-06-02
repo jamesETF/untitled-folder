@@ -27,6 +27,7 @@ pipedrive: false
 netlify: false
 parallax: true
 indexfaq: true
+nyc: true
 ---
 
 {% if site.template == 'base' %}
