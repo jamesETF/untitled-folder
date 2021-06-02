@@ -31,9 +31,9 @@
             <li{{ current }}>
               {% if link.url %}
                 {% if link.button %}
-                  <div class="uk-navbar-item"><a class="uk-button uk-button-small uk-button-{{ link.button | default: 'default' }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></div>
+                  <div class="uk-navbar-item"><a class="uk-button uk-button-small uk-button-{{ link.button | default: 'default' }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></div>
                 {% else %}
-                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
+                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
                 {% endif %}
               {% else %}
                 <a href="#">{{ link.title }}</a>
@@ -84,9 +84,9 @@
             <li{{ current }}>
               {% if link.url %}
                 {% if link.button %}
-                  <div class="uk-navbar-item"><a class="uk-button uk-button-small uk-button-{{ link.button | default: 'default' }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></div>
+                  <div class="uk-navbar-item"><a class="uk-button uk-button-small uk-button-{{ link.button | default: 'default' }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></div>
                 {% else %}
-                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
+                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
                 {% endif %}
               {% else %}
                 <a href="#">{{ link.title }}</a>
@@ -139,7 +139,7 @@
                 {% if link.button %}
                   <div class="uk-navbar-item"><a class="uk-button uk-button-small uk-button-{{ link.button | default: 'default' }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></div>
                 {% else %}
-                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
+                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
                 {% endif %}
               {% else %}
                 <a href="#">{{ link.title }}</a>

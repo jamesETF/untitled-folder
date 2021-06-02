@@ -12,7 +12,7 @@
                 {% else %}
                     {% assign domain = site.url %}
                 {% endif %}
-            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
             {% endfor %}
         </ul>
 
@@ -39,7 +39,7 @@
                 {% else %}
                     {% assign domain = site.url %}
                 {% endif %}
-            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'instagram' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
             {% endfor %}
         </ul>
 
