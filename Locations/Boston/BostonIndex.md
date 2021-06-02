@@ -29,7 +29,7 @@ hubspotneeded: true
 [comment]: # (This actually is the most platform independent comment)
 {% include cards.html
   block="bostonhomeabout"
-  section_title="French Bulldog Puppies for sale in Los Angeles, CA"
+  section_title="French Bulldog Breeder in Boston, MA"
   section_header_align="center"
   section_size="large"
   section_background="muted"
