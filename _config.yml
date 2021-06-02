@@ -81,7 +81,6 @@ footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
   layout:               center # center or columns
   copyright:            17 State Street Suite 4000, New York, NY 10004 <a href="tel:212 739-0182">212 739-0182</a>
-</span>
 
 mailchimp:
   form_action:          https://ethicalfrenchie.us4.list-manage.com/subscribe/post?u=c988e5278e5c6e821426b531a&amp;id=8f4cdc99ab
