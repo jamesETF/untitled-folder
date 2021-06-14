@@ -1,7 +1,7 @@
 ---
 title: Lisa Lisa
 description: From our first group of true celebrities, LisaLisa is a showstopper
-subtitle: Blue French Bulldog Puppy located in NYC, can be delivered anywhere in the US
+subtitle: Blue French Bulldog Puppy can be delivered anywhere in the US
 width: xsmall
 image: LisaLisa-blue-merle-french-bulldog-puppy/LisaLisa.jpg
 topics: [Our Puppies, Blue French Bulldog]
