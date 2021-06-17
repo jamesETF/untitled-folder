@@ -19,6 +19,7 @@ header:
 permalink: /puppies/LisaLisa-blue-merle-french-bulldog-puppy/
 redirect_from: /puppies/chelsea-blue-fawn-french-bulldog-puppy/
 pipedrive: true
+hubpotneeded: true
 ---
 
 

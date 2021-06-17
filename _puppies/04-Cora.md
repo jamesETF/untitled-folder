@@ -19,6 +19,7 @@ header:
 permalink: /puppies/cora/
 chat: false
 applechat: true
+hubpotneeded: true
 ---
 
 {% include gallery.html 

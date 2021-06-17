@@ -19,6 +19,7 @@ header:
 permalink: /puppies/blue-french-bulldog-Amber/
 redirect_from: /puppies/darkblue-french-bulldog-Amber/
 chat: true
+hubpotneeded: true
 ---
 
 {% include gallery.html 

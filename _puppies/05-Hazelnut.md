@@ -20,7 +20,7 @@ permalink: /puppies/fawn-french-bulldog-puppy-allofus/
 redirect_from: /puppies/fawn-french-bulldog-puppy-hazelnut/
 applechat: true
 podium: true
-ubspotneeded: true
+hubpotneeded: true
 ---
 
 {% include imessagecontact.html %}

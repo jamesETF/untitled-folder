@@ -27,7 +27,7 @@ extraseocontactus: true
 LA: true
 chat: false
 applechat: true
-hubspotneeded: false
+hubspotneeded: true
 podium: false
 
 
