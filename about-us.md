@@ -33,7 +33,7 @@ hubspotneeded: true
 
 {% include 
   team.html 
-  authors="james, renee, david, nick" 
+  authors="james, renee, david, Ely" 
   section_title="A Family & Friends Run Business" 
   section_subtitle="We're here to answer any questions" 
   section_size="large"
