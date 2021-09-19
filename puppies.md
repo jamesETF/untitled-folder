@@ -23,7 +23,7 @@ chat: false
 applechat: false
 hubspotneeded: true
 podium: false
-redirect_to: https://instagram.com/ethicalfrenchie
+
 ---
 
 {% include cards.html 

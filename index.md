@@ -28,7 +28,7 @@ netlify: false
 parallax: true
 indexfaq: true
 nyc: true
-redirect_to: https://instagram.com/ethicalfrenchie
+
 ---
 
 {% if site.template == 'base' %}
