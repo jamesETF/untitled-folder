@@ -30,6 +30,7 @@ hubspotneeded: true
 podium: false
 nyc: true
 ---
+
 {% include cards.html 
   block="application-process" 
   media="top" 
@@ -38,7 +39,6 @@ nyc: true
   card_style="primary"
   grid="1-3"
 %}
-
 {% include reviewsg.html 
    layout="1-1"
   section_size="large"
