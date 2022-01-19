@@ -8,16 +8,7 @@ navbar:
   scroll_up: true
   animation: true
   transparent: true
-  transparent_color: light
-header:
-  layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: header-7.jpg
-  background_overlay: "rgba(0, 0, 0, 0.3)"
-  color: light
-  header_size: large
-  heading_size: medium
-  parallax: true
-  height: half
+  transparent_color: dark
 description: Contact Ethical Frenchie for a frenchie breeder near you
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 extraseocontactus: true
@@ -28,31 +19,5 @@ chat: false
 applechat: true
 hubspotneeded: true
 podium: false
-nyc: true
+contact: true
 ---
-
-{% include cards.html 
-  block="application-process" 
-  media="top" 
-  section_size="large"
-  section_content_align="center"
-  card_style="primary"
-  grid="1-3"
-%}
-{% include reviewsg.html 
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
-{% include block.html
-  block="acespecs2"
-  section_size="full"
-  section_padding_remove="top"
-  section_container="full"
-  section_header_align="center"
-  section_title="How The Process Works..."
-  block_title="false"
-%}
-{% include menuz.html %}
