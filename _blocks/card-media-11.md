@@ -1,8 +1,10 @@
 ---
-title: Liberty & Kia
-image: /french-bulldog-partner-breeder/kialiberty2.jpg
+title: Meet Daisy
+image: /Daisy/daisy.jpg
 ---
 
-Ethical Frenchie's first Partner Breeder presents "Liberty & Kia"
+The showstopper
+- DOB: 1.03.2022
 
-{% include button.html text="Inquire About Me" url="/puppies/partner-breeder-liberty/" style="default" %}
+
+{% include button.html text="More Info" url="/puppies/Daisy" style="default" %}

@@ -1,5 +1,5 @@
 {% if include.email %}
-<form class="uk-form-{{ include.layout | default: 'stacked' }} uk-margin-medium-top" method="POST" action="https://formspree.io/{{ include.email }}" accept-charset="UTF-8">
+<form class="uk-form-{{ include.layout | default: 'stacked' }} uk-margin-medium-top"  action="https://formspree.io/f/mqknbwvp" method="POST" accept-charset="UTF-8">
     {% if include.name == 'true' %}
     <div class="uk-margin-bottom">
         <label class="uk-form-label" for="name">{{ site.data[site.template].translation[site.lang].contact_name | default: "Name" }}</label>
@@ -22,10 +22,19 @@
         </div>
     </div>
     {% endif %}
+
+    {% if include.phone == 'true' %}
     <div class="uk-margin-bottom">
-        <label class="uk-form-label" for="message">{{ site.data[site.template].translation[site.lang].contact_message | default: "Message" }}</label>
+        <label class="uk-form-label" for="_tel">{{ site.data[site.template].translation[site.lang].contact_subject | default: "Phone" }}</label>
         <div class="uk-form-controls">
-            <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="5" minlength="10" required></textarea>
+            <input class="uk-input uk-border-rounded" id="_phone" name="_phone" type="tel">
+        </div>
+    </div>
+    {% endif %}
+    <div class="uk-margin-bottom">
+        <label class="uk-form-label" for="message1">{{ site.data[site.template].translation[site.lang].contact_message | default: "Message4" }}</label>
+        <div class="uk-form-controls">
+            <textarea class="uk-textarea uk-border-rounded" id="message2" name="message3" rows="5" minlength="10" required></textarea>
         </div>
     </div>
     <div>

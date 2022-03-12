@@ -10,7 +10,7 @@ navbar:
   transparent_color: light
 header:
   layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: header-10.jpeg
+  background_image: header-7.jpg
   background_overlay: "rgba(0, 0, 0, 0.6)"
   color: light
   header_size: xlarge
@@ -23,7 +23,7 @@ Example contact forms using free third party service [Formspree](https://formspr
 {: .uk-text-lead}
 
 ## Stacked basic form
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="false" subject="false" %}
+{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="false" phone="true" subject="true" %}
 
 ## Horizontal layout with subject and name
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" layout="horizontal" %}
+{% include formspree.html email="james@ethicalfrenchie.com" redirect="/thanks/" name="true" phone="true" subject="false" layout="horizontal" %}

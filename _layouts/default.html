@@ -16,11 +16,7 @@
     {% assign sidebar_left = page.sidebar.left %}
     {% assign sidebar_right = page.sidebar.right %}
     
-    {% if page.contact %}
-    <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>Application Form</title> <style>*{margin:0;padding:0;} html,body,#wrapper{width:100%;height:100%;} iframe{border-radius:0 !important;}</style> </head> <body> <div id="wrapper" data-tf-widget="O1hkcl" data-tf-inline-on-mobile data-tf-hide-headers data-tf-medium="snippet" ></div> <script src="//embed.typeform.com/next/embed.js"></script> </body> </html>
-    {% endif %}
-
-    {% if width == 'full' %}
+      {% if width == 'full' %}
       {{ content }}
     {% else %}
       <div class="uk-section{% if page.section %} uk-section-{{ page.section }}{% endif %}">

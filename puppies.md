@@ -38,12 +38,15 @@ podium: false
   section_content_align="center"
 %}
 
-
-{% include puppies.html 
+{% include cards.html 
+  block="card-media" 
+  media="top" 
   section_size="large"
-  section_header_align="center"
+  section_container="expand"
+  section_background="default"
+  card_style="default"
+  section_content_align="center"
   grid="1-3"
-  filter="true"
 %}
 
 {% include cards.html 
@@ -53,6 +56,7 @@ podium: false
   section_background="muted"
   section_content_align="center"
   card_style="default"
+  title="bellow"
   grid="1-1"
 %}
 {% include menuz.html %}

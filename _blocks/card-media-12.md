@@ -1,8 +1,9 @@
 ---
-title: Ego
-image: /ego.jpg
+title: Lemon
+image: /Lemon/lemon.jpg
 ---
 
-Hey! My name is Ego and I will spice up your life.
+I will spice up your life.  
+- DOB: 01.03.2022
 
-{% include button.html text="Inquire About Me" url="/puppies/" style="default" %}
+{% include button.html text="More Info" url="puppies/Lemon" style="default" %}
