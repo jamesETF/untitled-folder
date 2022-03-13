@@ -35,7 +35,7 @@ nyc: true
 
 {% include cards.html 
   block="abaaba" 
-  section_title="Ethically Bred French Bulldog Puppies for sale"
+  section_title="Ethically Bred French Bulldog Puppies"
   section_header_align="center"
   section_size="large"
   section_background="muted"
@@ -102,4 +102,6 @@ nyc: true
     layout="1"
     block="cta-4"
   %}
+
+
 {% include menuz.html %}
