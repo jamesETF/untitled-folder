@@ -28,7 +28,7 @@ chicago: true
 chat: false
 applechat: true
 hubspotneeded: true
-podium: false
+podium: true
 chicago: true
 contact: true
 ---

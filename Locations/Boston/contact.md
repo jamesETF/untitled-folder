@@ -25,7 +25,7 @@ pipedrive: true
 permalink: /massachusetts/Boston/contact-us/
 extraseocontactus: true
 Boston: true
-chat: false
+podium: true
 applechat: true
 hubspotneeded: true
 contact: true

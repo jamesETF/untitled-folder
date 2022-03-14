@@ -29,6 +29,7 @@ chat: false
 applechat: true
 hubspotneeded: true
 contact: true
+podium: true
 
 ---
 {% include cards.html block="application-process" media="top" section_size="large" section_content_align="center" card_style="primary" grid="1-3" %}
