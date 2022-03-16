@@ -23,7 +23,7 @@ netlify: false
 parallax: true
 indexfaq: true
 nyc: true
-
+disablehub: true
 ---
 
 {% if site.template == 'base' %}

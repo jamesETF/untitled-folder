@@ -86,7 +86,7 @@ mailchimp:
   form_action:          https://ethicalfrenchie.us4.list-manage.com/subscribe/post?u=c988e5278e5c6e821426b531a&amp;id=8f4cdc99ab
   hidden_name:          b_c988e5278e5c6e821426b531a_8f4cdc99ab
   
-google_analytics:       UA-131053938-1 # Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
 google_maps_api_key:    AIzaSyBWpK890qcen1qMLVH6GUpBKegBZUXWCHo # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 disqus:
