@@ -1,6 +1,8 @@
 ---
-title: Chat Interview
+title: Our Process
 icon: ios-chat-message.svg
 ---
 
-The process begins with the chat, then moves to a Zoom or Facetime where we learn more about you (just like a job!)
+#1 Begin the application with our Chat widget <br>
+#2 Facetime Zoom meeting with the Puppies! (To ensure your household is a good fit) <br>
+#3 Bring Your Baby Home
