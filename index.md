@@ -4,18 +4,13 @@ width: full
 section: large
 description: A family and friends based French Bulldog Breeder. We welcome you to Learn more about us and our french bulldog puppies for sale.
 header:
-  layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_color: "#901941"
-  background_image: "../uploads/nylotto.jpg"
+  layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  background_image: header-6.jpg
+  background_overlay: "rgba(0, 0, 0, 0.45)"
   color: light
-  height: medium
-  header_size: medium
-  heading_size: large
-  content:
-    block: block-video
-  content-2:
-    block: block-video-2
-    title: false
+  header_size: large
+  heading_size: medium
+  parallax: true
 navbar:
   sticky: true
   scroll_up: true
