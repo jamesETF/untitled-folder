@@ -1,6 +1,6 @@
 ---
-title: Our Available Frenchies
-subtitle: Actively Updated list of our availalbe french bulldogs for sale. This list also now includes "Partner Puppies"
+title: Available French Bulldog Puppies
+subtitle: Current and upcoming litters of French Bulldog Puppies. 
 layout: full
 width: full
 navbar:
@@ -14,8 +14,8 @@ header:
   background_image: header-6.jpg
   background_overlay: "rgba(0, 0, 0, 0.25)"
   color: light
-  header_size: medium
-  heading_size: large
+  header_size: large
+  heading_size: small
   parallax: true
   height: medium
 description: Actively Updated list of our availalbe french bulldogs for sale. This list also now includes "Partner Puppies"

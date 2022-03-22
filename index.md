@@ -2,7 +2,7 @@
 title: Ethical Frenchie
 width: full
 section: large
-description: A family and friends based French Bulldog Breeder. We welcome you to Learn more about us and our french bulldog puppies for sale.
+description: A family and friends based French Bulldog Breeder. We welcome you to Learn more about us and our French Bulldog puppies.
 header:
   layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_image: header-6.jpg
@@ -66,6 +66,12 @@ disablehub: true
 {% else %}
 {% endif %}
 {% include cards.html 
+  block="fbcolors" 
+  media="top" 
+  card_style="default"
+  grid="1-2"
+%}
+{% include cards.html 
   block="homescams" 
   section_header_align="center"
   section_size="large"
@@ -74,8 +80,8 @@ disablehub: true
   grid="1-1"
   gutter="small"
   section_content_align="center"
-  section_padding_remove="top"
 %}
+
 {% include faqs.html 
   multiple="true" 
   category="indexfaq" 
