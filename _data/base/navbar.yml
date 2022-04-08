@@ -1,5 +1,5 @@
 # Navbar menu navigation links
-left:
+
 
 center:
   - title: Home
@@ -7,6 +7,9 @@ center:
 
   - title: Our Puppies
     url: /puppies/
+
+  - title: Upcoming Colors
+    url: /puppies/upcoming-colors
 
   - title: Blog
     url: /blog/
