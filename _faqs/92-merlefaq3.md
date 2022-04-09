@@ -2,4 +2,4 @@
 title: Are Merle Frenchies Purebred?  
 categories: [merlefaq]
 ---
-Yes, Most Merle French Bulldogs in 2022 are now purebred meaning they are at least 99% French Bulldog.
+Yes, most Merle French Bulldogs (born in or after 2022) are now purebred meaning they are 100% French Bulldog provable with DNA testing.

@@ -1,6 +1,7 @@
 ---
 title: Blue Frenchie / Blue Color French Bulldog Puppies 
 subtitle: View everything there is to know about our available Blue French Bulldog Puppies
+description: Learn more about Blue Frenchies - Available Blue Frenchie / Blue French bulldog puppies for sale
 permalink: puppies/upcoming-colors/blue-french-bulldog
 width: medium
 navbar:

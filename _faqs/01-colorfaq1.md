@@ -1,5 +1,5 @@
 ---
-title: Color Doesn't Affect Personality 
+title: Color deosn't affect personality 
 categories: [colorfaq]
 ---
-French Bulldogs have the same personality traits, cute snores and snuggly tendencies as other French Bulldogs. The only difference is the gene that creates the spots on their coats.
+The color/coat markings of a Frenchie have no bearing on its personality. Its personality is defined by the environment its raised in, Which is why we work hard to properly socialize each Frenchie puppy as our own, before matching with the right Family.

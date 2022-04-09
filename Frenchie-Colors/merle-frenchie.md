@@ -1,6 +1,7 @@
 ---
 title: What is a Merle French Bulldog?
 subtitle: Learn about the Merle French Bulldog and How expensive they are.
+description: Learn more about Merle Frenchies - Available Merle Frenchie / Merle French bulldog puppies for sale
 permalink: puppies/upcoming-colors/merle-french-bulldog
 width: medium
 navbar:

@@ -1,6 +1,7 @@
 ---
 title: What is a Fluffy Frenchie? 
 subtitle: View everything there is to know about our upcoming Fluffy French Bulldog Puppies
+description: Learn more about Fluffy Frenchies - Available Fluffy Frenchie / Fluffy French bulldog puppies for sale
 permalink: puppies/upcoming-colors/fluffy-french-bulldog
 width: medium
 navbar:

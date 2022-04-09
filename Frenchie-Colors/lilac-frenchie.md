@@ -1,6 +1,7 @@
 ---
 title: Lilac Frenchie / Lilac French Bulldog Puppies 
 subtitle: View everything there is to know about our upcoming Fluffy French Bulldog Puppies
+description: Learn more about Lilac Frenchies - Available Lilac Frenchie / Lilac French bulldog puppies for sale
 permalink: puppies/upcoming-colors/lilac-french-bulldog
 width: medium
 navbar:
