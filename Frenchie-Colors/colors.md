@@ -22,7 +22,7 @@ extraseohome: true
 pipedrive: false
 netlify: false
 parallax: true
-indexfaq: true
+indexfaq: false
 nyc: true
 disablehub: true
 ---

@@ -19,7 +19,7 @@ header:
   heading_size: medium
   parallax: true
 extraseoabout: true
-applechat: true
+applechat: false
 podium: true
 hubspotneeded: true
 ---
