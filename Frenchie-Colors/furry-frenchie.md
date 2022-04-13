@@ -18,7 +18,7 @@ header:
   header_size: large
   heading_size: medium
   parallax: true
-extraseoabout: true
+extraseoabout: false
 applechat: false
 podium: false
 

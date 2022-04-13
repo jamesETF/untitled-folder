@@ -18,7 +18,7 @@ navbar:
   animation: true
   transparent: true
   transparent_color: light
-extraseohome: true
+extraseohome: false
 pipedrive: false
 netlify: false
 parallax: true
