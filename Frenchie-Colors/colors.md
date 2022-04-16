@@ -90,16 +90,4 @@ disablehub: true
   section_content_align="center"
 %}
 
-{% include faqs.html 
-  multiple="true" 
-  category="colorfaq" 
-  section_title="French Bulldog Color FAQ's" 
-  section_size="small"
-  section_background="default"
-  section_container="small"
-  section_header_align="center"
-  section_padding_remove="top"
-%}
-
-
 {% include menuz.html %}
