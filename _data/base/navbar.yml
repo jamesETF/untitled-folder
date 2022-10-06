@@ -3,7 +3,7 @@
 
 center:
   - title: Home
-    url: https://gtly.to/c6hGy80Mm
+    url: /
 
   - title: Our Puppies
     url: /puppies/
@@ -18,7 +18,7 @@ center:
     url: /about-us/
     
   - title: Contact Us
-    url: https://gtly.to/qojiWsl_e
+    url: /contact-us
 
 right:
   - title: Instagram

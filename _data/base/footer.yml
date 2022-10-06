@@ -1,5 +1,8 @@
 # Center style footer navigation
 center:
+  - title: Home
+    url: /
+    
   - title: About Us
     url: /about-us/
 
@@ -10,5 +13,5 @@ center:
     url: /puppies/
 
   - title: Contact
-    url: https://gtly.to/qojiWsl_e"
+    url: /contact-us
 

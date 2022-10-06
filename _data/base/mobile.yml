@@ -1,6 +1,6 @@
 # Navbar menu navigation links
 - title: Home
-  url: https://gtly.to/c6hGy80Mm
+  url: /
 
 - title: Our Puppies
   url: /puppies/
@@ -18,6 +18,6 @@
   url: https://instagram.com/ethicalfrenchie
 
 - title: Contact Us
-  url: https://gtly.to/qojiWsl_eß
+  url: /contact-us
 
 
