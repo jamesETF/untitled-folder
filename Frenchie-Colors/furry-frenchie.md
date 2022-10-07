@@ -23,16 +23,15 @@ applechat: false
 podium: false
 
 ---
-
-{% include faqs.html 
-  multiple="true" 
-  category="fluffyfaq" 
-  section_title="Fluffy French Bulldog FAQ's" 
-  section_size="small"
-  section_background="default"
-  section_container="xsmall"
+{% include cards.html 
+  block="homescams" 
   section_header_align="center"
-  section_padding_remove="top"
+  section_size="medium"
+  section_background="muted"
+  card_style="primary"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
 %}
 
 {% include gallery.html 
@@ -88,14 +87,15 @@ French Bulldogs have been a longtime go-to companion animal for the rich and fam
 });
 </script>
 
-{% include cards.html 
-  block="homescams" 
-  section_header_align="center"
-  section_size="medium"
-  section_background="muted"
-  card_style="primary"
-  grid="1-1"
-  gutter="small"
-  section_content_align="center"
-%}
 
+
+{% include faqs.html 
+  multiple="true" 
+  category="fluffyfaq" 
+  section_title="Fluffy French Bulldog FAQ's" 
+  section_size="small"
+  section_background="default"
+  section_container="xsmall"
+  section_header_align="center"
+  section_padding_remove="top"
+%}
