@@ -19,7 +19,7 @@ header:
   heading_size: medium
   parallax: true
 extraseoabout: false
-permalink: /NorthCarolina/Raleigh
+permalink: /northCarolina/raleigh
 applechat: true
 southampton: true
 hubspotneeded: true

@@ -19,10 +19,7 @@ header:
   heading_size: medium
   parallax: true
 extraseoabout: false
-permalink: /NewYork/Southampton
-redirect_from: 
-- /locations/southampton-ny
-- /location/southampton/ß
+permalink: /newyork/southampton
 applechat: true
 southampton: true
 hubspotneeded: true
