@@ -44,15 +44,6 @@ podium: false
   grid="1-3"
   filter="true"
 %}
+{% include reviewsg.html %}
 
-{% include cards.html 
-  block="puppies-list-page" 
-  media="top" 
-  section_size="large"
-  section_background="muted"
-  section_content_align="center"
-  card_style="default"
-  title="bellow"
-  grid="1-1"
-%}
 {% include menuz.html %}

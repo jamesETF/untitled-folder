@@ -1,11 +1,10 @@
 ---
-title: We are re-defining the pet store, by breeding one french bulldog litter at a time.
+title: Frenchies Raised by Hand, with Love and care.
 ---
 
-We are re-defining the pet store, with transparency and a focus on socialization, health, and temperament. Just as people want to know where their food comes from, so should they know exactly where their potential new puppy came from as well.
+At Ethical Frenchie, our passion is to breed healthy, happy, and loving French Bulldogs by prioritizing ethical practices over profits. As a dedicated French Bulldog breeder, we take pride in raising each of our puppies by hand in the comfort of our home, ensuring they receive all the love and attention they deserve. By fostering a nurturing environment, we gain invaluable insights into each puppy's unique personality, empowering us to match them with the perfect forever home.
 
-> Don't "add a puppy to cart" at another site, and instead read more about how passionate we are about our frenchies. We'd be happy with that much, whether you decide to get a puppy from us or not. 
+Our commitment to transparency and honesty sets us apart in the world of Frenchie breeders. We prioritize the well-being of our French Bulldogs above all else, employing responsible breeding practices to prevent common health issues and guaranteeing the highest quality puppies. When you choose Ethical Frenchie, you can trust that you are welcoming a well-adjusted and loving companion into your family.
 
-The amount of time that we invest into breeding and hand raising our French Bulldog puppies shows in our commitment after you take your baby home. Unlike most breeders we stay in touch at all life stages of your new puppies lives. Which is why our [Instagram](https://instagram.com/ethicalfrenchie) is dominated by happy families, months and years AFTER they brought their frenchie home. If we’re putting our brand on the line, its more important than ever for us to raise the healthiest and best french bulldog puppies and match them with only the best families. 
 
 {% include button.html text="View Our Puppies" url="/puppies" style="default" %}
