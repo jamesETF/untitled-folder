@@ -27,7 +27,7 @@ author:
   name:                 James
   avatar:               avatar-tom.png
   title:                CEO     
-  bio:                  I was unemployed, and started throwing every "business idea" I had at the fridge.. a few years later I didn't have to worry about employment again.  Weird.
+  bio:                  Worked in tech, while dogs (Frenchies) were my real passion.  One day my side hustle overtook my main hustle.
   url:
   email:                james@ashlandharrison.com
   website:
@@ -49,14 +49,13 @@ authors:
     name:               James
     title:              Founder     
     avatar:             james.jpg
+    instagram:          https://www.instagram.com/ethicalfrenchie
+    bio:                Worked in tech, gradually dedicating more time to Frenchies (my real passion).  One day my side hustle overtook my main hustle.
+    linkedin:           https://www.linkedin.com/in/jamesharrisoniii/
   renee:
     name:               Renee
     title:              Puppy Whisperer   
     avatar:             renee.jpg
-  erica:
-    name:               Partner Breeder
-    title:              Partner Breeder - VA    
-    avatar:             firstpartnerbreeder.jpg
   ely:
     name:               Ely
     title:              Logistics Manager   
@@ -109,7 +108,7 @@ social_share:
 
 # Social buttons
 social_networks:
-  email:                adopt@ethicalfrenchie.com
+  email:                info@ethicalfrenchie.com
   website:              https://ethicalfrenchie.com
   facebook:             https://www.facebook.com/ethicalfrenchie
   flickr:

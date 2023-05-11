@@ -14,14 +14,30 @@
     {% endif %}
 
     <div>
-      {% if author.name %}
-        Written by <span itemprop="name"><span itemprop="name"><strong>{{ author.name }}</strong></span></span>
-      {% endif %}
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-          {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
-      </time>
-    </div>
+      <div>
+        {% if author.name %}
+          Written by <span itemprop="name"><span itemprop="name"><strong>{{ author.name }}</strong></span></span>
+        {% endif %}
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+        </time>
+      </div>
 
+      <div class="uk-margin-small-top uk-flex uk-flex-center">
+        <div data-uk-grid class="uk-child-width-auto uk-grid-small">
+            {% if author.linkedin %}
+            <div class="uk-first-column">
+                <a href="{{ author.linkedin }}" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank" rel="noopener"></a>
+            </div>
+            {% endif %}
+            {% if author.instagram %}
+            <div>
+                <a href="{{ author.instagram }}" data-uk-icon="icon: instagram" class="uk-icon-link uk-icon" target="_blank" rel="noopener"></a>
+            </div>
+            {% endif %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
