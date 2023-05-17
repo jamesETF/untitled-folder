@@ -1,5 +1,5 @@
 ---
-title: brody
+title: RESERVED
 description: A lilac & Tan French Bulldog puppy with a knack for stopping traffic.
 subtitle: Yo! Everyone calls me brody. 
 width: xsmall

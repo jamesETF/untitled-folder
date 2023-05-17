@@ -1,5 +1,5 @@
 ---
-title: Selena
+title: RESERVED
 description: Selena is a blue merle french bulldog puppy raised with love he can be delivered anywhere in the US. 
 subtitle: Selena is a blue french bulldog puppy, ready to go home, he can be delivered anywhere in the US.
 width: xsmall

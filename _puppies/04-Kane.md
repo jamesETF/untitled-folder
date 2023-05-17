@@ -1,5 +1,5 @@
 ---
-title: Kane
+title: RESERVED
 description: Introducing our adventurous Kane, a Blue Merle French Bulldog puppy.
 subtitle: mMrle French Bulldog Puppy - kane
 width: xsmall
