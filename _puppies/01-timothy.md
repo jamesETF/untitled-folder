@@ -59,6 +59,14 @@ Our pint-sized prince, Timothy, is more than just a pet. He's a loyal companion,
   section_padding_remove="top"
   section_container="small"
 %}
+
+{% include reviewsg.html
+   layout="1-1"
+  section_size="large"
+  section_background="muted"
+  section_container="large"
+  section_content_align="center"
+%}
 {% include block.html 
   block="acespecs2"
   section_size="medium"

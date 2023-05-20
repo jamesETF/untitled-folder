@@ -30,10 +30,11 @@ disablehub: true
 
 {% include cards.html 
   block="abaaba" 
-  section_title="The Ethical Frenchie Breeder"
+  section_title="French Bulldog Puppies"
   section_header_align="center"
   section_size="large"
   section_background="muted"
+  section_padding_remove="top"
   card_style="default"
   grid="1-1"
   gutter="small"
