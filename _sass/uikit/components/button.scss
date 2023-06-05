@@ -130,6 +130,11 @@ $button-link-disabled-color:                     $global-muted-color !default;
 
 .uk-button:not(:disabled) { cursor: pointer; }
 
+/* Rounded */
+.my-border-rounded {
+    border-radius: 19px !important;  /* Adjust as needed */ 
+  }
+
 /*
  * Remove the inner border and padding in Firefox.
  */
@@ -360,10 +365,7 @@ $button-link-disabled-color:                     $global-muted-color !default;
     text-decoration: none;
 }
 
-/* Rounded */
-.my-border-rounded {
-    border-radius: 19px !important;  /* Adjust as needed */ 
-  }
+
 
 /* Group
  ========================================================================== */
