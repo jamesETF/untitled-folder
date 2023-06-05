@@ -7,4 +7,4 @@ At Ethical Frenchie, our passion is to breed healthy, happy, and loving French B
 Our commitment to transparency and honesty sets us apart in the world of Frenchie breeders. We prioritize the well-being of our French Bulldogs above all else, employing responsible breeding practices to prevent common health issues and guaranteeing the highest quality puppies. When you choose Ethical Frenchie, you can trust that you are welcoming a well-adjusted and loving companion into your family.
 
 
-{% include button.html text="View Our Puppies" url="/puppies" rounded=true my-border-rounded=true style="danger" %}
+{% include button.html text="View Our Puppies" url="/puppies" rounded=true style="danger" %}
