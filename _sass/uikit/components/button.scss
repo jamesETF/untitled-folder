@@ -249,7 +249,7 @@ $button-link-disabled-color:                     $global-muted-color !default;
 .uk-button-danger {
     background-color: $button-danger-background;
     color: $button-danger-color;
-    @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
+    @include rounded-corners; @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
 }
 
 /* Hover + Focus */
