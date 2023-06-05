@@ -117,3 +117,9 @@ $section-success-color-mode:                    light;
 $section-danger-background:                     $global-danger-background;
 $section-danger-color-mode:                     light;
 $section-large-padding-vertical-m:              120px;
+
+/* Rounded */
+.my-border-rounded {
+    border-radius: 19px !important;  /* Adjust as needed */ 
+    @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
+  }

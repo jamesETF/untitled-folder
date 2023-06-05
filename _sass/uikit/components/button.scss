@@ -251,11 +251,7 @@ $button-link-disabled-color:                     $global-muted-color !default;
     color: $button-danger-color;
     @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
 }
-/* Rounded */
-.my-border-rounded {
-    border-radius: 19px !important;  /* Adjust as needed */ 
-    @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
-  }
+
 /* Hover + Focus */
 .uk-button-danger:hover,
 .uk-button-danger:focus {
