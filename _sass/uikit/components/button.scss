@@ -357,11 +357,11 @@ $button-link-disabled-color:                     $global-muted-color !default;
     text-decoration: none;
 }
 
-
 /* Rounded */
 .my-border-rounded {
-    border-radius: 19px;  /* Adjust as needed */
+    border-radius: 19px !important;  /* Adjust as needed */ 
   }
+
 /* Group
  ========================================================================== */
 
