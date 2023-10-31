@@ -27,18 +27,17 @@ redirect_from:
 - puppies/daisy
 - ethicalfrenchie
 - puppies/polly
-- cheap-french-bulldog-puppies-under-500/
-- puppies/Marley
-- merle-french-bulldog-tubs
-- puppies/fawn-french-bulldog-puppy-allofus/
-- EthicalFrenchie
-- puppies/merle-french-bulldog-paketa/
-- puppies/blue-french-bulldog-puppy-Selena/
-- puppies/LisaLisa-blue-merle-french-bulldog-puppy/
-- illinois/chicago/puppies/
-- uploads/
-- puppies/fawn-french-bulldog-puppy-hazelnut/
-
+redirect_from: cheap-french-bulldog-puppies-under-500/
+redirect_from: puppies/Marley
+redirect_from: merle-french-bulldog-tubs
+redirect_from: puppies/fawn-french-bulldog-puppy-allofus/
+redirect_from: EthicalFrenchie
+redirect_from: puppies/merle-french-bulldog-paketa/
+redirect_from: puppies/blue-french-bulldog-puppy-Selena/
+redirect_from: puppies/LisaLisa-blue-merle-french-bulldog-puppy/
+redirect_from: illinois/chicago/puppies/
+redirect_from: uploads/
+redirect_from: puppies/fawn-french-bulldog-puppy-hazelnut/
 
 ---
 
@@ -47,36 +46,19 @@ redirect_from:
   section_padding_remove="bottom"
   section_header_align="center"
   section_size="large"
+  section_background="muted"
+  card_style="default"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
 %}
 
+{% include puppies.html 
+  section_size="large"
+  section_header_align="center"
+  grid="1-3"
+  filter="true"
+%}
+{% include reviewsg.html %}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+{% include menuz.html %}
