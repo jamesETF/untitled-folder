@@ -38,7 +38,7 @@ redirect_from:
 - illinois/chicago/puppies/
 - uploads/
 - puppies/fawn-french-bulldog-puppy-hazelnut/
-==.9un7y- puppies/Lemon..0
+
 
 ---
 
@@ -46,9 +46,8 @@ redirect_from:
   block="puppiesquote" 
   section_padding_remove="bottom"
   section_header_align="center"
-  section_size= 8\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\om
-
-
+  section_size="large"
+%}
 
 
 
