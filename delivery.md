@@ -34,12 +34,20 @@ nyc: true
 ---
 
 
-Nationwide Personalized Puppy Delivery Service
-
-At Ethical Frenchie, we believe in bringing our French Bulldog puppies to their new homes with the utmost care and affection. We understand that the journey is as important as the destination, especially for our precious little ones. That's why we proudly offer a nationwide, personalized delivery service for our future litters.
 
 Hand-Delivered with Love:
 Each puppy is hand-delivered directly to your door. We never use the cargo hold for our puppies; instead, they travel in our lap, whether by plane or car. This ensures that your new family member arrives safely, soundly, and ready to be loved. Our delivery process is careful and delicate, prioritizing the comfort and well-being of the puppy throughout the journey.
+
+{% include gallery.html 
+  section_size="medium"
+  section_padding_remove="bottom"
+  section_title="Our Frenchies Deliverd by Hand" 
+  section_header_align="center"
+  grid="1-3"
+  gallery="delivery"
+  caption="true"
+  lightbox="true"
+%}
 
 We'll come to you:
 If you're not in the <span class='geotargetlygeocontent1622668398873_content_1' style='display:none;'>
@@ -56,16 +64,6 @@ New England
 See Our Happy Families:
 We invite you to view our gallery of happy customers and their adorable French Bulldogs. These images are a testament to the joy and love these puppies bring into their new homes.
 
-{% include gallery.html 
-  section_size="large"
-  section_padding_remove="bottom"
-  section_title="Our Frenchies Deliverd by Hand" 
-  section_header_align="center"
-  grid="1-3"
-  gallery="delivery"
-  caption="true"
-  lightbox="true"
-%}
 Please fill out our contact form to stay updated on the growth of our puppies and to learn more about our delivery service. We are excited to bring a bundle of joy directly to your doorstep!
 
 <script>

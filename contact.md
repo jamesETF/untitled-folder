@@ -9,7 +9,16 @@ navbar:
   scroll_up: true
   animation: true
   transparent: true
-  transparent_color: dark
+  transparent_color: light
+header:
+  layout: center
+  background_image: header-6.jpg
+  background_overlay: "rgba(0, 0, 0, 0.25)"
+  color: light
+  header_size: large
+  heading_size: small
+  parallax: true
+  height: xsmall
 description: Contact Ethical Frenchie for a frenchie breeder near you
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 extraseocontactus: true
@@ -24,7 +33,6 @@ contact: true
 nyc: true
 ---
 
-{% include cards.html block="application-process" media="top" section_size="large" section_content_align="center" card_style="primary" grid="1-3" %}
 {% include alert.html text="Want a Fast Response? Use The Chat! (otherwise use the contact form below)" style="danger" %}
 <div
     class="apple-business-chat-banner-container"
