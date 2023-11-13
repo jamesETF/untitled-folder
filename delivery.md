@@ -1,5 +1,5 @@
 ---
-title: Nationwide Delivery
+title: Delivered by hand.
 subtitle: Whether you are looking now, or looking later, we can help.
 layout: full
 width: small
@@ -12,6 +12,15 @@ navbar:
   transparent_color: dark
 description: Contact Ethical Frenchie for a frenchie breeder near you
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
+header:
+  layout: center
+  background_image: header-6.jpg
+  background_overlay: "rgba(0, 0, 0, 0.25)"
+  color: light
+  header_size: large
+  heading_size: small
+  parallax: true
+  height: medium
 extraseocontactus: true
 pipedrive: true
 permalink: /puppy-delivery/
@@ -47,6 +56,16 @@ New England
 See Our Happy Families:
 We invite you to view our gallery of happy customers and their adorable French Bulldogs. These images are a testament to the joy and love these puppies bring into their new homes.
 
+{% include gallery.html 
+  section_size="large"
+  section_padding_remove="bottom"
+  section_title="Our Frenchies Deliverd by Hand" 
+  section_header_align="center"
+  grid="1-3"
+  gallery="delivery"
+  caption="true"
+  lightbox="true"
+%}
 Please fill out our contact form to stay updated on the growth of our puppies and to learn more about our delivery service. We are excited to bring a bundle of joy directly to your doorstep!
 
 <script>
