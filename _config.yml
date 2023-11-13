@@ -157,7 +157,7 @@ exclude:
   - /docs
 
 sass:
-  style:                compressed
+  style:                nested
 
 # collections:
 collections:
