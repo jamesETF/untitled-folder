@@ -59,7 +59,8 @@
   .uk-button-warning {
     background-color: $button-warning-background;
     color: $button-primary-color;
-    border: 1px solid transparent;
+    border-radius: $button-border-radius; 
+    border: 15px solid transparent;
   }
 
   .uk-button-warning:hover,
