@@ -34,10 +34,21 @@ Each puppy is hand-delivered directly to your door. We never use the cargo hold 
 
 Beyond [Your Area]:
 If you're not in the <span class='geotargetlygeocontent1622668398873_content_1' style='display:none;'>
--- New York --
+New York
 </span> area, worry not! We will come to you. Our commitment is to ensure that no matter where you are, your new companion arrives in the safest and most loving way possible.
 
 See Our Happy Families:
 We invite you to view our gallery of happy customers and their adorable French Bulldogs. These images are a testament to the joy and love these puppies bring into their new homes.
 
 Please fill out our contact form to stay updated on the growth of our puppies and to learn more about our delivery service. We are excited to bring a bundle of joy directly to your doorstep!
+
+<script>
+(function(g,e,o,t,a,r,ge,tl,y){
+s=function(){var def='geotargetlygeocontent1622668398873_default',len=g.getElementsByClassName(def).length;
+if(len>0){for(i=0;i<len;i++){g.getElementsByClassName(def)[i].style.display='inline';}}};
+t=g.getElementsByTagName(e)[0];y=g.createElement(e);
+y.async=true;y.src='https://g1584674684.co/gc?winurl='+encodeURIComponent(window.location)+'&refurl='+g.referrer+'&id=-MbDZh2RW8NbiNbpap55';
+t.parentNode.insertBefore(y,t);y.onerror=function(){s()};
+})(document,'script');
+</script>
+<noscript><style>.geotargetlygeocontent1622668398873_default{display:inline !important}</style></noscript>
