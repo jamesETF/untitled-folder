@@ -32,9 +32,16 @@ At Ethical Frenchie, we believe in bringing our French Bulldog puppies to their 
 Hand-Delivered with Love:
 Each puppy is hand-delivered directly to your door. We never use the cargo hold for our puppies; instead, they travel in our lap, whether by plane or car. This ensures that your new family member arrives safely, soundly, and ready to be loved. Our delivery process is careful and delicate, prioritizing the comfort and well-being of the puppy throughout the journey.
 
-Beyond [Your Area]:
+We'll come to you:
 If you're not in the <span class='geotargetlygeocontent1622668398873_content_1' style='display:none;'>
 New York
+</span><span class='geotargetlygeocontent1622668398873_content_2' style='display:none;'>
+Chicago
+</span><span class='geotargetlygeocontent1622668398873_content_3' style='display:none;'>
+Greater Los Angeles
+</span>
+<span class='geotargetlygeocontent1622668398873_content_4' style='display:none;'>
+New England
 </span> area, worry not! We will come to you. Our commitment is to ensure that no matter where you are, your new companion arrives in the safest and most loving way possible.
 
 See Our Happy Families:
