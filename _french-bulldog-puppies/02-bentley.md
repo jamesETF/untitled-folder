@@ -17,9 +17,9 @@ header:
   color: light
   header_size: medium
   parallax: false
-permalink: /puppies/bentley
+permalink: /french-bulldog-puppies/bentley
 redirect_from: /puppies/blue-french-bulldog-puppy-sara/
-
+hubspotneeded: true
 chat: true
 applechat: true
 ---

@@ -16,8 +16,8 @@ header:
   color: light
   header_size: medium
   parallax: false
-permalink: /puppies/mario
-
+permalink: /french-bulldog-puppies/mario
+hubspotneeded: true
 chat: true
 applechat: true
 ---

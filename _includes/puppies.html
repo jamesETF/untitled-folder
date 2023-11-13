@@ -18,7 +18,7 @@
   
   {% assign topics = '' %}
   
-  {% for post in site.puppies %}
+  {% for post in site.french-bulldog-puppies %}
 	{% assign t = post.topics | join: "," %}
 	{% if t != "" %}
 	  {% capture topics %}{{topics}}{{t}},{% endcapture %}
@@ -28,9 +28,9 @@
   {% assign topics = topics | split: "," | uniq | sort: self %}
   
   {% if include.topic %}
-	{% assign puppies = site.puppies | where: "topics", include.topic %}
+	{% assign puppies = site.french-bulldog-puppies | where: "topics", include.topic %}
   {% else %}
-	{% assign puppies = site.puppies %}
+	{% assign puppies = site.french-bulldog-puppies %}
   {% endif %}
 	<div data-uk-filter="target: [data-uk-grid]; animation: 500">
 		  {% if include.filter %}

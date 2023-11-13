@@ -23,21 +23,9 @@ chat: false
 applechat: false
 hubspotneeded: true
 podium: false
+permalink: french-bulldog-puppies
 redirect_from: 
-- puppies/daisy
-- ethicalfrenchie
-- puppies/polly
-redirect_from: cheap-french-bulldog-puppies-under-500/
-redirect_from: puppies/Marley
-redirect_from: merle-french-bulldog-tubs
-redirect_from: puppies/fawn-french-bulldog-puppy-allofus/
-redirect_from: EthicalFrenchie
-redirect_from: puppies/merle-french-bulldog-paketa/
-redirect_from: puppies/blue-french-bulldog-puppy-Selena/
-redirect_from: puppies/LisaLisa-blue-merle-french-bulldog-puppy/
-redirect_from: illinois/chicago/puppies/
-redirect_from: uploads/
-redirect_from: puppies/fawn-french-bulldog-puppy-hazelnut/
+- puppies/
 
 ---
 

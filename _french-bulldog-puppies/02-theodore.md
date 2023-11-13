@@ -16,7 +16,7 @@ header:
   color: light
   header_size: medium
   parallax: false
-permalink: /puppies/theodore 
+permalink: /french-bulldog-puppies/theodore 
 redirect_from: /puppies/timothy
 hubspotneeded: true
 chat: true

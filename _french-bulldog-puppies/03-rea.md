@@ -16,8 +16,10 @@ header:
   color: light
   header_size: medium
   parallax: false
-permalink: /puppies/rhea
-
+permalink: french-bulldog-puppies/rhea
+redirect_from:
+- /puppies/rhea
+hubspotneeded: true
 chat: true
 applechat: true
 ---

@@ -167,7 +167,7 @@ collections:
     output:             false
   faqs:
     output:             true
-  puppies:
+  french-bulldog-puppies:
     output:             true
 
 # Defaults
@@ -201,10 +201,10 @@ defaults:
       type:                 pages
     values:
       layout:               page
-  # _puppies
+  # _french-bulldog-puppies
   - scope:
       path:                 ""
-      type:                 puppies
+      type:                 french-bulldog-puppies
     values:
       layout:               page
 
