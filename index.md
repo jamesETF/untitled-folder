@@ -11,7 +11,7 @@ header:
   color: light
   header_size: xlarge
   heading_size: large
-  height: full
+  height: medium
   parallax: true
   content:
     block: block-cta
@@ -27,7 +27,7 @@ netlify: false
 parallax: true
 indexfaq: true
 nyc: true
-disablehub: true
+hubspotneeded: false
 ---
 
 {% if site.template == 'base' %}

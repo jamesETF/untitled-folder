@@ -1,6 +1,6 @@
 ---
 title: Available French Bulldog Puppies
-subtitle: Current and upcoming litters of French Bulldog Puppies. 
+subtitle: Discover your next furry family member from our elite selection of French Bulldog puppies. Raised with love and care, ready for their forever homes!. 
 layout: full
 width: full
 navbar:
@@ -18,7 +18,7 @@ header:
   heading_size: small
   parallax: true
   height: medium
-description: Actively Updated list of our availalbe french bulldogs for sale. This list also now includes "Partner Puppies"
+description: Discover your next furry family member from our elite selection of French Bulldog puppies. Raised with love and care, ready for their forever homes!
 chat: false
 applechat: false
 hubspotneeded: true
@@ -30,8 +30,9 @@ redirect_from:
 ---
 
 {% include cards.html 
-  block="puppiesquote" 
+  block="puppiesquote1" 
   section_padding_remove="bottom"
+  section_padding_remove="top"
   section_header_align="center"
   section_size="large"
   section_background="muted"
@@ -43,9 +44,22 @@ redirect_from:
 
 {% include puppies.html 
   section_size="large"
+  section_padding_remove="top"
   section_header_align="center"
   grid="1-3"
-  filter="true"
+
+%}
+{% include cards.html 
+  block="puppiesquote2" 
+  section_padding_remove="bottom"
+  section_padding_remove="top"
+  section_header_align="center"
+  section_size="large"
+  section_background="muted"
+  card_style="default"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
 %}
 {% include reviewsg.html %}
 
