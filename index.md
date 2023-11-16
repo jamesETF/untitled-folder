@@ -28,6 +28,9 @@ parallax: true
 indexfaq: true
 nyc: true
 hubspotneeded: false
+redirect_from:
+- /ethicalfrenchie
+- /uploads/
 ---
 
 {% if site.template == 'base' %}

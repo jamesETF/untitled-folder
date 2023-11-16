@@ -18,6 +18,8 @@ header:
   parallax: true
 permalink: /puppies/merle-french-bulldog-charlie/
 pipedrive: true
+redirect_from:
+- /puppies/LisaLisa-blue-merle-french-bulldog-puppy/
 
 ---
 

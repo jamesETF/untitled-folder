@@ -34,6 +34,17 @@ redirect_from:
 - /puppies/blue-french-bulldog-puppy-Selena/
 - /us/french-bulldog-puppies-for-sale-in-aloha-507987
 - /puppies/Marley
+- /merle-french-bulldog-tubs
+- /blue-french-bulldog-breed/
+- /french-bulldog/
+- /puppies/daisy
+- /puppies/fawn-french-bulldog-puppy-allofus/
+- /puppy-for-sale/english-bulldog/teddy-b
+- /pied-french-bulldog/
+- /blue-and-tan-french-bulldog/
+- /puppies/polly
+- /blog/blue-merle-
+- /puppies/merle-french-bulldog-paketa/
 ---
 
 {% include cards.html 

@@ -24,6 +24,8 @@ header:
 chicago: true
 indexfaq: true
 hubspotneeded: true
+redirect_from:
+- /il
 ---
 
 [comment]: # (This actually is the most platform independent comment)
