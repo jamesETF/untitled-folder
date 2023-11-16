@@ -1,4 +1,3 @@
 ---
-title: Trevor Wilson
-image: slider-1/trevor-wilson.jpg
+image: /aurora/Aurora--French-Bulldog-Puppy-04.jpg
 ---

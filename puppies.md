@@ -26,7 +26,14 @@ podium: false
 permalink: french-bulldog-puppies
 redirect_from: 
 - puppies/
-
+- /puppy-search/breed/french bulldog/state/ny
+- /puppies
+- /Frenchie
+- /frenchton-puppies-for-sale/
+- /locations-blue-jay-ohio-french-bulldog-puppies/
+- /puppies/blue-french-bulldog-puppy-Selena/
+- /us/french-bulldog-puppies-for-sale-in-aloha-507987
+- /puppies/Marley
 ---
 
 {% include cards.html 

@@ -1,4 +1,3 @@
 ---
-title: Aaron Burden
-image: slider-1/aaron-burden.jpg
+image: /aurora/Aurora--French-Bulldog-Puppy-05.jpg
 ---

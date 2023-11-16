@@ -1,23 +1,23 @@
 ---
-title: Theodore
-description: Meet Theodore, our charming Fawn French Bulldog puppy.
-subtitle: Fawn Frenchie Theodore
+title: Aurora
+description: Meet Aurora, our adorable French Bulldog puppy, ready to join your home this Christmas.
+subtitle: Curious Frenchie Aurora
 width: xsmall
-image: /theodore/theodore.jpg
-topics: [Our Puppies, Fawn French Bulldog]
+image: /aurora/aurora.jpg
+topics: [Our Puppies, French Bulldog]
 navbar:
   sticky: true
   transparent: true
   transparent_color: light
 header:
-  layout: center # Options: center 1-2 or 2-3
+  layout: center
   background_image: /french-bulldog-wallpaper.jpg
   background_overlay: "rgba(0, 0, 0, 0.5)"
   color: light
   header_size: medium
   parallax: false
-permalink: /french-bulldog-puppies/theodore 
-redirect_from: /puppies/timothy
+permalink: /french-bulldog-puppies/aurora 
+redirect_from: /puppies/aurora
 hubspotneeded: true
 chat: true
 applechat: true
@@ -25,7 +25,7 @@ applechat: true
 
 {% include gallery.html
 grid="1-2"
-gallery="/theodore/"
+gallery="/aurora/"
 caption="true"
 lightbox="true"
 section_size="large"
@@ -41,17 +41,15 @@ section_size="large"
     data-apple-banner-rounded-corners="false"
 ></div>
 ## About The Puppy!
-Introducing Theodore, our small yet spunky Fawn French Bulldog! Theodore, small enough to fly with you in a plane, is brimming with personality, exuding sass and charm in every step he takes.
+Meet Aurora, our Christmas miracle French Bulldog puppy named after the renowned astronomer Aurora Consurgens. She's a beacon of light and discovery, ready to bring joy into your home this holiday season!
 
-Our delightful Theodore is a sight to behold with his gorgeous fawn coat. He may be small in stature, but he has a big, chunky personality that fills the room. His antics are reminiscent of the cheerful energy and irresistible charm of classic comic characters, making him a heart-stealer from the word go.
+Aurora will be ready to go home by Christmas, currently too young but available after December 15th. She will be up-to-date on all vaccinations and health checks, developing a unique character with her curious nature.
 
-Theodore's size makes him a perfect travel companion, especially for air journeys. Imagine little Theodore, your loyal friend, gazing out of the airplane window, sharing every adventure with you!
-
-He'll be ready to fly into your arms and heart on November 4th, up-to-date on all his shots. His loving nature, coupled with his enthusiastic zest for life, makes him more than just a pet; he's a bundle of joy waiting to be a part of your life!
+Join our exclusive waitlist to receive regular updates as Aurora grows. We will start accepting deposits soon, so act fast to ensure she spends this Christmas with you!
 
 {% include image.html
-src="/theodore/theodore.jpg"
-alt="Theodore the Frenchie"
+src="/aurora/aurora.jpg"
+alt="Aurora the Frenchie"
 section_size="medium"
 section_padding_remove="top"
 section_container="small"

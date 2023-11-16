@@ -19,6 +19,9 @@ header:
 permalink: /puppies/roxanne/
 chat: false
 applechat: true
+redirect_from:
+ - /stud-dog-for-sale/french-bulldog/hamilton
+ 
 ---
 
 

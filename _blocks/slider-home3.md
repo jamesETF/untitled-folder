@@ -1,4 +1,3 @@
 ---
-title: Rafael Morais
-image: slider-1/rafael-morais.jpg
+image: /aurora/Aurora--French-Bulldog-Puppy-03.jpg
 ---

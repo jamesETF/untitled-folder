@@ -9,7 +9,7 @@ navbar:
   scroll_up: true
   animation: true
   transparent: true
-  transparent_color: dark
+  transparent_color: light
 description: Contact Ethical Frenchie for a frenchie breeder near you
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 header:

@@ -1,4 +1,5 @@
 ---
+published: true
 title: Bentley
 description: Discover Bentley, our stunning Black Merle French Bulldog puppy.
 subtitle: Black Merle Bentley
@@ -22,6 +23,7 @@ redirect_from: /puppies/blue-french-bulldog-puppy-sara/
 hubspotneeded: true
 chat: true
 applechat: true
+hidden: true
 ---
 
 {% include gallery.html

@@ -1,4 +1,4 @@
 ---
-title: Annie Spratt
-image: slider-1/annie-spratt.jpg
+title: Aurora
+image: /aurora/Aurora--French-Bulldog-Puppy-01.jpg
 ---
