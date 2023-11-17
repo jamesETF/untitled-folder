@@ -136,6 +136,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
+  - jekyll-target-blank
   
 
 

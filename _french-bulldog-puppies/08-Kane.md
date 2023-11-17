@@ -7,12 +7,14 @@ image: /merle-french-bulldog-puppy-kane/kane.jpg
 topics: [Our Puppies, Blue Merle French Bulldog]
 navbar:
   sticky: true
-  transparent: true
+  scroll_up: true
+  animation: true
+  transparent: false
   transparent_color: light
 header:
   layout: center # Options: center 1-2 or 2-3
   background_image: /french-bulldog-wallpaper.jpg
-  background_overlay: "rgba(0, 0, 0, 0.5)"
+  background_overlay: "rgba(0, 0, 0, 0.05)"
   color: light
   header_size: medium
   parallax: false

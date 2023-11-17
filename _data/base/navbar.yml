@@ -5,24 +5,25 @@ center:
   - title: Home
     url: /
 
-  - title: Our Puppies
+  - title: Available Puppies
     url: /french-bulldog-puppies
 
-  - title: Delivery by hand
+  - title: Delivery
     url: /puppy-delivery
+
+  - title: Financing
+    url: https://terracefinanceapp.azurewebsites.net/onlineApplication/preApplication?source=1&identifier=2715
 
   - title: Blog
     url: /blog/
-  
+
   - title: About Us
-    url: /about-us/
-    
+    url: /about-us
+
+ 
+right:
   - title: Contact Us
     url: /contact-us
-
-right:
-  - title: Instagram
-    url: https://instagram.com/ethicalfrenchie
     button: danger
 
 

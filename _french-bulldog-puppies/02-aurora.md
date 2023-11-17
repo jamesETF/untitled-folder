@@ -8,12 +8,14 @@ image: Aurora/Aurora--French-Bulldog-Puppy-01.webp
 topics: [Our Puppies, French Bulldog]
 navbar:
   sticky: true
-  transparent: true
+  scroll_up: true
+  animation: true
+  transparent: false
   transparent_color: light
 header:
   layout: center
   background_image: /french-bulldog-wallpaper.jpg
-  background_overlay: "rgba(0, 0, 0, 0.5)"
+  background_overlay: "rgba(0, 0, 0, 0.05)"
   color: light
   header_size: medium
   parallax: false

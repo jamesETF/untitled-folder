@@ -68,6 +68,9 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-target-blank (2.0.2)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.13.0)
@@ -124,6 +127,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-redirect-from
   jekyll-seo-tag
+  jekyll-target-blank
   kramdown-parser-gfm
   webrick
 

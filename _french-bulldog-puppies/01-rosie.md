@@ -6,13 +6,15 @@ width: xsmall
 image: french-bulldog-puppies/rosie/rosie-French-Bulldog-Puppy-01.webp
 topics: [Our Puppies, Blue Merle French Bulldog]
 navbar:
- sticky: true
- transparent: true
- transparent_color: light
+  sticky: true
+  scroll_up: true
+  animation: true
+  transparent: false
+  transparent_color: light
 header:
   layout: center
   background_image: /french-bulldog-wallpaper.jpg
-  background_overlay: "rgba(0, 0, 0, 0.7)"
+  background_overlay: "rgba(0, 0, 0, 0.07)"
   color: light
   header_size: medium
 parallax: false

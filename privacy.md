@@ -3,10 +3,10 @@ title: Privacy Policy
 subtitle: We care abot your data
 width: medium
 navbar:
-  sticky: false
+  sticky: true
   scroll_up: true
   animation: true
-  transparent: true
+  transparent: false
   transparent_color: light
 header:
   layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3

@@ -7,7 +7,7 @@ description: Ethical Frenchie is a trustworthy French Bulldog breeder specializi
 header:
   layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_image: header-6.jpg
-  background_overlay: "rgba(0, 0, 0, 0.45)"
+  background_overlay: "rgba(0, 0, 0, 0.15)"
   color: light
   header_size: xlarge
   heading_size: large
@@ -19,7 +19,7 @@ navbar:
   sticky: true
   scroll_up: true
   animation: true
-  transparent: true
+  transparent: false
   transparent_color: light
 extraseohome: true
 pipedrive: false

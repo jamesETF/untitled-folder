@@ -8,12 +8,12 @@ navbar:
   sticky: true
   scroll_up: true
   animation: true
-  transparent: true
+  transparent: false
   transparent_color: light
 header:
   layout: center
   background_image: header-6.jpg
-  background_overlay: "rgba(0, 0, 0, 0.25)"
+  background_overlay: "rgba(0, 0, 0, 0.05)"
   color: light
   header_size: large
   heading_size: small
