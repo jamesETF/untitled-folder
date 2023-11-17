@@ -19,7 +19,6 @@ header:
 permalink: /puppies/merle-french-bulldog-puppy-kane/
 hubspotneeded: true
 chat: true
-applechat: true
 ---
 
 {% include gallery.html 

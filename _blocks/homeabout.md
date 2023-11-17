@@ -8,4 +8,4 @@ We are re-defining the pet store, with transparency and a focus on socialization
 
 Whether the french bulldog puppies were bred by us or not, you can rest assured that your relationship will continue with the [actual breeder](/about-us). If we’re putting our brand on the line, its more important than ever for us to pick and choose the healthiest and best french bulldog puppies from the most responsible breeders, and match them with only the best families. 
 
-{% include button.html text="View Our Puppies" url="/puppies" style="default" %}
+{% include button.html text="View Our Puppies" url="/french-bulldog-puppies" style="default" %}

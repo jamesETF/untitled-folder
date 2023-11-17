@@ -20,7 +20,6 @@ permalink: french-bulldog-puppies/christmas
 redirect_from: 
 - /puppies/coming-soon
 chat: false
-applechat: true
 hubspotneeded: true
 ---
 {% include alert.html text="Want a Fast Response? Use The Chat! (For a Slow response? Fill out the Contact Form Below" style="danger" %}

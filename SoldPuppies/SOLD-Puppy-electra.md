@@ -19,6 +19,8 @@ header:
   parallax: true
 permalink: /puppies/electra/
 pipedrive: true
+redirect_from:
+- /puppies/Lemon
 
 
 ---

@@ -1,3 +1,3 @@
 ---
-image: /aurora/Aurora--French-Bulldog-Puppy-02.jpg
+image: /aurora/Aurora--French-Bulldog-Puppy-02.webp
 ---

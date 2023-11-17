@@ -4,7 +4,7 @@ date: '2023-10-14T00:00:00-04:00'
 description: Meet Aurora, our adorable French Bulldog puppy, ready to join your home this Christmas.
 subtitle: Curious Frenchie Aurora
 width: medium
-image: /aurora/Aurora--French-Bulldog-Puppy-01.jpg
+image: Aurora/Aurora--French-Bulldog-Puppy-01.webp
 topics: [Our Puppies, French Bulldog]
 navbar:
   sticky: true
@@ -39,7 +39,6 @@ applechat: true
   autoplay="true"
   gutter="collapse"
   navigation="outside"
-  dotnav="true"
 %}
 {% include alert.html text="🎄 Ready for Christmas - A Perfect Gift Under Your Tree 🎄" style="danger" %}
 
@@ -66,7 +65,7 @@ Deposit Soon: We will start accepting deposits soon. Act fast to ensure Aurora s
 Stay Updated: Join our waitlist to receive regular pup-dates as Aurora grows and blossoms.
 
 {% include image.html
-src="/aurora/Aurora--French-Bulldog-Puppy-01.jpg"
+src="/aurora/Aurora--French-Bulldog-Puppy-01.webp"
 alt="Aurora the Frenchie"
 section_size="medium"
 section_padding_remove="top"

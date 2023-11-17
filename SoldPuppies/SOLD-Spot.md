@@ -24,9 +24,9 @@ Spot Found a Home in Raleigh, NC with a wonderful Family.
 
 However, we have a few litters every now and then including perfect puppies sourced within our partner puppy network.
 
-Please view [Our Current Puppies](/puppies)
+Please view [Our Current Puppies](/french-bulldog-puppies)
 
-{% include button.html text="View our Available puppies" url="/puppies" style="primary" size="xlarge" width="full" %}
+{% include button.html text="View our Available puppies" url="/french-bulldog-puppies" style="primary" size="xlarge" width="full" %}
 {% include imessagecontact.html %}
 
 {% include gallery.html 

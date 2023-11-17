@@ -20,7 +20,6 @@ header:
 permalink: /french-bulldog-puppies/grizzly
 hubspotneeded: true
 chat: true
-applechat: true
 ---
 
 {% include slider.html 

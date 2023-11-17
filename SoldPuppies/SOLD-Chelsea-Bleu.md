@@ -25,12 +25,12 @@ ChelseaBlue Found a Home in Brooklyn, NY with a wonderful Family.
 
 However, we have a few litters every now and then including perfect puppies sourced within our partner puppy network.
 
-Please view [Our Current Puppies](/puppies)
+Please view [Our Current Puppies](/french-bulldog-puppies)
 
 
 
 
-{% include button.html text="View our Available puppies" url="/puppies" style="primary" size="xlarge" width="full" %}
+{% include button.html text="View our Available puppies" url="/french-bulldog-puppies" style="primary" size="xlarge" width="full" %}
 
 ### Personality: Hi! My name is Chelsea Bleu and I'm 4 months old :-(
 I haven’t found a perfect home yet, My Pawrents say its because i was the biggest puppy in my litter, and everybody wants the smallest.  When families come to visit, i'm always super excited to go home, but then they take my little sisters or brothers instead.  I do my best to put on my pretties face and personality, I groom myself to make myself look cute, but alas. I am still waiting on my furever home.

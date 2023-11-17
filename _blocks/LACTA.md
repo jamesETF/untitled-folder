@@ -5,6 +5,6 @@ button:
   style: primary
   text: View our Puppies
   size: xlarge
-  url: /puppies/
+  url: /french-bulldog-puppies/
   blank: false
 ---

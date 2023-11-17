@@ -21,7 +21,7 @@ redirect_from: /puppies/meeko/
 chat: false
 applechat: true
 hubspotneeded: true
-podium: true
+
 ---
 
 {% include alert.html text="Want a Fast Response? Use The Chat! (For a Slow response? Fill out the Contact Form Below" style="danger" %}

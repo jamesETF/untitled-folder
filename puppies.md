@@ -81,4 +81,3 @@ redirect_from:
 %}
 {% include reviewsg.html %}
 
-{% include menuz.html %}
