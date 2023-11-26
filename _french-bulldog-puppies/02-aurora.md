@@ -22,7 +22,7 @@ header:
 permalink: /french-bulldog-puppies/aurora 
 hubspotneeded: true
 chat: true
-applechat: true
+applechat: false
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 title: Available French Bulldog Puppies
 subtitle: Discover your next furry family member from our elite selection of French Bulldog puppies. Raised with love and care, ready for their forever homes!. 
-layout: full
 width: full
 navbar:
   sticky: true
