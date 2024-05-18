@@ -45,7 +45,7 @@ Meet our "Brady Bunch," a lively and adorable litter of two boys and two girls, 
 
 At this stage, we're still getting to know them, so they haven't been named yet. But don't worry, as their characters emerge and we give them names, each puppy will have their own individual listing and bio. For now, they are our delightful "Brady Bunch," each bringing their own charm and joy into our lives.
 
-These little ones will be ready for their forever homes at the end of January. We're looking for families who are ready to embrace the fun, love, and excitement that comes with raising a French Bulldog puppy. Whether you're charmed by their playful antics or melted by their cuddly moments, each of these puppies is sure to bring a unique blend of joy into their new homes.
+These little ones will be ready for their forever homes at the end of May. We're looking for families who are ready to embrace the fun, love, and excitement that comes with raising a French Bulldog puppy. Whether you're charmed by their playful antics or melted by their cuddly moments, each of these puppies is sure to bring a unique blend of joy into their new homes.
 
 Stay tuned as we update each puppy's journey, from name selection to personality development. They're already showing signs of being loving, playful, and full of surprises - just what you'd expect from the "Brady Bunch!"
 
