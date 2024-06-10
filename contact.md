@@ -28,7 +28,6 @@ extraseocontactus: true
 chat: false
 applechat: true
 hubspotneeded: true
-podium: true
 contact: true
 nyc: true
 ---

@@ -27,7 +27,7 @@ netlify: false
 parallax: true
 indexfaq: true
 nyc: true
-hubspotneeded: false
+hubspotneeded: true
 redirect_from:
 - /ethicalfrenchie
 - /uploads/
