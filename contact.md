@@ -22,13 +22,10 @@ header:
 description: Contact Ethical Frenchie for a frenchie breeder near you
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 extraseocontactus: true
-pipedrive: true
 permalink: /contact-us/
 extraseocontactus: true
-chat: false
 applechat: true
 hubspotneeded: true
-contact: true
 nyc: true
 ---
 

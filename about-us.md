@@ -18,7 +18,6 @@ header:
   parallax: true
 extraseoabout: true
 applechat: true
-podium: true
 hubspotneeded: true
 ---
 {% include block.html 

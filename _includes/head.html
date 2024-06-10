@@ -14,10 +14,12 @@
     {% endif %}
     {% if page.applechat %}
     <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
-    {% elsif page.hubspotneeded %}
+    {% endif %}
+    {% if page.hubspotneeded %}
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5322352.js"></script>
     <!-- End of HubSpot Embed Code -->
+    {% endif %}
     {% if page.chicago %}
     {% elsif page.LA %}
     {% else %}
