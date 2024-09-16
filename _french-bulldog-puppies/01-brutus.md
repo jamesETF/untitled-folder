@@ -20,6 +20,7 @@ header:
 parallax: false
 permalink: /french-bulldog-puppies/brutus
 hubspotneeded: true
+applechat: true
 chat: true
 ---
 
