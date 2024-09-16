@@ -20,7 +20,7 @@ header:
 parallax: false
 permalink: /french-bulldog-puppies/bandit
 hubspotneeded: true
-chat: true
+
 ---
 
 {% include gallery.html
@@ -77,4 +77,4 @@ section_header_align="center"
 section_title="How it works (How to Apply)"
 block_title="false"
 %}
-{% include hubspotform.html %}
+
