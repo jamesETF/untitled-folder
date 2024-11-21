@@ -1,6 +1,6 @@
 ---
 title: Application
-subtitle: Because seriously, There are more inquiries than puppies. Lets make sure this is a good fit.
+subtitle: Application Process
 width: full
 navbar:
   sticky: false

@@ -1,6 +1,7 @@
 ---
 title: About Us
-subtitle: Look Ma! We're on TV!
+subtitle: About Ethical Frenchie
+description: About Us and Our Mission to Match the Right Families with the Right Puppy
 width: full
 navbar:
   sticky: true

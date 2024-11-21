@@ -10,7 +10,7 @@ navbar:
   animation: true
   transparent: false
   transparent_color: light
-description: Contact Ethical Frenchie for a frenchie breeder near you
+description: Nationwide Delivery options - Your Frenchie, Hand Delivered.
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 header:
   layout: center
