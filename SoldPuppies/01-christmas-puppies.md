@@ -36,7 +36,7 @@ hubspotneeded: true
 </center>
 
 
-> Welcome to Ethical Kennel – Home of Exceptional French Bulldogs!
+> Welcome to Ethical Frenchie – Home of Exceptional French Bulldogs!
 
 This Christmas 2023, we are thrilled to announce our upcoming litters of French Bulldog puppies, expected to grace your home with their presence soon. Known for their loving nature and charming personalities, our Frenchies are the perfect addition to any family.
 
