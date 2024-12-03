@@ -17,23 +17,26 @@
     <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
     {% endif %}
     <!-- Start of HubSpot Embed Code -->
-    <script type='text/javascript'>
-        (function(_a,id,a,_) {
-          function Modal(){
-            var h = a.createElement('script'); h.type = 'text/javascript'; h.async = true;
-            var e = id; h.src = e+(e.indexOf("?")>=0?"&":"?")+'ref='+_;
-            var y = a.getElementsByTagName('script')[0]; y.parentNode.insertBefore(h, y);
-            h.onload = h.onreadystatechange = function() {
-              var r = this.readyState; if (r && r != 'complete' && r != 'loaded') return;
-              try { HeymarketWidget.construct(_); } catch (e) {}
-            };
-          };
-          (_a.attachEvent ? _a.attachEvent('onload', Modal) : _a.addEventListener('load', Modal, false));
-        })(window,'https://widget.heymarket.com/heymk-widget.bundle.js',document,{
-          CLIENT_ID: "Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3"
-        });
-        </script>
+<script type='text/javascript'>
+(function(_a,id,a,_) {
+  function Modal(){
+    var h = a.createElement('script'); h.type = 'text/javascript'; h.async = true;
+    var e = id; h.src = e+(e.indexOf("?")>=0?"&":"?")+'ref='+_;
+    var y = a.getElementsByTagName('script')[0]; y.parentNode.insertBefore(h, y);
+    h.onload = h.onreadystatechange = function() {
+      var r = this.readyState; if (r && r != 'complete' && r != 'loaded') return;
+      try { HeymarketWidget.construct(_); } catch (e) {}
+    };
+  };
+  (_a.attachEvent ? _a.attachEvent('onload', Modal) : _a.addEventListener('load', Modal, false));
+})(window,'https://widget.heymarket.com/heymk-widget.bundle.js',document,{
+  CLIENT_ID: "Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3"
+});
+</script>
     <!-- End of HubSpot Embed Code -->
+    <script>
+      var _swaMa =["6703807"];"undefined"==typeof sw&&!function(e, s, a){function t(){for(;o[0]&&"loaded"==o[0][d];)i=o.shift(),i[w]=!c.parentNode.insertBefore(i,c)}for(var r,n,i,o=[],c=e.scripts[0],w="onreadystatechange",d="readyState";r=a.shift();)n=e.createElement(s),"async"in c?(n.async=!1,e.head.appendChild(n)):c[d]?(o.push(n), n[w]=t): e.write("<" + s +' src="'+r+'" defer></'+s+">"),n.src=r}(document,"script",["//analytics.sitewit.com/v3/"+_swaMa[0]+"/sw.js"]);
+      </script>
     {% if page.chicago %}
     {% elsif page.LA %}
     {% else %}

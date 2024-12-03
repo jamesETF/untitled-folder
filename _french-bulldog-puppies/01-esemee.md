@@ -20,7 +20,7 @@ header:
 parallax: false
 permalink: /french-bulldog-puppies/esmee
 hubspotneeded: true
-chat: true
+applechat: true
 ---
 
 {% include gallery.html
@@ -51,6 +51,14 @@ Whether you are looking for a sweet cuddle buddy or a fun playmate, Esmée is th
 
 Esmée is eagerly waiting to meet her forever family and share her love and fluffiness. Get ready for lots of snuggles, puppy kisses, and endless happy moments with this little darling.
 
+<div
+    class="apple-business-chat-banner-container"
+    data-apple-business-id="aea0f1e1-d35e-4943-a9f1-141bc4d2db78"
+    data-apple-business-phone="+12127390182"
+    data-apple-banner-cta="Imessage Us!"
+    data-apple-banner-context="If you have an Iphone you'll see the chat, ID, if not you'll only see the phone icon"
+    data-apple-banner-rounded-corners="false"
+></div>
 {% include image.html
 src="french-bulldog-puppies/esmee/esmee.webp"
 alt="Esmée the Fluffy Frenchie"
