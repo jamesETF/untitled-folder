@@ -12,5 +12,11 @@
         "buildCommand": "bundle exec jekyll build"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
   ]
 }
