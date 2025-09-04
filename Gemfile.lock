@@ -123,7 +123,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   eon!
-  jekyll (~> 3.8)
+  jekyll (~> 3.9.0)
   jekyll-feed
   jekyll-redirect-from
   jekyll-sass-converter (~> 1.5)
