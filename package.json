@@ -34,8 +34,7 @@
     "watch": "watch 'npm run build' assets/js/custom.js",
     "postinstall": "npm run copy:sass && npm run build"
   },
-  {
-  "scripts": {
+    "scripts": {
     "build": "[my-framework] build --output public"
   }
 }
