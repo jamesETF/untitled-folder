@@ -20,4 +20,4 @@ gem "sassc", "~> 2.5"   # use sassc instead of old sass
 gem "bundler", "~> 2.4.7"
 
 # Your custom gem
-gem "eon", path: "."
+
