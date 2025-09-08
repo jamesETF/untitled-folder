@@ -1,5 +1,4 @@
-ruby "3.1.3"
-
+ruby "3.2.2"
 source "https://rubygems.org"
 gemspec
 gem "jekyll"
