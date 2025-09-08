@@ -1,11 +1,23 @@
-ruby "3.2.2"
 source "https://rubygems.org"
+
+# Your gemspec (if you have one)
 gemspec
-gem "jekyll"
-gem "jekyll-feed"
-gem "jekyll-seo-tag"
-gem "kramdown-parser-gfm"
-gem "jekyll-redirect-from"
-gem "webrick"
-gem "jekyll-target-blank"
-gem "sass", "~> 3.4" # or the latest Ruby-compatible sass
+
+# Jekyll and related plugins
+gem "jekyll", "~> 3.9.3"
+gem "jekyll-feed", "~> 0.17.0"
+gem "jekyll-seo-tag", "~> 2.8.0"
+gem "jekyll-redirect-from", "~> 0.16.0"
+gem "jekyll-target-blank", "~> 2.0.2"
+gem "kramdown-parser-gfm", "~> 1.1.0"
+gem "webrick", "~> 1.8.1"
+
+# Sass converter (pinned to working version)
+gem "jekyll-sass-converter", "~> 1.5.2"
+gem "sass", "~> 3.7.4"
+
+# Optional dependencies (used by Jekyll plugins)
+gem "bundler", "~> 2.4.7"
+
+# Your custom gem
+gem "eon", path: "."  # keep local path if this is your gem
