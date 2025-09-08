@@ -129,6 +129,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-target-blank
   kramdown-parser-gfm
+  sass (~> 3.4)
   webrick
 
 RUBY VERSION
