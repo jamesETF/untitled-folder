@@ -22,7 +22,7 @@ permalink: /puppies/merle-french-bulldog-puppy-kane/
 hubspotneeded: true
 chat: true
 ---
-
+ 
 {% include gallery.html 
 	grid="1-2"
 	gallery="/merle-french-bulldog-puppy-kane/"

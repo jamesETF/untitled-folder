@@ -29,7 +29,7 @@ gallery="french-bulldog-puppies/polar-bear/"
 caption="true"
 lightbox="true"
 section_size="large"
-%}
+%} 
 
 <center><a class="uk-button uk-button-danger uk-border-pill uk-button-xlarge my-border-rounded" href="tel:212-739-0182">
     <span data-uk-icon="phone" class="uk-icon">
