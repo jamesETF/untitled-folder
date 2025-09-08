@@ -13,8 +13,10 @@ gem "kramdown-parser-gfm", "~> 1.1.0"
 gem "webrick", "~> 1.8.1"
 
 # Sass converter updated for Ruby 3.2+
-gem "jekyll-sass-converter", "~> 2.0"
-gem "sassc", "~> 2.5"   # use sassc instead of old sass
+# Gemfile
+gem "jekyll-sass-converter", "1.5.2"  # if using 2.x
+
+
 
 # Bundler
 gem "bundler", "~> 2.4.7"

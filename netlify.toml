@@ -1,5 +1,5 @@
 [build]
-command = "gem install bundler -v 2.4.7 && bundle _2.4.7_ install && bundle exec jekyll build"
+command = "bundle install && bundle exec jekyll build"
 publish = "_site"
 environment = { RUBY_VERSION = "3.2.2" }
 
