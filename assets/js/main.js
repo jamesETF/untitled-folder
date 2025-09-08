@@ -4546,7 +4546,8 @@
         },
         connected: function() {
             var assign;
-            assign = wrapInner(this.$el, '<span class="' + this.clsWrapper + '">'), this.wrapper = assign[0];
+            assign = wrapInner(this.$el, '<span class="' + this.clsWrapper + '">'), 
+            this.wrapper = assign[0];
         },
         disconnected: function() {
             unwrap(this.wrapper.childNodes);

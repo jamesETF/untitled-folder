@@ -22,7 +22,6 @@
 // Variables
 // ========================================================================
 
-
 $button-line-height:                             $global-control-height !default;
 $button-small-line-height:                       $global-control-small-height !default;
 $button-large-line-height:                       $global-control-large-height !default;
@@ -110,7 +109,7 @@ $button-link-disabled-color:                     $global-muted-color !default;
     text-transform: none;
     /* 6 */
     -webkit-appearance: none;
-    border-radius: 15;
+    border-radius: 0;
     /* 7 */
     display: inline-block;
     box-sizing: border-box;
@@ -126,11 +125,7 @@ $button-link-disabled-color:                     $global-muted-color !default;
     @if(mixin-exists(hook-button)) {@include hook-button();}
 }
 
-
-
 .uk-button:not(:disabled) { cursor: pointer; }
-
-
 
 /*
  * Remove the inner border and padding in Firefox.
@@ -249,7 +244,7 @@ $button-link-disabled-color:                     $global-muted-color !default;
 .uk-button-danger {
     background-color: $button-danger-background;
     color: $button-danger-color;
-    @include rounded-corners; @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
+    @if(mixin-exists(hook-button-danger)) {@include hook-button-danger();}
 }
 
 /* Hover + Focus */
@@ -361,7 +356,6 @@ $button-link-disabled-color:                     $global-muted-color !default;
     color: $button-link-disabled-color;
     text-decoration: none;
 }
-
 
 
 /* Group
