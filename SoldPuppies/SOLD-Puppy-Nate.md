@@ -19,6 +19,9 @@ header:
 permalink: /puppies/blue-french-bulldog-nate/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Nate Found a Home in Virginia! with a wonderful Family.
@@ -44,4 +47,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   zoom="12" 
   style="silver" 
   section_container="expand"
-  %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Nate",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

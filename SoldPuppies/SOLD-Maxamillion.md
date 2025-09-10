@@ -18,6 +18,9 @@ header:
   parallax: true
 permalink: /puppies/Maxamillion/
 pipedrive: true
+status: sold
+price: 0
+currency: "USD"
 ---
 Max Found a home
 
@@ -94,4 +97,19 @@ Now, stare deeply into my eyes, think of me cuddled up right next to you, you ar
   section_background="muted"
   section_container="large"
   section_content_align="center"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Maxamillion",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

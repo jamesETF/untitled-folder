@@ -21,6 +21,9 @@ permalink: /puppies/sola/
 pipedrive: true
 
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include block.html 
@@ -31,3 +34,19 @@ pipedrive: true
   section_title="Sola is Sold"
   block_title="false"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Sola",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

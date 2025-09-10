@@ -20,6 +20,9 @@ permalink: /puppies/black-french-bulldog-puppy-armani/
 applechat: true
 podium: true
 ubspotneeded: true
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include imessagecontact.html %}
 {% include gallery.html 
@@ -66,4 +69,19 @@ Be sure to read the section that talks about my mommy and daddy. It has essentia
   section_title="How it works (How to Apply)"
   block_title="false"
 %}
-{% include menuz.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Armani",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

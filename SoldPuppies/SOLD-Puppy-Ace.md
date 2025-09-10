@@ -19,6 +19,9 @@ header:
 permalink: /puppies/Ace-lilac-tan-french-bulldog/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Ace Found a Home in New Jersey! with a wonderful Family.
@@ -44,4 +47,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   zoom="12" 
   style="silver" 
   section_container="expand"
-  %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Ace",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

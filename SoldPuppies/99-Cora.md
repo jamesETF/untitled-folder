@@ -20,6 +20,9 @@ permalink: /puppies/cora/
 chat: false
 applechat: true
 hubpotneeded: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include gallery.html 
@@ -58,3 +61,19 @@ This little sweetheart, along with her siblings are ready for their forever home
   section_title="How it works (How to Apply)"
   block_title="false"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Cora",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

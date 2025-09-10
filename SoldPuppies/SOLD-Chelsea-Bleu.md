@@ -17,6 +17,9 @@ header:
   parallax: true
 permalink: /puppies/chelseableu-merle-french-bulldog-puppy/
 pipedrive: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 
@@ -84,4 +87,19 @@ She will thrive on a raw or fresh food based diet, so feel free to experiment wi
   section_background="muted"
   section_container="large"
   section_content_align="center"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Chelsea Bleu",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -20,6 +20,9 @@ permalink: /puppies/dahlia/
 chat: false
 applechat: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include block.html 
   block="vimeovideos2"
@@ -51,4 +54,19 @@ applechat: true
   section_header_align="center"
   section_title="How it works (How to Apply)"
   block_title="false"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Dahlia",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

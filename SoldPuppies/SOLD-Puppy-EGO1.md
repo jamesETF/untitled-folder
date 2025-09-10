@@ -18,6 +18,9 @@ header:
 permalink: /puppies/ego/
 chat: false
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include imessagecontact.html %}
@@ -62,4 +65,19 @@ applechat: true
   section_size="medium"
   section_padding_remove="top"
   section_container="small"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Ego",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

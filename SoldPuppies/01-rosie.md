@@ -21,6 +21,9 @@ parallax: false
 permalink: /french-bulldog-puppies/rosie
 hubspotneeded: true
 chat: true
+status: sold
+price: 0   # optional, use your real pricing
+currency: "USD"
 ---
 
 {% include gallery.html
@@ -75,4 +78,17 @@ section_title="How it works (How to Apply)"
 block_title="false"
 %}
 {% include hubspotform.html %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Unknown",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0   # optional, use your real pricing",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>
 

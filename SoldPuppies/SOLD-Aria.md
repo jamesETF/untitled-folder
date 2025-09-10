@@ -20,6 +20,9 @@ permalink: /puppies/aria/
 chat: false
 applechat: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include block.html 
   block="vimeovideos2"
@@ -61,4 +64,19 @@ Her personality is easy going and chill, but she of course still loves her playt
   section_background="muted"
   section_container="large"
   section_content_align="center"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Aria",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

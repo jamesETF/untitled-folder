@@ -19,6 +19,9 @@ header:
 permalink: /puppies/blue-french-bulldog-violet/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 VIolet Found a Home in Raleigh, NC with a wonderful Family.
@@ -45,3 +48,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   style="silver" 
   section_container="expand"
   %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "VIolet",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

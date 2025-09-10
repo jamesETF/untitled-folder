@@ -20,6 +20,9 @@ permalink: /french-bulldog-puppies/mario
 hubspotneeded: true
 chat: true
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include gallery.html 
@@ -74,4 +77,19 @@ Ready to go home on May 29th or 30th, Mario has his bags packed. He'll be up to 
 %}
 {% include hubspotform.html %}
 
-{% include menuz.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mario",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -19,6 +19,9 @@ header:
 permalink: /puppies/chocolate-tan-french-bulldog-puppy-mari/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Mario Found a Home in Charlotte, NC with a wonderful Family.
@@ -45,3 +48,19 @@ Please view [Our Current Puppies](/puppies)
   style="silver" 
   section_container="expand"
   %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mario",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

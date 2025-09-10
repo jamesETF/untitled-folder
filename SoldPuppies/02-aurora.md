@@ -23,6 +23,9 @@ permalink: /french-bulldog-puppies/aurora
 hubspotneeded: true
 chat: true
 applechat: false
+status: sold
+price: 0
+currency: "USD"
 ---
 
 
@@ -93,3 +96,19 @@ section_content_align="center"
 %}
 
 
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Aurora",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

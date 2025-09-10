@@ -19,6 +19,9 @@ header:
 permalink: /puppies/Platinum-french-bulldog-puppy/
 pipedrive: false
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include imessagecontact.html %}
 {% include image.html 
@@ -48,3 +51,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   section_container="large"
   section_content_align="center"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Prince Harry & William",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

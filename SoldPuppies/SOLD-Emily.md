@@ -18,6 +18,9 @@ header:
 permalink: /puppies/emily-blue-french-bulldog-puppy/
 pipedrive: false
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include image.html 
@@ -94,4 +97,19 @@ She will thrive on a raw or fresh food based diet, so feel free to experiment wi
   grid="1-4"
   gutter="large"
   count="8" 
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Emily",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -19,6 +19,9 @@ header:
 permalink: /puppies/blue-french-bulldog-puppy-Preston/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Preston Found a Home in Philadelphia, PA with a wonderful Family.
@@ -45,3 +48,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   style="silver" 
   section_container="expand"
   %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Preston",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

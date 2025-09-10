@@ -19,6 +19,9 @@ header:
 permalink: /puppies/merle-french-bulldog-nelson
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Nelson Found a Home in Raleigh, NC with a wonderful Family.
@@ -45,4 +48,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   style="silver" 
   section_container="expand"
   %}
-/puppies/merle-french-bulldog-nelson
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Nelson",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

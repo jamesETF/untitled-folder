@@ -1,8 +1,4 @@
 ---
-title: Lucille
-description: Blue Pied
-subtitle: Yo! I'm Lucille
-width: xsmall
 image: /lucille/lucille.jpg
 topics: [Our Puppies, Blue Pied]
 navbar:
@@ -20,6 +16,9 @@ permalink: /puppies/lucille/
 chat: false
 applechat: true
 hubspotneeded: true
+status: sold
+price: 0   # optional, use your real pricing
+currency: "USD"
 ---
 
 {% include block.html 
@@ -68,3 +67,19 @@ Her perfect human is one that will fall in love with her at first sight and look
   section_container="large"
   section_content_align="center"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Unknown",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0   # optional, use your real pricing",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

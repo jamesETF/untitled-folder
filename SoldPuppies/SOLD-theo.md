@@ -15,6 +15,9 @@ header:
   parallax: true
 permalink: /puppies/blue-french-bulldog-puppy-theo/
 pipedrive: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include block.html 
@@ -33,3 +36,19 @@ pipedrive: true
   section_container="small"
   height="large"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Theo Found a home",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

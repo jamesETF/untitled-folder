@@ -20,6 +20,9 @@ permalink: /puppies/meeko/
 chat: false
 applechat: true
 hubspotneeded: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include block.html 
@@ -75,3 +78,19 @@ Ideal family for Meeko? A family where she will be the center of attention and c
   section_container="large"
   section_content_align="center"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Meeko",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

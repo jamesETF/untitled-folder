@@ -19,6 +19,9 @@ header:
 permalink: /puppies/Black-french-bulldog-puppy-Kona/
 chat: false
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 
@@ -94,4 +97,19 @@ So, what time can I schedule you to come by to see me? Be sure to leave enough t
 %}
 
 
-{% include menuz.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Kona",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

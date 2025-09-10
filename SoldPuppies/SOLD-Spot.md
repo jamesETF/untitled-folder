@@ -18,6 +18,9 @@ header:
   parallax: true
 permalink: /puppies/darkblue-brindle-fawn-Spot/
 chat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Spot Found a Home in Raleigh, NC with a wonderful Family.
@@ -110,4 +113,19 @@ When you get to the city, I am easy to spot. (See what I did there?) I am not to
   section_background="muted"
   section_container="large"
   section_content_align="center"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Spot",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -19,6 +19,9 @@ header:
 permalink: /puppies/black-pied-french-bulldog-puppy/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Daisy Found a Home in Philadelphia, PA with a wonderful Family.
@@ -45,4 +48,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   style="silver" 
   section_container="expand"
   %}
-/puppies/merle-french-bulldog-Daisy
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Daisy",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

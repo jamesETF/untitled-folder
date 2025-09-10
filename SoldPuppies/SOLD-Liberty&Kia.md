@@ -19,6 +19,9 @@ header:
   parallax: true
 permalink: /puppies/partner-breeder-liberty/
 chat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include 
   team.html 
@@ -102,3 +105,19 @@ I do all of that for you, because by the nature of this business and all of my t
   section_container="large"
   section_content_align="center"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Liberty & Kia",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

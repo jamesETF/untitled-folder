@@ -21,6 +21,9 @@ header:
 permalink: /french-bulldog-puppies/mona
 hubspotneeded: true
 chat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include gallery.html
@@ -76,4 +79,19 @@ section_size="large"
 section_background="muted"
 section_container="large"
 section_content_align="center"
-%}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Mona",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -19,6 +19,9 @@ header:
 permalink: /puppies/blue-french-bulldog-maya/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Maya Found a Home in New Jersey! with a wonderful Family.
@@ -79,4 +82,19 @@ One thing I need to point out is that this girl loves water and will drink it ju
   zoom="12" 
   style="silver" 
   section_container="expand"
-  %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Maya - Blue French Bulldog",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

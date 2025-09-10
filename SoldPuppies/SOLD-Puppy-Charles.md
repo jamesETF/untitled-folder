@@ -21,6 +21,9 @@ pipedrive: true
 redirect_from:
 - /puppies/LisaLisa-blue-merle-french-bulldog-puppy/
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Charlie Found a Home in Virginia! with a wonderful Family.
@@ -46,4 +49,19 @@ Please view [Our Current Puppies](/puppies)
   zoom="12" 
   style="silver" 
   section_container="expand"
-  %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Charles",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -19,6 +19,9 @@ header:
 permalink: /puppies/Allie/
 chat: true
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include imessagecontact.html %}
 {% include image.html 
@@ -54,4 +57,19 @@ A few days a week Vikki gets a probiotic as well as a raw egg added to her food.
 
 
 
-{% include reviewsg.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Allie",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

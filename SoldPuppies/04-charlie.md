@@ -19,6 +19,9 @@ header:
 permalink: /puppies/cream-french-bulldog-puppy-charlie/
 chat: true
 applechat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include imessagecontact.html %}
 {% include gallery.html 
@@ -60,4 +63,19 @@ Be sure to read the section that talks about my mommy and daddy. It has essentia
 
 
 
-{% include reviewsg.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Charlie",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

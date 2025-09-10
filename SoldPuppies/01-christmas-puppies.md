@@ -23,6 +23,9 @@ redirect_from:
 - /puppies/coming-soon
 chat: false
 hubspotneeded: true
+status: sold
+price: 0
+currency: "USD"
 ---
 {% include alert.html text="Want a Fast Response? Use The Chat! (For a Slow response? Fill out the Contact Form Below" style="danger" %}
 
@@ -76,4 +79,19 @@ Contact Us Today:
 });
 </script>
 
-{% include menuz.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Christmas Puppies",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

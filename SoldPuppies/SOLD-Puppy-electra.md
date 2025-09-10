@@ -23,6 +23,9 @@ redirect_from:
 - /puppies/Lemon
 
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include block.html 
@@ -33,3 +36,19 @@ redirect_from:
   section_title="Found a home!"
   block_title="false"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Electra",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

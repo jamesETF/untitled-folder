@@ -21,6 +21,9 @@ parallax: false
 permalink: /french-bulldog-puppies/bradybunch
 hubspotneeded: true
 chat: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include gallery.html
@@ -73,4 +76,19 @@ section_header_align="center"
 section_title="How it works (How to Apply)"
 block_title="false"
 %}
-{% include hubspotform.html %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "The Brady Bunch",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

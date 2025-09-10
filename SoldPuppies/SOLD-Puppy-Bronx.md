@@ -19,6 +19,9 @@ header:
 permalink: /puppies/bronx-blue-french-bulldog-puppy/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Bronx Found a Home in Raleigh, NC with a wonderful Family.
@@ -44,4 +47,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   zoom="12" 
   style="silver" 
   section_container="expand"
-  %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Bronx",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

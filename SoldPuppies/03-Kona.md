@@ -20,6 +20,9 @@ permalink: /puppies/kona/
 chat: false
 applechat: true
 hubspotneeded: true
+status: sold
+price: 0
+currency: "USD"
 ---
 
 {% include block.html 
@@ -75,3 +78,19 @@ Kona’s ideal family is one with an energetic play buddy that will keep her on 
   section_container="large"
   section_content_align="center"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Kona",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

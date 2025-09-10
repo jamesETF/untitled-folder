@@ -19,6 +19,9 @@ header:
 permalink: /puppies/blue-french-bulldog-puppy-Pepper/
 pipedrive: true
 
+status: sold
+price: 0
+currency: "USD"
 ---
 
 Pepper Found a Home in Philadelphia, PA with a wonderful Family.
@@ -45,4 +48,19 @@ Please view [Our Current Puppies](/french-bulldog-puppies)
   style="silver" 
   section_container="expand"
   %}
-/puppies/merle-french-bulldog-Pepper
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Pepper",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>

@@ -22,6 +22,9 @@ applechat: true
 redirect_from:
  - /stud-dog-for-sale/french-bulldog/hamilton
  
+status: sold
+price: 0
+currency: "USD"
 ---
 
 
@@ -72,3 +75,19 @@ She is looking for her forever home and is not picky. Lots of love and cuddles i
   section_container="large"
   section_content_align="center"
 %}
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Roxanne",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "0",
+    "availability": "https://schema.org/SoldOut"
+  }
+}
+</script>
