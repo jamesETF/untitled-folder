@@ -5,23 +5,43 @@ subtitle: Merle Frenchie Daisy Mae
 width: xsmall
 image: french-bulldog-puppies/daisy-mae/daisy-mae.webp
 topics: [Our Puppies, Merle French Bulldog]
+
 navbar:
   sticky: true
   scroll_up: true
   animation: true
   transparent: false
   transparent_color: light
+
 header:
   layout: center
   background_image: /french-bulldog-wallpaper.jpg
   background_overlay: "rgba(0, 0, 0, 0.07)"
   color: light
   header_size: medium
+
 parallax: false
 permalink: /french-bulldog-puppies/daisy-mae
 hubspotneeded: true
 chat: true
+
+# — Schema + SEO/Listing Triggers —
+gender: Female
+color_coat: Merle
+age_weeks: 10
+dob: 2025-06-25           # example DOB — update if known
+ready_date: 2025-09-10    # example ready date
+estimated_adult_weight_lbs: "20–25"
+price: 0                  # set to 0 for schema/SEO but hides real rehoming fee
+status: available         # available | reserved | adopted
+microchipped: true
+akc_papers: true
+location: New York, NY
+parents: ""               # optional — add “Sire: ___, Dam: ___” if you like
+date: 2025-09-10          # publish date
+last_modified_at: 2025-09-10
 ---
+
 
 {% include gallery.html
 grid="1-2"
@@ -103,3 +123,82 @@ block_title="false"
 %}
 
 {% include hubspotform.html %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ page.title }} — French Bulldog Puppy",
+  "description": "{{ page.description | strip_newlines | escape }}",
+  "image": [
+    "{{ site.url }}{{ site.baseurl }}/{{ page.image }}"
+  ],
+  "sku": "{{ page.permalink | split: '/' | last }}",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ethical Frenchie"
+  },
+  "category": "Pets",
+  "color": "{{ page.color_coat | default: '' }}",
+  "gender": "{{ page.gender | default: '' }}",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "unitCode": "LBR",
+    "minValue": 20,
+    "maxValue": 25
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Vaccinations",
+      "value": "Up-to-date on DHPP"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Deworming",
+      "value": "Completed on schedule"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Veterinary Health Check",
+      "value": "Fully examined by a licensed veterinarian"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Genetic Testing",
+      "value": "Clear panel screening"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Microchip",
+      "value": "{% if page.microchipped %}Yes{% else %}No{% endif %}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "AKC Papers",
+      "value": "{% if page.akc_papers %}Yes{% else %}No{% endif %}"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "{{ site.url }}{{ page.permalink }}",
+    "priceCurrency": "USD",
+    "price": "{{ page.price | default: 0 }}",
+    "availability": "https://schema.org/{% if page.status == 'available' %}InStock{% elsif page.status == 'reserved' %}PreOrder{% else %}SoldOut{% endif %}",
+    "seller": {
+      "@type": "Organization",
+      "name": "Ethical Frenchie",
+      "url": "{{ site.url }}",
+      "telephone": "+1-212-739-0182",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      }
+    }
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}"
+}
+</script>
+

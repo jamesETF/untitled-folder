@@ -32,7 +32,7 @@ age_weeks: 8
 dob: 2025-07-15           # example — update with her actual DOB if known
 ready_date: 2025-09-10    # example — update if you have a set date
 estimated_adult_weight_lbs: "16–20"
-price: 6900               # or set to 0 if you prefer not to display
+price: 0               # or set to 0 if you prefer not to display
 status: available         # available | reserved | adopted
 microchipped: true
 akc_papers: true

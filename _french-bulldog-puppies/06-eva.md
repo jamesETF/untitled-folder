@@ -41,7 +41,6 @@ parents: "Sire: Romeo, Dam: Bella"   # optional
 date: 2025-09-10          # publish date
 last_modified_at: 2025-09-10
 ---
----
 
 {% include gallery.html
 grid="1-2"
