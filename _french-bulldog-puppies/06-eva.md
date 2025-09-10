@@ -1,10 +1,10 @@
 ---
-title: Labubu
-description: Meet Labubu, our charming and affectionate Micro Fluffy Merle & Lilac French Bulldog puppy.
-subtitle: Micro Fluffy Merle & Lilac Frenchie Labubu
+title: Eva
+description: Meet Eva, our sweet, shy, and tender Blue French Bulldog puppy.
+subtitle: Blue Frenchie Eva
 width: xsmall
-image: french-bulldog-puppies/labubu/labubu.webp
-topics: [Our Puppies, Micro Fluffy Merle & Lilac French Bulldog]
+image: french-bulldog-puppies/eva/eva.webp
+topics: [Our Puppies, Blue French Bulldog]
 
 navbar:
   sticky: true
@@ -21,34 +21,35 @@ header:
   header_size: medium
 
 parallax: false
-permalink: /french-bulldog-puppies/labubu
+permalink: /french-bulldog-puppies/eva
 hubspotneeded: true
 chat: true
 
-# — Schema + SEO/Listing Triggers —
+# --- Added fields for schema + consistency ---
 gender: Female
-color_coat: "Micro Fluffy Merle & Lilac"
-age_weeks: 8
-dob: 2025-07-15           # example — update with her actual DOB if known
-ready_date: 2025-09-10    # example — update if you have a set date
-estimated_adult_weight_lbs: "16–20"
-price: 6900               # or set to 0 if you prefer not to display
+color_coat: Blue
+age_weeks: 10
+dob: 2025-06-30           # optional, if you want to display actual DOB
+ready_date: 2025-09-10    # optional, useful for SEO/structured data
+estimated_adult_weight_lbs: "20–25"
+price: 0               # optional (set 0 if you don’t want to display a rehoming fee)
 status: available         # available | reserved | adopted
 microchipped: true
 akc_papers: true
 location: New York, NY
-parents: ""               # optional — add “Sire: ___, Dam: ___” if desired
+parents: "Sire: Romeo, Dam: Bella"   # optional
 date: 2025-09-10          # publish date
 last_modified_at: 2025-09-10
+---
 ---
 
 {% include gallery.html
 grid="1-2"
-gallery="french-bulldog-puppies/labubu/"
+gallery="french-bulldog-puppies/eva/"
 caption="true"
 lightbox="true"
 section_size="large"
-%} 
+%}
 
 <center><a class="uk-button uk-button-danger uk-border-pill uk-button-xlarge my-border-rounded" href="tel:212-739-0182">
     <span data-uk-icon="phone" class="uk-icon">
@@ -58,42 +59,37 @@ section_size="large"
 </a>
 </center>
 
-Hello to Labubu!
+Meet Eva!
 
-Labubu is our adorable and affectionate Micro Fluffy Merle & Lilac French Bulldog puppy. This cute little ball of love lights up any room with her spunky personality and can't get enough of smothering her family with snuggly soft kisses. Her unique Micro Fluffy Merle & Lilac color and sparkling eyes make her a true one-of-a-kind best buddy.
+Eva is the gentle heart of the group—a little shy at first, but once she warms up, she’ll stay close by your side like a quiet shadow. She has a soft, patient way about her, watching the world with big, thoughtful eyes before deciding to join in. Once she feels safe, her sweetness shines through: she’ll press her head against your hand or curl up neatly at your feet, content just to be near. Eva’s calm, tender nature makes her especially easy to bond with, and she’s the type of companion who turns every moment into a soft, steady kind of joy.
 
-## Labubu's Details
+## Eva's Details
 
-| Attribute       | Description                |
-| --------------- | -------------------------- |
-| Breed           | French Bulldog             |
-| Gender          | Female                     |
-| Color/Coat      | Micro Fluffy Merle & Lilac |
-| Age             | 8 weeks (ready now)        |
-| Size            | Small breed, estimated adult weight 16-20 lbs |
+| Attribute       | Description                                  |
+| --------------- | -------------------------------------------- |
+| Breed           | French Bulldog                               |
+| Gender          | Female                                       |
+| Color/Coat      | Blue                                         |
+| Age             | 10 weeks (ready now)                         |
+| Size            | Small breed, estimated adult weight 20–25 lbs |
 
-  • Breed: French Bulldog
-  • Gender: Female
-  • Color/Coat: Micro Fluffy Merle & Lilac
-  • Age: 8 weeks (ready to join her forever home now)
-  • Size: Small breed, estimated adult weight 16-20 lbs
-
+ 
 ## Health & Vaccinations
 
-  • Vaccinations: Up-to-date on DHPP
-  • Deworming: Completed on schedule
-  • Health Check: Fully examined by a licensed veterinarian
-  • Genetic Testing: Clear of genetic disorders based on a panel screening
+  • Vaccinations: Up-to-date on DHPP  
+  • Deworming: Completed on schedule  
+  • Health Check: Fully examined by a licensed veterinarian  
+  • Genetic Testing: Clear panel screening
 
 ## Temperament & Training
 
-  • Personality: Charming, affectionate, and playful, loves cuddles and playtime
-  • Training: Started on basic commands and socialization
+  • Personality: Sweet, shy, gentle; warms up with patience and affection  
+  • Training: Started on basic commands and early socialization; adapting well to a calm environment
 
 ## Payment & Delivery Options
 
-  • Payment Methods: We accept Credit/Debit Cards, PayPal, Venmo, Zelle
-  • Financing: Financing options are available to help bring Labubu home
+  • Payment Methods: We accept Credit/Debit Cards, PayPal, Venmo, Zelle  
+  • Financing: Financing options are available to help bring Eva home  
   • Nationwide Delivery: We deliver puppies anywhere in the United States, ensuring a safe and stress-free travel experience. We travel with the puppy.
 
 ## Disclaimer
@@ -101,8 +97,8 @@ Labubu is our adorable and affectionate Micro Fluffy Merle & Lilac French Bulldo
 All our puppies are raised with love and care, and we work to match them with the perfect families. Please note that deposits to reserve a puppy are non-refundable; however, the deposit is transferable to a different litter in the future.
 
 {% include image.html
-src="french-bulldog-puppies/labubu/labubu.webp"
-alt="Labubu the Micro Fluffy Merle & Lilac Frenchie"
+src="french-bulldog-puppies/eva/eva.webp"
+alt="Eva the Blue Frenchie"
 section_size="medium"
 section_padding_remove="top"
 section_container="small"

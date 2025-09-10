@@ -5,6 +5,7 @@ subtitle: Blue Merle Frenchie Dexter
 width: xsmall
 image: french-bulldog-puppies/dexter/dexter.webp
 topics: [Our Puppies, Blue Merle French Bulldog]
+date: 2025-09-10
 navbar:
  sticky: true
  scroll_up: true
@@ -53,11 +54,6 @@ Dexter is our playful, sweet, and docile Blue Merle French Bulldog puppy. He’s
 | Age             | 8 weeks (ready now)        |
 | Size            | Small breed, estimated adult weight 20-25 lbs |
 
-  • Breed: French Bulldog
-  • Gender: Male
-  • Color/Coat: Blue Merle
-  • Age: 8 weeks (ready to join his forever home now)
-  • Size: Small breed, estimated adult weight 20-25 lbs
 
 ## Health & Vaccinations
 
