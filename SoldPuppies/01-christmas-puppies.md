@@ -27,7 +27,7 @@ status: sold
 price: 0
 currency: "USD"
 ---
-{% include alert.html text="Want a Fast Response? Use The Chat! (For a Slow response? Fill out the Contact Form Below" style="danger" %}
+{% include alert.html text='Want a Fast Response? Use The Chat! (For a Slow response? Fill out the Contact Form Below' style="danger" %}
 
 
 <center><a class="uk-button uk-button-danger uk-border-pill uk-button-xlarge my-border-rounded" href="tel:212-739-0182">
