@@ -9,6 +9,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
     <meta name="msvalidate.01" content="1D11DCA26719774DEE0E543E506EE8C5" />
+    {% include omnisend.html %}
     {% if page.chicago %}
     {% elsif page.LA %}
     {% else %}
@@ -46,7 +47,7 @@
     {% include schema.html %}
 
        {% seo %}
-        <!-- Twitter cards -->
+    <!-- Twitter cards -->
     <meta name="twitter:site"    content="@ethicalfrenchie">
     <meta name="twitter:creator" content="@{{ page.author }}">
     <meta name="twitter:title"   content="{{ page.title }}">
