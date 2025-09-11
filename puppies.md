@@ -46,6 +46,27 @@ redirect_from:
 - /puppies/merle-french-bulldog-paketa/
 ---
 
+
+{% include cards.html 
+  block="puppiesquote2" 
+  section_padding_remove="bottom"
+  section_padding_remove="top"
+  section_header_align="center"
+  section_size="large"
+  section_background="muted"
+  card_style="default"
+  grid="1-1"
+  gutter="small"
+  section_content_align="center"
+%}
+{% include puppies.html 
+  section_size="large"
+  section_padding_remove="top"
+  section_header_align="center"
+  grid="1-3"
+
+%}
+
 {% include cards.html 
   block="puppiesquote1" 
   section_padding_remove="bottom"
@@ -59,24 +80,5 @@ redirect_from:
   section_content_align="center"
 %}
 
-{% include puppies.html 
-  section_size="large"
-  section_padding_remove="top"
-  section_header_align="center"
-  grid="1-3"
-
-%}
-{% include cards.html 
-  block="puppiesquote2" 
-  section_padding_remove="bottom"
-  section_padding_remove="top"
-  section_header_align="center"
-  section_size="large"
-  section_background="muted"
-  card_style="default"
-  grid="1-1"
-  gutter="small"
-  section_content_align="center"
-%}
 {% include reviewsg.html %}
 
