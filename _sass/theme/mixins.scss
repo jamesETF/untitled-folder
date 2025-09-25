@@ -22,6 +22,19 @@
   letter-spacing: 1px;
 }
 
+@mixin hook-button-primary(){
+  font-weight: $button-primary-font-weight;
+  color: #fff !important;
+}
+
+@mixin hook-button-primary-hover(){
+  color: #fff !important;
+}
+
+@mixin hook-button-primary-active(){
+  color: #fff !important;
+}
+
 @mixin hook-button-misc(){
   .uk-button-medium {
     padding: 0 40px;

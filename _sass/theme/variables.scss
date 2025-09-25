@@ -67,8 +67,12 @@ $button-warning-background:                     $global-warning-background;
 $button-warning-hover-background:               darken($button-warning-background, 7%);
 $button-success-background:                     $global-success-background;
 $button-success-hover-background:               darken($button-success-background, 5%);
-$inverse-button-primary-color:                  #222;
-$inverse-button-primary-hover-color:            #000;
+$button-primary-color:                          #fff;
+$button-primary-hover-color:                    #fff;
+$button-primary-active-color:                   #fff;
+$inverse-button-primary-color:                  #fff;
+$inverse-button-primary-hover-color:            #fff;
+$button-primary-font-weight:                    bold;
 $button-border-radius:                          15px; // Define the desired border-radius
 
 
