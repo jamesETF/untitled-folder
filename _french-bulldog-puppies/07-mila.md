@@ -38,8 +38,8 @@ microchipped: true
 akc_papers: true
 location: New York, NY
 parents: ""               # optional — add “Sire: ___, Dam: ___” if desired
-date: 2025-09-10          # publish date
-last_modified_at: 2025-09-10
+date: 2025-09-25          # publish date
+last_modified_at: 2025-09-25
 ---
 
 
