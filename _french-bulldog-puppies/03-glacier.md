@@ -75,12 +75,6 @@ He’s the perfect match for a family that wants a puppy with sparkle and sweetn
 | Age       | 8 weeks (ready now)                       |
 | Size      | Small breed, estimated adult 18–25 lbs    |
 
-  • Breed: French Bulldog  
-  • Gender: Male  
-  • Color/Coat: Tri Merle  
-  • Eyes: Deep Blue (permanent)  
-  • Age: 8 weeks (ready to join his forever home now)  
-  • Size: Small breed, estimated adult weight 18–25 lbs  
 
 ## Health & Vaccinations
 

@@ -74,11 +74,6 @@ Though he’s full of life and loves to play, Brody balances it with loyalty and
 | Age             | 8 weeks (ready now)                          |
 | Size            | Small breed, estimated adult weight 18–22 lbs |
 
-  • Breed: French Bulldog  
-  • Gender: Male  
-  • Color/Coat: Blue Merle  
-  • Age: 8 weeks (ready to join his forever home now)  
-  • Size: Small breed, estimated adult weight 18–22 lbs  
 
 ## Health & Vaccinations
 
