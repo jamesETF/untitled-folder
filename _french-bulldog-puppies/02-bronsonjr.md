@@ -6,6 +6,20 @@ width: xsmall
 image: french-bulldog-puppies/bronsonjr/bronsonjr.webp
 topics: [Our Puppies, Blue Merle French Bulldog]
 date: 2025-09-25
+
+# — Schema + SEO/Listing Triggers —
+gender: Male
+color_coat: "Blue Merle"
+age_weeks: 8
+dob: 2025-07-15
+ready_date: 2025-09-10
+estimated_adult_weight_lbs: "22–27"
+price: 0
+status: available
+microchipped: true
+akc_papers: true
+location: New York, NY
+last_modified_at: 2025-09-25
 navbar:
  sticky: true
  scroll_up: true
@@ -22,7 +36,6 @@ parallax: false
 permalink: /french-bulldog-puppies/bronsonjr
 hubspotneeded: true
 chat: true
-price: 0
 ---
 
 {% include gallery.html
@@ -119,34 +132,82 @@ block_title="false"
 
 ---
 
-## JSON-LD Schema
-
-```json
+{% include hubspotform.html %}
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Bronson Jr. - Blue Merle French Bulldog Puppy",
+  "name": "{{ page.title }} — French Bulldog Puppy",
+  "description": "{{ page.description | strip_newlines | escape }}",
   "image": [
-    "https://ethicalfrenchie.com/french-bulldog-puppies/bronsonjr/bronsonjr.webp"
+    "{{ site.url }}{{ site.baseurl }}/{{ page.image }}"
   ],
-  "description": "Bronson Jr. is a curious and adventurous Blue Merle French Bulldog puppy, full of life yet affectionate and loyal. Ready now for his forever home.",
-  "sku": "bronsonjr-2025",
-  "mpn": "bronsonjr-2025",
+  "sku": "{{ page.permalink | split: '/' | last }}",
   "brand": {
     "@type": "Brand",
     "name": "Ethical Frenchie"
   },
+  "category": "Pets",
+  "color": "{{ page.color_coat | default: '' }}",
+  "gender": "{{ page.gender | default: '' }}",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "unitCode": "LBR",
+    "minValue": 22,
+    "maxValue": 27
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Vaccinations",
+      "value": "Up-to-date on DHPP"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Deworming",
+      "value": "Completed on schedule"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Veterinary Health Check",
+      "value": "Fully examined by a licensed veterinarian"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Genetic Testing",
+      "value": "Clear panel screening"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Microchip",
+      "value": "{% if page.microchipped %}Yes{% else %}No{% endif %}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "AKC Papers",
+      "value": "{% if page.akc_papers %}Yes{% else %}No{% endif %}"
+    }
+  ],
   "offers": {
     "@type": "Offer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/bronsonjr",
+    "url": "{{ site.url }}{{ page.permalink }}",
     "priceCurrency": "USD",
-    "price": "0",
-    "availability": "https://schema.org/InStock"
+    "price": "{{ page.price | default: 0 }}",
+    "availability": "https://schema.org/{% if page.status == 'available' %}InStock{% elsif page.status == 'reserved' %}PreOrder{% else %}SoldOut{% endif %}",
+    "seller": {
+      "@type": "Organization",
+      "name": "Ethical Frenchie",
+      "url": "{{ site.url }}",
+      "telephone": "+1-212-739-0182",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      }
+    }
   },
-  "species": "Canine",
-  "breed": "French Bulldog",
-  "color": "Blue Merle",
-  "gender": "Male",
-  "weight": "Estimated 22–27 lbs adult weight",
-  "age": "8 weeks"
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}"
 }
+</script>
