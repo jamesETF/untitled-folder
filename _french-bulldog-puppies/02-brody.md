@@ -3,7 +3,7 @@ title: Brody
 description: Meet Brody, our adventurous and playful Blue Merle French Bulldog puppy.
 subtitle: Blue Merle Frenchie Brody
 width: xsmall
-image: french-bulldog-puppies/brody/brody-blue-merle-french-bulldog-puppy-1.webp
+image: french-bulldog-puppies/brody/brody.webp
 topics: [Our Puppies, Blue Merle French Bulldog]
 
 navbar:
@@ -105,7 +105,7 @@ Though he’s full of life and loves to play, Brody balances it with loyalty and
 All our puppies are raised with love and care, and we work to match them with the perfect families. Please note that deposits to reserve a puppy are non-refundable; however, the deposit is transferable to a different litter in the future.  
 
 {% include image.html
-src="french-bulldog-puppies/brody/brody-blue-merle-french-bulldog-puppy-1.webp"
+src="french-bulldog-puppies/brody/brody.webp"
 alt="Brody the adventurous Blue Merle Frenchie"
 section_size="medium"
 section_padding_remove="top"
