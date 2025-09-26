@@ -1,3 +1,10 @@
-# TODO: Populate Ethical Frenchie FAQ Files
+# Sitemap Conversion TODO
 
-All 21 files (01-ethicalfrenchie.md through 21-ethicalfrenchie.md) have been populated with the specified content, including the exact frontmatter format with three dashes and the appropriate title and categories for each file.
+- [x] sitemap.xml (main sitemap index)
+- [x] sitemap-blog.xml
+- [x] sitemap-core.xml
+- [x] sitemap-faqs.xml
+- [x] sitemap-locations.xml
+- [x] sitemap-puppies.xml
+- [x] sitemap-services.xml
+- [x] sitemap-upcoming.xml

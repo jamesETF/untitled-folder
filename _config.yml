@@ -132,6 +132,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
   - jekyll-target-blank

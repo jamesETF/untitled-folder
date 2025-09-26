@@ -1,312 +1,82 @@
-<?xml version="1.0"?>
-<?mso-application progid="Excel.Sheet"?>
-<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:o="urn:schemas-microsoft-com:office:office"
- xmlns:x="urn:schemas-microsoft-com:office:excel"
- xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:html="http://www.w3.org/TR/REC-html40">
- <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Author>James A Harrison</Author>
-  <LastAuthor>James A Harrison</LastAuthor>
-  <Created>2025-09-26T01:01:21Z</Created>
-  <LastSaved>2025-09-26T01:04:42Z</LastSaved>
-  <Version>16.00</Version>
- </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG/>
- </OfficeDocumentSettings>
- <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <SupBook>
-   <Path>/Library/Application Support/Microsoft/Office365/User Content.localized/Startup/Excel/AcrobatExcelAddin.xlam</Path>
-   <SheetName>Sheet1</SheetName>
-   <Xct>
-    <Count>0</Count>
-    <SheetIndex>0</SheetIndex>
-   </Xct>
-  </SupBook>
-  <WindowHeight>16940</WindowHeight>
-  <WindowWidth>27640</WindowWidth>
-  <WindowTopX>11980</WindowTopX>
-  <WindowTopY>5900</WindowTopY>
-  <ProtectStructure>False</ProtectStructure>
-  <ProtectWindows>False</ProtectWindows>
- </ExcelWorkbook>
- <Styles>
-  <Style ss:ID="Default" ss:Name="Normal">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="12"
-    ss:Color="#000000"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
- </Styles>
- <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="82" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
-   <Row>
-    <Cell><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">&lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Location Pages - High Priority for Local SEO &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/massachusetts/Boston/&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.8&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/illinois/chicago&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.8&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/California/Los_Angeles&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.8&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/georgia/atlanta&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.8&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/northCarolina/raleigh&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.8&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/newyork/southampton&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.8&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Location Contact Pages &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/massachusetts/Boston/contact-us/&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.7&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/illinois/chicago/contact-us/&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.7&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/California/Los_Angeles/contact-us/&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.7&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Service Area Pages &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/Locations/Locations/&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;monthly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.6&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/Illinois/Chicago/french-bulldog-puppies&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;changefreq&gt;weekly&lt;/changefreq&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;priority&gt;0.7&lt;/priority&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/url&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">&lt;/urlset&gt;</Data></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <PageSetup>
-    <Header x:Margin="0.3"/>
-    <Footer x:Margin="0.3"/>
-    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
-   </PageSetup>
-   <Selected/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <RangeSelection>R1C1:R82C1</RangeSelection>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
-</Workbook>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Location Pages - High Priority for Local SEO -->
+  <url>
+    <loc>https://ethicalfrenchie.com/massachusetts/Boston/</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/illinois/chicago</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/California/Los_Angeles</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/georgia/atlanta</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/northCarolina/raleigh</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/newyork/southampton</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Location Contact Pages -->
+  <url>
+    <loc>https://ethicalfrenchie.com/massachusetts/Boston/contact-us/</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/illinois/chicago/contact-us/</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/California/Los_Angeles/contact-us/</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Service Area Pages -->
+  <url>
+    <loc>https://ethicalfrenchie.com/Locations/Locations/</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethicalfrenchie.com/Illinois/Chicago/french-bulldog-puppies</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

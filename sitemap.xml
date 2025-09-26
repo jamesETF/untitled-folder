@@ -1,198 +1,44 @@
-<?xml version="1.0"?>
-<?mso-application progid="Excel.Sheet"?>
-<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:o="urn:schemas-microsoft-com:office:office"
- xmlns:x="urn:schemas-microsoft-com:office:excel"
- xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:html="http://www.w3.org/TR/REC-html40">
- <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Author>James A Harrison</Author>
-  <LastAuthor>James A Harrison</LastAuthor>
-  <Created>2025-09-26T01:01:21Z</Created>
-  <LastSaved>2025-09-26T01:01:42Z</LastSaved>
-  <Version>16.00</Version>
- </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG/>
- </OfficeDocumentSettings>
- <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <SupBook>
-   <Path>/Library/Application Support/Microsoft/Office365/User Content.localized/Startup/Excel/AcrobatExcelAddin.xlam</Path>
-   <SheetName>Sheet1</SheetName>
-   <Xct>
-    <Count>0</Count>
-    <SheetIndex>0</SheetIndex>
-   </Xct>
-  </SupBook>
-  <WindowHeight>16940</WindowHeight>
-  <WindowWidth>27640</WindowWidth>
-  <WindowTopX>11980</WindowTopX>
-  <WindowTopY>5900</WindowTopY>
-  <ProtectStructure>False</ProtectStructure>
-  <ProtectWindows>False</ProtectWindows>
- </ExcelWorkbook>
- <Styles>
-  <Style ss:ID="Default" ss:Name="Normal">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="12"
-    ss:Color="#000000"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
- </Styles>
- <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="44" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
-   <Row>
-    <Cell><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">&lt;sitemapindex xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Core Business Pages - Highest Priority &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-core.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Available Puppies - High Priority, Updated Daily &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-puppies.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Location Pages - High Priority for Local SEO &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-locations.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Upcoming Colors - High Priority for Pre-Orders &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-upcoming.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Blog Content - Good for SEO &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-blog.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- FAQ Pages &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-faqs.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  </Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;!&#45;- Service &amp; Support Pages &#45;-&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;loc&gt;https://ethicalfrenchie.com/sitemap-services.xml&lt;/loc&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">    &lt;lastmod&gt;2025-09-26T00:08:03+00:00&lt;/lastmod&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">  &lt;/sitemap&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">&lt;/sitemapindex&gt;</Data></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <PageSetup>
-    <Header x:Margin="0.3"/>
-    <Footer x:Margin="0.3"/>
-    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
-   </PageSetup>
-   <Selected/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <RangeSelection>R1C1:R44C1</RangeSelection>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
-</Workbook>
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Business Pages - Highest Priority -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-core.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Available Puppies - High Priority, Updated Daily -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-puppies.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Location Pages - High Priority for Local SEO -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-locations.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Upcoming Colors - High Priority for Pre-Orders -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-upcoming.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Blog Content - Good for SEO -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-blog.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+  
+  <!-- FAQ Pages -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-faqs.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+  
+  <!-- Service & Support Pages -->
+  <sitemap>
+    <loc>https://ethicalfrenchie.com/sitemap-services.xml</loc>
+    <lastmod>2025-09-26T00:08:03+00:00</lastmod>
+  </sitemap>
+</sitemapindex>
