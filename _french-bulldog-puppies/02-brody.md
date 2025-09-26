@@ -44,7 +44,7 @@ last_modified_at: 2025-09-25
 
 {% include gallery.html
 grid="1-2"
-gallery="french-bulldog-puppies/brody/"
+gallery="uploads/french-bulldog-puppies/brody/"
 caption="true"
 lightbox="true"
 section_size="large"
