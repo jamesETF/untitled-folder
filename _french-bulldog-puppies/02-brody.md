@@ -31,7 +31,7 @@ color_coat: Blue Merle
 age_weeks: 8
 dob: 2025-07-30
 ready_date: 2025-09-25
-estimated_adult_weight_lbs: "18–22"
+estimated_adult_weight_lbs: "18—22"
 price: 0
 status: available
 microchipped: true
@@ -60,9 +60,9 @@ section_size="large"
 
 Meet Brody!  
 
-Brody is the explorer of his litter—always curious, always ready to check out something new. With his striking Blue Merle coat and bright eyes, he has the look of a pup who’s already planning his next little adventure. Whether it’s following a leaf in the breeze or sniffing out the best sunny spot in the yard, Brody’s playful spirit makes him the kind of puppy that brings energy and joy to every moment.  
+Brody is the explorer of his litter—always curious, always ready to check out something new. With his striking Blue Merle coat and bright eyes, he has the look of a pup who's already planning his next little adventure. Whether it's following a leaf in the breeze or sniffing out the best sunny spot in the yard, Brody's playful spirit makes him the kind of puppy that brings energy and joy to every moment.  
 
-Though he’s full of life and loves to play, Brody balances it with loyalty and affection. After an afternoon of exploring, he’s happiest curling up in your lap for a nap, reminding you he’s just as cuddly as he is bold. For families who want a companion with both spark and sweetness, Brody is a perfect fit.  
+Though he's full of life and loves to play, Brody balances it with loyalty and affection. After an afternoon of exploring, he's happiest curling up in your lap for a nap, reminding you he's just as cuddly as he is bold. For families who want a companion with both spark and sweetness, Brody is a perfect fit.  
 
 ## Brody's Details
 
@@ -72,7 +72,7 @@ Though he’s full of life and loves to play, Brody balances it with loyalty and
 | Gender          | Male                                         |
 | Color/Coat      | Blue Merle                                   |
 | Age             | 8 weeks (ready now)                          |
-| Size            | Small breed, estimated adult weight 18–22 lbs |
+| Size            | Small breed, estimated adult weight 18—22 lbs |
 
 
 ## Health & Vaccinations
@@ -149,7 +149,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle" },
     { "@type": "PropertyValue", "name": "Age", "value": "8 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "18–22 lbs" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "18—22 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
