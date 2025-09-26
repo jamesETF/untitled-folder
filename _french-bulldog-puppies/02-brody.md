@@ -44,11 +44,11 @@ last_modified_at: 2025-09-25
 
 {% include gallery.html
 grid="1-2"
-gallery="uploads/french-bulldog-puppies/brody/"
+gallery="french-bulldog-puppies/brody/"
 caption="true"
 lightbox="true"
 section_size="large"
-%}
+%} 
 
 <center><a class="uk-button uk-button-danger uk-border-pill uk-button-xlarge my-border-rounded" href="tel:212-739-0182">
     <span data-uk-icon="phone" class="uk-icon">
