@@ -26,7 +26,7 @@ hubspotneeded: true
 chat: true
 
 # — Schema + SEO/Listing Triggers —
-gender: Male
+gender: Female
 color_coat: Tri Merle
 eye_color: Deep Blue (permanent)
 age_weeks: 8
@@ -60,16 +60,16 @@ section_size="large"
 
 Meet Glacier!
 
-Glacier is a showstopper—**tri merle** coat with **deep sky-blue eyes** that will *stay blue forever*. He’s the first to greet you, tail doing a happy wiggle, then he’s off to check on everyone else like the little hall monitor of the group. He’s passionate about people, gentle with smaller buddies, and has a gift for getting along with absolutely everyone. There’s no drama with this boy—just play bows, soft nose boops, and the occasional proud prance when he finds a new favorite toy.
+Glacier is a showstopper—**tri merle** coat with **deep sky-blue eyes** that will *stay blue forever*. She's the first to greet you, tail doing a happy wiggle, then she's off to check on everyone else like the little hall monitor of the group. She's passionate about people, gentle with smaller buddies, and has a gift for getting along with absolutely everyone. There's no drama with this girl—just play bows, soft nose boops, and the occasional proud prance when she finds a new favorite toy.
 
-He’s the perfect match for a family that wants a puppy with sparkle and sweetness: playful when you’re up for it, content to curl in your lap when the day winds down.
+She's the perfect match for a family that wants a puppy with sparkle and sweetness: playful when you're up for it, content to curl in your lap when the day winds down.
 
 ## Glacier’s Details
 
 | Attribute  | Description                               |
 |-----------|-------------------------------------------|
 | Breed     | French Bulldog                            |
-| Gender    | Male                                      |
+| Gender    | Female                                    |
 | Color     | Tri Merle                                 |
 | Eyes      | Deep Blue (will remain blue)              |
 | Age       | 8 weeks (ready now)                       |
@@ -144,7 +144,7 @@ block_title="false"
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Tri Merle" },
     { "@type": "PropertyValue", "name": "Eye Color", "value": "Deep Blue (permanent)" },
     { "@type": "PropertyValue", "name": "Age", "value": "8 weeks" },

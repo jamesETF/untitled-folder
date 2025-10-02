@@ -10,3 +10,10 @@ node_modules/
 npm-debug.log*
 .npm
 .DS_Store
+
+# Benchmark tool
+benchmark-website.js
+benchmark-*.md
+benchmark-*.json
+lighthouse-benchmark.js
+lighthouse-report*
