@@ -3,7 +3,7 @@ title: Glacier
 description: Meet Glacier, our rare Tri Merle French Bulldog puppy with deep blue eyes that will stay blue forever—friendly, passionate, and great with everyone.
 subtitle: Tri Merle Frenchie Glacier (Forever Blue Eyes)
 width: xsmall
-image: french-bulldog-puppies/glacier/glacier.webp
+image: french-bulldog-puppies/glacier/glacier-tri-merle-blue-eyes-french-bulldog-puppy-4.webp
 topics: [Our Puppies, Tri Merle French Bulldog, Blue Eyes]
 
 navbar:
@@ -101,7 +101,7 @@ She's the perfect match for a family that wants a puppy with sparkle and sweetne
 All our puppies are raised with love and care. Deposits to reserve a puppy are non-refundable, but transferable to a future litter.
 
 {% include image.html
-src="french-bulldog-puppies/glacier/glacier-tri-merle-blue-eyes-french-bulldog-puppy-1.webp"
+src="french-bulldog-puppies/glacier/glacier-tri-merle-blue-eyes-french-bulldog-puppy-4.webp"
 alt="Glacier — tri merle French Bulldog puppy with deep blue eyes"
 section_size="medium"
 section_padding_remove="top"
