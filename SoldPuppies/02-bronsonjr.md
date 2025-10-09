@@ -15,7 +15,7 @@ dob: 2025-07-15
 ready_date: 2025-09-10
 estimated_adult_weight_lbs: "22–27"
 price: 0
-status: available
+status: sold
 microchipped: true
 akc_papers: true
 location: New York, NY

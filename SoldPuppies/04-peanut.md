@@ -6,6 +6,21 @@ width: xsmall
 image: french-bulldog-puppies/peanut/peanut.webp
 topics: [Our Puppies, Isabella French Bulldog]
 date: 2025-09-25
+
+# — Schema + SEO/Listing Triggers —
+gender: Male
+color_coat: Isabella
+age_weeks: 8
+dob: 2025-07-30
+ready_date: 2025-09-25
+estimated_adult_weight_lbs: "20–25"
+price: 0
+status: sold
+microchipped: true
+akc_papers: true
+location: New York, NY
+last_modified_at: 2025-09-25
+
 navbar:
  sticky: true
  scroll_up: true
@@ -135,7 +150,7 @@ block_title="false"
     "url": "https://ethicalfrenchie.com/french-bulldog-puppies/peanut",
     "priceCurrency": "USD",
     "price": "0",
-    "availability": "https://schema.org/InStock"
+    "availability": "https://schema.org/SoldOut"
   }
 }
 </script>
