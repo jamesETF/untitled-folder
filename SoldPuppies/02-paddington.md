@@ -33,7 +33,7 @@ dob: 2025-07-30           # update with exact DOB if known
 ready_date: 2025-09-25    # update if needed
 estimated_adult_weight_lbs: "20–25"
 price: 0
-status: available
+status: sold
 microchipped: true
 akc_papers: true
 location: New York, NY
@@ -158,7 +158,7 @@ block_title="false"
     "url": "https://ethicalfrenchie.com/french-bulldog-puppies/paddington",
     "priceCurrency": "USD",
     "price": "0",
-    "availability": "https://schema.org/InStock"
+    "availability": "https://schema.org/SoldOut"
   }
 }
 </script>
