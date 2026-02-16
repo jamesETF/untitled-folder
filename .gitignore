@@ -17,3 +17,8 @@ benchmark-*.md
 benchmark-*.json
 lighthouse-benchmark.js
 lighthouse-report*
+
+# Claude/Cowork memory & project management
+CLAUDE.md
+memory/
+.claude/

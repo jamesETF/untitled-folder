@@ -4,60 +4,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
+    {% include hook-head.html %}
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
     <meta name="msvalidate.01" content="1D11DCA26719774DEE0E543E506EE8C5" />
-    {% include omnisend.html %}
-    {% if page.chicago %}
-    {% elsif page.LA %}
-    {% else %}
-    {% endif %}
     {% if page.applechat %}
-    <script src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
+    <script defer src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
     {% endif %}
-    <!-- start of haymarket -->
-<script type='text/javascript'>
-(function(_a,id,a,_) {
-  function Modal(){
-    var h = a.createElement('script'); h.type = 'text/javascript'; h.async = true;
-    var e = id; h.src = e+(e.indexOf("?")>=0?"&":"?")+'ref='+_;
-    var y = a.getElementsByTagName('script')[0]; y.parentNode.insertBefore(h, y);
-    h.onload = h.onreadystatechange = function() {
-      var r = this.readyState; if (r && r != 'complete' && r != 'loaded') return;
-      try { HeymarketWidget.construct(_); } catch (e) {}
-    };
-  };
-  (_a.attachEvent ? _a.attachEvent('onload', Modal) : _a.addEventListener('load', Modal, false));
-})(window,'https://widget.heymarket.com/heymk-widget.bundle.js',document,{
-  CLIENT_ID: "Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3"
-});
-</script>
-    <!-- End of Haymarket -->
-  
-     
-    {% if page.chicago %}
-    {% elsif page.LA %}
-    {% else %}
-    {% endif %}
- 
-
 
     {% include schema.html %}
 
-       {% seo %}
+    {% seo %}
     <!-- Twitter cards -->
     <meta name="twitter:site"    content="@ethicalfrenchie">
     <meta name="twitter:creator" content="@{{ page.author }}">
     <meta name="twitter:title"   content="{{ page.title }}">
-       
     {% if page.summary %}
     <meta name="twitter:description" content="{{ page.summary }}">
     {% else %}
     <meta name="twitter:description" content="{{ page.description }}">
     {% endif %}
-        
     {% if page.image %}
     <meta name="twitter:card"  content="{{ page.summary }}">
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
@@ -66,5 +34,4 @@
     <meta name="twitter:image" content="{{ site.title_image }}">
     {% endif %}
     <!-- end of Twitter cards -->
-       </head>
-  
+</head>

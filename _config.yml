@@ -90,7 +90,7 @@ google_maps_api_key:    AIzaSyBWpK890qcen1qMLVH6GUpBKegBZUXWCHo # Google maps AP
 disqus:
   shortname:            # https-ethicalfrenchie-com.disqus.com
 
-instagram_accesstoken:  9550633131.1677ed0.71683616f6b54a89b565f76872ee0dd1
+instagram_accesstoken:  # REMOVED — token expired (from 2019), instafetch.js is dead weight
 
 donations:
   paypal:
@@ -157,7 +157,7 @@ exclude:
   - /docs
 
 sass:
-  style:                nested
+  style:                compressed
 
 # collections:
 collections:
