@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
     {% include hook-head.html %}
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
     {% if page.header.background_image %}<link rel="preload" as="image" href="{{ site.uploads | absolute_url }}{{ page.header.background_image }}">{% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
