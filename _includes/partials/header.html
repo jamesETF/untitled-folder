@@ -47,6 +47,46 @@
 {% else %}
   {% assign background_image = page.header.background_image %}
 {% endif %}
+{% if sticky %}
+  <div id="sticky-nav" style="position: sticky; top: 0; z-index: 980; transition: transform 0.3s ease;">
+    <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+      {% if site.navbar.layout == 'center' %}
+        {% include partials/navbar-center.html %}
+      {% else %}
+        {% include partials/navbar-default.html %}
+      {% endif %}
+    </nav>
+  </div>
+  <script>
+  (function(){
+    var nav=document.getElementById('sticky-nav'),lastY=0,ticking=false;
+    if(!nav)return;
+    window.addEventListener('scroll',function(){
+      if(!ticking){
+        requestAnimationFrame(function(){
+          var y=window.scrollY;
+          if(y>nav.offsetHeight){
+            nav.style.transform=y>lastY?'translateY(-100%)':'';
+          }else{
+            nav.style.transform='';
+          }
+          lastY=y;
+          ticking=false;
+        });
+        ticking=true;
+      }
+    },{passive:true});
+  })();
+  </script>
+{% else %}
+  <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+    {% if site.navbar.layout == 'center' %}
+      {% include partials/navbar-center.html %}
+    {% else %}
+      {% include partials/navbar-default.html %}
+    {% endif %}
+  </nav>
+{% endif %}
 <div class="uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="min-height: 60vh;{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
   {%- if page.header.background_video -%}
   <div class="uk-position-cover uk-cover-container">
@@ -56,26 +96,6 @@
   </div>
   {%- endif -%}
   <div class="uk-position-cover" style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
-
-  {% if sticky %}
-    <div data-uk-sticky="{% if scroll_up %}show-on-up: true; {% endif %}{% if animation %}animation: uk-animation-slide-top; top: 200; {% endif %}sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky navbar-background uk-{{ color | default: 'dark' }}; cls-inactive: {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
-      <nav class="uk-navbar-container">
-        {% if site.navbar.layout == 'center' %}
-          {% include partials/navbar-center.html %}
-        {% else %}
-          {% include partials/navbar-default.html %}
-        {% endif %}
-      </nav>
-    </div>
-  {% else %}
-    <nav class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
-      {% if site.navbar.layout == 'center' %}
-        {% include partials/navbar-center.html %}
-      {% else %}
-        {% include partials/navbar-default.html %}
-      {% endif %}
-    </nav>
-  {% endif %}
 
   {% if page.header %}
   <div class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport="offset-top: true"{% endif %}>

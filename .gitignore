@@ -18,6 +18,9 @@ benchmark-*.json
 lighthouse-benchmark.js
 lighthouse-report*
 
+# Playwright automation artifacts
+.playwright-mcp/
+
 # Claude/Cowork memory & project management
 CLAUDE.md
 memory/
