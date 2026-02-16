@@ -1,5 +1,4 @@
 <head>
-    {% include google-analytics.html %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +6,9 @@
     {% include hook-head.html %}
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" media="print" onload="this.media='all'">
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
+    {% if page.header.background_image %}<link rel="preload" as="image" href="{{ site.uploads | absolute_url }}{{ page.header.background_image }}">{% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-    <script async src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+
     <meta name="msvalidate.01" content="1D11DCA26719774DEE0E543E506EE8C5" />
     {% if page.applechat %}
     <script defer src="https://static.cdn-apple.com/businesschat/start-chat-button/2/index.js"></script>
