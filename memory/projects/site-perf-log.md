@@ -766,16 +766,388 @@ The specific change in `_includes/partials/header.html` lines 60-69:
 
 ---
 
-## Session 5 — [DATE]
+## Session 5 — Feb 16, 2026 (evening)
 
-### Pick Up Here
+### What We Did (3 phases of iteration)
 
-1. **Implement CSS `position: sticky` fix** (see "Consensus / Recommendation" above for exact before/after code)
-2. **Test locally** (`bundle exec jekyll serve`) — verify nav sticks, no visual breaks
-3. **Run Lighthouse locally** and on Netlify branch deploy
-4. **Commit docs/** (design doc + implementation plan — currently untracked)
-5. **Add `.playwright-mcp/` to `.gitignore`**
-6. **Present final results to James** with merge recommendation
-7. **Merge to master only with explicit James approval**
+#### Phase 1: Simple in-place CSS sticky (FAILED — sticky trapped in hero)
+
+Replaced `data-uk-sticky` with `position: sticky` on the same div (still inside hero container):
+- CLS eliminated (zero `uk-sticky-placeholder` elements)
+- **Problem:** `position: sticky` only works within its parent container. The nav is inside the hero div (~855px tall). Once user scrolls past hero, nav disappears and never comes back.
+- Agent 2 tested in Chrome DevTools and confirmed: on the live site, UIkit uses `position: fixed` (not `sticky`) via JS to show the nav on scroll-up from anywhere. That JS creates the placeholder div = CLS source.
+
+#### Phase 2: Structural fix — move nav outside hero container
+
+Moved the entire nav block (both sticky and non-sticky branches) from INSIDE the hero container to BEFORE it. This made `position: sticky` apply against the full page body.
+- Nav now sticks permanently at top of page on all scroll positions
+- **But:** James asked "is there a way to preserve the show-on-up animation without JS?" → No, CSS can't detect scroll direction.
+- James asked about the JS size → UIkit's full bundle is ~210KB; a custom scroll detector would be ~500 bytes.
+- **Decision:** Add ~500 byte inline JS for show-on-up behavior.
+
+#### Phase 3: Final implementation — CSS sticky + inline show-on-up JS (CURRENT)
+
+Combined approach:
+- `position: sticky; top: 0` keeps nav in document flow (zero CLS — no placeholder divs)
+- ~500 byte inline JS detects scroll direction via `requestAnimationFrame` + `passive: true` listener
+- Scroll down → `transform: translateY(-100%)` with `transition: 0.3s ease` (slides nav up)
+- Scroll up → `transform: translateY(0)` (slides nav back down)
+- If JS fails → nav just stays permanently visible (graceful degradation)
+
+Also fixed:
+- **Removed transparent nav logic** from the non-sticky `{% else %}` branch — was causing unreadable nav text on blog posts (white text on light backgrounds)
+- **Added `sticky: true`** to `_config.yml` `_posts` defaults (line 189) — blog posts were missing this, so they hit the non-sticky branch and had no sticky nav at all
+
+#### Agent 2 test results (all pages)
+
+| Test | Homepage | Blog Posts | Other Pages |
+|------|----------|------------|-------------|
+| Nav visible at top | PASS | PASS | PASS |
+| Scroll down → nav hides | PASS | PASS | PASS |
+| Scroll up → nav reappears | PASS | PASS | PASS |
+| `uk-sticky-placeholder` count = 0 | PASS | PASS | PASS |
+| `data-uk-sticky` count = 0 | PASS | PASS | PASS |
+| No JS console errors | PASS | PASS | PASS |
+
+### Files Modified This Session
+
+1. **`_includes/partials/header.html`** — nav moved outside hero container, UIkit `data-uk-sticky` replaced with CSS `position: sticky` + inline show-on-up JS, transparent nav logic removed from non-sticky branch
+2. **`_config.yml`** — added `sticky: true` to `_posts` navbar defaults (line 189)
+3. **`.gitignore`** — added `.playwright-mcp/`
+4. **`memory/projects/site-perf-log.md`** — this file
+
+### Current File States
+
+**`_includes/partials/header.html` (full file — 189 lines):**
+```html
+{% if page.navbar.transparent_color %}
+  {% assign transparent_color = page.navbar.transparent_color %}
+{% else %}
+  {% assign transparent_color = site.navbar.color %}
+{% endif %}
+
+{% if page.navbar.color %}
+  {% assign color = page.navbar.color %}
+{% else %}
+  {% assign color = site.navbar.color %}
+{% endif %}
+
+{% if page.navbar.sticky == true %}
+  {% assign sticky = true %}
+{% elsif page.navbar.sticky != false %}
+  {% if site.navbar.sticky %}
+    {% assign sticky = true %}
+  {% else %}
+    {% assign sticky = false %}
+  {% endif %}
+{% endif %}
+
+{% if page.navbar.scroll_up %}
+  {% assign scroll_up = true %}
+{% elsif page.navbar.scroll_up != false %}
+  {% if site.navbar.scroll_up %}
+    {% assign scroll_up = true %}
+  {% else %}
+    {% assign scroll_up = false %}
+  {% endif %}
+{% endif %}
+
+{% if page.navbar.animation %}
+  {% assign animation = true %}
+{% elsif page.navbar.animation != false %}
+  {% if site.navbar.animation %}
+    {% assign animation = true %}
+  {% else %}
+    {% assign animation = false %}
+  {% endif %}
+{% endif %}
+
+{% if page.layout =='post' and page.header.background_image %}
+  {% assign background_image = page.header.background_image %}
+{% elsif page.layout =='post' and page.image %}
+  {% assign background_image = page.image %}
+{% else %}
+  {% assign background_image = page.header.background_image %}
+{% endif %}
+{% if sticky %}
+  <div id="sticky-nav" style="position: sticky; top: 0; z-index: 980; transition: transform 0.3s ease;">
+    <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+      {% if site.navbar.layout == 'center' %}
+        {% include partials/navbar-center.html %}
+      {% else %}
+        {% include partials/navbar-default.html %}
+      {% endif %}
+    </nav>
+  </div>
+  <script>
+  (function(){
+    var nav=document.getElementById('sticky-nav'),lastY=0,ticking=false;
+    if(!nav)return;
+    window.addEventListener('scroll',function(){
+      if(!ticking){
+        requestAnimationFrame(function(){
+          var y=window.scrollY;
+          if(y>nav.offsetHeight){
+            nav.style.transform=y>lastY?'translateY(-100%)':'';
+          }else{
+            nav.style.transform='';
+          }
+          lastY=y;
+          ticking=false;
+        });
+        ticking=true;
+      }
+    },{passive:true});
+  })();
+  </script>
+{% else %}
+  <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+    {% if site.navbar.layout == 'center' %}
+      {% include partials/navbar-center.html %}
+    {% else %}
+      {% include partials/navbar-default.html %}
+    {% endif %}
+  </nav>
+{% endif %}
+<div class="uk-position-relative{% if background_image %} ...background-cover...{% endif %}" style="min-height: 60vh;...">
+  ... (video, overlay, hero content — unchanged from Session 4)
+</div>
+```
+
+**`_config.yml` change (lines 188-191):**
+```yaml
+      navbar:
+        sticky:             true    # ← ADDED this line (was missing, blog posts had no sticky nav)
+        transparent:        true
+        transparent_color:  light
+```
+
+**`.gitignore` addition:**
+```
+# Playwright automation artifacts
+.playwright-mcp/
+```
+
+### Rollback Instructions
+
+**Rollback to Session 4 state (before ANY Session 5 changes):**
+```bash
+git checkout -- _includes/partials/header.html _config.yml .gitignore
+```
+This restores all three files to their last committed state (commit `e9f9f9e`).
+
+**Rollback to Phase 2 only (structural move, no JS):**
+Remove the `<script>...</script>` block (lines 60-80) from header.html and remove `transition: transform 0.3s ease;` from the sticky div style. Nav will be permanently visible (no show-on-up animation).
+
+**Rollback to Phase 1 only (sticky inside hero):**
+Move the nav block back inside the hero container div (after line 98, the overlay div). Nav will only stick within the hero section.
+
+### Status at End of Session 5
+
+**Branch:** `phase1/performance-fixes`
+**Last commit:** `e9f9f9e` (Session 4 notes)
+**Uncommitted changes:**
+- `_includes/partials/header.html` (nav restructured + show-on-up JS)
+- `_config.yml` (blog post sticky fix)
+- `.gitignore` (playwright-mcp)
+- `memory/projects/site-perf-log.md` (this file)
+- `docs/` folder (untracked — design doc + implementation plan from Session 4)
+
+**Locally tested:** Agent 2 verified homepage, blog posts, and other pages. All pass.
+**NOT YET committed or pushed.**
+
+**Netlify branch deploy:** Still showing Session 4 code (commit `e9f9f9e`)
+**Expected scores after deploy:** CLS 0.394 → ~0.01 (near zero), Perf 77 → 85+
+
+### Pick Up Here (Session 6)
+
+1. **Commit and push all Session 5 changes** to `phase1/performance-fixes`
+   ```bash
+   git add _includes/partials/header.html _config.yml .gitignore docs/ && git commit -m "Replace UIkit sticky with CSS sticky + show-on-up JS, fix blog nav, remove transparent nav" && git push origin phase1/performance-fixes
+   ```
+2. **Wait for Netlify branch deploy** at `https://phase1-performance-fixes--ethicalfrenchie.netlify.app`
+3. **Test on branch deploy** — Agent 2 Chrome testing (sticky behavior, show-on-up, no CLS)
+4. **Run Lighthouse** on branch deploy URL — compare CLS and Perf scores
+5. **Present results to James** for merge approval
+6. **DO NOT merge to master without explicit approval**
+    </div>
+  {% else %}
+    <nav class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+      {% if site.navbar.layout == 'center' %}
+        {% include partials/navbar-center.html %}
+      {% else %}
+        {% include partials/navbar-default.html %}
+      {% endif %}
+    </nav>
+  {% endif %}                                                       ← LINE 78: nav END
+
+  {% if page.header %}...{% endif %}                                ← LINES 80-168: hero content
+</div>                                                              ← LINE 169: hero container CLOSE
+```
+
+**AFTER (proposed):**
+```html
+{% comment %} Lines 1-49: variable assignments (unchanged) {% endcomment %}
+
+{% if sticky %}                                                     ← NAV BLOCK MOVED OUTSIDE hero
+  <div style="position: sticky; top: 0; z-index: 980;">
+    <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+      {% if site.navbar.layout == 'center' %}
+        {% include partials/navbar-center.html %}
+      {% else %}
+        {% include partials/navbar-default.html %}
+      {% endif %}
+    </nav>
+  </div>
+{% else %}
+  <nav class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+    {% if site.navbar.layout == 'center' %}
+      {% include partials/navbar-center.html %}
+    {% else %}
+      {% include partials/navbar-default.html %}
+    {% endif %}
+  </nav>
+{% endif %}
+
+<div class="uk-position-relative..." style="min-height: 60vh;...">  ← hero container OPEN (no nav inside)
+  {%- if page.header.background_video -%}...{%- endif -%}
+  <div class="uk-position-cover" style="..."></div>
+
+  {% if page.header %}...{% endif %}                                ← hero content
+</div>                                                              ← hero container CLOSE
+```
+
+**What changed:**
+- Lines 60-78 (nav block with both sticky and non-sticky branches) moved from INSIDE the hero container to BEFORE the hero container
+- Hero container div (line 50) no longer contains the nav
+- Everything else unchanged
+
+**Expected behavior:**
+- Nav renders above the hero with solid white background (same as current visual)
+- `position: sticky; top: 0` now applies to the BODY as containing block, not the hero
+- Nav stays pinned at top on ALL scroll positions, not just within the hero
+- Zero `uk-sticky-placeholder` → zero CLS
+- Zero additional JS
+
+**Trade-offs:**
+- The hero's `min-height: 60vh` previously included the nav's ~80px height. Now the hero is 60vh on its own, so total above-the-fold height is slightly taller (~80px more). This is cosmetic and may not even be noticeable.
+- The non-sticky branch (`{% else %}`) nav also moves outside the hero. On pages without sticky nav, the nav sits above the hero instead of overlapping it. Since the nav has a solid background already, this is visually the same.
+
+### Rollback Instructions
+
+If this change causes visual or functional issues:
+
+**Quick rollback (revert to Phase 1 attempt — sticky inside hero):**
+Move lines 60-78 back inside the hero container, after line 58 (the overlay div). The nav goes back to being a child of the hero div. Sticky will only work within the hero section, but CLS is still fixed.
+
+**Full rollback (revert to original UIkit sticky):**
+Replace the nav block with the original UIkit `data-uk-sticky` code:
+```html
+  {% if sticky %}
+    <div data-uk-sticky="{% if scroll_up %}show-on-up: true; {% endif %}{% if animation %}animation: uk-animation-slide-top; top: 200; {% endif %}sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky navbar-background uk-{{ color | default: 'dark' }}; cls-inactive: {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+      <nav class="uk-navbar-container">
+        {% if site.navbar.layout == 'center' %}
+          {% include partials/navbar-center.html %}
+        {% else %}
+          {% include partials/navbar-default.html %}
+        {% endif %}
+      </nav>
+    </div>
+  {% else %}
+    <nav class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+      {% if site.navbar.layout == 'center' %}
+        {% include partials/navbar-center.html %}
+      {% else %}
+        {% include partials/navbar-default.html %}
+      {% endif %}
+    </nav>
+  {% endif %}
+```
+Place this back INSIDE the hero container div (after the overlay div on line 58). This restores the original UIkit behavior including show-on-up and the CLS-causing placeholder.
+
+#### Phase 3: Add lightweight show-on-up JS (~500 bytes)
+
+James asked: "is there a way to preserve [the slide animation] without JS?" Answer: No — CSS can't detect scroll direction. James then asked about the size of UIkit's JS and if it could be made more efficient.
+
+**Solution:** Keep `position: sticky` as the base (zero CLS — nav stays in document flow). Add ~15 lines of inline vanilla JS that:
+- Tracks scroll direction via `requestAnimationFrame` + `passive: true` listener (zero scroll jank)
+- Scroll down past nav height → `transform: translateY(-100%)` (slides nav up out of view)
+- Scroll up → `transform: translateY(0)` (slides nav back into view)
+- `transition: transform 0.3s ease` handles the smooth animation
+- If JS fails, nav just stays permanently visible (graceful degradation)
+
+**Why this doesn't cause CLS:** No DOM elements are created or removed. No placeholder divs. The nav stays `position: sticky` in document flow always. Only `transform` changes, which is a compositor-only property — doesn't trigger layout or paint.
+
+**Also fixed:** Removed `uk-navbar-transparent` conditional from the non-sticky `{% else %}` branch. James noticed that transparent navs on blog posts made the nav text unreadable — clearly an existing bug, not an intentional design choice. Both sticky and non-sticky branches now use solid `navbar-background` consistently.
+
+### Final Implementation (header.html lines 50-81)
+
+```html
+{% if sticky %}
+  <div id="sticky-nav" style="position: sticky; top: 0; z-index: 980; transition: transform 0.3s ease;">
+    <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+      {% if site.navbar.layout == 'center' %}
+        {% include partials/navbar-center.html %}
+      {% else %}
+        {% include partials/navbar-default.html %}
+      {% endif %}
+    </nav>
+  </div>
+  <script>
+  (function(){
+    var nav=document.getElementById('sticky-nav'),lastY=0,ticking=false;
+    if(!nav)return;
+    window.addEventListener('scroll',function(){
+      if(!ticking){
+        requestAnimationFrame(function(){
+          var y=window.scrollY;
+          if(y>nav.offsetHeight){
+            nav.style.transform=y>lastY?'translateY(-100%)':'';
+          }else{
+            nav.style.transform='';
+          }
+          lastY=y;
+          ticking=false;
+        });
+        ticking=true;
+      }
+    },{passive:true});
+  })();
+  </script>
+{% else %}
+  <nav class="uk-navbar-container navbar-background uk-{{ color | default: 'dark' }}">
+    {% if site.navbar.layout == 'center' %}
+      {% include partials/navbar-center.html %}
+    {% else %}
+      {% include partials/navbar-default.html %}
+    {% endif %}
+  </nav>
+{% endif %}
+```
+
+### Summary of ALL changes in header.html (Session 5)
+
+1. **Removed `data-uk-sticky` attribute** — eliminates `uk-sticky-placeholder` div (CLS source)
+2. **Moved nav block OUTSIDE hero container** — `position: sticky` now applies to full page
+3. **Added `id="sticky-nav"` and `transition: transform 0.3s ease`** to sticky wrapper
+4. **Added inline scroll-direction JS** (~500 bytes) — toggles `translateY(-100%)` for show-on-up
+5. **Removed transparent nav logic** from non-sticky branch — was causing unreadable nav on blog posts
+6. **Added `navbar-background uk-{{ color }}` to both branches** — consistent solid background
+
+### Other Changes This Session
+- Added `.playwright-mcp/` to `.gitignore`
+- `docs/` still untracked (to be committed with this change)
+
+### Rollback Instructions
+
+**Quick rollback (revert all Session 5 changes):**
+All changes are uncommitted on `phase1/performance-fixes`. Run:
+```bash
+git checkout -- _includes/partials/header.html .gitignore
+```
+This restores both files to their last committed state (Session 4).
+
+**Full rollback (revert to original UIkit sticky):**
+See "Full rollback" section earlier in this Session 5 entry — has the exact original `data-uk-sticky` code to paste back into the hero container.
 
 _Next session starts here_

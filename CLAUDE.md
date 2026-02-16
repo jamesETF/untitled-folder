@@ -1,11 +1,11 @@
 # CURRENT STATE
 
-**Branch:** `phase1/performance-fixes` (NOT merged to master — awaiting CSS sticky fix + James's approval)
-**Doing:** One more CLS fix (replace UIkit `data-uk-sticky` with CSS `position: sticky`), then merge
+**Branch:** `phase1/performance-fixes` (NOT merged to master — awaiting Netlify deploy test + James's approval)
+**Doing:** Session 5 changes are UNCOMMITTED locally. Need to commit, push, test on Netlify branch deploy, then present for merge.
 **Local test:** `bundle exec jekyll serve` (URL-bound 3rd-party scripts won't load on localhost)
 **DO NOT** start Astro/Pawstronaut migration yet — that comes after perf work is done
 
-→ **Read first each session:** memory/projects/site-perf-log.md (Session 4 continued has full context + exact code)
+→ **Read first each session:** memory/projects/site-perf-log.md (Session 5 has full context, file states, and rollback instructions)
 → Full research: memory/projects/site-perf-optimization.md
 → Company context: memory/context/company.md
 
@@ -13,12 +13,13 @@
 
 | When | Perf | LCP | CLS | SEO | Key Change |
 |------|------|-----|-----|-----|------------|
-| **Phase 2 branch (normal CSS)** | **77** | **2.8s** | **0.394** | **100** | **Scripts deferred, CSS normal, hero preload** |
+| **Session 5 (local, not deployed)** | **TBD** | **TBD** | **~0.01** | **TBD** | **Sticky nav fix + show-on-up JS (Agent 2 verified zero CLS locally)** |
+| Phase 2 branch (normal CSS) | 77 | 2.8s | 0.394 | 100 | Scripts deferred, CSS normal, hero preload |
 | Phase 2 branch (async CSS) | 56 | 7.1s | 0.43 | 100 | Branch deploy cold CDN + async CSS |
 | Post Phase 1 + font fix (CLI) | 68 | 9.7s | 0.934 | 92 | Render-blocking eliminated |
 | Baseline (Sept 2025) | 65 | 4.1s | 0.524 | 92 | — |
 
-**Remaining bottleneck:** CLS 0.394 from UIkit `data-uk-sticky` creating a placeholder div at runtime. NOT from parallax (confirmed via Playwright inspection). Frontend-design agent confirmed CSS pre-positioning won't work (UIkit overrides inline styles). **Approved fix:** Replace `data-uk-sticky` with CSS `position: sticky` — see Session 4 continued in site-perf-log.md for exact before/after code.
+**Session 5 fix (uncommitted):** Replaced UIkit `data-uk-sticky` with CSS `position: sticky` + ~500 byte inline JS for show-on-up animation. Nav moved outside hero container for full-page sticky. Removed broken transparent nav. Added `sticky: true` to blog post defaults. Agent 2 tested all pages locally — zero CLS, show-on-up works, no JS errors. See Session 5 in site-perf-log.md for exact code and rollback instructions.
 
 ---
 
@@ -67,18 +68,20 @@ James, CEO/Founder of Ethical Frenchie LLC. French Bulldog breeder, NYC. Worked 
 10. Removed async CSS hack (`media="print" onload="this.media='all'"` → normal load)
 11. Merged master into branch to pick up font fix (commit `45f9cc7`)
 
-**Branch commits:** `162d25a` → `c2a6392` → `9228e44`
+12. Replaced UIkit `data-uk-sticky` with CSS `position: sticky` + inline show-on-up JS (~500 bytes)
+13. Moved nav outside hero container for full-page sticky behavior
+14. Removed broken transparent nav logic (was causing unreadable nav on blog posts)
+15. Added `sticky: true` to `_posts` defaults in `_config.yml` (blog posts had no sticky nav)
+16. Added `.playwright-mcp/` to `.gitignore`
+
+**Branch commits (pushed):** `162d25a` → `c2a6392` → `9228e44` → `e9f9f9e`
+**Uncommitted:** Items 12-16 above (Session 5 work, locally tested by Agent 2)
 **Branch deploy:** `https://phase1-performance-fixes--ethicalfrenchie.netlify.app`
 
 ## What's Next (before merge)
-1. **Replace UIkit `data-uk-sticky` with CSS `position: sticky`** in `_includes/partials/header.html` lines 60-69
-   - This eliminates the last CLS source (0.394 from UIkit's placeholder div)
-   - Trade-off: lose scroll-up-to-show-nav animation (nav stays visible always)
-   - See site-perf-log.md Session 4 continued for exact before/after code
-2. Test locally + on Netlify branch deploy
-3. Commit `docs/` (design doc + implementation plan, currently untracked)
-4. Add `.playwright-mcp/` to `.gitignore`
-5. Present results to James for merge approval
+1. **Commit + push Session 5 changes** (sticky fix, blog nav fix, gitignore, docs/)
+2. **Test on Netlify branch deploy** — Agent 2 Chrome testing + Lighthouse
+3. **Present results to James for merge approval**
 
 ## What's After Merge
 1. **Heymarket click-to-load** (evaluate after merge results) — replace widget (~240KB JS) with CSS-only bubble, load JS on click only
@@ -94,7 +97,7 @@ James, CEO/Founder of Ethical Frenchie LLC. French Bulldog breeder, NYC. Worked 
 - **CSS**: main.css loaded normally (render-blocking but same-domain cached — this is correct) ✅
 - **JS**: main.min.js deferred to body ✅ (was in head async)
 - **3rd Party**: All deferred to body ✅ — GA4+Bing, Omnisend, Heymarket
-- **Sticky nav**: UIkit `data-uk-sticky` (needs replacing with CSS `position: sticky` — see "What's Next")
+- **Sticky nav**: CSS `position: sticky` + ~500 byte inline show-on-up JS ✅ (was UIkit `data-uk-sticky` causing CLS 0.394)
 
 ## Brand Palette
 | Role | Hex |
