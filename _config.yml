@@ -186,6 +186,7 @@ defaults:
       related:              true
       mailchimp:            true
       navbar:
+        sticky:             true
         transparent:        true
         transparent_color:  light
       header:
