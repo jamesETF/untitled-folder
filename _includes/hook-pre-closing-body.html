@@ -1,8 +1,7 @@
 <!-- Google Analytics + Bing (deferred from head to body for performance) -->
 {% include google-analytics.html %}
 
-<!-- UIkit main.min.js (moved from head async to body defer — needs DOM to exist) -->
-<script defer src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+<!-- UIkit main.min.js (restored — loaded from head for CLS fix) -->
 
 <!-- Omnisend (deferred from head to pre-closing body for performance) -->
 {% include omnisend.html %}
