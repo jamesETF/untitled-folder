@@ -7,20 +7,40 @@
 <!-- Omnisend (deferred from head to pre-closing body for performance) -->
 {% include omnisend.html %}
 
-<!-- Heymarket widget (deferred from head to pre-closing body for performance) -->
-<script type='text/javascript'>
-(function(_a,id,a,_) {
-  function Modal(){
-    var h = a.createElement('script'); h.type = 'text/javascript'; h.async = true;
-    var e = id; h.src = e+(e.indexOf("?")>=0?"&":"?")+'ref='+_;
-    var y = a.getElementsByTagName('script')[0]; y.parentNode.insertBefore(h, y);
-    h.onload = h.onreadystatechange = function() {
-      var r = this.readyState; if (r && r != 'complete' && r != 'loaded') return;
-      try { HeymarketWidget.construct(_); } catch (e) {}
+<!-- Heymarket widget: click-to-load facade (saves ~240KB until interaction) -->
+<style>
+#heymk-facade{position:fixed;bottom:20px;right:15px;width:60px;height:60px;border-radius:50%;background:#8158ec;cursor:pointer;z-index:2147483645;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.25);transition:transform .2s}
+#heymk-facade:hover{transform:scale(1.1)}
+#heymk-facade svg{width:28px;height:28px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<div id="heymk-facade" aria-label="Chat with us" role="button" tabindex="0">
+  <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</div>
+<script>
+(function(){
+  var btn=document.getElementById('heymk-facade');
+  if(!btn)return;
+  var loaded=false;
+  function loadWidget(){
+    if(loaded)return;
+    loaded=true;
+    btn.style.opacity='.6';
+    var s=document.createElement('script');
+    s.src='https://widget.heymarket.com/heymk-widget.bundle.js?ref=[object Object]';
+    s.onload=function(){
+      try{
+        HeymarketWidget.construct({CLIENT_ID:"Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3"});
+        btn.remove();
+        var tries=0;(function autoOpen(){var w=document.getElementById('heymarket-widget');if(w){var b=w.querySelector('button');if(b){b.click();return;}}if(++tries<20)setTimeout(autoOpen,150);})();
+      }catch(e){
+        btn.style.opacity='1';
+        loaded=false;
+      }
     };
-  };
-  (_a.attachEvent ? _a.attachEvent('onload', Modal) : _a.addEventListener('load', Modal, false));
-})(window,'https://widget.heymarket.com/heymk-widget.bundle.js',document,{
-  CLIENT_ID: "Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3"
-});
+    s.onerror=function(){btn.style.opacity='1';loaded=false;};
+    document.head.appendChild(s);
+  }
+  btn.addEventListener('click',loadWidget);
+  btn.addEventListener('keydown',function(e){if(e.key==='Enter')loadWidget();});
+})();
 </script>
