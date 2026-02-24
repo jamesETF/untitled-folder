@@ -12,6 +12,8 @@
     [data-uk-accordion]>:not(.uk-open)>.uk-accordion-content{display:none}
     [data-uk-navbar-toggle-icon]{width:20px;height:20px}
     [data-uk-offcanvas]{display:none}
+    /* Hero img: replaces CSS background-image for faster LCP */
+    .hero-img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center}
     </style>
     <script defer src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
