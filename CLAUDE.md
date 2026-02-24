@@ -1,11 +1,11 @@
 # CURRENT STATE
 
-**Branch:** `phase1/performance-fixes` (NOT merged to master — awaiting Netlify deploy test + James's approval)
-**Doing:** Session 5 changes are UNCOMMITTED locally. Need to commit, push, test on Netlify branch deploy, then present for merge.
+**Branch:** `phase4/hero-cls-fix` (2 commits ahead of master, NOT MERGED)
+**Doing:** Session 7 — CLS fix ready, awaiting deploy to test on CDN. James coming home.
 **Local test:** `bundle exec jekyll serve` (URL-bound 3rd-party scripts won't load on localhost)
 **DO NOT** start Astro/Pawstronaut migration yet — that comes after perf work is done
 
-→ **Read first each session:** memory/projects/site-perf-log.md (Session 5 has full context, file states, and rollback instructions)
+→ **Read first each session:** memory/projects/site-perf-log.md (Session 7 has latest)
 → Full research: memory/projects/site-perf-optimization.md
 → Company context: memory/context/company.md
 
@@ -13,13 +13,13 @@
 
 | When | Perf | LCP | CLS | SEO | Key Change |
 |------|------|-----|-----|-----|------------|
-| **Session 5 (local, not deployed)** | **TBD** | **TBD** | **~0.01** | **TBD** | **Sticky nav fix + show-on-up JS (Agent 2 verified zero CLS locally)** |
-| Phase 2 branch (normal CSS) | 77 | 2.8s | 0.394 | 100 | Scripts deferred, CSS normal, hero preload |
-| Phase 2 branch (async CSS) | 56 | 7.1s | 0.43 | 100 | Branch deploy cold CDN + async CSS |
-| Post Phase 1 + font fix (CLI) | 68 | 9.7s | 0.934 | 92 | Render-blocking eliminated |
+| **Session 7 branch (localhost, UIkit sync)** | **68/97** | **6.1s/1.3s** | **0.024/0.008** | **100** | **UIkit moved to head (render-blocking), parallax removed** |
+| Session 7 production (CDN warm) | 76/76 | 2.6s/0.7s | 0.394/0.742 | 100 | Same code as Session 6, warm CDN |
+| Session 6 (production, cold CDN) | 51/75 | 6.7s/0.8s | 0.386/0.749 | 100 | All optimizations + Heymarket click-to-load |
+| Pre-merge production | 53 | 6.4s | 0.931 | 92 | Before Phase 1-5 merge |
 | Baseline (Sept 2025) | 65 | 4.1s | 0.524 | 92 | — |
 
-**Session 5 fix (uncommitted):** Replaced UIkit `data-uk-sticky` with CSS `position: sticky` + ~500 byte inline JS for show-on-up animation. Nav moved outside hero container for full-page sticky. Removed broken transparent nav. Added `sticky: true` to blog post defaults. Agent 2 tested all pages locally — zero CLS, show-on-up works, no JS errors. See Session 5 in site-perf-log.md for exact code and rollback instructions.
+**CLS fix confirmed:** UIkit deferred → CLS 0.411/0.747. UIkit sync in head → CLS 0.024/0.008. Root cause: UIkit JS post-paint initialization shifts hero container. Needs CDN deploy to get real production numbers.
 
 ---
 
@@ -58,45 +58,49 @@ James, CEO/Founder of Ethical Frenchie LLC. French Bulldog breeder, NYC. Worked 
 2. Self-hosted Montserrat woff2 (killed render-blocking Google Fonts CDN)
 3. Dead Instagram token removed, empty conditionals cleaned
 
-## What's Done (on `phase1/performance-fixes` branch, NOT merged)
+## What's Done (all merged to master, deployed to production)
 4. Moved GA+Bing from `<head>` → `hook-pre-closing-body.html` (LCP fix)
-5. Moved `main.min.js` from head async → body defer (LCP + CLS fix)
+5. Moved `main.min.js` from head async → body defer (LCP + CLS fix — but caused CLS, see #18)
 6. Added hero image preload to `<head>` (LCP fix)
 7. Added `min-height: 60vh` to hero container (CLS fix)
 8. Added width/height to logo images in navbar-default + navbar-center (CLS fix)
 9. Added width/height to card images in cards.html (CLS fix)
 10. Removed async CSS hack (`media="print" onload="this.media='all'"` → normal load)
 11. Merged master into branch to pick up font fix (commit `45f9cc7`)
-
 12. Replaced UIkit `data-uk-sticky` with CSS `position: sticky` + inline show-on-up JS (~500 bytes)
 13. Moved nav outside hero container for full-page sticky behavior
 14. Removed broken transparent nav logic (was causing unreadable nav on blog posts)
 15. Added `sticky: true` to `_posts` defaults in `_config.yml` (blog posts had no sticky nav)
 16. Added `.playwright-mcp/` to `.gitignore`
+17. **Heymarket click-to-load** — CSS facade (~0 bytes JS on load), loads ~240KB widget bundle on click only ✅
 
-**Branch commits (pushed):** `162d25a` → `c2a6392` → `9228e44` → `e9f9f9e`
-**Uncommitted:** Items 12-16 above (Session 5 work, locally tested by Agent 2)
-**Branch deploy:** `https://phase1-performance-fixes--ethicalfrenchie.netlify.app`
+**Last commit on master:** `8af762a` (Heymarket click-to-load merged)
+**Production:** ethicalfrenchie.com (Netlify, live, tested)
 
-## What's Next (before merge)
-1. **Commit + push Session 5 changes** (sticky fix, blog nav fix, gitignore, docs/)
-2. **Test on Netlify branch deploy** — Agent 2 Chrome testing + Lighthouse
-3. **Present results to James for merge approval**
+## What's On Branch (phase4/hero-cls-fix, NOT MERGED)
+18. **Moved `main.min.js` back to `<head>` as synchronous** — UIkit init before first paint eliminates CLS (0.411→0.024 mobile, 0.747→0.008 desktop). Trade-off: ~100-300ms LCP regression on CDN.
+19. **Removed `data-uk-parallax="y: 100;"` from hero content div** — additional CLS source, cosmetic parallax effect not worth the shift
 
-## What's After Merge
-1. **Heymarket click-to-load** (evaluate after merge results) — replace widget (~240KB JS) with CSS-only bubble, load JS on click only
-2. Consolidate 3 GTM scripts → 1 GTM container
-3. Image optimization (195MB uploads/ folder → WebP for blog/puppy pages)
-4. Schema.html cleanup (600 lines, broken Hugo syntax)
-5. Pawstronaut (Astro) migration
+**Branch commits:** `01dcb42`, `42b9f67`
+**Awaiting:** CDN deploy + production Lighthouse test + James's merge approval
+
+## What's Next
+1. Remove Google Ads tag (AW-11176861724) — injected by Omnisend, contact support
+2. Audit Bing UET for duplicate/unnecessary loads
+3. Research iMessage for Business integration via Heymarket
+4. Fix remaining CLS: hero container layout shift (0.386 mobile / 0.749 desktop)
+5. Move GA4 + Bing tracking to Netlify snippet injection
+6. Image optimization (195MB uploads/ folder → WebP for blog/puppy pages)
+7. Schema.html cleanup (600 lines, broken Hugo syntax)
+8. Pawstronaut (Astro) migration
 
 ## Tech Stack (current, being optimized)
 - **Platform**: Jekyll, EON theme (UIkit 3.3.6) — ABANDONED
 - **Hosting**: Netlify (static deploy) — KEEPING
 - **Font**: Self-hosted Montserrat woff2 (37KB, variable, font-display:swap) ✅
 - **CSS**: main.css loaded normally (render-blocking but same-domain cached — this is correct) ✅
-- **JS**: main.min.js deferred to body ✅ (was in head async)
-- **3rd Party**: All deferred to body ✅ — GA4+Bing, Omnisend, Heymarket
+- **JS**: main.min.js — currently deferred to body (causes CLS 0.4), branch fix moves it back to head sync (CLS 0.024)
+- **3rd Party**: All deferred to body ✅ — GA4+Bing, Omnisend; Heymarket click-to-load facade ✅
 - **Sticky nav**: CSS `position: sticky` + ~500 byte inline show-on-up JS ✅ (was UIkit `data-uk-sticky` causing CLS 0.394)
 
 ## Brand Palette
