@@ -87,7 +87,10 @@
     {% endif %}
   </nav>
 {% endif %}
-<div class="uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="min-height: 60vh;{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
+<div class="uk-position-relative" style="min-height: 60vh;{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
+  {%- if background_image -%}
+  <img class="hero-img" src="{% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %}" alt="" width="1600" height="905" fetchpriority="high">
+  {%- endif -%}
   {%- if page.header.background_video -%}
   <div class="uk-position-cover uk-cover-container">
     <video autoplay loop muted playsinline data-uk-cover>
