@@ -20,6 +20,7 @@ header:
 extraseoabout: true
 applechat: true
 hubspotneeded: true
+faqschema: "aboutfaq"
 ---
 {% include block.html 
   block="content-about-us"
@@ -40,6 +41,16 @@ hubspotneeded: true
   section_container="expand"
   section_header_align="center"
   section_background="muted"
+%}
+
+{% include faqs.html
+  multiple="true"
+  category="aboutfaq"
+  section_title="Frequently Asked Questions"
+  section_size="large"
+  section_background="default"
+  section_container="xsmall"
+  section_header_align="center"
 %}
 
 {% include menuz.html %}

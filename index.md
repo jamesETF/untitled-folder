@@ -26,6 +26,7 @@ pipedrive: false
 netlify: false
 parallax: true
 indexfaq: true
+faqschema: "homefaq"
 nyc: true
 hubspotneeded: true
 redirect_from:
@@ -93,10 +94,10 @@ redirect_from:
   section_content_align="center"
 %}
 
-{% include faqs.html 
-  multiple="true" 
-  category="indexfaq" 
-  section_title="Quick #FACTS" 
+{% include faqs.html
+  multiple="true"
+  category="homefaq"
+  section_title="Common Questions"
   section_size="small"
   section_background="default"
   section_container="xsmall"

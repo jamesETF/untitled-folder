@@ -1,5 +1,5 @@
 ---
-title: Frenchies Require Attention
+title: Which French Bulldog colors are most expensive?
 categories: [colorfaq]
 ---
-These dogs need constant companionship and thrive off being pampered and loved. They follow you around like a magnet and glare at you with their big cute irresistible eyes, which is why so many people fall in love with them. They’re also small enough for apartment living and don’t require much grooming.
+Rare and exotic colors command higher prices because of the additional genetic testing, selective breeding, and smaller gene pools involved. From most to least expensive: Fluffy Frenchies (long-haired, caused by the Lh gene) are the priciest, followed by Lilac, Merle, and Blue. Standard AKC colors like fawn, cream, brindle, and pied are at the lower end of the price range. Our puppies range from $3,500–$6,500 depending on color, lineage, and gender. [View available puppies](/french-bulldog-puppies/).

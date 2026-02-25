@@ -1,6 +1,6 @@
 ---
 title: How should I prepare for my new French Bulldog puppy?
-categories: [ethicalfrenchie]
+categories: [ethicalfrenchie, deliveryfaq, faqpage-process]
 ---
 
 We encourage all our families to read articles from our regularly updated education blog to ensure you're well-informed before making this important decision. Proper preparation includes:

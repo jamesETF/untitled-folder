@@ -1,6 +1,6 @@
 ---
-title: How much do your French Bulldog puppies cost?
-categories: [ethicalfrenchie]
+title: How much do French Bulldog puppies cost?
+categories: [ethicalfrenchie, homefaq, pricingfaq, faqpage-colors, bostonfaq, lafaq, atlantafaq, raleighfaq]
 ---
 
-Our French bulldog prices are at "fair market rate." We constantly scan the internet and other breeders to ensure appropriate pricing. Blue and Merle Frenchies are usually priced higher than standard colors. French Bulldogs typically cost between $2,400-$5,500 depending on location, breeder, color, and age. The higher cost reflects the extensive breeding challenges, health testing, and individualized care each puppy receives.
+Our French Bulldog puppies are priced between $3,500–$6,500 depending on color, gender, and lineage. Blue, Merle, Lilac, and Fluffy Frenchies are typically at the higher end due to the rarity and additional genetic testing required. Standard colors start at the lower end of that range. The cost reflects what it actually takes to breed ethically: artificial insemination, C-section deliveries, extensive health testing ($5,000–$50,000+ per breeding female), small litter sizes (2–4 puppies), and individualized hand-raising. We also offer [financing options](/pricing/) to make it more accessible. [View our available puppies](/french-bulldog-puppies/).

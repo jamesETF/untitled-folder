@@ -1,5 +1,5 @@
 ---
-title: French Bulldogs are High Maintenance.
+title: Are rare color French Bulldogs less healthy?
 categories: [colorfaq]
 ---
-Frenchies can be prone to different types of health issues throughout their lives that can result in regular visits to the vet the older they get, its best to stick with a reputable breeder with DNA reports showing the puppy is clear of potential genetic defects.
+Not when bred responsibly. The myth that rare colors like blue, lilac, or merle are inherently unhealthy comes from irresponsible breeders who prioritize color over health testing. When both parents are genetically tested and cleared for conditions like CMR1, DM, HUU, and JHC, rare color Frenchies are just as healthy as standard colors. The key is choosing a breeder who can show you DNA test results — not just tell you the puppy is "healthy." We health-test every breeding dog regardless of color.

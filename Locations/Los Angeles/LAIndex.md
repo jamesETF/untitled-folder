@@ -26,6 +26,7 @@ navbar:
 LA: true
 indexfaq: true
 hubspotneeded: true
+faqschema: "lafaq"
 ---
 
 [comment]: # (This actually is the most platform independent comment)
@@ -79,8 +80,8 @@ hubspotneeded: true
 %}
 {% include faqs.html
   multiple="true"
-  category="indexfaq"
-  section_title="Quick #FACTS"
+  category="lafaq"
+  section_title="Los Angeles French Bulldog FAQ"
   section_size="small"
   section_background="default"
   section_container="xsmall"

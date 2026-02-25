@@ -24,6 +24,7 @@ header:
 chicago: true
 indexfaq: true
 hubspotneeded: true
+faqschema: "chicagofaq"
 redirect_from:
 - /il
 ---
@@ -80,7 +81,7 @@ redirect_from:
 {% include faqs.html
   multiple="true"
   category="chicagofaq"
-  section_title="Quick #FACTS"
+  section_title="Chicago French Bulldog FAQ"
   section_size="small"
   section_background="default"
   section_container="xsmall"

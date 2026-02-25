@@ -24,6 +24,7 @@ header:
 atlanta: true
 indexfaq: true
 hubspotneeded: true
+faqschema: "atlantafaq"
 ---
 
 [comment]: # (This actually is the most platform independent comment)
@@ -77,8 +78,8 @@ hubspotneeded: true
 %}
 {% include faqs.html
   multiple="true"
-  category="indexfaq"
-  section_title="Quick #FACTS"
+  category="atlantafaq"
+  section_title="Atlanta French Bulldog FAQ"
   section_size="small"
   section_background="default"
   section_container="xsmall"

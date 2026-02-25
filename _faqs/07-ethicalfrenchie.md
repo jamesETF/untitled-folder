@@ -1,6 +1,6 @@
 ---
 title: What health issues should I know about with French Bulldogs?
-categories: [ethicalfrenchie]
+categories: [ethicalfrenchie, faqpage-breed]
 ---
 
 French Bulldogs can be prone to several health conditions due to their brachycephalic (flat-faced) structure:

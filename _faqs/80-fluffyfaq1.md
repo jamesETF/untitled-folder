@@ -1,5 +1,5 @@
 ---
-title: What are their personalities like?           
+title: What makes a French Bulldog "fluffy"?
 categories: [fluffyfaq]
 ---
-Blue Frenchies personalities are identical to all other colors, The only difference is the gene that creates their longer coats, as the personality of a fluffy french bulldog is not affected by its color. However they are more comfy to cuddle with!
+Fluffy French Bulldogs carry the long-hair gene (Lh), which produces a softer, longer coat compared to the standard short-haired Frenchie. They're still 100% purebred French Bulldogs — the Lh gene is a naturally occurring recessive trait that both parents must carry. Fluffy Frenchies have the same temperament, size, and personality as any other Frenchie — they're just a lot more cuddly to hold. Their coat does require a bit more grooming (regular brushing), but they don't shed excessively.
