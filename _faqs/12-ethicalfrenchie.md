@@ -1,6 +1,6 @@
 ---
 title: What questions should I ask a French Bulldog breeder?
-categories: [ethicalfrenchie]
+categories: [ethicalfrenchie, aboutfaq, faqpage-about]
 ---
 
 Important questions to ask any French Bulldog breeder:

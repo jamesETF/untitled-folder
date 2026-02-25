@@ -1,6 +1,6 @@
 ---
 title: Why are French Bulldogs so expensive?
-categories: [ethicalfrenchie]
+categories: [ethicalfrenchie, pricingfaq, faqpage-colors]
 ---
 
 French Bulldog pricing reflects several factors:

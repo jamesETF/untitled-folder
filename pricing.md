@@ -16,6 +16,7 @@ header:
   header_size: xsmall
   heading_size: medium
   parallax: true
+faqschema: "pricingfaq"
 ---
 
 
@@ -27,10 +28,10 @@ header:
   section_container="large"
   section_content_align="center"
 %}
-{% include faqs.html 
-  multiple="true" 
-  category="application" 
-  section_title="Application FAQ" 
+{% include faqs.html
+  multiple="true"
+  category="pricingfaq"
+  section_title="Pricing & Application FAQ"
   section_size="small"
   section_background="default"
   section_container="xsmall"

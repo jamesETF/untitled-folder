@@ -1,5 +1,5 @@
 ---
-title: Pupular, In Demand, and Expensive. 
+title: What's the difference between standard and rare French Bulldog colors?
 categories: [colorfaq]
 ---
-The more exotic the frenchie, the more expensive they will be. They are expensive because of their rare coloring and the tricky breeding process. Typically the more rare the color pattern the more in demand they are, as owners always want something unique (keeping up with the Johnsons mentality)
+**Standard AKC colors** include fawn, cream, brindle, pied, and white — these are recognized for AKC show competitions and are the most common. **Rare/exotic colors** include [blue](/puppies/upcoming-colors/blue-french-bulldog), [lilac](/puppies/upcoming-colors/lilac-french-bulldog), [merle](/puppies/upcoming-colors/merle-french-bulldog), isabella, and [fluffy](/puppies/upcoming-colors/fluffy-french-bulldog) (long-haired). Rare colors are produced by specific gene combinations (like the dilute gene dd for blue, or the Lh gene for fluffy coats). They're not AKC show-eligible but can be AKC registered as pets. The rarity and additional breeding complexity is what drives higher pricing.

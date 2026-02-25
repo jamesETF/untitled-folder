@@ -31,6 +31,7 @@ hubspotneeded: true
 podium: true
 contact: true
 nyc: true
+faqschema: "deliveryfaq"
 redirect_from:
 - /wedeliver
 ---
@@ -78,3 +79,13 @@ t.parentNode.insertBefore(y,t);y.onerror=function(){s()};
 })(document,'script');
 </script>
 <noscript><style>.geotargetlygeocontent1622668398873_default{display:inline !important}</style></noscript>
+
+{% include faqs.html
+  multiple="true"
+  category="deliveryfaq"
+  section_title="Delivery FAQ"
+  section_size="large"
+  section_background="default"
+  section_container="xsmall"
+  section_header_align="center"
+%}

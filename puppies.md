@@ -22,6 +22,7 @@ chat: false
 applechat: false
 hubspotneeded: true
 podium: false
+faqschema: "puppiesfaq"
 permalink: french-bulldog-puppies
 redirect_from: 
 - puppies/
@@ -78,6 +79,16 @@ redirect_from:
   grid="1-1"
   gutter="small"
   section_content_align="center"
+%}
+
+{% include faqs.html
+  multiple="true"
+  category="puppiesfaq"
+  section_title="Frequently Asked Questions"
+  section_size="large"
+  section_background="default"
+  section_container="xsmall"
+  section_header_align="center"
 %}
 
 {% include reviewsg.html %}

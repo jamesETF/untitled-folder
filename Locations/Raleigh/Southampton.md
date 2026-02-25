@@ -23,6 +23,7 @@ permalink: /northCarolina/raleigh
 applechat: true
 southampton: true
 hubspotneeded: true
+faqschema: "raleighfaq"
 ---
 {% include block.html 
   block="content-about-us"
@@ -50,6 +51,16 @@ hubspotneeded: true
   section_background="muted"
   section_container="large"
   section_content_align="center"
+%}
+
+{% include faqs.html
+  multiple="true"
+  category="raleighfaq"
+  section_title="Raleigh French Bulldog FAQ"
+  section_size="large"
+  section_background="default"
+  section_container="xsmall"
+  section_header_align="center"
 %}
 
 {% include menuz.html %}

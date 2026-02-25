@@ -1,6 +1,6 @@
 ---
-title: Do you offer a health guarantee?
-categories: [ethicalfrenchie]
+title: Do you offer a health guarantee? What does it cover?
+categories: [ethicalfrenchie, aboutfaq, faqpage-about]
 ---
 
-Yes! We offer the strongest health guarantee in the industry. Being a French Bulldog breeder requires extensive preparation and health testing before producing a litter, and we stand behind our work with comprehensive health guarantees for all our puppies.
+Yes — we offer one of the strongest health guarantees in the industry. Every Ethical Frenchie puppy comes with a written health guarantee that covers genetic and congenital conditions. Our breeding dogs are tested for CMR1, DM, HUU, and JHC before any litter is produced, which means we can confidently stand behind the health of every puppy. If a covered condition arises, we work directly with your family to make it right. We also provide a full veterinary health check before your puppy leaves us, complete with vaccination records and deworming documentation. [Contact us](/contact-us/) for the full details of our guarantee.
