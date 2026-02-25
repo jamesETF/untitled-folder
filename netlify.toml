@@ -61,12 +61,12 @@ RUBY_VERSION = "3.2.2"
 # --- Duplicate URL canonicalization (trailing slash + case fixes) ---
 # Source: GSC audit Feb 25, 2026 — all pairs confirmed via impression/click data
 
-# Chicago — trailing slash wins (pos 6.3 / 2,586 clicks vs pos 29.4 / 126 clicks)
+# Chicago — case-change rules use force=true; trailing-slash-only cannot use force
+# (Netlify matches /path and /path/ as same, causing loops with force=true)
 [[redirects]]
   from = "/illinois/chicago"
   to = "/illinois/chicago/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/Illinois/Chicago"
@@ -80,12 +80,11 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
-# LA — trailing slash wins (pos 6.4 / 393 clicks vs pos 47.9 / 17 clicks)
+# LA — trailing slash only (no force — Netlify treats /path and /path/ as same)
 [[redirects]]
   from = "/California/Los_Angeles"
   to = "/California/Los_Angeles/"
   status = 301
-  force = true
 
 # Boston — lowercase wins (pos 9.4 / 319 clicks vs pos 47.3 / 12 clicks)
 # Permalink updated to /massachusetts/boston/ to match winner
@@ -114,26 +113,23 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
-# About — trailing slash wins (pos 5.1 / 7 clicks)
+# About — trailing slash only (no force)
 [[redirects]]
   from = "/about-us"
   to = "/about-us/"
   status = 301
-  force = true
 
-# Contact — trailing slash wins (pos 10.4 / 1 click)
+# Contact — trailing slash only (no force)
 [[redirects]]
   from = "/contact-us"
   to = "/contact-us/"
   status = 301
-  force = true
 
-# Puppy delivery — trailing slash wins
+# Puppy delivery — trailing slash only (no force)
 [[redirects]]
   from = "/puppy-delivery"
   to = "/puppy-delivery/"
   status = 301
-  force = true
 
 # Chicago contact sub-page — no-slash wins (negligible but clean)
 [[redirects]]
