@@ -90,7 +90,7 @@
 @import "../uikit/components/position.scss";
 @import "../uikit/components/transition.scss";
 @import "../uikit/components/visibility.scss";
-@import "../uikit/components/inverse.scss";
+// @import "../uikit/components/inverse.scss"; // TEST: removed to measure impact
 
 // Need to be loaded last
 @import "../uikit/components/print.scss";

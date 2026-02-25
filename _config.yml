@@ -155,6 +155,11 @@ exclude:
   - LICENSE
   - README
   - /docs
+  - .agents
+  - .junie
+  - .mux
+  - .claude
+  - skills
 
 sass:
   style:                compressed
