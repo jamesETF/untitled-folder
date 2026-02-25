@@ -17,6 +17,7 @@ header:
   heading_size: medium
   parallax: true
   permalink: /locations
+robots: noindex
 ---
 
 Example contact forms using free third party service [Formspree](https://formspree.io/). There are two form layouts with optional name and subject fields.

@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
     <meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>
     {% include hook-head.html %}
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
