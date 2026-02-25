@@ -3,7 +3,7 @@ width: full
 title: French Bulldog Breeder in Boston, MA. We specialize in French Bulldog Puppies only (only frenchie puppies)
 subtitle: French Bulldog Breeder in Boston, MA
 description: Ethical Frenchie of Boston, MA. if you are looking for ethically bred french bulldog puppies look no further. Learn more about our breeding process.
-permalink: /massachusetts/Boston/
+permalink: /massachusetts/boston/
 navbar:
   sticky: true
   scroll_up: true
