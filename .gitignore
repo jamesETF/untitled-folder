@@ -59,3 +59,5 @@ memory/
 .zencoder/
 skills-lock.json
 skills/
+gsc-credentials.json
+scripts/gsc-output/
