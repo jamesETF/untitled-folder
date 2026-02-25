@@ -61,3 +61,8 @@ skills-lock.json
 skills/
 gsc-credentials.json
 scripts/gsc-output/
+
+# Screenshots (debug images saved to root)
+/French Bulldog*
+/IMG_*
+/Screenshot*
