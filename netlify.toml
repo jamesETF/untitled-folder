@@ -162,3 +162,74 @@ RUBY_VERSION = "3.2.2"
   from = "/illinois/chicago/contact-us/"
   to = "/illinois/chicago/contact-us"
   status = 301
+
+# --- Thin blog post redirects (GSC data: all under 200 impr, 0-1 clicks/year) ---
+# Source: Session 15 analysis, cannibalization data confirmed redirect targets
+
+# Scam post — cannibalizes homepage on branded queries, FAQ has scam section now
+[[redirects]]
+  from = "/4-signs-of-a-french-bulldog-scam-and-4-ways-you-can-avoid-them-ethical-frenchie"
+  to = "/faq/"
+  status = 301
+  force = true
+
+# Ethics/breeders post — homepage ranks 10x better for every query
+[[redirects]]
+  from = "/the-ethics-of-where-to-find-a-french-bulldog-puppy-for-your-family/"
+  to = "/about-us/"
+  status = 301
+  force = true
+
+# Also catch the redirect_from that was on the ethics post
+[[redirects]]
+  from = "/guides/how-to-register-a-blue-french-bulldog-with-the-akc/"
+  to = "/about-us/"
+  status = 301
+  force = true
+
+# Theft post — 1 click/year, pos 23-88 on all queries
+[[redirects]]
+  from = "/blog/french-bulldog-theft"
+  to = "/faq/"
+  status = 301
+  force = true
+
+# Pricing URLs that were redirect_from on the theft post — reroute to pricing blog
+[[redirects]]
+  from = "/cheap-french-bulldog-puppies-under-500/"
+  to = "/blog/why-french-bulldogs-are-expensive-before-adoption/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-price/"
+  to = "/blog/why-french-bulldogs-are-expensive-before-adoption/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-price-how-much-does-a-frenchie-cost/"
+  to = "/blog/why-french-bulldogs-are-expensive-before-adoption/"
+  status = 301
+  force = true
+
+# Ohio locations page — no relevance, send to puppies
+[[redirects]]
+  from = "/locations-blue-jay-ohio-french-bulldog-puppies/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+# Health concerns post — cannibalizes health-risks blog post for same queries
+[[redirects]]
+  from = "/french-bulldogs-health-concerns-care-tips"
+  to = "/blog/french-bulldog-health-risks-welfare-problems-behind-the-cute-face/"
+  status = 301
+  force = true
+
+# Potty training — 5 impressions total, zero queries, non-original content
+[[redirects]]
+  from = "/potty-train-your-frenchie/"
+  to = "/blog/"
+  status = 301
+  force = true
