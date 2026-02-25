@@ -3,7 +3,7 @@ width: full
 title: French Bulldog Breeder in Chicago, IL. We specialize in French Bulldog Puppies only (only frenchie puppies)
 subtitle: French Bulldog Breeder in Chicago, IL
 description: Ethical Frenchie of Chicago, IL, if you are looking for ethically bred french bulldog puppies look no further. Learn more about our breeding process.
-permalink: /illinois/chicago
+permalink: /illinois/chicago/
 navbar:
   sticky: true
   scroll_up: true

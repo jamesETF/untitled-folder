@@ -152,14 +152,14 @@
 
   <!-- Boston -->
   <url>
-    <loc>https://ethicalfrenchie.com/massachusetts/Boston/</loc>
+    <loc>https://ethicalfrenchie.com/massachusetts/boston/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/massachusetts/Boston/contact-us/</loc>
+    <loc>https://ethicalfrenchie.com/massachusetts/boston/contact-us/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -167,7 +167,7 @@
 
   <!-- Chicago -->
   <url>
-    <loc>https://ethicalfrenchie.com/illinois/chicago</loc>
+    <loc>https://ethicalfrenchie.com/illinois/chicago/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -181,7 +181,7 @@
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/Illinois/Chicago/french-bulldog-puppies</loc>
+    <loc>https://ethicalfrenchie.com/illinois/chicago/french-bulldog-puppies</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -189,7 +189,7 @@
 
   <!-- Los Angeles -->
   <url>
-    <loc>https://ethicalfrenchie.com/California/Los_Angeles</loc>
+    <loc>https://ethicalfrenchie.com/California/Los_Angeles/</loc>
     <lastmod>2025-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>

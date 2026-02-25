@@ -3,7 +3,7 @@ width: full
 title: French Bulldog Breeder in Los Angeles, CA. We specialize in French Bulldog Puppies only (only frenchie puppies)
 subtitle: French Bulldog Breeder in Los Angeles, CA
 description: Ethical Frenchie of Los Angeles, CA, if you are looking for ethically bred french bulldog puppies look no further. Learn more about our breeding process.
-permalink: /California/Los_Angeles
+permalink: /California/Los_Angeles/
 header:
   layout: 1-2 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_color: "#901941"
