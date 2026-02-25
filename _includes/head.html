@@ -17,6 +17,31 @@
     [data-uk-offcanvas]{display:none}
     /* Hero img: replaces CSS background-image for faster LCP */
     .hero-img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center}
+    /* Lightweight uk-light replacement (was 141KB in inverse.scss) */
+    .uk-light{color:rgba(255,255,255,.7) !important}
+    .uk-light h1,.uk-light h2,.uk-light h3,.uk-light h4,.uk-light h5,.uk-light h6,
+    .uk-light .uk-heading-small,.uk-light .uk-heading-medium,.uk-light .uk-heading-large,
+    .uk-light .uk-card-title,.uk-light .uk-article-title{color:#fff !important}
+    .uk-light p,.uk-light .uk-text-lead{color:rgba(255,255,255,.7) !important}
+    .uk-light .uk-text-muted,.uk-light .uk-article-meta{color:rgba(255,255,255,.5) !important}
+    .uk-light a:not(.uk-button){color:#fff !important}
+    .uk-light a:not(.uk-button):hover{color:rgba(255,255,255,.7) !important}
+    .uk-light .uk-button-default{color:#fff !important;border-color:rgba(255,255,255,.7) !important}
+    .uk-light .uk-button-default:hover{color:#fff !important;border-color:#fff !important}
+    .uk-light .uk-icon,.uk-light .uk-overlay-icon svg{color:#fff !important}
+    .uk-light .uk-transition-fade{color:#fff !important}
+    .uk-light .uk-subnav>*>a{color:rgba(255,255,255,.5) !important}
+    .uk-light .uk-subnav>*>a:hover,.uk-light .uk-subnav>.uk-active>a{color:#fff !important}
+    .uk-light .uk-accordion-title{color:#fff !important}
+    .uk-light .uk-list>li::before{color:rgba(255,255,255,.7) !important}
+    .uk-card-primary,.uk-card-secondary,.uk-section-secondary{color:rgba(255,255,255,.7) !important}
+    .uk-card-primary h1,.uk-card-primary h2,.uk-card-primary h3,.uk-card-primary h4,.uk-card-primary h5,.uk-card-primary h6,
+    .uk-card-secondary h1,.uk-card-secondary h2,.uk-card-secondary h3,.uk-card-secondary h4,.uk-card-secondary h5,.uk-card-secondary h6,
+    .uk-section-secondary h1,.uk-section-secondary h2,.uk-section-secondary h3,.uk-section-secondary h4,.uk-section-secondary h5,.uk-section-secondary h6,
+    .uk-card-primary .uk-card-title,.uk-card-secondary .uk-card-title{color:#fff !important}
+    .uk-card-primary p,.uk-card-secondary p,.uk-section-secondary p{color:rgba(255,255,255,.7) !important}
+    .uk-card-primary a:not(.uk-button),.uk-card-secondary a:not(.uk-button),.uk-section-secondary a:not(.uk-button){color:#fff !important}
+    .uk-card-primary .uk-button-default,.uk-card-secondary .uk-button-default,.uk-section-secondary .uk-button-default{color:#fff !important;border-color:rgba(255,255,255,.7) !important}
     </style>
     <script defer src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
     <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
