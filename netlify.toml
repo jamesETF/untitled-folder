@@ -66,22 +66,26 @@ RUBY_VERSION = "3.2.2"
   from = "/illinois/chicago"
   to = "/illinois/chicago/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/Illinois/Chicago"
   to = "/illinois/chicago/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/Illinois/Chicago/"
   to = "/illinois/chicago/"
   status = 301
+  force = true
 
 # LA — trailing slash wins (pos 6.4 / 393 clicks vs pos 47.9 / 17 clicks)
 [[redirects]]
   from = "/California/Los_Angeles"
   to = "/California/Los_Angeles/"
   status = 301
+  force = true
 
 # Boston — lowercase wins (pos 9.4 / 319 clicks vs pos 47.3 / 12 clicks)
 # Permalink updated to /massachusetts/boston/ to match winner
@@ -89,40 +93,47 @@ RUBY_VERSION = "3.2.2"
   from = "/massachusetts/Boston/"
   to = "/massachusetts/boston/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/massachusetts/Boston"
   to = "/massachusetts/boston/"
   status = 301
+  force = true
 
 # Raleigh — lowercase wins (pos 44.3 / 7 clicks vs negligible)
 [[redirects]]
   from = "/NorthCarolina/Raleigh"
   to = "/northCarolina/raleigh"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/NorthCarolina/Raleigh/"
   to = "/northCarolina/raleigh"
   status = 301
+  force = true
 
 # About — trailing slash wins (pos 5.1 / 7 clicks)
 [[redirects]]
   from = "/about-us"
   to = "/about-us/"
   status = 301
+  force = true
 
 # Contact — trailing slash wins (pos 10.4 / 1 click)
 [[redirects]]
   from = "/contact-us"
   to = "/contact-us/"
   status = 301
+  force = true
 
 # Puppy delivery — trailing slash wins
 [[redirects]]
   from = "/puppy-delivery"
   to = "/puppy-delivery/"
   status = 301
+  force = true
 
 # Chicago contact sub-page — no-slash wins (negligible but clean)
 [[redirects]]
