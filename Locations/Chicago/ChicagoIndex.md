@@ -79,7 +79,7 @@ redirect_from:
 %}
 {% include faqs.html
   multiple="true"
-  category="indexfaq"
+  category="chicagofaq"
   section_title="Quick #FACTS"
   section_size="small"
   section_background="default"
