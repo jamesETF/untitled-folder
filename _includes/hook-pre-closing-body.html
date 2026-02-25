@@ -4,7 +4,20 @@
 <!-- UIkit main.min.js (restored — loaded from head for CLS fix) -->
 
 
-<!-- Heymarket widget: click-to-load facade (saves ~240KB until interaction) -->
+<!-- Heymarket widget -->
+{% assign _hm_facade = false %}
+{% if page.url == "/" or page.url == "/index.html" %}
+  {% assign _hm_facade = true %}
+{% elsif page.layout == "post" %}
+  {% assign _hm_facade = true %}
+{% elsif page.chicago or page.LA or page.Boston or page.atlanta or page.southampton %}
+  {% unless page.url contains "contact" or page.url contains "puppies" or page.url contains "french-bulldog-puppies" %}
+    {% assign _hm_facade = true %}
+  {% endunless %}
+{% endif %}
+
+{% if _hm_facade %}
+<!-- Heymarket: click-to-load facade (low-intent pages — saves ~240KB until interaction) -->
 <style>
 #heymk-facade{position:fixed;bottom:20px;right:15px;width:60px;height:60px;border-radius:50%;background:#8158ec;cursor:pointer;z-index:2147483645;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.25);transition:transform .2s}
 #heymk-facade:hover{transform:scale(1.1)}
@@ -41,3 +54,22 @@
   btn.addEventListener('keydown',function(e){if(e.key==='Enter')loadWidget();});
 })();
 </script>
+{% else %}
+<!-- Heymarket: full widget (high-intent pages — puppies, contact, pricing, etc.) -->
+<script type='text/javascript'>
+(function(_a,id,a,_) {
+  function Modal(){
+    var h = a.createElement('script'); h.type = 'text/javascript'; h.async = true;
+    var e = id; h.src = e+(e.indexOf("?")>=0?"&":"?")+'ref='+_;
+    var y = a.getElementsByTagName('script')[0]; y.parentNode.insertBefore(h, y);
+    h.onload = h.onreadystatechange = function() {
+      var r = this.readyState; if (r && r != 'complete' && r != 'loaded') return;
+      try { HeymarketWidget.construct(_); } catch (e) {}
+    };
+  };
+  (_a.attachEvent ? _a.attachEvent('onload', Modal) : _a.addEventListener('load', Modal, false));
+})(window,'https://widget.heymarket.com/heymk-widget.bundle.js',document,{
+  CLIENT_ID: "Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3"
+});
+</script>
+{% endif %}
