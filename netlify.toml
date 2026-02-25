@@ -131,6 +131,32 @@ RUBY_VERSION = "3.2.2"
   to = "/puppy-delivery/"
   status = 301
 
+# Chicago puppies page — duplicate of main puppies page (10K impr but no Chicago-specific queries)
+# Consolidate to main puppies page which already ranks for all the same terms
+[[redirects]]
+  from = "/Illinois/Chicago/french-bulldog-puppies"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Illinois/Chicago/french-bulldog-puppies/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/illinois/chicago/french-bulldog-puppies"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/illinois/chicago/french-bulldog-puppies/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
 # Chicago contact sub-page — no-slash wins (negligible but clean)
 [[redirects]]
   from = "/illinois/chicago/contact-us/"
