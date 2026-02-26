@@ -1,7 +1,7 @@
 ---
 title: Happy Tails
 subtitle: Our Puppies in Their Forever Homes
-description: See where Ethical Frenchie puppies have found their forever families. 500+ French Bulldogs placed nationwide with lifetime health guarantees.
+description: See where Ethical Frenchie puppies have found their forever families. AKC registered French Bulldogs placed nationwide with lifetime health guarantees.
 layout: full
 width: full
 navbar:
@@ -63,172 +63,186 @@ hubspotneeded: true
       <p class="uk-text-lead">A few of our favorites from over the years</p>
     </div>
 
+    <style>.happy-tails-img{height:280px;overflow:hidden}.happy-tails-img img{width:100%;height:100%;object-fit:cover}</style>
+
     <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match" data-uk-grid>
 
-      <!-- Bean -->
+      <!-- Bean — quote from Diego David, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/bean/bean.webp" alt="Bean the Blue French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Bean</h3>
             <p class="uk-text-meta">Blue &bull; Female &bull; New York</p>
-            <p><em>"Bean has completely taken over our apartment and our hearts. She's the sassiest little couch potato we've ever met."</em></p>
+            <p><em>"They've both been absolutely amazing. Healthy, happy, and such a joy to have."</em></p>
+            <p class="uk-text-small uk-text-muted">— Diego D., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Rosie -->
+      <!-- Rosie — quote from Hello Miss Mabel, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/rosie/rosie-French-Bulldog-Puppy-01.webp" alt="Rosie the Blue Merle French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Rosie</h3>
-            <p class="uk-text-meta">Blue Merle &bull; Female &bull; Connecticut</p>
-            <p><em>"Rosie is the star of every dog park visit. Her coloring stops people in their tracks!"</em></p>
+            <p class="uk-text-meta">Blue Merle &bull; Female &bull; New York</p>
+            <p><em>"I knew at first glance my puppy was impeccably bred. Her proportions, her jet black coat — I highly recommend Ethical Frenchie!"</em></p>
+            <p class="uk-text-small uk-text-muted">— Mabel, NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Lucas -->
+      <!-- Lucas — quote from nikol beljakovic, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/lucas/french-bulldog-puppy-lucas.webp" alt="Lucas the Lilac French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Lucas</h3>
-            <p class="uk-text-meta">Lilac &bull; Male &bull; Florida</p>
-            <p><em>"Lucas follows me everywhere — even into the bathroom. Best shadow I've ever had."</em></p>
+            <p class="uk-text-meta">Lilac &bull; Male &bull; New York</p>
+            <p><em>"Had the best possible experience. As it was my first dog they guided me and educated me every step of the way. My Benny has been super healthy!"</em></p>
+            <p class="uk-text-small uk-text-muted">— Nikol B., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Paddington -->
+      <!-- Paddington — quote from Kelly Lima, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/paddington/paddington-blue-sable-fawn-french-bulldog-puppy-1.webp" alt="Paddington the Blue Sable Fawn French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Paddington</h3>
-            <p class="uk-text-meta">Blue Sable Fawn &bull; Male &bull; New Jersey</p>
-            <p><em>"Paddington is the most curious little guy. He inspects every single thing that comes into our house."</em></p>
+            <p class="uk-text-meta">Blue Sable Fawn &bull; Male &bull; New York</p>
+            <p><em>"We could not have had a better experience. We have 2 amazing, healthy and ridiculously cute babies. Would never get another Frenchie anywhere else!"</em></p>
+            <p class="uk-text-small uk-text-muted">— Kelly L., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Brioche -->
+      <!-- Brioche — quote from Rhiannon Lupo, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/brioche/brioche-lilac-fawn-french-bulldog-puppy-1.webp" alt="Brioche the Lilac Fawn French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Brioche</h3>
-            <p class="uk-text-meta">Lilac Fawn &bull; Female &bull; California</p>
-            <p><em>"Sweet as her name. Brioche is the most gentle soul — she loves her morning sunbeam naps."</em></p>
+            <p class="uk-text-meta">Lilac Fawn &bull; Female &bull; New York</p>
+            <p><em>"Ethical Frenchie is truly the best! They provided me with plenty of information as a first time dog owner and helpful tips."</em></p>
+            <p class="uk-text-small uk-text-muted">— Rhiannon L., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Blue Ivy -->
+      <!-- Blue Ivy — quote from David Kirsch, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/blue-ivy/blue-ivy-blue-merle-french-bulldog-puppy-1.webp" alt="Blue Ivy the Blue Merle French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Blue Ivy</h3>
-            <p class="uk-text-meta">Blue Merle &bull; Female &bull; Texas</p>
-            <p><em>"That one blue eye! Blue Ivy is shy at first but once she warms up, she's the biggest cuddle bug."</em></p>
+            <p class="uk-text-meta">Blue Merle &bull; Female &bull; New York</p>
+            <p><em>"Getting my Frenchie from Ethical Frenchie was the BEST decision! They answered all my questions through emails, phone calls, and even FaceTime."</em></p>
+            <p class="uk-text-small uk-text-muted">— David K., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Regina -->
+      <!-- Regina — quote from Alexa Petratos, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/regina/regina.webp" alt="Regina the Lilac and Tan French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Regina</h3>
-            <p class="uk-text-meta">Lilac &amp; Tan &bull; Female &bull; Massachusetts</p>
-            <p><em>"Regina rules the house — and she knows it. A total diva in the best way possible."</em></p>
+            <p class="uk-text-meta">Lilac &amp; Tan &bull; Female &bull; New York</p>
+            <p><em>"I cannot recommend Ethical Frenchie enough! They've been absolutely amazing since the beginning. I still cannot thank them enough for their constant support."</em></p>
+            <p class="uk-text-small uk-text-muted">— Alexa P., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Mona -->
+      <!-- Mona — quote from Mint Kongphat, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/mona/french-bulldog-puppy-mona.webp" alt="Mona the Lilac French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Mona</h3>
-            <p class="uk-text-meta">Lilac &bull; Female &bull; Georgia</p>
-            <p><em>"Mona has the sweetest face and the goofiest personality. She makes us laugh every single day."</em></p>
+            <p class="uk-text-meta">Lilac &bull; Female &bull; New York</p>
+            <p><em>"I have my two boys from Ethical Frenchie. We get complimented by strangers about how healthy they look all the time."</em></p>
+            <p class="uk-text-small uk-text-muted">— Mint K., NYC</p>
           </div>
         </div>
       </div>
 
-      <!-- Polar Bear -->
+      <!-- Polar Bear — quote from James Burden, Chicago Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/polar-bear/polar-bear.webp" alt="Polar Bear the Platinum Lilac Fluffy French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Polar Bear</h3>
-            <p class="uk-text-meta">Platinum Lilac Fluffy &bull; Male &bull; Illinois</p>
-            <p><em>"Polar Bear is literally the fluffiest thing alive. People think he's a teddy bear — honestly, he kind of is."</em></p>
+            <p class="uk-text-meta">Platinum Lilac Fluffy &bull; Male &bull; Chicago</p>
+            <p><em>"The team at Ethical Frenchie is excellent, from starting the process of adopting my dog to the after care tips. They check in on my pup from time to time."</em></p>
+            <p class="uk-text-small uk-text-muted">— James B., Chicago</p>
           </div>
         </div>
       </div>
 
-      <!-- Winnie -->
+      <!-- Winnie — quote from Angela Walton, Chicago Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/winnie/IMG_6186.webp" alt="Winnie the Blue Fawn Merle French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Winnie</h3>
-            <p class="uk-text-meta">Blue Fawn Merle &bull; Male &bull; Pennsylvania</p>
-            <p><em>"Winnie is our chunky little man. He loves belly rubs more than food — and that's saying something for a Frenchie."</em></p>
+            <p class="uk-text-meta">Blue Fawn Merle &bull; Male &bull; Chicago</p>
+            <p><em>"I had lots of questions and they've been the best! They sent me several emails with links on what to buy for food, toys, everything."</em></p>
+            <p class="uk-text-small uk-text-muted">— Angela W., Chicago</p>
           </div>
         </div>
       </div>
 
-      <!-- Daisy Mae -->
+      <!-- Daisy Mae — quote from Rachel Drefs, Chicago Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/daisy-mae/daisy-mae.webp" alt="Daisy Mae the Merle French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Daisy Mae</h3>
-            <p class="uk-text-meta">Merle &bull; Female &bull; North Carolina</p>
-            <p><em>"Daisy Mae never stops moving. She's our little adventure buddy — hikes, road trips, you name it."</em></p>
+            <p class="uk-text-meta">Merle &bull; Female &bull; Chicago</p>
+            <p><em>"I bought a beautiful, healthy, well socialized and somewhat trained puppy. When I brought her home she found her pad, knew her name, and the next day played fetch!"</em></p>
+            <p class="uk-text-small uk-text-muted">— Rachel D., Chicago</p>
           </div>
         </div>
       </div>
 
-      <!-- Peanut -->
+      <!-- Peanut — quote from Lisa Phelan, NYC Google review -->
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
-          <div class="uk-card-media-top">
+          <div class="uk-card-media-top happy-tails-img">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/peanut/peanut-isabella-french-bulldog-puppy-1.webp" alt="Peanut the Isabella French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Peanut</h3>
-            <p class="uk-text-meta">Isabella &bull; Male &bull; Washington</p>
-            <p><em>"Peanut is tiny but mighty. He bosses around our Golden Retriever and somehow gets away with it."</em></p>
+            <p class="uk-text-meta">Isabella &bull; Male &bull; New York</p>
+            <p><em>"They were wonderful to work with, very responsive to my questions and also interviewed me to make sure their puppy was going to a good, loving home."</em></p>
+            <p class="uk-text-small uk-text-muted">— Lisa P., NYC</p>
           </div>
         </div>
       </div>
