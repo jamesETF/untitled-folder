@@ -21,6 +21,7 @@ header:
 permalink: /happy-tails/
 applechat: true
 hubspotneeded: true
+happytails: true
 ---
 
 <!-- Stats Bar -->
