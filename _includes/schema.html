@@ -182,7 +182,7 @@
               "@type": "BlogPosting",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://ethicalfrenchie.com/the-ethics-of-where-to-find-a-french-bulldog-puppy-for-your-family/"
+                "@id": "https://ethicalfrenchie.com/about-us/"
               },
               "headline": "Here are the 4 types of French Bulldog Breeders near you | by Ethical Frenchie",
               "description": "Listed here in order from least ethical to most ethical, in my opinion: puppy mills, backyard breeders, pet stores, show breeders, and family breeders.",
@@ -220,22 +220,22 @@
         {% endif %}
         {% if page.extraseoblog %}
         <script type="application/ld+json">
-        { 
-            "@context": "https://schema.org", 
+        {
+            "@context": "https://schema.org",
             "@type": "BlogPosting",
-            "headline": {{.Params.title}},
-            "image": {
+            "headline": {{ page.title | jsonify }},
+            {% if page.image %}"image": {
                 "@type": "ImageObject",
-                "url": {{ if eq .Params.page_type "blog" }}{{ printf "%s" .Params.asset.image | absURL }}{{ else }}{{ printf "/images%s" .Params.asset.image | absURL }}{{ end }}
-            },
-            "keywords": {{ .Params.categories }},
+                "url": "https://ethicalfrenchie.com{{ page.image }}"
+            },{% endif %}
+            {% if page.categories %}"keywords": {{ page.categories | jsonify }},{% endif %}
             "publisher": {
               "@type": "Organization",
                 "name":"Ethical Frenchie LLC",
                 "url":"https://ethicalfrenchie.com/",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://ethicalfrenchie.com/images/logo.png"
+                    "url": "https://ethicalfrenchie.com/uploads/logo.png"
                 },
                 "sameAs":[
                     "https://www.facebook.com/ethicalfrenchie",
@@ -249,20 +249,20 @@
                     }
                 ]
             },
-            "url": {{ .Permalink }},
-            "dateCreated": {{ .Params.date }},
-            "datePublished": {{ .Params.date }},
-            "dateModified": {{ .Params.date }},
-            "description": {{ .Params.description }},
+            "url": "https://ethicalfrenchie.com{{ page.url }}",
+            {% if page.date %}"dateCreated": "{{ page.date | date: '%Y-%m-%d' }}",
+            "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+            "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",{% endif %}
+            {% if page.description %}"description": {{ page.description | jsonify }},{% endif %}
             "inLanguage": "en-US",
             "author": {
                 "@type": "Person",
-                "name": {{ .Params.author }}
+                "name": {{ page.author | default: "James" | jsonify }}
             },
             "mainEntityOfPage": {
-                "@type": "WebPage"
-            },
-            "articleBody": {{ .Content }}
+                "@type": "WebPage",
+                "@id": "https://ethicalfrenchie.com{{ page.url }}"
+            }
         }
         </script>
         {% endif %}
@@ -333,22 +333,22 @@
         {% endif %}
         {% if page.extraseo500 %}
         <script type="application/ld+json">
-            { 
-                "@context": "https://schema.org", 
+            {
+                "@context": "https://schema.org",
                 "@type": "BlogPosting",
-                "headline": {{.Params.title}},
-                "image": {
+                "headline": {{ page.title | jsonify }},
+                {% if page.image %}"image": {
                     "@type": "ImageObject",
-                    "url": {{ if eq .Params.page_type "blog" }}{{ printf "%s" .Params.asset.image | absURL }}{{ else }}{{ printf "/images%s" .Params.asset.image | absURL }}{{ end }}
-                },
-                "keywords": {{ .Params.categories }},
+                    "url": "https://ethicalfrenchie.com{{ page.image }}"
+                },{% endif %}
+                {% if page.categories %}"keywords": {{ page.categories | jsonify }},{% endif %}
                 "publisher": {
                     "@type": "Organization",
                     "name":"Ethical Frenchie LLC",
                     "url":"https://ethicalfrenchie.com/",
                     "logo": {
                         "@type": "ImageObject",
-                        "url": "https://ethicalfrenchie.com/images/logo.png"
+                        "url": "https://ethicalfrenchie.com/uploads/logo.png"
                     },
                     "sameAs":[
                         "https://www.facebook.com/ethicalfrenchie",
@@ -362,20 +362,20 @@
                         }
                     ]
                 },
-                "url": {{ .Permalink }},
-                "dateCreated": {{ .Params.date }},
-                "datePublished": {{ .Params.date }},
-                "dateModified": {{ .Params.date }},
-                "description": {{ .Params.description }},
+                "url": "https://ethicalfrenchie.com{{ page.url }}",
+                {% if page.date %}"dateCreated": "{{ page.date | date: '%Y-%m-%d' }}",
+                "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+                "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",{% endif %}
+                {% if page.description %}"description": {{ page.description | jsonify }},{% endif %}
                 "inLanguage": "en-US",
                 "author": {
                     "@type": "Person",
-                    "name": {{ .Params.author }}
+                    "name": {{ page.author | default: "James" | jsonify }}
                 },
                 "mainEntityOfPage": {
-                    "@type": "WebPage"
-                },
-                "articleBody": {{ .Content }}
+                    "@type": "WebPage",
+                    "@id": "https://ethicalfrenchie.com{{ page.url }}"
+                }
             }
         </script>
         <script type="application/ld+json">
@@ -504,7 +504,7 @@
               "@type": "BlogPosting",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://ethicalfrenchie.com/french-bulldogs-health-concerns-care-tips"
+                "@id": "https://ethicalfrenchie.com/blog/french-bulldog-health-risks-welfare-problems-behind-the-cute-face/"
               },
               "headline": "Top 5 Health Concerns and Care Tips for French Bulldogs: A Breeder's Perspective",
               "image": "https://ethicalfrenchie.com/uploads/top-french-bulldog-health-concens.jpeg",
@@ -520,7 +520,7 @@
                   "url": "https://ethicalfrenchie.com/uploads/logo.png"
                 }
               },
-              "url": "https://ethicalfrenchie.com/french-bulldogs-health-concerns-care-tips",
+              "url": "https://ethicalfrenchie.com/blog/french-bulldog-health-risks-welfare-problems-behind-the-cute-face/",
               "datePublished": "2023-05-09T23:41:05-04:00",
               "dateModified": "2023-05-09T23:41:05-04:00",
               "description": "Discover the top 5 health concerns faced by French Bulldogs and learn valuable care tips from a breeder's perspective. From Brachycephalic Syndrome to Cherry Eye, this article shares personal experiences and insights to help you raise a happy and healthy Frenchie.",
