@@ -213,7 +213,7 @@ hubspotneeded: true
 <div style="background: #901941; padding: 30px 20px; text-align: center;">
   <p style="color: #fff; font-size: 20px; font-weight: 700; margin: 0 0 8px 0;">Have an Ethical Frenchie at Home?</p>
   <p style="color: rgba(255,255,255,0.85); font-size: 15px; margin: 0 0 20px 0;">Submit your pup's before & after photos for our map!</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSehuypnX_BbJ1NzjxW8-cmyLgTldJuaWib804EXitC4fYKleA/viewform" target="_blank" rel="noopener" style="display:inline-block; background:#fff; color:#901941; padding:12px 28px; border-radius:4px; font-weight:700; font-size:15px; text-decoration:none;">Submit Your Photos</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSehuypnX_BbJlNzjxW8-cmyLgTldJuaWib8O4EXitC4fYKleA/viewform" target="_blank" rel="noopener" style="display:inline-block; background:#fff; color:#901941; padding:12px 28px; border-radius:4px; font-weight:700; font-size:15px; text-decoration:none;">Submit Your Photos</a>
 </div>
 
 <!-- Puppy Showcase Grid -->
