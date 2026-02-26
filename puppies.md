@@ -35,7 +35,6 @@ redirect_from:
 - /us/french-bulldog-puppies-for-sale-in-aloha-507987
 - /puppies/Marley
 - /merle-french-bulldog-tubs
-- /blue-french-bulldog-breed/
 - /french-bulldog/
 - /puppies/daisy
 - /puppies/fawn-french-bulldog-puppy-allofus/

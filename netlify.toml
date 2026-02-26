@@ -234,6 +234,59 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
+# --- Duplicate content cluster redirects (Session 21) ---
+# Source: GSC audit — ghost pages with 0 impressions consolidated to GSC winners
+
+# Dog food cluster → /blog/best-food-for-french-bulldog (1,582 impr winner)
+[[redirects]]
+  from = "/the-complete-guide-to-french-bulldog-food/"
+  to = "/blog/best-food-for-french-bulldog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-french-bulldog-foods/"
+  to = "/blog/best-food-for-french-bulldog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-dog-food-for-french-bulldogs-with-sensitive-stomach/"
+  to = "/blog/best-food-for-french-bulldog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-dog-foods-for-french-bulldogs-with-gas/"
+  to = "/blog/best-food-for-french-bulldog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-dog-foods/french-bulldogs/"
+  to = "/blog/best-food-for-french-bulldog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/french-bulldog-care-13-best-dog-food-brands/"
+  to = "/blog/best-food-for-french-bulldog"
+  status = 301
+  force = true
+
+# Blue french bulldog cluster → /puppies/upcoming-colors/blue-french-bulldog (4,582 impr winner)
+[[redirects]]
+  from = "/blue-french-bulldog/"
+  to = "/puppies/upcoming-colors/blue-french-bulldog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blue-french-bulldog-breed/"
+  to = "/puppies/upcoming-colors/blue-french-bulldog"
+  status = 301
+  force = true
+
 # --- Sold puppy redirects (Section E cleanup, Session 14) ---
 # 71 sold puppy pages deleted. 12 Happy Tails featured puppies → /happy-tails/
 # All other sold puppies → /french-bulldog-puppies/ (available puppies page)
