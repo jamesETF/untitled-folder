@@ -3,7 +3,6 @@ title: Puppy Health Gaurantee
 image: puppysource.jpg
 ---
 
-Being a French Bulldog Breeder requires a lot of preparation and health testing before producing a litter. But none of that matters if we aren't able to back up. So we offer the strongest Health Gaurantee in the industry.
-To read more about where why you should never chose a frenchie from a faceless entity.
+Being a French Bulldog Breeder requires a lot of preparation and health testing before producing a litter. But none of that matters if we aren't able to back it up. So we offer the strongest Health Guarantee in the industry. Don't just take our word for it — [see what our families say](/happy-tails/).
 
-{% include button.html text="Where to find a Frenchie" url="/the-ethics-of-where-to-find-a-french-bulldog-puppy-for-your-family/" style="default" %}
+{% include button.html text="Meet Our Happy Families" url="/happy-tails/" style="default" %}

@@ -35,7 +35,7 @@ But it doesn't stop there. We understand that bringing home a French Bulldog is 
 
 ## Why We Do It
 When you welcome one of our French Bulldogs into your home, you become a part of our extended family. We cherish the relationships we build with each and every adopter, offering support and advice throughout the life of your furry companion. We are not just here for the initial transaction; we are here for the long haul, sharing in the joy and triumphs of your beloved French Bulldog.
-We are more than just a breeder; we are a passionate group of individuals dedicated to the well-being of our French Bulldogs and the happiness of their families. Our journey is a labor of love, and we want to share that love with you.
+We are more than just a breeder; we are a passionate group of individuals dedicated to the well-being of our French Bulldogs and the happiness of their families. Our journey is a labor of love, and we want to share that love with you. [See where our puppies have found their forever homes](/happy-tails/).
 
 
 

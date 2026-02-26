@@ -4,3 +4,4 @@ subtitle: Looks like you've made it to the end of our homepage, Which is good, l
 ---
 
 <a class="uk-button uk-button-xlarge" style="background-color: #941901; color: #fff; border: none;" href="/puppies/">View our Puppies</a>
+<a class="uk-button uk-button-xlarge uk-margin-small-top" style="background-color: transparent; color: #fff; border: 2px solid #fff;" href="/happy-tails/">Meet Our Happy Families</a>

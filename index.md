@@ -83,8 +83,8 @@ redirect_from:
   card_style="default"
   grid="1-2"
 %}
-{% include cards.html 
-  block="homescams" 
+{% include cards.html
+  block="homescams"
   section_header_align="center"
   section_size="large"
   section_background="muted"
@@ -93,6 +93,14 @@ redirect_from:
   gutter="small"
   section_content_align="center"
 %}
+
+<div class="uk-section uk-section-default uk-section-small">
+  <div class="uk-container uk-container-small uk-text-center">
+    <h3 class="section-title">Don't Just Take Our Word For It</h3>
+    <p class="uk-text-lead">See real reviews and stories from families who chose Ethical Frenchie.</p>
+    <a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/happy-tails/">Meet Our Happy Tails</a>
+  </div>
+</div>
 
 {% include faqs.html
   multiple="true"

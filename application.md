@@ -20,15 +20,16 @@ header:
 
 
 {% include application.html section_content_align="center" section_size="xlarge" %}
-{% include reviewsfb.html 
-   layout="1-1"
-  section_size="large"
-  section_background="muted"
-  section_container="large"
-  section_content_align="center"
-%}
-{% include faqs.html 
-  multiple="true" 
+<div class="uk-section uk-section-muted uk-section-large">
+  <div class="uk-container uk-container-small uk-text-center">
+    <h2 class="section-title">What Our Families Say</h2>
+    <p class="uk-text-lead uk-margin-medium-bottom">Hundreds of families have trusted Ethical Frenchie. Here's what they have to say.</p>
+    <a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/happy-tails/">See Our Happy Tails</a>
+  </div>
+</div>
+
+{% include faqs.html
+  multiple="true"
   category="application" 
   section_title="Application FAQ" 
   section_size="small"

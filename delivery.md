@@ -64,8 +64,8 @@ Greater Los Angeles
 New England
 </span> area, worry not! We will come to you. Our commitment is to ensure that no matter where you are, your new companion arrives in the safest and most loving way possible.
 
-See Our Happy Families:
-We invite you to view our gallery of happy customers and their adorable French Bulldogs. These images are a testament to the joy and love these puppies bring into their new homes.
+[See Our Happy Families:](/happy-tails/)
+We invite you to view our [Happy Tails page](/happy-tails/) to see real families and their adorable French Bulldogs. These stories are a testament to the joy and love these puppies bring into their new homes.
 
 Please fill out our contact form to stay updated on the growth of our puppies and to learn more about our delivery service. We are excited to bring a bundle of joy directly to your doorstep!
 

@@ -93,3 +93,7 @@ redirect_from:
 
 {% include reviewsg.html %}
 
+<div class="uk-text-center uk-margin-medium-top uk-margin-large-bottom">
+  <a class="uk-button uk-button-large" style="background-color: #901941; color: #fff; border: none;" href="/happy-tails/">See All Our Happy Tails</a>
+</div>
+
