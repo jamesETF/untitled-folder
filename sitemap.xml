@@ -2,469 +2,260 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       CORE BUSINESS PAGES - Priority 1.0-0.9
+       CORE BUSINESS PAGES (8)
+       Canonical URLs verified against production on 2026-02-26
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <!-- Homepage -->
   <url>
     <loc>https://ethicalfrenchie.com/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-02-26</lastmod>
   </url>
 
-  <!-- Main Puppies Listing Page -->
+  <!-- Available Puppies Listing -->
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+  </url>
+
+  <!-- Happy Tails — Social Proof / Alumni Page -->
+  <url>
+    <loc>https://ethicalfrenchie.com/happy-tails/</loc>
+    <lastmod>2026-02-26</lastmod>
   </url>
 
   <!-- About Us -->
   <url>
     <loc>https://ethicalfrenchie.com/about-us/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <!-- Application -->
   <url>
     <loc>https://ethicalfrenchie.com/application/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
-  <!-- Contact Us -->
+  <!-- Contact -->
   <url>
     <loc>https://ethicalfrenchie.com/contact-us/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <!-- FAQ -->
   <url>
     <loc>https://ethicalfrenchie.com/faq/</loc>
     <lastmod>2026-02-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- Pricing -->
   <url>
     <loc>https://ethicalfrenchie.com/pricing/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       AVAILABLE PUPPIES - Priority 0.8 (Updated Daily)
+       AVAILABLE PUPPIES (4)
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/winnie</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/brioche</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/hey-arnold</loc>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/labubu</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/polar-bear</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/eva</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/mila</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Partner/Reserved Puppies -->
-  <url>
-    <loc>https://ethicalfrenchie.com/puppies/merle-french-bulldog-puppy-kane/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       UPCOMING COLORS / PRE-ORDER PAGES - Priority 0.7
+       UPCOMING COLORS (5)
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
     <loc>https://ethicalfrenchie.com/puppies/upcoming-colors</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/puppies/upcoming-colors/blue-french-bulldog</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/puppies/upcoming-colors/lilac-french-bulldog</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/puppies/upcoming-colors/merle-french-bulldog</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/puppies/upcoming-colors/lilac-french-bulldog</loc>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/puppies/upcoming-colors/fluffy-french-bulldog</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       LOCATION PAGES - Priority 0.8 (Local SEO)
+       LOCATION PAGES (6)
        ═══════════════════════════════════════════════════════════════════════ -->
 
-  <!-- Boston -->
-  <url>
-    <loc>https://ethicalfrenchie.com/massachusetts/boston/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/massachusetts/boston/contact-us/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Chicago -->
+  <!-- Chicago — 46K impressions, #1 location page -->
   <url>
     <loc>https://ethicalfrenchie.com/illinois/chicago/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/illinois/chicago/contact-us/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-02-25</lastmod>
   </url>
 
   <!-- Los Angeles -->
   <url>
     <loc>https://ethicalfrenchie.com/California/Los_Angeles/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-02-26</lastmod>
   </url>
 
+  <!-- Boston -->
   <url>
-    <loc>https://ethicalfrenchie.com/California/Los_Angeles/contact-us/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://ethicalfrenchie.com/massachusetts/boston/</loc>
+    <lastmod>2026-02-26</lastmod>
   </url>
 
   <!-- Atlanta -->
   <url>
     <loc>https://ethicalfrenchie.com/georgia/atlanta</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-02-26</lastmod>
   </url>
 
   <!-- Raleigh -->
   <url>
     <loc>https://ethicalfrenchie.com/northCarolina/raleigh</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-02-26</lastmod>
   </url>
 
   <!-- Southampton -->
   <url>
     <loc>https://ethicalfrenchie.com/newyork/southampton</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       SERVICE & SUPPORT PAGES - Priority 0.6-0.7
+       SERVICE PAGES (2)
        ═══════════════════════════════════════════════════════════════════════ -->
-
-
 
   <url>
     <loc>https://ethicalfrenchie.com/puppy-delivery/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-payment-plans/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/privacy/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       BLOG CONTENT - Priority 0.5-0.7
+       BLOG INDEX (1)
        ═══════════════════════════════════════════════════════════════════════ -->
 
-  <!-- Blog Main Page -->
   <url>
     <loc>https://ethicalfrenchie.com/blog/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
 
-  <!-- Recent/High-Value Blog Posts (2024-2025) -->
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       BLOG POSTS (19)
+       Dates from front matter. Canonical URLs verified against production.
+       ═══════════════════════════════════════════════════════════════════════ -->
+
+  <!-- 2025 — Recent Content -->
   <url>
     <loc>https://ethicalfrenchie.com/blog/fall-frenchie-essentials-cozy-healthy-skin-season/</loc>
     <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/blog/french-bulldog-colors-explained</loc>
     <lastmod>2025-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/blog/benefits-of-adding-a-french-bulldog-sibling/</loc>
     <lastmod>2025-09-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
+  <!-- 2024 -->
   <url>
     <loc>https://ethicalfrenchie.com/blog/keeping-your-french-bulldog-cool-during-a-heat-wave-tips-to-avoid-heat-stroke/</loc>
-    <lastmod>2024-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2024-06-28</lastmod>
   </url>
 
-  <!-- Evergreen Blog Content (2022-2023) -->
+  <!-- 2023 — Evergreen -->
   <url>
     <loc>https://ethicalfrenchie.com/blog/why-does-my-frenchie-vomit</loc>
     <lastmod>2023-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldogs-winter-essentials</loc>
     <lastmod>2023-11-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/french-bulldog-ivdd-prevention</loc>
-    <lastmod>2022-03-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/blue-merle-french-bulldog-everything-you-wanted-to-know</loc>
-    <lastmod>2022-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/top-5-diy-summer-treats-for-french-bulldog</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/most-common-mistakes-french-bulldog-owners-make</loc>
-    <lastmod>2021-01-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/blog/increase-french-bulldog-lifespan</loc>
     <lastmod>2023-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+
+  <!-- 2022 — Evergreen -->
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/french-bulldog-ivdd-prevention</loc>
+    <lastmod>2022-03-04</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/blue-merle-french-bulldog-everything-you-wanted-to-know</loc>
+    <lastmod>2022-02-16</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/top-5-diy-summer-treats-for-french-bulldog</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/most-common-mistakes-french-bulldog-owners-make</loc>
+    <lastmod>2022-01-05</lastmod>
+  </url>
+
+  <!-- 2020 -->
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/best-food-for-french-bulldog</loc>
+    <lastmod>2020-08-04</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-feeding-the-raw-diet/</loc>
+    <lastmod>2020-02-12</lastmod>
+  </url>
+
+  <!-- 2019 — Older Evergreen -->
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/why-french-bulldogs-are-expensive-before-adoption/</loc>
+    <lastmod>2019-11-12</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/7-french-bulldog-facts-that-might-surprise-and-astound-you/</loc>
+    <lastmod>2019-10-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/dog-supplement-brands-we-trust-for-our-frenchie/</loc>
+    <lastmod>2019-09-10</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/blog/what-is-a-blue-french-bulldog-and-how-to-care-for-them/</loc>
+    <lastmod>2019-11-05</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/blog/traits-of-a-french-bulldog-you-may-not-know</loc>
     <lastmod>2019-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/a-thorough-understanding-of-nutrients-for-french-bulldogs</loc>
-    <lastmod>2020-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <!-- Older Educational Content -->
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/best-food-for-french-bulldog</loc>
-    <lastmod>2019-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/french-bulldog-care</loc>
-    <lastmod>2019-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/what-is-a-blue-french-bulldog-and-how-to-care-for-them/</loc>
-    <lastmod>2019-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/why-french-bulldogs-are-expensive-before-adoption/</loc>
-    <lastmod>2019-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/french-bulldog-health-risks-welfare-problems-behind-the-cute-face/</loc>
-    <lastmod>2019-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/ethical-frenchie-guide-to-dog-health/</loc>
-    <lastmod>2019-10-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <!-- Non-Blog Permalink Articles -->
-  <url>
-    <loc>https://ethicalfrenchie.com/dog-supplement-brands-we-trust-for-our-frenchie/</loc>
-    <lastmod>2019-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-television-commercial-new-york-lottery-animal-actors-inc/</loc>
-    <lastmod>2020-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/7-french-bulldog-facts-that-might-surprise-and-astound-you/</loc>
-    <lastmod>2019-08-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-home-made-treats-ethical-frenchie/</loc>
-    <lastmod>2019-08-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/home-cooked-food-for-your-french-bulldog-ethical-frenchie</loc>
-    <lastmod>2019-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-feeding-the-raw-diet/</loc>
-    <lastmod>2019-12-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blue-pied-french-bulldog-puppies-ethical-frenchie/</loc>
-    <lastmod>2019-02-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Blog Pagination -->
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/2/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/blog/3/</loc>
-    <lastmod>2025-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <lastmod>2022-04-04</lastmod>
   </url>
 
 </urlset>
