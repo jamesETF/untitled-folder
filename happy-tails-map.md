@@ -238,8 +238,8 @@ hubspotneeded: false
       <p class="ht-stat-label">Furever Homes Found</p>
     </div>
     <div>
-      <p class="ht-stat-num">All 50</p>
-      <p class="ht-stat-label">States Served</p>
+      <p class="ht-stat-num">Coast to Coast</p>
+      <p class="ht-stat-label">Nationwide Delivery</p>
     </div>
     <div>
       <p class="ht-stat-num">Lifetime</p>
