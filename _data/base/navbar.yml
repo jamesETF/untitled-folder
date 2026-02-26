@@ -11,8 +11,8 @@ center:
   - title: Delivery
     url: /puppy-delivery
 
-  - title: Financing
-    url: https://terracefinanceapp.azurewebsites.net/onlineApplication/preApplication?source=1&identifier=2715
+  - title: Happy Tails
+    url: /happy-tails/
 
   - title: Blog
     url: /blog/
