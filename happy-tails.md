@@ -63,7 +63,10 @@ hubspotneeded: true
       <p class="uk-text-lead">A few of our favorites from over the years</p>
     </div>
 
-    <style>.happy-tails-img{height:280px;overflow:hidden}.happy-tails-img img{width:100%;height:100%;object-fit:cover}</style>
+    <style>.happy-tails-img{height:280px;overflow:hidden}.happy-tails-img img{width:100%;height:100%;object-fit:cover}.happy-tails-review{color:inherit;text-decoration:none}.happy-tails-review:hover{text-decoration:underline}</style>
+
+    {% assign nyc_reviews = "https://www.google.com/maps/place/Ethical+Frenchie/@40.7028885,-74.0138771,17z/data=!4m8!3m7!1s0x89c25b610f061fb1:0x24ac563bf3edce66!8m2!3d40.7028885!4d-74.0138771!9m1!1b1!16s%2Fg%2F11mnghzshz" %}
+    {% assign chi_reviews = "https://www.google.com/maps/place/Ethical+Frenchie/@41.8847435,-87.6363389,17z/data=!4m8!3m7!1s0x880e2d623a6a4673:0x57d3c1f249c3cd83!8m2!3d41.8847435!4d-87.6363389!9m1!1b1!16s%2Fg%2F11lgvvz659" %}
 
     <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match" data-uk-grid>
 
@@ -77,7 +80,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Bean</h3>
             <p class="uk-text-meta">Blue &bull; Female &bull; New York</p>
             <p><em>"They've both been absolutely amazing. Healthy, happy, and such a joy to have."</em></p>
-            <p class="uk-text-small uk-text-muted">— Diego D., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Diego D., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -92,7 +95,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Rosie</h3>
             <p class="uk-text-meta">Blue Merle &bull; Female &bull; New York</p>
             <p><em>"I knew at first glance my puppy was impeccably bred. Her proportions, her jet black coat — I highly recommend Ethical Frenchie!"</em></p>
-            <p class="uk-text-small uk-text-muted">— Mabel, NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Mabel, NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -107,7 +110,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Lucas</h3>
             <p class="uk-text-meta">Lilac &bull; Male &bull; New York</p>
             <p><em>"Had the best possible experience. As it was my first dog they guided me and educated me every step of the way. My Benny has been super healthy!"</em></p>
-            <p class="uk-text-small uk-text-muted">— Nikol B., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Nikol B., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -122,7 +125,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Paddington</h3>
             <p class="uk-text-meta">Blue Sable Fawn &bull; Male &bull; New York</p>
             <p><em>"We could not have had a better experience. We have 2 amazing, healthy and ridiculously cute babies. Would never get another Frenchie anywhere else!"</em></p>
-            <p class="uk-text-small uk-text-muted">— Kelly L., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Kelly L., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -137,7 +140,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Brioche</h3>
             <p class="uk-text-meta">Lilac Fawn &bull; Female &bull; New York</p>
             <p><em>"Ethical Frenchie is truly the best! They provided me with plenty of information as a first time dog owner and helpful tips."</em></p>
-            <p class="uk-text-small uk-text-muted">— Rhiannon L., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Rhiannon L., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -152,7 +155,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Blue Ivy</h3>
             <p class="uk-text-meta">Blue Merle &bull; Female &bull; New York</p>
             <p><em>"Getting my Frenchie from Ethical Frenchie was the BEST decision! They answered all my questions through emails, phone calls, and even FaceTime."</em></p>
-            <p class="uk-text-small uk-text-muted">— David K., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— David K., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -167,7 +170,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Regina</h3>
             <p class="uk-text-meta">Lilac &amp; Tan &bull; Female &bull; New York</p>
             <p><em>"I cannot recommend Ethical Frenchie enough! They've been absolutely amazing since the beginning. I still cannot thank them enough for their constant support."</em></p>
-            <p class="uk-text-small uk-text-muted">— Alexa P., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Alexa P., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -182,7 +185,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Mona</h3>
             <p class="uk-text-meta">Lilac &bull; Female &bull; New York</p>
             <p><em>"I have my two boys from Ethical Frenchie. We get complimented by strangers about how healthy they look all the time."</em></p>
-            <p class="uk-text-small uk-text-muted">— Mint K., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Mint K., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -197,7 +200,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Polar Bear</h3>
             <p class="uk-text-meta">Platinum Lilac Fluffy &bull; Male &bull; Chicago</p>
             <p><em>"The team at Ethical Frenchie is excellent, from starting the process of adopting my dog to the after care tips. They check in on my pup from time to time."</em></p>
-            <p class="uk-text-small uk-text-muted">— James B., Chicago</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ chi_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— James B., Chicago &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -212,7 +215,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Winnie</h3>
             <p class="uk-text-meta">Blue Fawn Merle &bull; Male &bull; Chicago</p>
             <p><em>"I had lots of questions and they've been the best! They sent me several emails with links on what to buy for food, toys, everything."</em></p>
-            <p class="uk-text-small uk-text-muted">— Angela W., Chicago</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ chi_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Angela W., Chicago &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -227,7 +230,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Daisy Mae</h3>
             <p class="uk-text-meta">Merle &bull; Female &bull; Chicago</p>
             <p><em>"I bought a beautiful, healthy, well socialized and somewhat trained puppy. When I brought her home she found her pad, knew her name, and the next day played fetch!"</em></p>
-            <p class="uk-text-small uk-text-muted">— Rachel D., Chicago</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ chi_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Rachel D., Chicago &middot; Google Review</a></p>
           </div>
         </div>
       </div>
@@ -242,7 +245,7 @@ hubspotneeded: true
             <h3 class="uk-card-title">Peanut</h3>
             <p class="uk-text-meta">Isabella &bull; Male &bull; New York</p>
             <p><em>"They were wonderful to work with, very responsive to my questions and also interviewed me to make sure their puppy was going to a good, loving home."</em></p>
-            <p class="uk-text-small uk-text-muted">— Lisa P., NYC</p>
+            <p class="uk-text-small uk-text-muted"><a href="{{ nyc_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Lisa P., NYC &middot; Google Review</a></p>
           </div>
         </div>
       </div>
