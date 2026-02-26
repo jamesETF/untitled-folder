@@ -428,7 +428,7 @@ happytails: true
         <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">See Available Puppies</a>
       </div>
       <div>
-        <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/puppies/">Apply Now</a>
+        <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">Apply Now</a>
       </div>
     </div>
   </div>

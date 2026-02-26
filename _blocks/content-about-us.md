@@ -39,5 +39,5 @@ We are more than just a breeder; we are a passionate group of individuals dedica
 
 
 
-{% include button.html text="View our Available puppies" url="/puppies" style="primary" size="xlarge" width="full" %}
+{% include button.html text="View our Available puppies" url="/french-bulldog-puppies/" style="primary" size="xlarge" width="full" %}
 
