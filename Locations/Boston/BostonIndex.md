@@ -95,6 +95,6 @@ faqschema: "bostonfaq"
     section_content_align="center"
     section_content_color="light"
     layout="1"
-    block="LACTA"
+    block="cta-4"
   %}
   
