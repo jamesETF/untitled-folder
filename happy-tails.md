@@ -40,8 +40,8 @@ hubspotneeded: true
         <p class="uk-text-bold uk-margin-remove-top">Health Guarantee</p>
       </div>
       <div>
-        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;">Health Tested</h3>
-        <p class="uk-text-bold uk-margin-remove-top">Parents Only</p>
+        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;"><a href="https://embarkvet.com/" target="_blank" rel="noopener" style="color: #901941; text-decoration: none;">Embark</a></h3>
+        <p class="uk-text-bold uk-margin-remove-top">DNA Health Tested</p>
       </div>
     </div>
   </div>
@@ -424,8 +424,8 @@ hubspotneeded: true
     <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top" data-uk-grid>
       <div>
         <div class="uk-card uk-card-default uk-card-body uk-text-center">
-          <h4>Health Tested Parents</h4>
-          <p class="uk-text-small">Every breeding dog is tested for CMR1, DM, HUU, JHC, and more. No exceptions.</p>
+          <h4><a href="https://embarkvet.com/" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Embark</a> DNA Tested</h4>
+          <p class="uk-text-small">Think 23&Me, but for dogs. Every parent is tested for 250+ genetic health conditions. Reports shared with every buyer.</p>
         </div>
       </div>
       <div>
