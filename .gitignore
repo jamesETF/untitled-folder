@@ -65,6 +65,7 @@ scripts/gsc-output/
 # Design docs & utility scripts
 docs/plans/
 scripts/check-backlinks.py
+scripts/happy-tails-setup.js
 
 # Screenshots (debug images saved to root)
 /French Bulldog*
