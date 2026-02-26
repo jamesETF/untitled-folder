@@ -200,7 +200,8 @@ happytails: true
 <div class="uk-section uk-section-default uk-section-small uk-padding-remove-bottom">
   <div class="uk-container uk-container-large uk-text-center">
     <h2 class="section-title">Furever Homes, Real Stories</h2>
-    <p class="uk-text-lead uk-margin-medium-bottom">Submitted by our families — and still growing</p>
+    <p class="uk-text-lead uk-margin-small-bottom">Submitted by our families — and still growing</p>
+    <p style="font-size: 13px; color: #999; margin-bottom: 30px;">Updated monthly &middot; Last updated February 2026</p>
   </div>
 </div>
 

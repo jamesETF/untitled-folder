@@ -67,9 +67,14 @@ docs/plans/
 scripts/check-backlinks.py
 scripts/happy-tails-setup.js
 
-# Reports
+# Reports & content briefs
 report-*.html
 report-*.pdf
+content-brief-*.docx
+content-gap-*.docx
+breeder-voice-brief.docx
+scripts/generate-content-brief.py
+scripts/generate-content-gap-report.py
 
 # Screenshots (debug images saved to root)
 /French Bulldog*
