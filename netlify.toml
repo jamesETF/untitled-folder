@@ -234,6 +234,36 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
+# --- GSC 5xx cleanup redirects (Session 22) ---
+# Source: GSC Coverage report Feb 26, 2026 — ghost URLs returning 5xx to Googlebot
+
+# Southampton old URL format → live page
+[[redirects]]
+  from = "/locations/southampton-ny"
+  to = "/newyork/southampton"
+  status = 301
+  force = true
+
+# Truncated Illinois URL → Chicago page
+[[redirects]]
+  from = "/il"
+  to = "/illinois/chicago/"
+  status = 301
+  force = true
+
+# Blog colors category page → colors-explained post (moved from redirect_from)
+[[redirects]]
+  from = "/blog/colors/"
+  to = "/blog/french-bulldog-colors-explained"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/colors"
+  to = "/blog/french-bulldog-colors-explained"
+  status = 301
+  force = true
+
 # --- Duplicate content cluster redirects (Session 21) ---
 # Source: GSC audit — ghost pages with 0 impressions consolidated to GSC winners
 

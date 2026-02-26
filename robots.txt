@@ -1,0 +1,21 @@
+Sitemap: https://ethicalfrenchie.com/sitemap.xml
+
+User-agent: *
+Allow: /
+
+# Block thin/auto-generated FAQ individual pages
+Disallow: /faqs/
+
+# Block directory listings
+Disallow: /uploads/
+
+# Block HubSpot tracking parameter URLs
+Disallow: /*?__hstc=
+Disallow: /*?__hssc=
+Disallow: /*?__hsfp=
+
+# Block Joomla artifact parameters
+Disallow: /*?Itemid=
+
+# Block Facebook click tracking parameters
+Disallow: /*?fbclid=

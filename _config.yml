@@ -171,7 +171,7 @@ collections:
   sidebars:
     output:             false
   faqs:
-    output:             true
+    output:             false
   french-bulldog-puppies:
     output:             true
 
