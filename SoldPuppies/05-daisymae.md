@@ -33,7 +33,7 @@ dob: 2025-06-25           # example DOB — update if known
 ready_date: 2025-09-10    # example ready date
 estimated_adult_weight_lbs: "20–25"
 price: 0                  # set to 0 for schema/SEO but hides real rehoming fee
-status: available         # available | reserved | adopted
+status: sold              # available | reserved | adopted
 microchipped: true
 akc_papers: true
 location: New York, NY

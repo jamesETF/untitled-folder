@@ -33,7 +33,7 @@ dob: 2025-07-15           # example DOB — update with actual if available
 ready_date: 2025-09-05    # example date — update if you want
 estimated_adult_weight_lbs: "20–25"
 price: 0               # or 0 if you don’t want to display
-status: available         # available | reserved | adopted
+status: sold              # available | reserved | adopted
 microchipped: true
 akc_papers: true
 location: New York, NY

@@ -33,7 +33,7 @@ dob: 2025-07-30           # update if exact DOB is known
 ready_date: 2025-09-25    # update if needed
 estimated_adult_weight_lbs: "17–20"
 price: 0
-status: available
+status: sold
 microchipped: true
 akc_papers: true
 location: New York, NY
