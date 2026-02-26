@@ -1,7 +1,7 @@
 ---
 title: Happy Tails Map
 subtitle: Our Puppies Across the Country
-description: See where Ethical Frenchie puppies have found their forever families on our interactive map. 500+ French Bulldogs placed nationwide.
+description: See where Ethical Frenchie puppies have found their forever families on our interactive map. 40+ French Bulldogs placed nationwide.
 layout: full
 width: full
 navbar:
@@ -234,8 +234,8 @@ hubspotneeded: false
 <div class="ht-stats">
   <div class="ht-stats-grid">
     <div>
-      <p class="ht-stat-num">500+</p>
-      <p class="ht-stat-label">Puppies Placed</p>
+      <p class="ht-stat-num">40+</p>
+      <p class="ht-stat-label">Furever Homes Found</p>
     </div>
     <div>
       <p class="ht-stat-num">All 50</p>
