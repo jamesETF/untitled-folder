@@ -440,7 +440,7 @@ hubspotneeded: true
         <div class="uk-card uk-card-default uk-card-body uk-text-center">
           <span data-uk-icon="icon: location; ratio: 2.5" style="color: #901941;" class="uk-margin-small-bottom"></span>
           <h4>Hand Delivery</h4>
-          <p class="uk-text-small">Your puppy flies in-cabin with a trained nanny. No cargo, no shipping crates. Ever.</p>
+          <p class="uk-text-small">We personally deliver every puppy. The person you FaceTime with is the person you meet. No middlemen. Ever.</p>
         </div>
       </div>
       <div>
