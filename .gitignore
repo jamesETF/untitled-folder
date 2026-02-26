@@ -67,6 +67,10 @@ docs/plans/
 scripts/check-backlinks.py
 scripts/happy-tails-setup.js
 
+# Reports
+report-*.html
+report-*.pdf
+
 # Screenshots (debug images saved to root)
 /French Bulldog*
 /IMG_*
