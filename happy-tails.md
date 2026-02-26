@@ -28,20 +28,20 @@ hubspotneeded: true
   <div class="uk-container uk-container-expand">
     <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
       <div>
-        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;">AKC</h3>
-        <p class="uk-text-bold uk-margin-remove-top">Registered Puppies</p>
+        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;"><a href="https://www.akc.org/" target="_blank" rel="noopener" style="color: #901941; text-decoration: none;">AKC</a> Registered</h3>
+        <p class="uk-text-bold uk-margin-remove-top">Every puppy, every litter</p>
       </div>
       <div>
-        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;">Nationwide</h3>
-        <p class="uk-text-bold uk-margin-remove-top">Hand Delivery</p>
+        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;"><a href="https://embarkvet.com/" target="_blank" rel="noopener" style="color: #901941; text-decoration: none;">Embark</a> DNA Tested</h3>
+        <p class="uk-text-bold uk-margin-remove-top">250+ genetic conditions screened</p>
       </div>
       <div>
-        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;">Lifetime</h3>
-        <p class="uk-text-bold uk-margin-remove-top">Health Guarantee</p>
+        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;">1-Year Guarantee</h3>
+        <p class="uk-text-bold uk-margin-remove-top">Strongest in the industry</p>
       </div>
       <div>
-        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;"><a href="https://embarkvet.com/" target="_blank" rel="noopener" style="color: #901941; text-decoration: none;">Embark</a></h3>
-        <p class="uk-text-bold uk-margin-remove-top">DNA Health Tested</p>
+        <h3 class="uk-heading-small uk-margin-remove-bottom" style="color: #901941;">Hand Delivered</h3>
+        <p class="uk-text-bold uk-margin-remove-top">By us, personally, to your door</p>
       </div>
     </div>
   </div>
@@ -214,6 +214,7 @@ hubspotneeded: true
     <div class="uk-text-center uk-margin-large-bottom">
       <h2 class="section-title">Meet Our Alumni</h2>
       <p class="uk-text-lead">A few of our favorites from over the years</p>
+      <p class="uk-text-small uk-text-muted">Learn more about <a href="/blog/french-bulldog-colors-explained/" style="color: #901941;">French Bulldog colors</a>, <a href="/blog/increase-french-bulldog-lifespan/" style="color: #901941;">lifespan &amp; health</a>, or <a href="/blog/best-food-for-french-bulldog/" style="color: #901941;">nutrition</a></p>
     </div>
 
     <style>.happy-tails-img{height:280px;overflow:hidden}.happy-tails-img img{width:100%;height:100%;object-fit:cover}.happy-tails-review{color:inherit;text-decoration:none}.happy-tails-review:hover{text-decoration:underline}</style>
@@ -410,8 +411,11 @@ hubspotneeded: true
 <!-- Main CTAs -->
 <div class="uk-section uk-section-default uk-section-large">
   <div class="uk-container uk-container-small uk-text-center">
-    <h2 class="section-title">Ready to Start Your Own Happy Tail?</h2>
-    <p class="uk-text-lead uk-margin-medium-bottom">Browse our available puppies or apply to join the Ethical Frenchie family.</p>
+    <h2 class="section-title">Ready to Join the Ethical Frenchie Family?</h2>
+    <p class="uk-text-lead uk-margin-medium-bottom">Browse our available puppies or start your application today.</p>
+    <div style="margin-bottom: 24px; font-size: 15px; color: #5c5e65;">
+      <strong style="color: #901941;">&#9733; 4.7</strong> out of 5 on <a href="https://www.google.com/maps/place/Ethical+Frenchie/@40.7028885,-74.0138771,17z/data=!4m8!3m7!1s0x89c25b610f061fb1:0x24ac563bf3edce66!8m2!3d40.7028885!4d-74.0138771!9m1!1b1!16s%2Fg%2F11mnghzshz" target="_blank" rel="noopener" style="color: #901941; font-weight: 700;">Google</a> &middot; 87 Reviews
+    </div>
     <div class="uk-child-width-1-2@s" data-uk-grid>
       <div>
         <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">See Available Puppies</a>
