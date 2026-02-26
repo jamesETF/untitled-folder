@@ -62,6 +62,10 @@ skills/
 gsc-credentials.json
 scripts/gsc-output/
 
+# Design docs & utility scripts
+docs/plans/
+scripts/check-backlinks.py
+
 # Screenshots (debug images saved to root)
 /French Bulldog*
 /IMG_*
