@@ -47,14 +47,6 @@ hubspotneeded: true
   </div>
 </div>
 
-<!-- Intro Section -->
-<div class="uk-section uk-section-default uk-section-large">
-  <div class="uk-container uk-container-xsmall uk-text-center">
-    <h2 class="section-title">Where Our Puppies Call Home</h2>
-    <p class="uk-text-lead uk-margin-medium-top">Every Ethical Frenchie puppy is placed with a carefully vetted family. These are just a few of the hundreds of happy tails we've helped write over the years. From NYC apartments to California ranches, our Frenchies are living their best lives.</p>
-  </div>
-</div>
-
 <!-- ============================================================
      INTERACTIVE MAP — Pins with before/after photo popups
      All CSS and JS is inline — zero impact on other pages.
@@ -200,8 +192,8 @@ hubspotneeded: true
 <!-- Map Section -->
 <div class="uk-section uk-section-default uk-section-small uk-padding-remove-bottom">
   <div class="uk-container uk-container-large uk-text-center">
-    <h2 class="section-title">Explore the Map</h2>
-    <p class="uk-text-lead uk-margin-medium-bottom">Click a pin to see before & after photos from our families</p>
+    <h2 class="section-title">Furever Homes, Real Stories</h2>
+    <p class="uk-text-lead uk-margin-medium-bottom">Submitted by our families — and still growing</p>
   </div>
 </div>
 
@@ -415,45 +407,6 @@ hubspotneeded: true
   </div>
 </div>
 
-<!-- Trust Section -->
-<div class="uk-section uk-section-default uk-section-large">
-  <div class="uk-container uk-container-small uk-text-center">
-    <h2 class="section-title">Why Families Trust Ethical Frenchie</h2>
-    <p class="uk-text-lead uk-margin-medium-bottom">Every puppy we place comes with our full commitment</p>
-
-    <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top" data-uk-grid>
-      <div>
-        <div class="uk-card uk-card-default uk-card-body uk-text-center">
-          <span data-uk-icon="icon: check; ratio: 2.5" style="color: #901941;" class="uk-margin-small-bottom"></span>
-          <h4><a href="https://embarkvet.com/" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">Embark</a> DNA Tested</h4>
-          <p class="uk-text-small">Think 23&Me, but for dogs. Every parent is tested for 250+ genetic health conditions. Reports shared with every buyer.</p>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default uk-card-body uk-text-center">
-          <span data-uk-icon="icon: receiver; ratio: 2.5" style="color: #901941;" class="uk-margin-small-bottom"></span>
-          <h4>Lifetime Support</h4>
-          <p class="uk-text-small">We're a text or call away — forever. Questions about diet, training, health? We're here.</p>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default uk-card-body uk-text-center">
-          <span data-uk-icon="icon: location; ratio: 2.5" style="color: #901941;" class="uk-margin-small-bottom"></span>
-          <h4>Hand Delivery</h4>
-          <p class="uk-text-small">We personally deliver every puppy. The person you FaceTime with is the person you meet. No middlemen. Ever.</p>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default uk-card-body uk-text-center">
-          <span data-uk-icon="icon: users; ratio: 2.5" style="color: #901941;" class="uk-margin-small-bottom"></span>
-          <h4>Community</h4>
-          <p class="uk-text-small">Join hundreds of Ethical Frenchie families. We love getting puppy updates!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Main CTAs -->
 <div class="uk-section uk-section-default uk-section-large">
   <div class="uk-container uk-container-small uk-text-center">
@@ -461,7 +414,7 @@ hubspotneeded: true
     <p class="uk-text-lead uk-margin-medium-bottom">Browse our available puppies or apply to join the Ethical Frenchie family.</p>
     <div class="uk-child-width-1-2@s" data-uk-grid>
       <div>
-        <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #941901; color: #fff; border: none;" href="/french-bulldog-puppies/">See Available Puppies</a>
+        <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">See Available Puppies</a>
       </div>
       <div>
         <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/puppies/">Apply Now</a>
