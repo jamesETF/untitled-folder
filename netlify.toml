@@ -233,3 +233,222 @@ RUBY_VERSION = "3.2.2"
   to = "/blog/"
   status = 301
   force = true
+
+# --- Sold puppy redirects (Section E cleanup, Session 14) ---
+# 71 sold puppy pages deleted. 12 Happy Tails featured puppies → /happy-tails/
+# All other sold puppies → /french-bulldog-puppies/ (available puppies page)
+
+# Happy Tails featured puppies (12) → social proof page
+[[redirects]]
+  from = "/french-bulldog-puppies/bean"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/rosie"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/lucas"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/paddington"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/brioche"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/blue-ivy"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/regina"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/mona"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/polar-bear"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/winnie"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/daisy-mae"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/peanut"
+  to = "/happy-tails/"
+  status = 301
+  force = true
+
+# Remaining sold puppies — /puppies/* catch-all (force=false so available puppies still serve)
+[[redirects]]
+  from = "/puppies/Allie/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/puppies/ego/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/puppies/roxanne/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/puppies/kona/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/puppies/Black-french-bulldog-puppy-Kona/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+# Wildcard catch-all for any remaining /puppies/ sold pages
+# force=false ensures currently available puppies (e.g. Kane) still serve their own page
+[[redirects]]
+  from = "/puppies/*"
+  to = "/french-bulldog-puppies/"
+  status = 301
+
+# Remaining /french-bulldog-puppies/ sold pages not featured on Happy Tails
+# force=false so available puppies (eva, labubu, mila, etc.) still serve
+[[redirects]]
+  from = "/french-bulldog-puppies/bambi"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/bentley"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/bradybunch"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/bronsonjr"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/darla"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/dexter"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/glacier"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/grizzly"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/maple"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/mario"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/mira"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/mrgray"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/nugget"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/rocky"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/aurora"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/christmas"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/rhea"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
