@@ -50,7 +50,7 @@ lightbox="true"
 section_size="large"
 %}
 
-<center><a class="uk-button uk-button-danger uk-border-pill uk-button-xlarge my-border-rounded" href="tel:212-739-0182">
+<center><a class="uk-button uk-border-pill uk-button-xlarge my-border-rounded" style="background-color: #901941; color: #fff; border: none;" href="tel:212-739-0182">
     <span data-uk-icon="phone" class="uk-icon">
         <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"></svg>
     </span>
