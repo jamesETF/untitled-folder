@@ -1,5 +1,5 @@
 ---
-title: Can Merle French Bulldogs be AKC registered?
+title: Are merle French Bulldogs purebred?
 categories: [merlefaq]
 ---
-Yes — Merle French Bulldogs can be AKC registered as pets. However, the merle pattern is not accepted for AKC conformation shows and competitions. This doesn't affect the dog's registration, health, or value as a family companion. Your merle Frenchie will receive full AKC registration papers and can participate in AKC events like agility, obedience, and rally — just not breed conformation shows.
+This is a topic with some honest debate in the French Bulldog community, and we believe in being upfront about it. Merle is not a traditionally occurring pattern in French Bulldogs the way it is in other breeds, which is why responsible breeding and DNA testing are so important with this color. Merle French Bulldogs are completely purebred on DNA.

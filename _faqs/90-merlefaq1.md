@@ -1,5 +1,5 @@
 ---
-title: How much do Merle French Bulldogs cost?
+title: What is a merle French Bulldog?
 categories: [merlefaq]
 ---
-Merle French Bulldogs from reputable, health-testing breeders typically cost $5,000–$6,500+. The merle pattern is caused by the M-locus gene, which creates a unique mottled coat — no two merle Frenchies look exactly alike. The pricing reflects the rarity, the genetic testing required (especially to avoid double merle breeding), and the selective breeding involved. Always ask for DNA test results when purchasing a merle Frenchie. [View available puppies](/french-bulldog-puppies/).
+A merle French Bulldog has a unique mottled coat where areas of color are randomly diluted against a darker base, creating a pattern that is completely one of a kind on every dog. The pattern comes from the M-locus gene and can appear across many color combinations including blue merle, lilac merle, and chocolate merle.

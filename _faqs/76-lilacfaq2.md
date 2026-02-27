@@ -1,5 +1,5 @@
 ---
-title: How much do Lilac French Bulldogs cost?
+title: How much do lilac French Bulldogs cost?
 categories: [lilacfaq]
 ---
-Lilac French Bulldogs from reputable breeders typically cost $5,000–$6,500+. The higher price reflects the rarity — both parents must carry two recessive genes (chocolate and dilute) to produce lilac offspring, making planned litters uncommon. As with all rare colors, be cautious of prices that seem too low — always ask for genetic test results proving the puppy's color genetics and health clearances. [View available puppies](/french-bulldog-puppies/).
+Ethical Frenchie lilac puppies range from $4,500 to $5,000 and come with lifetime breeder support, health guarantee, microchipping, up-to-date age-appropriate vaccinations and deworming, tick and flea prevention, heartworm prevention, and AKC registration if purchased with breeding rights.

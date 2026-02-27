@@ -1,17 +1,17 @@
 ---
-title: What is a Merle French Bulldog?
-subtitle: Learn about the Merle French Bulldog and How expensive they are.
-description: Learn more about Merle Frenchies - Available Merle Frenchie / Merle French bulldog puppies for sale
+title: Merle French Bulldog Puppies for Sale | DNA Tested | Ethical Frenchie
+subtitle: Merle French Bulldog Puppies — Health Tested, Responsibly Bred
+description: Merle French Bulldog puppies for sale from a trusted NYC breeder. DNA tested, no double merle breeding, 1-year health guarantee. $5,000-$6,500 with nationwide delivery.
 permalink: puppies/upcoming-colors/merle-french-bulldog
 width: medium
 navbar:
-  sticky: false
+  sticky: true
   scroll_up: true
   animation: true
   transparent: true
   transparent_color: light
 header:
-  layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  layout: center
   background_image: header-6.jpg
   background_overlay: "rgba(0, 0, 0, 0.45)"
   color: light
@@ -21,22 +21,77 @@ header:
 extraseoabout: false
 applechat: false
 podium: false
-hubspotneeded: true
+hubspotneeded: false
+faqschema: "merlefaq"
 ---
 
+<div class="uk-section uk-section-default uk-section-small">
+<div class="uk-container uk-container-small">
 
-{% include faqs.html 
-  multiple="true" 
-  category="merlefaq" 
-  section_title="Merle French Bulldog FAQ's" 
-  section_size="small"
-  section_background="default"
-  section_container="xsmall"
-  section_header_align="center"
-  section_padding_remove="top"
-%}
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:30px;text-align:center">
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>Embark DNA Tested</strong></span>
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>No Double Merle Breeding</strong></span>
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>1-Year Health Guarantee</strong></span>
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>Nationwide Delivery</strong></span>
+</div>
 
-{% include gallery.html 
+## What Is a Merle French Bulldog?
+
+A merle French Bulldog is honestly one of the most striking dogs you will ever see. The merle pattern creates a mottled, patchy coat where areas of color are randomly diluted against a darker base. No two merles ever look exactly alike, which is part of what makes them so special. Some people describe it as a watercolor painting, and that is actually a pretty accurate way to put it.
+
+The pattern comes from the M-locus gene, and it can appear across many color combinations — [blue](/puppies/upcoming-colors/blue-french-bulldog) merle, [lilac](/puppies/upcoming-colors/lilac-french-bulldog) merle, chocolate merle, and more. Each one has its own unique look depending on the base color underneath. When people see a merle Frenchie in person for the first time the reaction is always the same — they either absolutely love it and want one, or immediately pivot to solid-coated Frenchies. There is rarely an in-between.
+
+## The Merle Controversy — An Honest Breeder's Perspective
+
+We are going to be straight with you because we think every buyer deserves honesty on this topic. Merle is controversial in the French Bulldog world, and there are real reasons for that. Some of the concerns come from the history of how the merle pattern was introduced to the breed, and we understand why people have questions about it.
+
+Here is our position: we are not going to tell you merle is completely without debate, because it is. What we can tell you is how we handle it in our program. We DNA test every merle parent before breeding, we never breed merle to merle, and if a pairing does not meet our standards, it simply does not happen. The risks associated with merle come almost entirely from irresponsible breeding, not from the pattern itself.
+
+## Merle French Bulldog Health — What You Need to Know
+
+This is probably the most important thing we can tell you about merle French Bulldogs, so please read this carefully.
+
+A **single merle** — meaning a puppy that carries one copy of the merle gene — has the exact same health profile as any other Frenchie.
+
+The problems come from **double merle** puppies, which happen when both parents carry the merle gene and a puppy inherits two copies. Double merles can be born deaf, blind, or with serious skin and eye conditions. It is a real risk and we do not take it lightly.
+
+**Ethical Frenchie always breeds merle French Bulldogs with solid-coated dogs. No exceptions.**
+
+## Merle French Bulldog Price in 2026
+
+Our merle French Bulldog puppies are typically priced between **$5,000 and $6,500**, with rarer combinations like lilac merle sitting at the higher end. We price each puppy individually based on our expertise — the specific pattern, base color, and overall quality all factor in. Gender does not affect the price.
+
+Every puppy comes with lifetime breeder support, a health guarantee, up-to-date vaccines, deworming, microchip, and AKC registration if sold with breeding rights. If you see a merle listed for a few hundred dollars, that is almost certainly a scam. On the other end, prices pushing $15,000 or more for a merle are in most cases just taking advantage of the hype and rarity.
+
+<p style="font-size:0.85em;color:#5c5e65">All puppies come with a 1-year written health guarantee.</p>
+
+## How Ethical Frenchie Breeds Merle Puppies Responsibly
+
+Our merle breeding process starts with DNA testing — both parents are tested for merle gene status through [Embark](https://embarkvet.com) before we ever plan a litter. We never breed two merle parents together, period. That one rule alone eliminates the risk of producing double merle puppies and is something every responsible merle breeder should be doing.
+
+Health testing comes before everything else. Even if a pairing would produce a gorgeous merle litter, if the health results are not where they need to be, we do not move forward. We have passed on some really beautiful pairings because of this, and we have no regrets about it. The pattern is never worth compromising the health of the puppies.
+
+## Merle French Bulldog Colors and Patterns
+
+Merle comes in a wide range of color combinations, and every single puppy looks different — that is honestly one of the most exciting things about producing merle litters. We have produced blue merles, lilac merles, chocolate merles, and merle combinations with tan points. Each one is completely unique, and no two patterns ever come out the same way twice.
+
+Lilac merles and blue merles tend to get the most attention from buyers, and honestly it is easy to see why — the contrast between the diluted patches and the base color on a lilac or blue merle is really something special. If you have a specific color combination in mind, [reach out early](/contact-us/) because merle puppies tend to get reserved very fast.
+
+## Why Choose Ethical Frenchie
+
+Merle is the most talked-about and most misunderstood color in the French Bulldog world, and we think that is exactly why it matters who you buy from. We have been breeding and placing French Bulldogs since 2017, and our no-double-merle policy has been non-negotiable from day one.
+
+We have placed merle puppies with families all across the country, and the feedback we get from merle owners about their puppy's health and personality over time is something we are really proud of. If you are looking for merle French Bulldog puppies for sale from a breeder who is going to be straight with you, we would love to connect.
+
+<div style="text-align:center;margin:30px 0">
+<a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">View Available Puppies</a>
+<p style="margin-top:10px"><a href="/application/">Apply Now</a> · <a href="/pricing/">View Pricing Details</a> · <a href="/happy-tails/">Meet Our Happy Families</a></p>
+</div>
+
+</div>
+</div>
+
+{% include gallery.html
   section_size="large"
   section_padding_remove="top"
   section_padding_remove="bottom"
@@ -47,66 +102,25 @@ hubspotneeded: true
   lightbox="true"
 %}
 
-> The signature of a Merle French Bulldog is a peppering of different colors on their coat.
-
-These little dogs look like they’ve been splatter painted with patches or spots of red, gray and sometimes black. They’re a rare type of Frenchie that are popular because of their unique coloring. Because the Merle coloring is rarer than other types of Frenchies, the price tag for Merle French Bulldogs can range from $6,000 to $8,000. Compare that to a standard French Bulldog price of between $1,500 and $3,000.
-
-While the Merle French Bulldog is recognized by the American Kennel Club, they’re aren’t recognized as a breed standard because their rare coloring is the result of a genetic defect. 
-
-You’ll have to take your Merle Frenchie to regular vet appointments and be mindful that these kinds of French Bulldogs can have a few more health issues than other Frenchies. Aside from that, Merles are just like any other French Bulldog. They snore, snort and grunt their way through life and are lovable, muscle-bound companion dogs that are great as family pets. 
-
-## Genetic Condition Causes Merle Coloring
-To get the speckled pattern on the coat, a French Bulldog must carry the Merle gene – and it’s a dominant gene. Consider the way traits are expressed in DNA – each trait is represented by a gene and the way those traits are expressed is dictated by gene combinations. Merles have the M-locus gene. This gene can also cause your Frenchie to have blue eyes because of random pigment dilution. 
-
-While the Merles that carry one dominant M-locus gene seem to be in the same health as most other Frenchies, those that carry two of the M-locus dominant genes tend to have problems. This happens when breeders combine the genes of two Merle parents. The puppies can be born deaf and have other problems due to their genes.
-
-## Origins of Merle Frenchies
-American breeders created Merle Frenchies. As the story goes, Merles were created because French Bulldog enthusiasts were looking for a new variation on the standard colors. Breeders combined French Bulldogs with Merle Chihuahuas to get a new type of Frenchie – and the Merle coloring can come in so many varieties that popularity spread quickly. 
-
-Now there are Blue Merles, Lilac Merles, Fawn Merles and a few other variations that create a unique dog.  Because the Merle coloring was initially achieved by blending French Bulldogs with another type of dog, AKC only considers Merle French Bulldogs to be purebred Frenchies after the sixth generation Merle. 
-
-There is also a considerable amount of push-back to breeding Merle French Bulldogs because of the potential health conditions that can result. Problems like deafness, blindness, and intense skin conditions can result from breeding two Merle parents, creating a double-Merle puppy.
-
-## Merles French Bulldogs are expensive
-Merle Frenchies are popular because of their mottled coats. The coloring of these dogs starts with a base color that can be fawn, black, lilac, and any of the other Frenchie colors. Additionally, the dog is spotted with other colors, creating a splatter-paint look. It’s this Merle coloring that makes these dogs popular and expensive! 
-These dogs are also expensive because of the concern surrounding breeding. Those in search of a Merle French Bulldog have to use only the best breeders who can guarantee they’re not over-breeding or being irresponsible in their breeding practices. Finding the best breeder usually means higher prices. It also means that you’ll most likely end up with a Merle-dominant gene puppy that is healthy and adorable.
-
-## Merle Frenchie Attributes
-Like all French Bulldogs, Merles grow to be about 25-28 pounds and are easy-going, affectionate and lovable dogs. They’re muscle-bound and tiny, making them more sturdy than other small dogs. They also fit in carry-on luggage, are great companions for errands and are excellent dogs for studio or apartment living.
-
-They do snore, snort and make lots of noises because they are brachycephalic, which is a term that refers to the flat-faced features common to the breed. Their flat faces make it difficult to breathe and for them to cool off. They’re also prone to overheating, overexertion and asthma because of the shape of their heads.
-
-Like the rest of the French Bulldog crew, they are a dog with a giant personality in a small package and they love nap time as much as they love play time. And they’ll be making noise while they’re doing both.
-
-Key Facts for Merle Frenchies 
-
-1.	Avoid Double Merles – The dominant M-locus gene is responsible for the Merle coloring, and you want your puppy to only have one of those genes in their make-up. When both of the parents are Merle Frenchies, the chances are high the offspring will have health problems.
-2.	They’re the same as the other Frenchies – Merle French Bulldogs have the same personality traits, cute snores and snuggly tendencies as other French Bulldogs. The only difference is the gene that creates the spots on their coats.
-3.	Merle Frenchies Require Attention– These dogs need constant companionship and thrive off of being pampered and loved. They’re also very sensitive to heat and cold and are prone to overexertion, and they require regular visits to the vet.
-
-
-## Frenchie as a Status Symbol
-The list of celebrities that own French Bulldogs is endless, but it’s difficult to find a Merle Frenchie in the mix. Some of the Fawn Frenchies on the list include TV star Dieter Schmitz’s Frenchie named Wellington; Trapper the Frenchie, belonging to the rapper Chainz, and Jack Osborne’s Frenchie named Bruce. Other Famous Frenchies include Ashley Simpson’s white Frenchie named Alabama and Snoop Dog’s dog, Juelz.
-
-## Join Our Waitlist
-{% include alert.html text="Big decisions take time, Let us know when you'll be ready to bring a frenchie home!" style="primary" %}
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "5322352",
-	formId: "e974b071-5f49-4a35-a671-ec03d8f360e4"
-});
-</script>
-
-{% include cards.html 
-  block="homescams" 
+{% include faqs.html
+  multiple="true"
+  category="merlefaq"
+  section_title="Merle French Bulldog FAQs"
+  section_size="small"
+  section_background="default"
+  section_container="xsmall"
   section_header_align="center"
-  section_size="medium"
-  section_background="muted"
-  card_style="primary"
-  grid="1-1"
-  gutter="small"
-  section_content_align="center"
 %}
 
+{% include cta.html
+    section_size="small"
+    section_image="header-6.jpg"
+    section_overlay="rgba(0, 0, 0, 0.5)"
+    section_container="small"
+    section_content_align="center"
+    section_content_color="light"
+    layout="1"
+    block="cta-4"
+%}
+
+{% include menuz.html %}

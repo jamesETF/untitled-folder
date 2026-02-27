@@ -1,17 +1,17 @@
 ---
-title: Blue Frenchie / Blue Color French Bulldog Puppies 
-subtitle: View everything there is to know about our available Blue French Bulldog Puppies
-description: Learn more about Blue Frenchies - Available Blue Frenchie / Blue French bulldog puppies for sale
+title: Blue French Bulldog Puppies for Sale | NYC Breeder | Ethical Frenchie
+subtitle: Blue French Bulldog Puppies — Health Tested, AKC Registered
+description: Blue French Bulldog puppies for sale from a trusted NYC breeder. Embark DNA tested, 1-year health guarantee, AKC registered. $4,000-$5,000 with nationwide delivery.
 permalink: puppies/upcoming-colors/blue-french-bulldog
 width: medium
 navbar:
-  sticky: false
+  sticky: true
   scroll_up: true
   animation: true
   transparent: true
   transparent_color: light
 header:
-  layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  layout: center
   background_image: header-6.jpg
   background_overlay: "rgba(0, 0, 0, 0.45)"
   color: light
@@ -20,22 +20,74 @@ header:
   parallax: true
 extraseoabout: false
 applechat: false
-podium: true
-hubspotneeded: true
+podium: false
+hubspotneeded: false
+faqschema: "bluefaq"
 ---
-{% include faqs.html 
-  multiple="true" 
-  category="bluefaq" 
-  section_title="Blue French Bulldog FAQ's" 
-  section_size="small"
-  section_background="default"
-  section_container="xsmall"
-  section_header_align="center"
-  section_padding_remove="top"
-%}
 
+<div class="uk-section uk-section-default uk-section-small">
+<div class="uk-container uk-container-small">
 
-{% include gallery.html 
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:30px;text-align:center">
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>Embark DNA Tested</strong></span>
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>1-Year Health Guarantee</strong></span>
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>AKC Registered</strong></span>
+<span style="background:#f8f8f8;padding:8px 16px;border-radius:20px;font-size:0.9em"><strong>Nationwide Delivery</strong></span>
+</div>
+
+## What Is a Blue French Bulldog?
+
+A blue French Bulldog has a deep, dark gray coat that some people call blue and some call gray — it really does depend on the lighting. In natural sunlight it can look almost silver; indoors it might seem more like a dark charcoal gray. Either way, it's a really beautiful color.
+
+The blue coat comes from two copies of the dilution gene (dd), which lightens the black pigment into that blue/gray shade. Their nose and paw pads will also have a grayish/blue tone, which is one of the ways you can visually identify a true blue Frenchie.
+
+As puppies, blue Frenchies often have blue or gray eyes that will shift to a lighter green or yellow as they get older, similar to lilacs. Most buyers who see one for the first time are surprised by how unique the color is in person. The blue Frenchie coat is still one of the most popular and sought-after colors in the breed.
+
+## Are Blue French Bulldogs Healthy? An Honest Answer
+
+Blue French Bulldogs are generally healthy dogs, but like all Frenchies they do require some extra attention when it comes to their skin. One thing we have noticed with blue and lilac Frenchies specifically is that they tend to have more sensitive skin compared to standard-colored Frenchies. They can react to things like perfume, fragranced detergents, or scented grooming products, so we always recommend keeping things simple and fragrance-free when it comes to anything that touches their coat or bedding.
+
+You will see a lot online about Color Dilution Alopecia in blue dogs, but true CDA is actually rare in French Bulldogs. Any hair or skin issues blues experience are much more commonly tied to food allergies, environmental sensitivities, or seasonal changes — not their coat color itself.
+
+Outside of skin sensitivity, a blue Frenchie from health-tested parents is just as healthy as any other color. French Bulldogs as a breed do have their quirks — they are brachycephalic, meaning their flat face can sometimes cause breathing sensitivities, and they don't do well in extreme heat. That is true across all colors, not just blues.
+
+## Blue French Bulldog Price in 2026
+
+Our blue French Bulldog puppies are priced between **$4,000 and $5,000**. We price each puppy individually based on our expertise — things like coat, markings, and overall quality. Gender does not affect the price; males and females are priced the same.
+
+All puppies come with lifetime breeder support, health guarantee, up-to-date age-appropriate vaccines, microchipping, deworming, and full AKC registration if purchased with breeding rights.
+
+<p style="font-size:0.85em;color:#5c5e65">All puppies come with a 1-year written health guarantee.</p>
+
+## How We Breed Blue French Bulldogs Responsibly
+
+When it comes to selecting our blue breeding pairs, health always comes first. We DNA test all of our breeding dogs through [Embark](https://embarkvet.com), and if the results are concerning in any way, that dog is removed from our breeding program. A beautiful blue Frenchie coat means nothing to us if the health doesn't meet our expectations.
+
+We also take buyer feedback seriously. If a family reports an issue with one of our puppies that went undetected, we take that into account and will remove a dog from our breeding pool based on that information too. We think that's just the responsible thing to do, and it's the only way to actually improve your program over time.
+
+## Blue Frenchie Temperament and Care
+
+Blue Frenchies have the exact same temperament as any other French Bulldog — loving, goofy, and occasionally stubborn. We get this question sometimes from buyers who are a little uncertain, but the blue color has been established in the breed for decades now, so there are no personality differences tied to the color. It is purely cosmetic.
+
+Blue French Bulldogs are just a really easy breed to love. They do well in apartments, they're great with kids and families, and they're a good fit for first-time dog owners.
+
+## Why Choose Ethical Frenchie for Your Blue Frenchie
+
+Buying a blue French Bulldog from Ethical Frenchie is never just a transaction. Once you get a puppy from us, you become part of our community and we stay in touch long after your puppy goes home.
+
+We have been breeding and placing French Bulldogs since 2017 and have successfully placed over 200 puppies across both our New York City and Chicago locations. We are proud of our almost 0% rehoming rate — to us that means we are not just placing puppies, we are placing them in the right homes.
+
+We take the time to educate every buyer before their puppy comes home, so you feel prepared and confident from day one. And when it's time for delivery, your puppy flies in-cabin with us as a flight nanny, never in cargo. We want the experience to feel easy and exciting from start to finish, because bringing home a new puppy should be one of the best days of your life.
+
+<div style="text-align:center;margin:30px 0">
+<a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">View Available Puppies</a>
+<p style="margin-top:10px"><a href="/application/">Apply Now</a> · <a href="/pricing/">View Pricing Details</a> · <a href="/happy-tails/">Meet Our Happy Families</a></p>
+</div>
+
+</div>
+</div>
+
+{% include gallery.html
   section_size="large"
   section_padding_remove="top"
   section_padding_remove="bottom"
@@ -45,59 +97,26 @@ hubspotneeded: true
   caption="true"
   lightbox="true"
 %}
-> With blue eyes and a greyish-blue hue to their fur, the Blue Frenchie is a rare and popular type of French bulldog. 
 
-Like any other Frenchie, these dogs are lazy and lovable, are great family companions and grow to be an average of 25-28 pounds. They’re also sensitive to extreme outdoor temperatures and tend to be the most expensive of the French bulldogs, with a price tag that can range upwards of $3,500 for a blue Frenchie puppy.
-
-These cute and cuddly little gremlin pups aren’t easy to ignore, and not just because they tend to demand ample amounts of attention from their people. They snore, snort and grunt their way through life, just like any other flat-faced dog breed.
-
-## Blue Frenchie Origin
-French Bulldogs as a whole are a breed that originated in England and traveled throughout the world with traders and merchants, gaining popularity in France and with Parisian nobility. From there, they traveled throughout the globe and became popular in America as well.
-
-Blue Frenchies get their color from a recessive gene, so the only way to get a blue French bulldog is to breed to another blue French bulldog. The blueish-gray color began to show up in litters in the early 1900’s and became popular almost immediately because of their coat color and because they tend to have blue eyes. 
-
-While Blue French Bulldogs are wildly popular with people around the world, they aren’t actually a recognized breed by the American Kennel Club. That’s because their rare coat color is due to a genetic condition called color dilution alopecia. The condition doesn’t affect the personalities of Blue Frenchies, though, it just gives them their beautiful coloring.
-
-## Key To Blue Frenchie Popularity
-Blue Frenchies are popular aside from the rest of the types of French bulldogs simply because of their color. They have a single-layer coat, just like the rest of the French bulldogs, but their coat ranges from blueish gray to black and they usually have blue eyes. 
-
-They’re known for being compact, medium-maintenance and for being clean dogs. They are the most expensive type of French Bulldog breed, but otherwise are similar to other Frenchies. 
-
-Like the rest of the French Bulldog crew, they are roly-poly, low-energy dogs that don’t shed a lot and that love companionship. They’re a dog with a giant personality in a small package and they love nap time as much as they love play time. And they’ll be making noise while they’re doing both.
-
-They’re little muscle-bound dogs that can be both masculine and adorable. Unlike other small dog breeds, French Bulldogs aren’t frail-looking. They don’t have a reputation of being hyperactive. They’re known for being strong and resilient. They’re small enough to fit in your carry-on luggage or an over-the-shoulder bag while you’re out on errands.  Their size also makes Blue Frenchies a great apartment or studio dog; they’re small enough to fit almost anywhere!
-
-## Blue Frenchie Attributes
-Like all French bulldogs, these small animals need to live indoors and usually need a jacket or sweater if you’re walking outside when it’s cold. They’re prone to overheating, overexertion and asthma because of the shape of their heads. French Bulldogs are brachycephalic, which is a term that refers to the flat-faced features common to the breed. Their flat faces make it difficult to breathe and for them to cool off. They like walks and being outside, just make sure to monitor their breathing while you’re out!
-
-Blue French Bulldogs’ coats can be more sensitive, and they can be prone to oily skin. They do love to stay clean, though, so you don’t have to worry about cleaning them more than usual.
-
-Blue Frenchies are the most expensive of the French Bulldog varieties because of the expensive breeding process. The recessive genes responsible for their coat color will usually only present when two Blue Frenchies are bred together. Breeding is further complicated because most French Bulldogs have narrow hip structure that makes it difficult for natural breeding to occur. Because of all this, many breeders use artificial insemination to breed Blue French Bulldogs.   Birth is also complicated for Blue Frenchies because of their head size, and most are born via C-Section at the vet. 
-
-Blue Frenchies can also suffer from inherited diseases and allergies like alopecia, and are prone to breathing problems, joint diseases, spinal disorders and heart issues. Chat with your vet about ways to keep an eye out for developing problems and take your dog in for regular check-ups to keep your Blue Frenchie healthy and to enjoy their company for their natural lifespan of 10-12 years. 
-
-## Blue Frenchie as a Status Symbol
-
-Blue French Bulldogs are well-loved all over the world, including the celebrity community. Lady Gaga’s Blue Frenchie is named Asia and the Leo DiCaprio has a little Frenchie named Django. Zach Braff of the TV show “Scrubs” has a Blue Frenchie named Scooter and Reece Witherspoon’s Blue Frenchie is named Pepper. Other celebrities that have Blue French Bulldogs or a blue-mix are Martha Stewart, Hugh Jackman.
-
-## Join Our Waitlist
-{% include alert.html text="Big decisions take time, Let us know when you'll be ready to bring a frenchie home!" style="primary" %}
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "5322352",
-	formId: "e974b071-5f49-4a35-a671-ec03d8f360e4"
-});
-</script> 
-{% include cards.html 
-  block="homescams" 
+{% include faqs.html
+  multiple="true"
+  category="bluefaq"
+  section_title="Blue French Bulldog FAQs"
+  section_size="small"
+  section_background="default"
+  section_container="xsmall"
   section_header_align="center"
-  section_size="medium"
-  section_background="muted"
-  card_style="primary"
-  grid="1-1"
-  gutter="small"
-  section_content_align="center"
 %}
 
+{% include cta.html
+    section_size="small"
+    section_image="header-6.jpg"
+    section_overlay="rgba(0, 0, 0, 0.5)"
+    section_container="small"
+    section_content_align="center"
+    section_content_color="light"
+    layout="1"
+    block="cta-4"
+%}
+
+{% include menuz.html %}

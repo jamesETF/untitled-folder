@@ -1,5 +1,5 @@
 ---
-title: What makes a French Bulldog "lilac"?
+title: What is a lilac French Bulldog?
 categories: [lilacfaq]
 ---
-A lilac French Bulldog carries two copies of both the chocolate gene (bb) and the dilute gene (dd). This double dilution produces a unique champagne or pale purple-brown coat that's lighter than blue and warmer than standard colors. Lilac Frenchies often have light-colored eyes (green, blue, or amber) and a pink or light-brown nose. They're one of the most sought-after colors in the breed because of how striking and rare the combination is.
+A lilac French Bulldog is a result of a unique combination of the blue (d) gene and chocolate (b) gene, resulting in something called double dilution. Due to this double dilution, lilac Frenchies have a very light gray coat as well as thinner hair. They will shed less but get colder faster.
