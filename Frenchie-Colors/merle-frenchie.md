@@ -83,6 +83,11 @@ Merle is the most talked-about and most misunderstood color in the French Bulldo
 
 We have placed merle puppies with families all across the country, and the feedback we get from merle owners about their puppy's health and personality over time is something we are really proud of. If you are looking for merle French Bulldog puppies for sale from a breeder who is going to be straight with you, we would love to connect.
 
+### Explore More French Bulldog Colors
+- [Blue French Bulldogs](/puppies/upcoming-colors/blue-french-bulldog) — a deep gray coat with a signature steel-blue hue
+- [Lilac French Bulldogs](/puppies/upcoming-colors/lilac-french-bulldog) — a rare champagne/purple tone, one of the most sought-after colors
+- [Fluffy French Bulldogs](/puppies/upcoming-colors/fluffy-french-bulldog) — longer, softer coats with the same great Frenchie personality
+
 <div style="text-align:center;margin:30px 0">
 <a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">View Available Puppies</a>
 <p style="margin-top:10px"><a href="/application/">Apply Now</a> · <a href="/pricing/">View Pricing Details</a> · <a href="/happy-tails/">Meet Our Happy Families</a></p>

@@ -1,6 +1,6 @@
 ---
 title: What French Bulldog colors do you breed?
-categories: [ethicalfrenchie, faqpage-colors, bostonfaq, lafaq, atlantafaq, raleighfaq]
+categories: [ethicalfrenchie, faqpage-colors, homefaq, chicagofaq, puppiesfaq, bostonfaq, lafaq, atlantafaq, raleighfaq]
 ---
 
 We breed a wide range of French Bulldog colors, each with their own unique personality and look:

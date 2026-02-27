@@ -77,12 +77,19 @@ redirect_from:
 %}
 {% else %}
 {% endif %}
-{% include cards.html 
-  block="fbcolors" 
-  media="top" 
-  card_style="default"
-  grid="1-2"
-%}
+<div class="uk-section uk-section-default uk-section-small">
+  <div class="uk-container uk-container-small uk-text-center">
+    <h3 class="section-title">French Bulldog Colors</h3>
+    <p>Learn about pricing, health, genetics, and what makes each color unique.</p>
+    <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-small uk-margin-medium-top" data-uk-grid>
+      <div><a class="uk-button uk-button-default uk-width-1-1" href="/puppies/upcoming-colors/blue-french-bulldog">Blue Frenchies</a></div>
+      <div><a class="uk-button uk-button-default uk-width-1-1" href="/puppies/upcoming-colors/lilac-french-bulldog">Lilac Frenchies</a></div>
+      <div><a class="uk-button uk-button-default uk-width-1-1" href="/puppies/upcoming-colors/merle-french-bulldog">Merle Frenchies</a></div>
+      <div><a class="uk-button uk-button-default uk-width-1-1" href="/puppies/upcoming-colors/fluffy-french-bulldog">Fluffy Frenchies</a></div>
+    </div>
+    <p class="uk-margin-small-top"><a href="/puppies/upcoming-colors">View All Colors</a></p>
+  </div>
+</div>
 {% include cards.html
   block="homescams"
   section_header_align="center"

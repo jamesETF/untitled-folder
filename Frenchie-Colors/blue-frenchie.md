@@ -79,6 +79,11 @@ We have been breeding and placing French Bulldogs since 2017 and have successful
 
 We take the time to educate every buyer before their puppy comes home, so you feel prepared and confident from day one. And when it's time for delivery, your puppy flies in-cabin with us as a flight nanny, never in cargo. We want the experience to feel easy and exciting from start to finish, because bringing home a new puppy should be one of the best days of your life.
 
+### Explore More French Bulldog Colors
+- [Lilac French Bulldogs](/puppies/upcoming-colors/lilac-french-bulldog) — a rare champagne/purple tone, one of the most sought-after colors
+- [Merle French Bulldogs](/puppies/upcoming-colors/merle-french-bulldog) — a striking mottled pattern that makes every puppy unique
+- [Fluffy French Bulldogs](/puppies/upcoming-colors/fluffy-french-bulldog) — longer, softer coats with the same great Frenchie personality
+
 <div style="text-align:center;margin:30px 0">
 <a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">View Available Puppies</a>
 <p style="margin-top:10px"><a href="/application/">Apply Now</a> · <a href="/pricing/">View Pricing Details</a> · <a href="/happy-tails/">Meet Our Happy Families</a></p>

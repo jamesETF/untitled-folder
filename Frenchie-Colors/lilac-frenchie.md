@@ -99,6 +99,11 @@ The purchase process for a lilac Frenchie will be a little different for every b
 
 We encourage you to [reach out and connect with Ethical Frenchie directly](/contact-us/). We will answer your questions in detail.
 
+### Explore More French Bulldog Colors
+- [Blue French Bulldogs](/puppies/upcoming-colors/blue-french-bulldog) — a deep gray coat with a signature steel-blue hue
+- [Merle French Bulldogs](/puppies/upcoming-colors/merle-french-bulldog) — a striking mottled pattern that makes every puppy unique
+- [Fluffy French Bulldogs](/puppies/upcoming-colors/fluffy-french-bulldog) — longer, softer coats with the same great Frenchie personality
+
 <div style="text-align:center;margin:30px 0">
 <a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/application/">Apply Now</a>
 <p style="margin-top:10px"><a href="/pricing/">View Pricing Details</a> · <a href="/happy-tails/">Meet Our Happy Families</a></p>

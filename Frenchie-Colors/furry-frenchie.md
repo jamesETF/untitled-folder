@@ -87,6 +87,11 @@ Buying a fluffy French Bulldog from Ethical Frenchie is never just a transaction
 
 We have been breeding and placing French Bulldogs since 2017 and have successfully placed over 200 puppies across our New York City and Chicago locations. Fluffy buyers are honestly some of our most excited families — there is something about that teddy bear face arriving via flight nanny that makes for a really special moment. We hear about it every time.
 
+### Explore More French Bulldog Colors
+- [Blue French Bulldogs](/puppies/upcoming-colors/blue-french-bulldog) — a deep gray coat with a signature steel-blue hue
+- [Lilac French Bulldogs](/puppies/upcoming-colors/lilac-french-bulldog) — a rare champagne/purple tone, one of the most sought-after colors
+- [Merle French Bulldogs](/puppies/upcoming-colors/merle-french-bulldog) — a striking mottled pattern that makes every puppy unique
+
 <div style="text-align:center;margin:30px 0">
 <a class="uk-button uk-button-xlarge" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">View Available Puppies</a>
 <p style="margin-top:10px"><a href="/application/">Apply Now</a> · <a href="/pricing/">View Pricing Details</a> · <a href="/happy-tails/">Meet Our Happy Families</a></p>
