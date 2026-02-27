@@ -251,6 +251,19 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
+# Chicago puppies sub-page → main puppies page
+[[redirects]]
+  from = "/illinois/chicago/puppies/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/illinois/chicago/puppies"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
 # Blog colors category page → colors-explained post (moved from redirect_from)
 [[redirects]]
   from = "/blog/colors/"

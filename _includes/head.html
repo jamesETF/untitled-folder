@@ -45,7 +45,9 @@
     .uk-card-primary .uk-button-default,.uk-card-secondary .uk-button-default,.uk-section-secondary .uk-button-default{color:#fff !important;border-color:rgba(255,255,255,.7) !important}
     </style>
     <script defer src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
-    <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     {% if page.header.background_image %}<link rel="preload" as="image" fetchpriority="high" href="{{ site.uploads | absolute_url }}{{ page.header.background_image }}">{% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
