@@ -6,18 +6,21 @@ navbar:
   sticky: true
   scroll_up: true
   animation: true
-  transparent: false
+  transparent: true
   transparent_color: light
 header:
   layout: center
-  background_overlay: "rgba(0, 0, 0, 0.45)"
+  background_image: application-hero.jpg
+  background_overlay: "rgba(0, 0, 0, 0.5)"
   background_align: top-center
   color: light
   header_size: xsmall
-  heading_size: medium
+  heading_size: small
   parallax: true
 hubspotneeded: true
 ---
+
+<style>.uk-position-relative[style*="min-height: 60vh"]{min-height:30vh !important}</style>
 
 {% assign google_reviews = "https://www.google.com/maps/place/Ethical+Frenchie/@40.7028885,-74.0138771,17z/data=!4m8!3m7!1s0x89c25b610f061fb1:0x24ac563bf3edce66!8m2!3d40.7028885!4d-74.0138771!9m1!1b1!16s%2Fg%2F11mnghzshz" %}
 
