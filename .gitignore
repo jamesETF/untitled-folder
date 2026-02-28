@@ -3,13 +3,10 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .DS_Store
-.DS_Store
 .gitignore
-uploads/.DS_Store
 node_modules/
 npm-debug.log*
 .npm
-.DS_Store
 
 # Benchmark tool
 benchmark-website.js
