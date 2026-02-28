@@ -77,3 +77,6 @@ scripts/generate-content-gap-report.py
 /French Bulldog*
 /IMG_*
 /Screenshot*
+
+# Local Netlify folder
+.netlify
