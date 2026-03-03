@@ -148,11 +148,21 @@ block_title="false"
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
-    "@type": "Offer",
+    "@type": "AggregateOffer",
     "url": "https://ethicalfrenchie.com/french-bulldog-puppies/atlas",
     "priceCurrency": "USD",
-    "price": "0",
-    "availability": "https://schema.org/InStock"
+    "lowPrice": "4000",
+    "highPrice": "5500",
+    "offerCount": "1",
+    "availability": "https://schema.org/LimitedAvailability",
+    "priceValidUntil": "2026-09-01"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "87",
+    "bestRating": "5",
+    "worstRating": "1"
   }
 }
 </script>

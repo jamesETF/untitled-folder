@@ -149,11 +149,21 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" }
   ],
   "offers": {
-    "@type": "Offer",
+    "@type": "AggregateOffer",
     "url": "https://ethicalfrenchie.com/french-bulldog-puppies/casper",
     "priceCurrency": "USD",
-    "price": "0",
-    "availability": "https://schema.org/InStock"
+    "lowPrice": "5500",
+    "highPrice": "7000",
+    "offerCount": "1",
+    "availability": "https://schema.org/LimitedAvailability",
+    "priceValidUntil": "2026-09-01"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "87",
+    "bestRating": "5",
+    "worstRating": "1"
   }
 }
 </script>
