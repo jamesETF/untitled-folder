@@ -33,12 +33,16 @@ date: 2026-03-03
 last_modified_at: 2026-03-03
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
 <style>
 /* ============================================================
-   LUNA PUPPY PAGE — CUSTOM DESIGN SYSTEM
+   LUNA PUPPY PAGE V2 — CUSTOM DESIGN SYSTEM
    Bespoke components for a premium puppy listing experience.
-   UIkit grid/responsive utilities may be used as scaffolding,
-   but every visual component below is custom-designed.
+   V2: Playfair Display accent font, mobile clipping fixes,
+   first-person hero treatment.
    ============================================================ */
 
 /* --- Hide the default EON theme hero container --- */
@@ -77,6 +81,16 @@ body > .uk-position-relative[style*="min-height"] {
   --luna-radius-pill: 100px;
   --luna-transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --luna-font: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --luna-font-accent: 'Playfair Display', Georgia, serif;
+}
+
+/* --- Global box-sizing fix for mobile overflow --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* Prevent any horizontal overflow on mobile */
+html, body {
+  overflow-x: hidden;
 }
 
 /* --- Reveal Animation System --- */
@@ -153,6 +167,45 @@ body > .uk-position-relative[style*="min-height"] {
   color: var(--luna-text-light);
 }
 
+/* --- Accent Font (Playfair Display) --- */
+.luna-accent {
+  font-family: var(--luna-font-accent);
+  font-style: italic;
+  font-weight: 700;
+}
+.luna-hero__greeting {
+  font-family: var(--luna-font);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin: 0 0 4px;
+  display: block;
+}
+.luna-hero__name {
+  font-family: var(--luna-font-accent);
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(2.8rem, 8vw, 5rem);
+  color: #fff;
+  line-height: 1.05;
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+.luna-eyebrow--accent {
+  font-family: var(--luna-font-accent);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--luna-primary);
+  margin-bottom: 8px;
+  display: block;
+}
+
+
 /* ============================================================
    1. HERO SECTION — Cinematic full-bleed
    ============================================================ */
@@ -205,15 +258,7 @@ body > .uk-position-relative[style*="min-height"] {
   flex: 1;
   min-width: 280px;
 }
-.luna-hero__name {
-  font-family: var(--luna-font);
-  font-size: clamp(3rem, 8vw, 5.5rem);
-  font-weight: 900;
-  color: #fff;
-  line-height: 1;
-  margin: 0 0 8px;
-  letter-spacing: -0.02em;
-}
+/* .luna-hero__name — V2: moved to accent font section above */
 .luna-hero__breed {
   font-family: var(--luna-font);
   font-size: clamp(0.9rem, 1.5vw, 1.15rem);
@@ -223,7 +268,7 @@ body > .uk-position-relative[style*="min-height"] {
   margin: 0;
 }
 
-/* Quick Stats Floating Card */
+/* Quick Stats Floating Card — V2: fixed mobile clipping */
 .luna-hero__stats {
   background: rgba(255,255,255,0.95);
   backdrop-filter: blur(20px);
@@ -234,17 +279,19 @@ body > .uk-position-relative[style*="min-height"] {
   gap: 24px;
   flex-wrap: wrap;
   box-shadow: var(--luna-shadow-xl);
-  min-width: 280px;
+  max-width: 100%;
 }
 @media (max-width: 768px) {
   .luna-hero__stats {
-    width: 100%;
-    padding: 20px;
-    gap: 16px;
+    width: calc(100% - 8px);
+    padding: 16px 14px;
+    gap: 12px;
+    border-radius: var(--luna-radius);
   }
   .luna-hero__content {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0 clamp(16px, 4vw, 32px) clamp(24px, 5vw, 40px);
   }
 }
 .luna-hero__stat {
@@ -297,6 +344,7 @@ body > .uk-position-relative[style*="min-height"] {
   -webkit-backdrop-filter: blur(16px);
   border-top: 1px solid var(--luna-border);
   padding: 12px 16px;
+  padding-right: 72px; /* V2: space for Heymarket chat widget */
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -500,7 +548,7 @@ body > .uk-position-relative[style*="min-height"] {
   pointer-events: none;
 }
 .luna-personality__quote {
-  font-family: var(--luna-font);
+  font-family: var(--luna-font-accent);
   font-size: clamp(1.3rem, 2.5vw, 1.7rem);
   font-weight: 700;
   font-style: italic;
