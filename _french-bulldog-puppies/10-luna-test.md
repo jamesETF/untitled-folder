@@ -44,12 +44,14 @@ last_modified_at: 2026-03-03
 
 /* --- Hide the default EON theme hero container --- */
 /* The header.html partial always renders a .uk-position-relative
-   wrapper with min-height:60vh. We collapse it since we have
-   our own custom hero component below. */
-#sticky-nav + .uk-position-relative {
+   wrapper with min-height:60vh directly on body. We collapse it
+   since we have our own custom hero component below. */
+body > .uk-position-relative[style*="min-height"] {
   min-height: 0 !important;
-  height: 0;
+  height: 0 !important;
   overflow: hidden;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* --- CSS Custom Properties --- */
@@ -1110,7 +1112,7 @@ last_modified_at: 2026-03-03
      ═══════════════════════════════════════════════════════════ -->
 <section class="luna-hero" aria-label="Luna hero">
   <img
-    src="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-1.webp"
+    src="/uploads/french-bulldog-puppies/bertha/bertha-1.webp"
     alt="Luna, a Blue and Tan French Bulldog puppy available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
@@ -1221,10 +1223,10 @@ last_modified_at: 2026-03-03
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Luna's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide">
-      <a href="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-1.webp" class="luna-gallery__item" data-caption="Luna - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/bertha/bertha-1.webp" class="luna-gallery__item" data-caption="Luna - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-1.webp"
+          data-src="/uploads/french-bulldog-puppies/bertha/bertha-1.webp"
           alt="Luna the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
@@ -1236,10 +1238,10 @@ last_modified_at: 2026-03-03
           </div>
         </div>
       </a>
-      <a href="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-2.webp" class="luna-gallery__item" data-caption="Luna - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/bertha/bertha-2.webp" class="luna-gallery__item" data-caption="Luna - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-2.webp"
+          data-src="/uploads/french-bulldog-puppies/bertha/bertha-2.webp"
           alt="Luna the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
@@ -1251,10 +1253,10 @@ last_modified_at: 2026-03-03
           </div>
         </div>
       </a>
-      <a href="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-3.webp" class="luna-gallery__item" data-caption="Luna - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/bertha/bertha-3.webp" class="luna-gallery__item" data-caption="Luna - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/bertha/bertha-3.webp"
+          data-src="/uploads/french-bulldog-puppies/bertha/bertha-3.webp"
           alt="Luna the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
