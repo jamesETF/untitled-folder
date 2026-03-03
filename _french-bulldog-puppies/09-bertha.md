@@ -3,7 +3,7 @@ title: Bertha
 description: Meet Bertha, a clever and wonderfully social blue and tan French Bulldog — observant, hilarious, and perfect for homes with other pets.
 subtitle: Blue & Tan Frenchie Bertha
 width: xsmall
-image: french-bulldog-puppies/bertha/bertha-1.webp
+image: french-bulldog-puppies/bertha/bertha-3.webp
 topics: [Our Puppies, Blue French Bulldog]
 
 navbar:
@@ -98,7 +98,7 @@ Blue and tan, compact, clever, and completely one of a kind — Bertha is 9 week
 All our puppies are raised with love and care, and we work to match them with the perfect families. Please note that deposits to reserve a puppy are non-refundable; however, the deposit is transferable to a different litter in the future.
 
 {% include image.html
-src="french-bulldog-puppies/bertha/bertha-1.webp"
+src="french-bulldog-puppies/bertha/bertha-3.webp"
 alt="Bertha the Blue and Tan French Bulldog puppy"
 section_size="medium"
 section_padding_remove="top"
@@ -132,9 +132,9 @@ block_title="false"
   "name": "Bertha - Blue and Tan French Bulldog Puppy",
   "description": "Bertha is a clever and wonderfully social blue and tan French Bulldog. Observant, hilarious, and perfect for homes with other pets.",
   "image": [
+    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/bertha/bertha-3.webp",
     "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/bertha/bertha-1.webp",
-    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/bertha/bertha-2.webp",
-    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/bertha/bertha-3.webp"
+    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/bertha/bertha-2.webp"
   ],
   "sku": "bertha-2026",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
