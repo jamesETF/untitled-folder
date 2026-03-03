@@ -1,10 +1,10 @@
 ---
-title: Casper
-description: Meet Casper, a breathtaking fluffy white French Bulldog with striking green eyes — calm, gentle, and effortlessly lovable, the kind of puppy that stops everyone in their tracks.
-subtitle: Fluffy White Frenchie Casper
+title: Nugget
+description: Meet Nugget, an irresistibly sweet fawn merle French Bulldog with a face that should come with a warning label — compact, precious, and impossible to say no to.
+subtitle: Fawn Merle Frenchie Nugget
 width: full
-image: french-bulldog-puppies/casper/casper-updated-1.webp
-topics: [Our Puppies, Fluffy French Bulldog]
+image: french-bulldog-puppies/nugget/nugget-1.webp
+topics: [Our Puppies, Merle French Bulldog]
 
 navbar:
   sticky: true
@@ -14,21 +14,20 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/casper
+permalink: /french-bulldog-puppies/nugget
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: White / Cream, Fluffy
-age_weeks: 12
-dob: 2025-12-09
-ready_date: 2026-02-24
-estimated_adult_weight_lbs: "25"
+color_coat: Fawn Merle
+age_weeks: 9
+dob: 2025-12-30
+ready_date: 2026-03-03
+estimated_adult_weight_lbs: "22-24"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
-location: Miami, FL
 parents: ""
 date: 2026-03-03
 last_modified_at: 2026-03-03
@@ -677,11 +676,10 @@ html, body {
   background: var(--luna-bg);
   border: 1.5px solid var(--luna-border);
   border-radius: var(--luna-radius-lg);
-  padding: clamp(24px, 4vw, 48px);
+  padding: clamp(32px, 5vw, 48px);
   text-align: center;
   position: relative;
   overflow: hidden;
-  max-width: 100%;
 }
 .luna-price::after {
   content: '';
@@ -1158,10 +1156,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Casper hero">
+<section class="luna-hero" aria-label="Nugget hero">
   <img
-    src="/uploads/french-bulldog-puppies/casper/casper-updated-1.webp"
-    alt="Casper, a Fluffy White French Bulldog puppy with green eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/nugget/nugget-1.webp"
+    alt="Nugget, a Fawn Merle French Bulldog puppy available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1175,12 +1173,12 @@ html, body {
         Available Now
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Casper!</h1>
-      <p class="luna-hero__breed">White &amp; Cream Fluffy French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Nugget!</h1>
+      <p class="luna-hero__breed">Fawn Merle French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">12 Weeks</span>
+        <span class="luna-hero__stat-value">9 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1188,7 +1186,7 @@ html, body {
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">~25 lbs</span>
+        <span class="luna-hero__stat-value">22-24 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
@@ -1205,12 +1203,11 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Casper">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Nugget">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> White / Cream, Fluffy</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Green Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Fawn Merle</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#10003;</span> Ready Now</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1269,14 +1266,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Casper's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Nugget's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide">
-      <a href="/uploads/french-bulldog-puppies/casper/casper-updated-1.webp" class="luna-gallery__item" data-caption="Casper - Fluffy White French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/nugget/nugget-1.webp" class="luna-gallery__item" data-caption="Nugget - Fawn Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/casper/casper-updated-1.webp"
-          alt="Casper the Fluffy White French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/nugget/nugget-1.webp"
+          alt="Nugget the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1287,11 +1284,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/casper/casper-updated-2.webp" class="luna-gallery__item" data-caption="Casper - Fluffy White French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/nugget/nugget-2.webp" class="luna-gallery__item" data-caption="Nugget - Fawn Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/casper/casper-updated-2.webp"
-          alt="Casper the Fluffy White French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/nugget/nugget-2.webp"
+          alt="Nugget the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1302,11 +1299,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/casper/casper-updated-3.webp" class="luna-gallery__item" data-caption="Casper - Fluffy White French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/nugget/nugget-3.webp" class="luna-gallery__item" data-caption="Nugget - Fawn Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/casper/casper-updated-3.webp"
-          alt="Casper the Fluffy White French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/nugget/nugget-3.webp"
+          alt="Nugget the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1325,27 +1322,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Casper">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Nugget">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Casper</span>
+        <span class="luna-eyebrow--accent">Meet Nugget</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">He walks into your life and immediately turns the volume down — in the best possible way.</p>
+          <p class="luna-personality__quote">His face should honestly come with a warning label — one look and you're done.</p>
           <div class="luna-personality__body">
-            <p>Draped in a <strong>cloud-white, fluffy coat</strong> that looks almost too beautiful to be real, with a pair of <strong>striking green eyes</strong> that stop you cold the moment they meet yours — Casper is the kind of puppy that makes people do a double take and immediately reach for their phone.</p>
-            <p>But Casper's looks are just the opening act. This boy comes from a <strong>bloodline built for easy living</strong>, and it shows in everything he does. He moves through the world at his own unhurried pace — calm, gentle, and completely at ease with whoever crosses his path. Kids, adults, other pets, strangers — Casper greets them all with the same quiet warmth.</p>
-            <p>Life with Casper is <strong>soft and steady</strong>. He's not going to demand the spotlight or test your patience — he's going to curl up beside you, fix you with those incredible green eyes, and make you feel like everything is going to be just fine.</p>
+            <p>There are puppies that are cute, and then there's Nugget — a <strong>fawn merle boy whose face should honestly come with a warning label</strong>. One look at those eyes, that expression, that impossibly sweet little face and you're done. He's not asking to be spoiled — he's simply existing, and somehow that's enough to make you want to give him absolutely everything.</p>
+            <p>At just 9 weeks old this little guy has already mastered the art of <strong>melting hearts without even trying</strong>. His fawn merle coat is soft, beautiful, and completely unique — swirls of color that make him look like a <strong>tiny work of art</strong> walking around on four little legs. He's compact, he's precious, and he carries himself with the quiet confidence of a puppy who has never once doubted that he is loved.</p>
+            <p>Fawn merle, compact, endlessly sweet — Nugget is ready now and he is exactly what he looks like: the kind of dog you <strong>spoil shamelessly and never once regret it</strong>.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128524; Calm</span>
-            <span class="luna-trait">&#129309; Gentle</span>
-            <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#127912; Easygoing</span>
-            <span class="luna-trait">&#128171; Confident</span>
-            <span class="luna-trait">&#129504; Observant</span>
+            <span class="luna-trait">&#129505; Sweet</span>
+            <span class="luna-trait">&#128156; Precious</span>
+            <span class="luna-trait">&#10024; Charming</span>
+            <span class="luna-trait">&#128524; Gentle</span>
+            <span class="luna-trait">&#128150; Irresistible</span>
+            <span class="luna-trait">&#129309; Loyal</span>
           </div>
         </div>
       </div>
@@ -1358,8 +1355,7 @@ html, body {
             <span class="luna-status__dot" aria-hidden="true"></span>
             Available
           </span>
-          <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
-          <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
+          <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
@@ -1374,7 +1370,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Casper — Apply Now
+            Reserve Nugget — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1402,11 +1398,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Casper's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Nugget's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Casper's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Nugget's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1420,7 +1416,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Casper has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Nugget has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1444,10 +1440,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Calm, easygoing, and effortlessly lovable — a rare fluffy white Frenchie with a laid-back bloodline and a gentle soul that makes everyone feel at ease</li>
-              <li><strong>Ideal Home:</strong> Perfect for first-time owners, families with children, multi-pet households, or anyone looking for a calm, loyal companion</li>
+              <li><strong>Personality:</strong> Sweet, irresistible, and born to be spoiled — a fawn merle charmer with a face that makes saying no completely impossible</li>
+              <li><strong>Ideal Home:</strong> Perfect for families, couples, or anyone who wants a companion that will bring pure joy — Nugget thrives on love and gives it back tenfold</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate — playful when it's time to play, calm when it's time to relax</li>
+              <li><strong>Energy Level:</strong> Low to moderate — sweet and gentle, content to be held and adored, with playful bursts that keep things fun</li>
             </ul>
           </div>
         </div>
@@ -1466,11 +1462,10 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> White / Cream, Fluffy</li>
-              <li><strong>Eye Color:</strong> Green</li>
-              <li><strong>Age:</strong> 12 weeks old (ready now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 25 lbs</li>
-              <li><strong>Date of Birth:</strong> December 9, 2025</li>
+              <li><strong>Color:</strong> Fawn Merle</li>
+              <li><strong>Age:</strong> 9 weeks old (ready now)</li>
+              <li><strong>Estimated Adult Weight:</strong> 22-24 lbs (compact build)</li>
+              <li><strong>Date of Birth:</strong> December 30, 2025</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1490,7 +1485,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Casper (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Nugget (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. via in-cabin flight nanny for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in the Miami, FL area</li>
             </ul>
@@ -1600,11 +1595,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Casper">
+<section class="luna-final-cta luna-section" aria-label="Apply for Nugget">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Casper Is Ready for His Forever Home</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Start your application today and take the first step toward bringing Casper home.</p>
+    <h2 class="luna-final-cta__heading">Nugget Is Ready for His Forever Home</h2>
+    <p class="luna-final-cta__sub">A fawn merle with a face like that doesn't come around often. Start your application today and don't let someone else scoop him up first.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1633,11 +1628,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Casper">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Nugget">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Casper">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Nugget">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1750,29 +1745,33 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Casper - Fluffy White French Bulldog Puppy",
-  "description": "Casper is a breathtaking fluffy white French Bulldog with striking green eyes. Calm, gentle, and effortlessly lovable. Available from Ethical Frenchie.",
+  "name": "Nugget - Fawn Merle French Bulldog Puppy",
+  "description": "Nugget is an irresistibly sweet fawn merle French Bulldog with a face that should come with a warning label. Compact, precious, and impossible to say no to. Available from Ethical Frenchie.",
   "image": [
-    "/uploads/french-bulldog-puppies/casper/casper-updated-1.webp",
-    "/uploads/french-bulldog-puppies/casper/casper-updated-2.webp",
-    "/uploads/french-bulldog-puppies/casper/casper-updated-3.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nugget/nugget-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nugget/nugget-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nugget/nugget-3.webp"
   ],
-  "sku": "casper-2026",
+  "sku": "nugget-2026",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "White / Cream, Fluffy" },
-    { "@type": "PropertyValue", "name": "Eye Color", "value": "Green" },
-    { "@type": "PropertyValue", "name": "Age", "value": "12 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" }
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Fawn Merle" },
+    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-24 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
+    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
-    "@type": "Offer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/casper",
+    "@type": "AggregateOffer",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/nugget",
     "priceCurrency": "USD",
-    "availability": "https://schema.org/LimitedAvailability"
+    "lowPrice": "4000",
+    "highPrice": "5500",
+    "offerCount": "1",
+    "availability": "https://schema.org/LimitedAvailability",
+    "priceValidUntil": "2026-09-01"
   },
   "aggregateRating": {
     "@type": "AggregateRating",

@@ -1,10 +1,10 @@
 ---
-title: Casper
-description: Meet Casper, a breathtaking fluffy white French Bulldog with striking green eyes — calm, gentle, and effortlessly lovable, the kind of puppy that stops everyone in their tracks.
-subtitle: Fluffy White Frenchie Casper
+title: Roxxane
+description: Meet Roxxane, a stunning lilac and tan French Bulldog with bright striking eyes — sassy, opinionated, fiercely affectionate, and absolutely unforgettable.
+subtitle: Lilac & Tan Frenchie Roxxane
 width: full
-image: french-bulldog-puppies/casper/casper-updated-1.webp
-topics: [Our Puppies, Fluffy French Bulldog]
+image: french-bulldog-puppies/roxxane/roxxane-1.webp
+topics: [Our Puppies, Lilac and Tan French Bulldog]
 
 navbar:
   sticky: true
@@ -14,36 +14,31 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/casper
+permalink: /french-bulldog-puppies/roxxane
 hubspotneeded: true
 chat: true
 
-gender: Male
-color_coat: White / Cream, Fluffy
-age_weeks: 12
-dob: 2025-12-09
-ready_date: 2026-02-24
-estimated_adult_weight_lbs: "25"
+gender: Female
+color_coat: Lilac and Tan
+age_weeks: 9
+dob: 2025-12-30
+ready_date: 2026-03-10
+estimated_adult_weight_lbs: "22"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
-location: Miami, FL
 parents: ""
 date: 2026-03-03
 last_modified_at: 2026-03-03
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-
 <style>
 /* ============================================================
-   LUNA PUPPY PAGE V2 — CUSTOM DESIGN SYSTEM
+   LUNA PUPPY PAGE — CUSTOM DESIGN SYSTEM
    Bespoke components for a premium puppy listing experience.
-   V2: Playfair Display accent font, mobile clipping fixes,
-   first-person hero treatment.
+   UIkit grid/responsive utilities may be used as scaffolding,
+   but every visual component below is custom-designed.
    ============================================================ */
 
 /* --- Hide the default EON theme hero container --- */
@@ -82,16 +77,6 @@ body > .uk-position-relative[style*="min-height"] {
   --luna-radius-pill: 100px;
   --luna-transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --luna-font: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
-  --luna-font-accent: 'Playfair Display', Georgia, serif;
-}
-
-/* --- Global box-sizing fix for mobile overflow --- */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-/* Prevent any horizontal overflow on mobile */
-html, body {
-  overflow-x: hidden;
 }
 
 /* --- Reveal Animation System --- */
@@ -168,44 +153,6 @@ html, body {
   color: var(--luna-text-light);
 }
 
-/* --- Accent Font (Playfair Display) --- */
-.luna-accent {
-  font-family: var(--luna-font-accent);
-  font-style: italic;
-  font-weight: 700;
-}
-.luna-hero__greeting {
-  font-family: var(--luna-font);
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
-  margin: 0 0 4px;
-  display: block;
-}
-.luna-hero__name {
-  font-family: var(--luna-font-accent);
-  font-style: italic;
-  font-weight: 700;
-  font-size: clamp(2.8rem, 8vw, 5rem);
-  color: #fff;
-  line-height: 1.05;
-  margin: 0 0 8px;
-  letter-spacing: -0.01em;
-}
-.luna-eyebrow--accent {
-  font-family: var(--luna-font-accent);
-  font-style: italic;
-  font-weight: 700;
-  font-size: 1rem;
-  letter-spacing: 0.02em;
-  text-transform: none;
-  color: var(--luna-primary);
-  margin-bottom: 8px;
-  display: block;
-}
-
 /* ============================================================
    1. HERO SECTION — Cinematic full-bleed
    ============================================================ */
@@ -258,7 +205,15 @@ html, body {
   flex: 1;
   min-width: 280px;
 }
-/* .luna-hero__name — V2: moved to accent font section above */
+.luna-hero__name {
+  font-family: var(--luna-font);
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
 .luna-hero__breed {
   font-family: var(--luna-font);
   font-size: clamp(0.9rem, 1.5vw, 1.15rem);
@@ -268,7 +223,7 @@ html, body {
   margin: 0;
 }
 
-/* Quick Stats Floating Card — V2: fixed mobile clipping */
+/* Quick Stats Floating Card */
 .luna-hero__stats {
   background: rgba(255,255,255,0.95);
   backdrop-filter: blur(20px);
@@ -279,19 +234,17 @@ html, body {
   gap: 24px;
   flex-wrap: wrap;
   box-shadow: var(--luna-shadow-xl);
-  max-width: 100%;
+  min-width: 280px;
 }
 @media (max-width: 768px) {
   .luna-hero__stats {
-    width: calc(100% - 8px);
-    padding: 16px 14px;
-    gap: 12px;
-    border-radius: var(--luna-radius);
+    width: 100%;
+    padding: 20px;
+    gap: 16px;
   }
   .luna-hero__content {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 clamp(16px, 4vw, 32px) clamp(24px, 5vw, 40px);
   }
 }
 .luna-hero__stat {
@@ -344,7 +297,6 @@ html, body {
   -webkit-backdrop-filter: blur(16px);
   border-top: 1px solid var(--luna-border);
   padding: 12px 16px;
-  padding-right: 72px; /* V2: space for Heymarket chat widget */
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -548,7 +500,7 @@ html, body {
   pointer-events: none;
 }
 .luna-personality__quote {
-  font-family: var(--luna-font-accent);
+  font-family: var(--luna-font);
   font-size: clamp(1.3rem, 2.5vw, 1.7rem);
   font-weight: 700;
   font-style: italic;
@@ -677,11 +629,10 @@ html, body {
   background: var(--luna-bg);
   border: 1.5px solid var(--luna-border);
   border-radius: var(--luna-radius-lg);
-  padding: clamp(24px, 4vw, 48px);
+  padding: clamp(32px, 5vw, 48px);
   text-align: center;
   position: relative;
   overflow: hidden;
-  max-width: 100%;
 }
 .luna-price::after {
   content: '';
@@ -1158,10 +1109,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Casper hero">
+<section class="luna-hero" aria-label="Roxxane hero">
   <img
-    src="/uploads/french-bulldog-puppies/casper/casper-updated-1.webp"
-    alt="Casper, a Fluffy White French Bulldog puppy with green eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/roxxane/roxxane-1.webp"
+    alt="Roxxane, a Lilac and Tan French Bulldog puppy available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1172,28 +1123,27 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Available Now
+        Almost Ready
       </span>
-      <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Casper!</h1>
-      <p class="luna-hero__breed">White &amp; Cream Fluffy French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Roxxane!</h1>
+      <p class="luna-hero__breed">Lilac &amp; Tan French Bulldog &middot; Miami, FL</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">12 Weeks</span>
+        <span class="luna-hero__stat-value">9 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Male</span>
+        <span class="luna-hero__stat-value">Female</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">~25 lbs</span>
+        <span class="luna-hero__stat-value">~22 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready</span>
-        <span class="luna-hero__stat-label">Status</span>
+        <span class="luna-hero__stat-value">Almost</span>
+        <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
   </div>
@@ -1205,13 +1155,12 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Casper">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Roxxane">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> White / Cream, Fluffy</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Green Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#10003;</span> Ready Now</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac &amp; Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Almost Ready</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1269,14 +1218,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Casper's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Roxxane's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide">
-      <a href="/uploads/french-bulldog-puppies/casper/casper-updated-1.webp" class="luna-gallery__item" data-caption="Casper - Fluffy White French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/roxxane/roxxane-1.webp" class="luna-gallery__item" data-caption="Roxxane - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/casper/casper-updated-1.webp"
-          alt="Casper the Fluffy White French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/roxxane/roxxane-1.webp"
+          alt="Roxxane the French Bulldog"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1287,11 +1236,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/casper/casper-updated-2.webp" class="luna-gallery__item" data-caption="Casper - Fluffy White French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/roxxane/roxxane-2.webp" class="luna-gallery__item" data-caption="Roxxane - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/casper/casper-updated-2.webp"
-          alt="Casper the Fluffy White French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/roxxane/roxxane-2.webp"
+          alt="Roxxane the French Bulldog"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1302,11 +1251,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/casper/casper-updated-3.webp" class="luna-gallery__item" data-caption="Casper - Fluffy White French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/roxxane/roxxane-3.webp" class="luna-gallery__item" data-caption="Roxxane - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/casper/casper-updated-3.webp"
-          alt="Casper the Fluffy White French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/roxxane/roxxane-3.webp"
+          alt="Roxxane the French Bulldog"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1325,42 +1274,40 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Casper">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Roxxane">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Casper</span>
+        <span class="luna-eyebrow">Meet Roxxane</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">He walks into your life and immediately turns the volume down — in the best possible way.</p>
+          <p class="luna-personality__quote">She walked into the room and immediately rearranged the energy — and she's been doing it ever since.</p>
           <div class="luna-personality__body">
-            <p>Draped in a <strong>cloud-white, fluffy coat</strong> that looks almost too beautiful to be real, with a pair of <strong>striking green eyes</strong> that stop you cold the moment they meet yours — Casper is the kind of puppy that makes people do a double take and immediately reach for their phone.</p>
-            <p>But Casper's looks are just the opening act. This boy comes from a <strong>bloodline built for easy living</strong>, and it shows in everything he does. He moves through the world at his own unhurried pace — calm, gentle, and completely at ease with whoever crosses his path. Kids, adults, other pets, strangers — Casper greets them all with the same quiet warmth.</p>
-            <p>Life with Casper is <strong>soft and steady</strong>. He's not going to demand the spotlight or test your patience — he's going to curl up beside you, fix you with those incredible green eyes, and make you feel like everything is going to be just fine.</p>
+            <p>Roxxane is opinionated, sassy, and unapologetically herself — a <strong>diva in the most magnificent sense of the word</strong>. She knows exactly what she wants, she knows exactly how to get it, and watching her work is genuinely one of the most entertaining things you'll ever witness. This <strong>lilac and tan stunner</strong> has bright, striking eyes that have a way of looking straight through you. Life with Roxxane is never boring — not even for a second.</p>
+            <p>But beneath all that fire and personality is a <strong>deeply affectionate girl</strong> who loves hard and loves loyally. When she decides you're her person, she is <strong>all in</strong>. She's food motivated, which makes her a dream to train, and her bold personality means she picks things up fast — because Roxxane doesn't like to be told twice. She's too smart for that.</p>
+            <p>Lilac and tan, compact, rare in color, one of a kind in personality — Roxxane is almost ready to go and a girl like this will not wait long. Reach out today.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128524; Calm</span>
-            <span class="luna-trait">&#129309; Gentle</span>
+            <span class="luna-trait">&#128133; Sassy</span>
+            <span class="luna-trait">&#128171; Bold</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#127912; Easygoing</span>
-            <span class="luna-trait">&#128171; Confident</span>
-            <span class="luna-trait">&#129504; Observant</span>
+            <span class="luna-trait">&#129504; Smart</span>
+            <span class="luna-trait">&#128293; Spirited</span>
+            <span class="luna-trait">&#129309; Loyal</span>
           </div>
         </div>
       </div>
 
       <!-- Price Card -->
       <div class="luna-reveal luna-reveal-delay-2">
-        <span class="luna-eyebrow--accent">Investment</span>
+        <span class="luna-eyebrow">Investment</span>
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
             Available
           </span>
-          <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
-          <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
-          <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
+          <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
             <li>Embark DNA screening</li>
@@ -1374,7 +1321,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Casper — Apply Now
+            Reserve Roxxane — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1402,11 +1349,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Casper's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Roxxane's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Casper's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Roxxane's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1420,7 +1367,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Casper has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Roxxane has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1444,10 +1391,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Calm, easygoing, and effortlessly lovable — a rare fluffy white Frenchie with a laid-back bloodline and a gentle soul that makes everyone feel at ease</li>
-              <li><strong>Ideal Home:</strong> Perfect for first-time owners, families with children, multi-pet households, or anyone looking for a calm, loyal companion</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate — playful when it's time to play, calm when it's time to relax</li>
+              <li><strong>Personality:</strong> Sassy, opinionated, and fiercely affectionate — a stunning lilac and tan diva with bright eyes, a bold personality, and a heart as big as her attitude</li>
+              <li><strong>Ideal Home:</strong> Perfect for experienced dog lovers or confident first-timers who appreciate a dog with personality</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization; highly food motivated making her exceptionally responsive to training</li>
+              <li><strong>Energy Level:</strong> Moderate to high — bold, expressive, and always engaged</li>
             </ul>
           </div>
         </div>
@@ -1465,12 +1412,11 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> White / Cream, Fluffy</li>
-              <li><strong>Eye Color:</strong> Green</li>
-              <li><strong>Age:</strong> 12 weeks old (ready now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 25 lbs</li>
-              <li><strong>Date of Birth:</strong> December 9, 2025</li>
+              <li><strong>Gender:</strong> Female</li>
+              <li><strong>Color:</strong> Lilac and Tan</li>
+              <li><strong>Age:</strong> 9 weeks old (ready soon)</li>
+              <li><strong>Estimated Adult Weight:</strong> ~22 lbs (compact build)</li>
+              <li><strong>Date of Birth:</strong> December 30, 2025</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1490,7 +1436,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Casper (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Roxxane (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. via in-cabin flight nanny for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in the Miami, FL area</li>
             </ul>
@@ -1600,11 +1546,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Casper">
+<section class="luna-final-cta luna-section" aria-label="Apply for Roxxane">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Casper Is Ready for His Forever Home</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Start your application today and take the first step toward bringing Casper home.</p>
+    <h2 class="luna-final-cta__heading">Roxxane Is Almost Ready for Her Forever Home</h2>
+    <p class="luna-final-cta__sub">A lilac and tan girl with this much personality won't wait long. Start your application today.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1633,11 +1579,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Casper">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Roxxane">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Casper">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Roxxane">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1750,29 +1696,33 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Casper - Fluffy White French Bulldog Puppy",
-  "description": "Casper is a breathtaking fluffy white French Bulldog with striking green eyes. Calm, gentle, and effortlessly lovable. Available from Ethical Frenchie.",
+  "name": "Roxxane - Lilac and Tan French Bulldog Puppy",
+  "description": "Roxxane is a stunning lilac and tan French Bulldog with bright striking eyes. Sassy, opinionated, fiercely affectionate, and absolutely unforgettable. Available from Ethical Frenchie.",
   "image": [
-    "/uploads/french-bulldog-puppies/casper/casper-updated-1.webp",
-    "/uploads/french-bulldog-puppies/casper/casper-updated-2.webp",
-    "/uploads/french-bulldog-puppies/casper/casper-updated-3.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/roxxane/roxxane-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/roxxane/roxxane-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/roxxane/roxxane-3.webp"
   ],
-  "sku": "casper-2026",
+  "sku": "roxxane-2026",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "White / Cream, Fluffy" },
-    { "@type": "PropertyValue", "name": "Eye Color", "value": "Green" },
-    { "@type": "PropertyValue", "name": "Age", "value": "12 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" }
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac and Tan" },
+    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
+    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
-    "@type": "Offer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/casper",
+    "@type": "AggregateOffer",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/roxxane",
     "priceCurrency": "USD",
-    "availability": "https://schema.org/LimitedAvailability"
+    "lowPrice": "4000",
+    "highPrice": "5500",
+    "offerCount": "1",
+    "availability": "https://schema.org/LimitedAvailability",
+    "priceValidUntil": "2026-09-01"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
