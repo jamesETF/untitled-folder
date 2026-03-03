@@ -54,6 +54,16 @@ happytails: true
   </div>
 </div>
 
+<!-- Breeder Voice — short version (full story on /about-us/) -->
+<div class="uk-section uk-section-default" style="padding: 28px 0 20px;">
+  <div class="uk-container uk-container-small">
+    <p style="font-size: 16px; line-height: 1.8; color: #3c3c3c; text-align: center; margin: 0;">
+      I started Ethical Frenchie after experiencing firsthand how broken the puppy-buying process was — scam sites, classifieds, zero transparency. Every family you see on this map went through the process I wished I'd had when I found our first Frenchie, Vilma.
+    </p>
+    <p style="font-size: 14px; color: #901941; font-weight: 600; text-align: center; margin: 10px 0 0 0;">— James, Founder &middot; <a href="/about-us/" style="color: #901941; text-decoration: underline;">Read our full story</a></p>
+  </div>
+</div>
+
 <!-- ============================================================
      INTERACTIVE MAP — Pins with before/after photo popups
      All CSS and JS is inline — zero impact on other pages.

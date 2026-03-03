@@ -1,8 +1,7 @@
 ---
-title: Anyone can “add a Frenchie to cart” via any of the find a puppy websites or craigslist scams.
+title: We started Ethical Frenchie because buying a dog shouldn't feel like a gamble.
 ---
 
-If this decision is important to you, then stick around and learn more about our [French Bulldog](/blog/french-bulldog-colors-explained) program and the various colors and personalities we produce. Also check out our [Education](/blog) blog before taking home your puppy to ensure that you are well prepared.
+After spending hours wading through "Add to Cart" puppy sites and Craigslist scams just to find our own dog Vilma, I knew there had to be a better way. 10+ years later, we've built what we wished existed — a transparent, anxiety-free process where you actually know the people behind your puppy.
 
-
-{% include button.html text="View Our Puppies" url="/french-bulldog-puppies" style="default" %}
+{% include button.html text="Our Story" url="/about-us/" style="default" %}
