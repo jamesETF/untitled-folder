@@ -58,6 +58,54 @@ RUBY_VERSION = "3.2.2"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# --- GSC 404 cleanup (March 3, 2026) ---
+# Source: GSC Page Indexing > Not Found (404) report
+
+# Old sitemaps — consolidated into single sitemap.xml
+[[redirects]]
+  from = "/sitemap-blog.xml"
+  to = "/sitemap.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sitemap-puppies.xml"
+  to = "/sitemap.xml"
+  status = 301
+  force = true
+
+# /delivery/ → renamed to /puppy-delivery/
+[[redirects]]
+  from = "/delivery/"
+  to = "/puppy-delivery/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/delivery"
+  to = "/puppy-delivery/"
+  status = 301
+  force = true
+
+# Sold puppy pages not yet covered by existing redirects
+[[redirects]]
+  from = "/french-bulldog-puppies/brutus"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/puppies/black-french-bulldog-puppy-armani/"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/puppies/black-french-bulldog-puppy-armani"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
 # --- Duplicate URL canonicalization (trailing slash + case fixes) ---
 # Source: GSC audit Feb 25, 2026 — all pairs confirmed via impression/click data
 
