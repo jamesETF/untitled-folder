@@ -3,7 +3,7 @@ title: Dolly
 description: Meet Dolly, a sweet and goofy blue and tan fluffy French Bulldog — compact, charming, and guaranteed to make you smile every single day.
 subtitle: Blue & Tan Fluffy Frenchie Dolly
 width: xsmall
-image: french-bulldog-puppies/dolly/dolly-updated-1.webp
+image: french-bulldog-puppies/dolly/dolly-4.webp
 topics: [Our Puppies, Blue French Bulldog]
 
 navbar:
@@ -98,7 +98,7 @@ Ready to come home now — but her spot is open to reserve right now. Dolly is o
 All our puppies are raised with love and care, and we work to match them with the perfect families. Please note that deposits to reserve a puppy are non-refundable; however, the deposit is transferable to a different litter in the future.
 
 {% include image.html
-src="french-bulldog-puppies/dolly/dolly-updated-1.webp"
+src="french-bulldog-puppies/dolly/dolly-4.webp"
 alt="Dolly the Blue and Tan Fluffy French Bulldog puppy"
 section_size="medium"
 section_padding_remove="top"
@@ -132,9 +132,9 @@ block_title="false"
   "name": "Dolly - Blue and Tan Fluffy French Bulldog Puppy",
   "description": "Dolly is a sweet and goofy blue and tan fluffy French Bulldog. Compact, charming, and guaranteed to make you smile every single day.",
   "image": [
+    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/dolly/dolly-4.webp",
     "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/dolly/dolly-updated-1.webp",
-    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/dolly/dolly-updated-2.webp",
-    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/dolly/dolly-updated-3.webp"
+    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/dolly/dolly-updated-2.webp"
   ],
   "sku": "dolly-2026",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
