@@ -14,7 +14,7 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/luna-test
+permalink: /french-bulldog-puppies/luna
 hubspotneeded: true
 chat: true
 
@@ -1718,7 +1718,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/luna-test",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/luna",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
