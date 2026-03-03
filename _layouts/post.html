@@ -7,8 +7,25 @@ layout: default
     {% if page.share %}
         {% include share.html %}
     {% endif %}
+
+    <!-- Author Bio Box -->
+    <div style="margin-top: 48px; padding: 24px; background: #faf8f9; border-left: 4px solid #901941; border-radius: 0 8px 8px 0;">
+      <div data-uk-grid class="uk-grid-small uk-flex-middle">
+        <div class="uk-width-auto">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}james.jpg" alt="James Harrison, Founder of Ethical Frenchie" style="width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 2px solid #901941;" data-uk-img>
+        </div>
+        <div class="uk-width-expand">
+          <h4 style="margin: 0 0 2px 0; font-size: 1rem;">
+            <a href="/about-us/" style="color: #2c2c2c; text-decoration: none;">James Harrison</a>
+          </h4>
+          <p style="margin: 0 0 6px 0; font-size: 0.8rem; color: #901941; font-weight: 600;">Founder, Ethical Frenchie</p>
+          <p style="margin: 0; font-size: 0.85rem; color: #555; line-height: 1.5;">French Bulldog breeder since 2017. Every parent is Embark DNA tested for 250+ health conditions. 10+ years matching the right puppies with the right families. <a href="/about-us/" style="color: #901941;">Read James's full story &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+
   </div>
-  
+
   {% if page.mailchimp %}
     <div class="uk-margin-large-top uk-background-muted uk-padding-large">
       <h3 class="uk-margin-remove-top uk-margin-medium-bottom uk-text-center">{{ site.data[site.template].translation[site.lang].newsletter_signup | default: 'Newsletter Signup' }}</h3>

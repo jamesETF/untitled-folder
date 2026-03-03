@@ -23,20 +23,20 @@ paginate_path:          "/blog/:num/" # Blog path
 
 # Default author settings
 author:
-  name:                 James
-  avatar:               avatar-tom.png
-  title:                CEO     
-  bio:                  Worked in tech, while dogs (Frenchies) were my real passion.  One day my side hustle overtook my main hustle.
-  url:
+  name:                 James Harrison
+  avatar:               james.jpg
+  title:                Founder, Ethical Frenchie
+  bio:                  French Bulldog breeder since 2017. Every parent is Embark DNA tested for 250+ health conditions. 10+ years matching the right puppies with the right families.
+  url:                  https://ethicalfrenchie.com/about-us/
   email:                james@ashlandharrison.com
-  website:
+  website:              https://ethicalfrenchie.com
   facebook:             https://www.facebook.com/ethicalfrenchie
   flickr:
   dribbble:
   github:
   googleplus:
   instagram:            https://www.instagram.com/ethicalfrenchie
-  linkedin:             
+  linkedin:             https://linkedin.com/in/jamesharrisoniii
   pinterest:
   twitter:              https://twitter.com/ethicalfrenchie
   vimeo:
@@ -45,12 +45,12 @@ author:
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
   james:
-    name:               James
-    title:              Founder     
+    name:               James Harrison
+    title:              Founder, Ethical Frenchie
     avatar:             james.jpg
-    instagram:          
-    bio:                Worked in tech, gradually dedicating more time to Frenchies (my real passion).  One day my side hustle overtook my main hustle.
-    linkedin:           
+    instagram:          https://www.instagram.com/ethicalfrenchie
+    bio:                French Bulldog breeder since 2017. Every parent is Embark DNA tested for 250+ health conditions. 10+ years matching the right puppies with the right families.
+    linkedin:           https://linkedin.com/in/jamesharrisoniii
   renee:
     name:               Renee
     title:              Puppy Whisperer   

@@ -1,7 +1,7 @@
 ---
 title: About Us
 subtitle: About Ethical Frenchie
-description: About Us and Our Mission to Match the Right Families with the Right Puppy
+description: How founder James Harrison built Ethical Frenchie — a transparent, white-glove French Bulldog breeding program born from his own frustrating puppy-buying experience.
 width: full
 navbar:
   sticky: true
@@ -26,7 +26,7 @@ faqschema: "aboutfaq"
   block="content-about-us"
   block_title="false"
   section_size="large"
-  section_title="How it all began"
+  section_title="How It All Began"
   section_padding_remove="bottom"
   section_container="xsmall"
   section_header_align="center"
@@ -76,6 +76,25 @@ faqschema: "aboutfaq"
           <h4>Community</h4>
           <p class="uk-text-small">Join hundreds of Ethical Frenchie families. We love getting puppy updates!</p>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Articles by James — bidirectional author-content link for E-E-A-T -->
+<div class="uk-section uk-section-muted uk-section-small">
+  <div class="uk-container uk-container-small uk-text-center">
+    <h3 class="section-title">From the Blog</h3>
+    <p>Insights on French Bulldog colors, health, and what to look for in a breeder.</p>
+    <div class="uk-child-width-1-1 uk-child-width-1-3@s uk-grid-small uk-margin-medium-top" data-uk-grid>
+      <div>
+        <a href="/blog/french-bulldog-colors-explained" class="uk-button uk-button-default uk-width-1-1" style="white-space: normal; height: auto; padding: 12px;">French Bulldog Colors Explained</a>
+      </div>
+      <div>
+        <a href="/blog/french-bulldog-health-risks-welfare-problems-behind-the-cute-face/" class="uk-button uk-button-default uk-width-1-1" style="white-space: normal; height: auto; padding: 12px;">Top 5 Health Concerns</a>
+      </div>
+      <div>
+        <a href="/blog/4-types-of-french-bulldog-breeders-near-you/" class="uk-button uk-button-default uk-width-1-1" style="white-space: normal; height: auto; padding: 12px;">4 Types of Breeders Near You</a>
       </div>
     </div>
   </div>
