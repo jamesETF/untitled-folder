@@ -3,7 +3,7 @@ title: Coco Bean
 description: Meet Coco Bean, a jaw-dropping Isabella merle fluffy French Bulldog with stunning gray eyes — sassy, loving, and impossibly beautiful.
 subtitle: Isabella Merle Fluffy Frenchie Coco Bean
 width: xsmall
-image: french-bulldog-puppies/coco-bean/coco-bean-updated-1.webp
+image: french-bulldog-puppies/coco-bean/coco-bean-4.webp
 topics: [Our Puppies, Merle French Bulldog]
 
 navbar:
@@ -99,7 +99,7 @@ She's 9 weeks old and ready to go home within the week. A fluffy Isabella merle 
 All our puppies are raised with love and care, and we work to match them with the perfect families. Please note that deposits to reserve a puppy are non-refundable; however, the deposit is transferable to a different litter in the future.
 
 {% include image.html
-src="french-bulldog-puppies/coco-bean/coco-bean-updated-1.webp"
+src="french-bulldog-puppies/coco-bean/coco-bean-4.webp"
 alt="Coco Bean the Isabella Merle Fluffy French Bulldog puppy with gray eyes"
 section_size="medium"
 section_padding_remove="top"
@@ -133,9 +133,9 @@ block_title="false"
   "name": "Coco Bean - Isabella Merle Fluffy French Bulldog Puppy",
   "description": "Coco Bean is a jaw-dropping Isabella merle fluffy French Bulldog with stunning gray eyes. Sassy, loving, and impossibly beautiful.",
   "image": [
+    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/coco-bean/coco-bean-4.webp",
     "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/coco-bean/coco-bean-updated-1.webp",
-    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/coco-bean/coco-bean-updated-2.webp",
-    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/coco-bean/coco-bean-updated-3.webp"
+    "https://ethicalfrenchie.com/assets/img/french-bulldog-puppies/coco-bean/coco-bean-updated-2.webp"
   ],
   "sku": "coco-bean-2026",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
