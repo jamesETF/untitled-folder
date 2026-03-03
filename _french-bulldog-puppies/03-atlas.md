@@ -1174,7 +1174,7 @@ html, body {
         Ready Mid-March
       </span>
       <h1 class="luna-hero__name">Hi, I'm Atlas!</h1>
-      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog &middot; Miami, FL</p>
+      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
@@ -1421,7 +1421,7 @@ html, body {
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
               <li><strong>Microchipped:</strong> Will be chipped at the appropriate age</li>
-              <li><strong>DNA Health Screening:</strong> Embark tested (parents clear)</li>
+              <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
           </div>
@@ -1486,7 +1486,7 @@ html, body {
               <li><strong>Financing:</strong> Available to approved families</li>
               <li><strong>Deposit:</strong> Required to reserve Atlas (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. via in-cabin flight nanny for a safe, low-stress experience</li>
-              <li><strong>Local Pickup:</strong> Available in the Miami, FL area</li>
+              <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
           </div>
         </div>

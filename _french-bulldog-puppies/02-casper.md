@@ -28,7 +28,6 @@ price: 0
 status: available
 microchipped: true
 akc_papers: true
-location: Miami, FL
 parents: ""
 date: 2026-03-03
 last_modified_at: 2026-03-03
@@ -1426,7 +1425,7 @@ html, body {
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
               <li><strong>Microchipped:</strong> Yes, registered to new owner</li>
-              <li><strong>DNA Health Screening:</strong> Embark tested (parents clear)</li>
+              <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
           </div>
@@ -1492,7 +1491,7 @@ html, body {
               <li><strong>Financing:</strong> Available to approved families</li>
               <li><strong>Deposit:</strong> Required to reserve Casper (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. via in-cabin flight nanny for a safe, low-stress experience</li>
-              <li><strong>Local Pickup:</strong> Available in the Miami, FL area</li>
+              <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
           </div>
         </div>
