@@ -1170,7 +1170,7 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Available Now
+        Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Nugget!</h1>
@@ -1190,8 +1190,8 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready</span>
-        <span class="luna-hero__stat-label">Status</span>
+        <span class="luna-hero__stat-value">Now</span>
+        <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
   </div>
@@ -1208,7 +1208,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Fawn Merle</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#10003;</span> Ready Now</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1353,7 +1353,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Available
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>

@@ -1171,7 +1171,7 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Available Now
+        Ready to Come Home
       </span>
       <h1 class="luna-hero__name">Hi, I'm Bertha!</h1>
       <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
@@ -1190,8 +1190,8 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready</span>
-        <span class="luna-hero__stat-label">Status</span>
+        <span class="luna-hero__stat-value">Now</span>
+        <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
   </div>
@@ -1207,7 +1207,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue &amp; Tan</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#10003;</span> Ready Now</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC</li>
     </ul>
@@ -1352,7 +1352,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Available
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
