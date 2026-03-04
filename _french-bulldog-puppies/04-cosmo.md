@@ -1080,6 +1080,10 @@ html, body {
   background: #e8f5e9;
   color: #2e7d32;
 }
+.luna-status--soon {
+  background: #fff8e1;
+  color: #e65100;
+}
 .luna-status__dot {
   width: 8px;
   height: 8px;
@@ -1169,9 +1173,9 @@ html, body {
   <div class="luna-hero__gradient" aria-hidden="true"></div>
   <div class="luna-hero__content">
     <div class="luna-hero__text">
-      <span class="luna-status luna-status--available">
+      <span class="luna-status luna-status--soon">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Ready Mid-March
+        Yours in 2 Weeks
       </span>
       <h1 class="luna-hero__name">Hi, I'm Cosmo!</h1>
       <p class="luna-hero__breed">Lilac &amp; Tan French Bulldog</p>
@@ -1190,8 +1194,8 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Mid-March</span>
-        <span class="luna-hero__stat-label">Ready</span>
+        <span class="luna-hero__stat-value">2 Weeks</span>
+        <span class="luna-hero__stat-label">Ready In</span>
       </div>
     </div>
   </div>
@@ -1208,7 +1212,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac &amp; Tan</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 6 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Ready Mid-March</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Yours in 2 Weeks</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
   </div>
@@ -1350,9 +1354,9 @@ html, body {
       <div class="luna-reveal luna-reveal-delay-2">
         <span class="luna-eyebrow">Investment</span>
         <div class="luna-price">
-          <span class="luna-status luna-status--available" style="margin-bottom:8px;">
+          <span class="luna-status luna-status--soon" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Available
+            Yours in 2 Weeks
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>

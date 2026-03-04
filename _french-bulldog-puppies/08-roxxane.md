@@ -1171,7 +1171,7 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Almost Ready
+        Ready to Come Home
       </span>
       <h1 class="luna-hero__name">Hi, I'm Roxxane!</h1>
       <p class="luna-hero__breed">Lilac &amp; Tan French Bulldog</p>
@@ -1190,7 +1190,7 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Almost</span>
+        <span class="luna-hero__stat-value">Now</span>
         <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
@@ -1208,7 +1208,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac &amp; Tan</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Almost Ready</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1353,7 +1353,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Available
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
           <hr class="luna-price__divider">
