@@ -1,10 +1,10 @@
 ---
-title: Bertha
-description: Meet Bertha, a clever and wonderfully social blue and tan French Bulldog — observant, hilarious, and perfect for homes with other pets.
-subtitle: Blue & Tan Frenchie Bertha
+title: Diesel
+description: "Meet Diesel — a stunning merle French Bulldog with a gentle giant soul. This rare, show-stopping boy is microchipped, AKC registered & ready to reserve."
+subtitle: Merle Frenchie Diesel
 width: full
-image: french-bulldog-puppies/bertha/bertha-3.webp
-topics: [Our Puppies, Blue French Bulldog]
+image: french-bulldog-puppies/diesel/diesel-1.webp
+topics: [Our Puppies, Merle French Bulldog]
 
 navbar:
   sticky: true
@@ -14,16 +14,16 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/bertha
+permalink: /french-bulldog-puppies/diesel
 hubspotneeded: true
 chat: true
 
-gender: Female
-color_coat: Blue and Tan
-age_weeks: 9
-dob: 2025-12-30
-ready_date: 2026-03-03
-estimated_adult_weight_lbs: "20-22"
+gender: Male
+color_coat: Merle
+age_weeks: 6
+dob: 2026-01-20
+ready_date: 2026-03-17
+estimated_adult_weight_lbs: "28"
 price: 0
 status: available
 microchipped: true
@@ -204,7 +204,6 @@ html, body {
   margin-bottom: 8px;
   display: block;
 }
-
 
 /* ============================================================
    1. HERO SECTION — Cinematic full-bleed
@@ -677,10 +676,11 @@ html, body {
   background: var(--luna-bg);
   border: 1.5px solid var(--luna-border);
   border-radius: var(--luna-radius-lg);
-  padding: clamp(32px, 5vw, 48px);
+  padding: clamp(24px, 4vw, 48px);
   text-align: center;
   position: relative;
   overflow: hidden;
+  max-width: 100%;
 }
 .luna-price::after {
   content: '';
@@ -1157,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Bertha hero">
+<section class="luna-hero" aria-label="Diesel hero">
   <img
-    src="/uploads/french-bulldog-puppies/bertha/bertha-3.webp"
-    alt="Bertha, a Blue and Tan French Bulldog puppy available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/diesel/diesel-1.webp"
+    alt="Diesel, a stunning Merle French Bulldog puppy available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1171,26 +1171,27 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Available Now
+        Reserve Now
       </span>
-      <h1 class="luna-hero__name">Hi, I'm Bertha!</h1>
-      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
+      <span class="luna-hero__greeting">Meet</span>
+      <h1 class="luna-hero__name">Hi, I'm Diesel!</h1>
+      <p class="luna-hero__breed">Merle French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">9 Weeks</span>
+        <span class="luna-hero__stat-value">6 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Female</span>
+        <span class="luna-hero__stat-value">Male</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">20-22 lbs</span>
+        <span class="luna-hero__stat-value">~28 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready</span>
+        <span class="luna-hero__stat-value">Coming Soon</span>
         <span class="luna-hero__stat-label">Status</span>
       </div>
     </div>
@@ -1203,13 +1204,15 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Bertha">
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue &amp; Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#10003;</span> Ready Now</li>
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Diesel">
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Merle</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 6 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128142;</span> One-of-a-Kind Coat</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128640;</span> Coming Soon</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
   </div>
 </div>
@@ -1263,16 +1266,16 @@ html, body {
 
 
 <!-- ═══════════════════════════════════════════════════════════
-     PHOTO GALLERY — Bento grid layout
+     PHOTO GALLERY — Bento grid layout (4 photos)
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Bertha's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Diesel's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide">
-      <a href="/uploads/french-bulldog-puppies/bertha/bertha-3.webp" class="luna-gallery__item" data-caption="Bertha - Blue and Tan French Bulldog">
+    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr 1fr 1fr;">
+      <a href="/uploads/french-bulldog-puppies/diesel/diesel-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Diesel - Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/bertha/bertha-3.webp"
-          alt="Bertha the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/diesel/diesel-1.webp"
+          alt="Diesel the Merle French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1283,11 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/bertha/bertha-1.webp" class="luna-gallery__item" data-caption="Bertha - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/diesel/diesel-2.webp" class="luna-gallery__item" data-caption="Diesel - Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/bertha/bertha-1.webp"
-          alt="Bertha the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/diesel/diesel-2.webp"
+          alt="Diesel the Merle French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1298,11 +1301,26 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/bertha/bertha-2.webp" class="luna-gallery__item" data-caption="Bertha - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/diesel/diesel-3.webp" class="luna-gallery__item" data-caption="Diesel - Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/bertha/bertha-2.webp"
-          alt="Bertha the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/diesel/diesel-3.webp"
+          alt="Diesel the Merle French Bulldog - Photo 3"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/diesel/diesel-4.webp" class="luna-gallery__item" data-caption="Diesel - Merle French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/diesel/diesel-4.webp"
+          alt="Diesel the Merle French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1321,40 +1339,41 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Bertha">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Diesel">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow">Meet Bertha</span>
+        <span class="luna-eyebrow--accent">Meet Diesel</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">A thinker, a watcher, and a surprisingly hilarious little personality who keeps everyone around her on their toes.</p>
+          <p class="luna-personality__quote">A gentle giant in the most breathtaking merle coat you've ever seen.</p>
           <div class="luna-personality__body">
-            <p>Bertha is the one in the corner <strong>quietly clocking everything</strong> — and judging accordingly. Don't be fooled by that calm, observant gaze though, because the moment playtime starts Bertha is first on the floor and last to stop. There's a lot going on behind those eyes, and <strong>getting to know what's in there is half the fun</strong>.</p>
-            <p>What makes Bertha truly special is her <strong>balance</strong>. She's thoughtful enough to read a room, playful enough to light it up, and social enough to make friends with every dog she meets. She <strong>gets along beautifully with other animals</strong>, making her the perfect addition to a home that already has a furry family member — or one that's about to grow. Bertha fits in everywhere because she's already figured everyone out before they even noticed she was paying attention.</p>
-            <p>Blue and tan, compact, clever, and <strong>completely one of a kind</strong> — Bertha is 9 weeks old and ready to find her forever home. A dog this funny and this smart doesn't come around often. <strong>Don't sleep on her.</strong></p>
+            <p>There are French Bulldogs that catch your eye — and then there's Diesel. <strong>His merle coat is nothing short of extraordinary</strong>, a swirling, one-of-a-kind pattern that looks like it was painted by hand. He's the kind of puppy that makes strangers stop mid-sidewalk, pull out their phones, and ask where on earth you found him. But what makes Diesel truly rare isn't his coat. It's what's underneath it.</p>
+            <p><strong>Diesel is a bigger boy by Frenchie standards, and he uses every ounce of that size for one purpose: maximum cuddle impact.</strong> Pick him up and he melts into you. Sit on the couch and he's already there, pressing his warm little body against yours like you're the only person in the world. He has this quiet, steady sweetness about him — a gentleness that's almost startling for a puppy this young. He doesn't demand attention. He just radiates warmth, and you can't help but give it to him.</p>
+            <p><strong>Life with Diesel is the version of dog ownership you've always imagined</strong> — a loyal, loving companion who's just as happy on a lazy Sunday morning as he is meeting every neighbor on your block. He's already started on basic commands, crate training, and early socialization, so you're not starting from scratch. You're starting with a puppy who's been raised with intention, care, and the kind of foundation that sets him up to be the best dog you've ever had. He just needs the right person to come claim him.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#129488; Observant</span>
-            <span class="luna-trait">&#128514; Hilarious</span>
-            <span class="luna-trait">&#128062; Social Butterfly</span>
-            <span class="luna-trait">&#129504; Clever</span>
-            <span class="luna-trait">&#128153; Blue &amp; Tan</span>
-            <span class="luna-trait">&#127917; Entertainer</span>
+            <span class="luna-trait">&#129303; Gentle Giant</span>
+            <span class="luna-trait">&#10024; Showstopper</span>
+            <span class="luna-trait">&#128715; World-Class Cuddler</span>
+            <span class="luna-trait">&#129528; Sweet-Natured</span>
+            <span class="luna-trait">&#128142; Rare Merle</span>
+            <span class="luna-trait">&#128062; Confident</span>
           </div>
         </div>
       </div>
 
       <!-- Price Card -->
       <div class="luna-reveal luna-reveal-delay-2">
-        <span class="luna-eyebrow">Investment</span>
+        <span class="luna-eyebrow--accent">Investment</span>
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
             Available
           </span>
-          <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
+          <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $6,000 -->
+          <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
@@ -1369,7 +1388,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Bertha — Apply Now
+            Reserve Diesel — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1397,11 +1416,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Bertha's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Diesel's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Bertha's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Diesel's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1415,9 +1434,9 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Bertha has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Diesel will be thoroughly examined by a licensed veterinarian prior to going home and comes with a clean bill of health.</p>
             <ul>
-              <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
+              <li><strong>Vaccinations:</strong> Will be up-to-date on DHPP prior to going home</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
               <li><strong>Microchipped:</strong> Yes, registered to new owner</li>
@@ -1439,10 +1458,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Observant, funny, and wonderfully social — a blue and tan thinker who loves playtime and gets along beautifully with other dogs; perfect for multi-pet households</li>
-              <li><strong>Ideal Home:</strong> Ideal for families with other pets, active households, or anyone who wants a smart, entertaining companion who reads the room and lights it up</li>
+              <li><strong>Personality:</strong> Diesel is impossibly sweet and gentle with a calm, affectionate temperament — a big, loving boy who bonds deeply and wants nothing more than to be right beside you</li>
+              <li><strong>Ideal Home:</strong> Diesel thrives with someone who wants a loyal, ever-present companion — whether that's a couple ready for their first dog, a family looking for a gentle addition, or anyone who appreciates a truly rare puppy and has plenty of couch space to share</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate — observant and thoughtful, then playful and hilarious; she reads the room and matches the energy perfectly</li>
+              <li><strong>Energy Level:</strong> Moderate — loves cuddle time and easygoing play sessions</li>
             </ul>
           </div>
         </div>
@@ -1460,11 +1479,11 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Female</li>
-              <li><strong>Color:</strong> Blue and Tan</li>
-              <li><strong>Age:</strong> 9 weeks old (ready now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 20-22 lbs (compact build)</li>
-              <li><strong>Date of Birth:</strong> December 30, 2025</li>
+              <li><strong>Gender:</strong> Male</li>
+              <li><strong>Color:</strong> Merle</li>
+              <li><strong>Age:</strong> 6 weeks old (ready to go home in a few weeks)</li>
+              <li><strong>Estimated Adult Weight:</strong> 28 lbs</li>
+              <li><strong>Date of Birth:</strong> January 20, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1484,7 +1503,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Bertha (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Diesel (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. via in-cabin flight nanny for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1594,11 +1613,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Luna">
+<section class="luna-final-cta luna-section" aria-label="Apply for Diesel">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Don't Sleep on Bertha</h2>
-    <p class="luna-final-cta__sub">Blue and tan, 9 weeks old, and smarter than she has any right to be. Bertha is the kind of dog who will keep you laughing, keep you guessing, and keep you completely wrapped around her paw. She's ready now.</p>
+    <h2 class="luna-final-cta__heading">A Merle This Stunning Won't Wait For You</h2>
+    <p class="luna-final-cta__sub">Diesel is six weeks old, microchipped, AKC registered, and open to reserve right now. Puppies like him — with this coat, this temperament, this presence — don't stay available. Reach out today to make him yours.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1627,11 +1646,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Luna">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Diesel">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Luna">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Diesel">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1744,33 +1763,29 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Bertha - Blue and Tan French Bulldog Puppy",
-  "description": "Bertha is a clever and wonderfully social blue and tan French Bulldog. Observant, hilarious, and perfect for homes with other pets. Available from Ethical Frenchie.",
+  "name": "Diesel - Merle French Bulldog Puppy",
+  "description": "Diesel is a stunning merle French Bulldog with a gentle giant soul. One-of-a-kind merle coat, calm and affectionate temperament. Available from Ethical Frenchie.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/bertha/bertha-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/bertha/bertha-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/bertha/bertha-2.webp"
+    "/uploads/french-bulldog-puppies/diesel/diesel-1.webp",
+    "/uploads/french-bulldog-puppies/diesel/diesel-2.webp",
+    "/uploads/french-bulldog-puppies/diesel/diesel-3.webp",
+    "/uploads/french-bulldog-puppies/diesel/diesel-4.webp"
   ],
-  "sku": "bertha-2026",
+  "sku": "diesel-2026",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "20-22 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
-    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
+    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Merle" },
+    { "@type": "PropertyValue", "name": "Age", "value": "6 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "28 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" }
   ],
   "offers": {
-    "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/bertha",
+    "@type": "Offer",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/diesel",
     "priceCurrency": "USD",
-    "lowPrice": "4000",
-    "highPrice": "5500",
-    "offerCount": "1",
-    "availability": "https://schema.org/LimitedAvailability",
-    "priceValidUntil": "2026-09-01"
+    "availability": "https://schema.org/LimitedAvailability"
   },
   "aggregateRating": {
     "@type": "AggregateRating",

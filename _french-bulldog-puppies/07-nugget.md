@@ -1330,19 +1330,19 @@ html, body {
       <div class="luna-reveal">
         <span class="luna-eyebrow--accent">Meet Nugget</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">His face should honestly come with a warning label — one look and you're done.</p>
+          <p class="luna-personality__quote">One look at those eyes, that expression, that impossibly sweet little face — and you're done.</p>
           <div class="luna-personality__body">
-            <p>There are puppies that are cute, and then there's Nugget — a <strong>fawn merle boy whose face should honestly come with a warning label</strong>. One look at those eyes, that expression, that impossibly sweet little face and you're done. He's not asking to be spoiled — he's simply existing, and somehow that's enough to make you want to give him absolutely everything.</p>
-            <p>At just 9 weeks old this little guy has already mastered the art of <strong>melting hearts without even trying</strong>. His fawn merle coat is soft, beautiful, and completely unique — swirls of color that make him look like a <strong>tiny work of art</strong> walking around on four little legs. He's compact, he's precious, and he carries himself with the quiet confidence of a puppy who has never once doubted that he is loved.</p>
-            <p>Fawn merle, compact, endlessly sweet — Nugget is ready now and he is exactly what he looks like: the kind of dog you <strong>spoil shamelessly and never once regret it</strong>.</p>
+            <p>There are puppies that are cute, and then there's Nugget — a <strong>fawn merle boy whose face should honestly come with a warning label</strong>. One look at those eyes, that expression, that impossibly sweet little face and you're done. He's not asking to be spoiled — he's simply existing, and somehow that's enough to make you want to <strong>give him absolutely everything</strong>. Nugget has a gift, and he knows it.</p>
+            <p>At just 9 weeks old this little guy has already mastered the art of <strong>melting hearts without even trying</strong>. His fawn merle coat is soft, beautiful, and completely unique — swirls of color that make him look like a <strong>tiny work of art walking around on four little legs</strong>. He's compact, he's precious, and he carries himself with the quiet confidence of a puppy who has never once doubted that he is loved.</p>
+            <p>Nugget is ready now and he is exactly what he looks like — the kind of dog you <strong>spoil shamelessly and never once regret it</strong>. Fawn merle with a face like that doesn't come around often. <strong>Don't let someone else scoop him up first.</strong></p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#129505; Sweet</span>
-            <span class="luna-trait">&#128156; Precious</span>
-            <span class="luna-trait">&#10024; Charming</span>
-            <span class="luna-trait">&#128524; Gentle</span>
-            <span class="luna-trait">&#128150; Irresistible</span>
-            <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">🥺 Irresistible</span>
+            <span class="luna-trait">🎨 Fawn Merle</span>
+            <span class="luna-trait">💫 Born Charmer</span>
+            <span class="luna-trait">🧸 Precious</span>
+            <span class="luna-trait">💎 Unique</span>
+            <span class="luna-trait">👑 Confident</span>
           </div>
         </div>
       </div>
@@ -1598,8 +1598,8 @@ block_title="false"
 <section class="luna-final-cta luna-section" aria-label="Apply for Nugget">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Nugget Is Ready for His Forever Home</h2>
-    <p class="luna-final-cta__sub">A fawn merle with a face like that doesn't come around often. Start your application today and don't let someone else scoop him up first.</p>
+    <h2 class="luna-final-cta__heading">A Face Like Nugget's Won't Be Available Long</h2>
+    <p class="luna-final-cta__sub">Nugget is 9 weeks old, microchipped, AKC registered, and ready to come home right now. A fawn merle this precious and this irresistible doesn't stay available. Reach out today before someone else falls for that face.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
