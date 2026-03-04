@@ -58,6 +58,10 @@ skills-lock.json
 skills/
 gsc-credentials.json
 scripts/gsc-output/
+scripts/gsc-*.py
+
+# Directory submission & SEO checklists
+directory-submission-checklist.md
 
 # Design docs & utility scripts
 docs/plans/
