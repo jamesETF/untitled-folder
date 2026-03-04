@@ -1330,19 +1330,19 @@ html, body {
       <div class="luna-reveal">
         <span class="luna-eyebrow">Meet Roxxane</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">She walked into the room and immediately rearranged the energy — and she's been doing it ever since.</p>
+          <p class="luna-personality__quote">She knows exactly what she wants, she knows exactly how to get it, and watching her work is genuinely one of the most entertaining things you'll ever witness.</p>
           <div class="luna-personality__body">
-            <p>Roxxane is opinionated, sassy, and unapologetically herself — a <strong>diva in the most magnificent sense of the word</strong>. She knows exactly what she wants, she knows exactly how to get it, and watching her work is genuinely one of the most entertaining things you'll ever witness. This <strong>lilac and tan stunner</strong> has bright, striking eyes that have a way of looking straight through you. Life with Roxxane is never boring — not even for a second.</p>
-            <p>But beneath all that fire and personality is a <strong>deeply affectionate girl</strong> who loves hard and loves loyally. When she decides you're her person, she is <strong>all in</strong>. She's food motivated, which makes her a dream to train, and her bold personality means she picks things up fast — because Roxxane doesn't like to be told twice. She's too smart for that.</p>
-            <p>Lilac and tan, compact, rare in color, one of a kind in personality — Roxxane is almost ready to go and a girl like this will not wait long. Reach out today.</p>
+            <p>Roxxane walked into the room and immediately rearranged the energy — and she's been doing it ever since. This <strong>lilac and tan stunner</strong> is opinionated, sassy, and unapologetically herself, a <strong>diva in the most magnificent sense of the word</strong>. She knows exactly what she wants, she knows exactly how to get it, and watching her work is genuinely one of the most entertaining things you'll ever witness. Life with Roxxane is never boring — not even for a second.</p>
+            <p>But beneath all that fire and personality is a <strong>deeply affectionate girl</strong> who loves hard and loves loyally. Roxxane's <strong>bright, striking eyes</strong> have a way of looking straight through you, and when she decides you're her person she is <strong>all in</strong>. She's food motivated, which makes her a <strong>dream to train</strong>, and her bold personality means she picks things up fast — because Roxxane doesn't like to be told twice. She's too smart for that.</p>
+            <p>At just <strong>22 lbs fully grown</strong> she is a compact, stunning package of <strong>lilac and tan perfection</strong> — rare in color, one of a kind in personality. Roxxane is almost ready to go and a girl like this will not wait long. Reach out today and make her yours before someone else does.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128133; Sassy</span>
-            <span class="luna-trait">&#128171; Bold</span>
-            <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#129504; Smart</span>
-            <span class="luna-trait">&#128293; Spirited</span>
-            <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">💅 Sassy</span>
+            <span class="luna-trait">👑 Opinionated</span>
+            <span class="luna-trait">❤️‍🔥 Fiercely Loyal</span>
+            <span class="luna-trait">🧠 Whip-Smart</span>
+            <span class="luna-trait">💎 Lilac & Tan</span>
+            <span class="luna-trait">🌟 Showstopper</span>
           </div>
         </div>
       </div>
@@ -1440,7 +1440,7 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Personality:</strong> Sassy, opinionated, and fiercely affectionate — a stunning lilac and tan diva with bright eyes, a bold personality, and a heart as big as her attitude</li>
-              <li><strong>Ideal Home:</strong> Perfect for experienced dog lovers or confident first-timers who appreciate a dog with personality</li>
+              <li><strong>Ideal Home:</strong> Perfect for someone who wants a dog with personality and presence — Roxxane thrives with an owner who can match her energy and appreciates a strong, loyal, brilliantly entertaining companion</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization; highly food motivated making her exceptionally responsive to training</li>
               <li><strong>Energy Level:</strong> Moderate to high — bold, expressive, and always engaged</li>
             </ul>
@@ -1597,8 +1597,8 @@ block_title="false"
 <section class="luna-final-cta luna-section" aria-label="Apply for Roxxane">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Roxxane Is Almost Ready for Her Forever Home</h2>
-    <p class="luna-final-cta__sub">A lilac and tan girl with this much personality won't wait long. Start your application today.</p>
+    <h2 class="luna-final-cta__heading">A Girl Like Roxxane Doesn't Wait Around</h2>
+    <p class="luna-final-cta__sub">Lilac and tan, 22 lbs of pure personality, and almost ready to go. Roxxane is the kind of dog people dream about — sassy, stunning, and fiercely loyal. Don't let her slip away.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
