@@ -453,7 +453,7 @@ happytails: true
 <script>
 (function() {
   // --- Config ---
-  var API_URL = 'https://script.google.com/macros/s/AKfycbx_4tRZ8h0oOVA3_pAi9HwaJf6_1gZkA6nMF901wn1bB8kll7v5Fc6_V-ABXNpDwe1y/exec';
+  var API_URL = '/api/happy-tails';
   var MAP_CENTER = { lat: 38.5, lng: -96.5 };
   var MAP_ZOOM = 4;
   var BRAND_COLOR = '#901941';

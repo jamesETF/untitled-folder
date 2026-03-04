@@ -160,6 +160,7 @@ exclude:
   - .mux
   - .claude
   - skills
+  - netlify
 
 sass:
   style:                compressed
