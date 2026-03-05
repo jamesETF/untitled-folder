@@ -10,38 +10,68 @@ export default async (req: Request, context: Context) => {
   const store = getStore("happy-tails-cache");
 
   // Check cache
-  const cached = await store.getWithMetadata("puppies");
+  try {
+    const cached = await store.getWithMetadata("puppies");
+    console.log("Cache check:", cached ? `found (metadata: ${JSON.stringify(cached.metadata)})` : "miss");
 
-  if (
-    cached &&
-    cached.metadata.cachedAt &&
-    Date.now() - (cached.metadata.cachedAt as number) < CACHE_TTL_MS
-  ) {
-    return new Response(cached.data as string, {
-      headers: { "Content-Type": "application/json" },
-    });
+    if (cached && cached.data) {
+      const cachedAt = Number(cached.metadata?.cachedAt);
+      const age = Date.now() - cachedAt;
+      console.log(`Cache age: ${Math.round(age / 1000)}s, TTL: ${CACHE_TTL_MS / 1000}s, valid: ${!isNaN(cachedAt) && age < CACHE_TTL_MS}`);
+
+      if (!isNaN(cachedAt) && age < CACHE_TTL_MS) {
+        console.log("Serving from cache");
+        return new Response(cached.data as string, {
+          headers: {
+            "Content-Type": "application/json",
+            "X-Cache": "HIT",
+            "X-Cache-Age": String(Math.round(age / 1000)),
+          },
+        });
+      }
+    }
+  } catch (blobErr) {
+    console.error("Blob read error:", blobErr);
   }
 
   // Cache miss or stale — fetch from Apps Script
+  console.log("Fetching from Apps Script...");
   try {
     const response = await fetch(APPS_SCRIPT_URL);
     const data = await response.text();
+    console.log(`Apps Script response: ${response.status}, ${data.length} bytes`);
 
     // Store in cache
-    await store.set("puppies", data, {
-      metadata: { cachedAt: Date.now() },
-    });
+    try {
+      await store.set("puppies", data, {
+        metadata: { cachedAt: String(Date.now()) },
+      });
+      console.log("Cache written successfully");
+    } catch (writeErr) {
+      console.error("Blob write error:", writeErr);
+    }
 
     return new Response(data, {
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "X-Cache": "MISS",
+      },
     });
   } catch (err) {
-    // If fetch fails but we have stale cache, serve stale
-    if (cached) {
-      return new Response(cached.data as string, {
-        headers: { "Content-Type": "application/json" },
-      });
-    }
+    console.error("Apps Script fetch error:", err);
+
+    // Try stale cache as fallback
+    try {
+      const stale = await store.get("puppies");
+      if (stale) {
+        return new Response(stale, {
+          headers: {
+            "Content-Type": "application/json",
+            "X-Cache": "STALE",
+          },
+        });
+      }
+    } catch (_) {}
 
     return new Response(
       JSON.stringify({ error: "Failed to fetch puppy data" }),
