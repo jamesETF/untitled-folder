@@ -56,7 +56,7 @@ We'll come to you:
 If you're not in the <span class='geotargetlygeocontent1622668398873_content_1' style='display:none;'>
 New York
 </span><span class='geotargetlygeocontent1622668398873_content_2' style='display:none;'>
-Chicago
+<a href="/illinois/chicago/">Chicago</a>
 </span><span class='geotargetlygeocontent1622668398873_content_3' style='display:none;'>
 Greater Los Angeles
 </span>
