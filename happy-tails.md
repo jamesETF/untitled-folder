@@ -370,7 +370,7 @@ happytails: true
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Polar Bear</h3>
-            <p class="uk-text-meta">Platinum Lilac Fluffy &bull; Male &bull; Chicago</p>
+            <p class="uk-text-meta">Platinum Lilac Fluffy &bull; Male &bull; <a href="/illinois/chicago/">Chicago</a></p>
             <p><em>"The team at Ethical Frenchie is excellent, from starting the process of adopting my dog to the after care tips. They check in on my pup from time to time."</em></p>
             <p class="uk-text-small uk-text-muted"><a href="{{ chi_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— James B., Chicago &middot; Google Review</a></p>
           </div>
@@ -385,7 +385,7 @@ happytails: true
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Winnie</h3>
-            <p class="uk-text-meta">Blue Fawn Merle &bull; Male &bull; Chicago</p>
+            <p class="uk-text-meta">Blue Fawn Merle &bull; Male &bull; <a href="/illinois/chicago/">Chicago</a></p>
             <p><em>"I had lots of questions and they've been the best! They sent me several emails with links on what to buy for food, toys, everything."</em></p>
             <p class="uk-text-small uk-text-muted"><a href="{{ chi_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Angela W., Chicago &middot; Google Review</a></p>
           </div>
@@ -400,7 +400,7 @@ happytails: true
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Daisy Mae</h3>
-            <p class="uk-text-meta">Merle &bull; Female &bull; Chicago</p>
+            <p class="uk-text-meta">Merle &bull; Female &bull; <a href="/illinois/chicago/">Chicago</a></p>
             <p><em>"I bought a beautiful, healthy, well socialized and somewhat trained puppy. When I brought her home she found her pad, knew her name, and the next day played fetch!"</em></p>
             <p class="uk-text-small uk-text-muted"><a href="{{ chi_reviews }}" target="_blank" rel="noopener" class="happy-tails-review">— Rachel D., Chicago &middot; Google Review</a></p>
           </div>

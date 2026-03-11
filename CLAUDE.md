@@ -1,9 +1,10 @@
 # CURRENT STATE
 
 **Branch:** `phase5/mobile-perf` (in sync with master)
-**Done:** Session 26 (Mar 3 evening) — Created V2 pages for 2 new puppies: Diesel (10-diesel.md, merle male, 4 photos) and Nova (11-nova.md, blue merle & tan female, NEEDS PHOTOS). Marketing bios written by agent. Files on disk, not yet committed/deployed. Session 25 — V2 template rolled out to all 8 existing puppies. Luna deleted. CSS clipping fixes. All merged to master + deployed.
+**Done:** Session 29 (Mar 5-6) — Fixed broken Happy Tails map pin caching. Replaced `@netlify/blobs` (silently broken) with Netlify CDN response caching. Map pins now load in 42ms (was 14-19s). About Us V2 Alt promoted to production (Session 28). Merged to master as `55f809c`.
+**Previous sessions:** Session 26 (Mar 3) — Diesel + Nova puppy pages. Session 25 — V2 template rollout. Session 23 — Application page redesign. Session 22 — Color page rewrites.
 **Puppy V2 design system:** All puppy pages use `--luna-*` CSS namespace with Playfair Display accent font, cinematic hero, bento gallery, personality+price cards, custom accordion, sticky CTA, iOS iMessage split, JSON-LD Product schema. "Inquire for Pricing" (originals in HTML comments). Files: `_french-bulldog-puppies/02-09*.md`.
-**Previous:** Session 23 (Feb 28) — Application page redesign. Session 22 — Color page rewrites. All 5 pages submitted to GSC for recrawl. Still waiting on `breeder-voice-brief.docx`. sameAs links ON HOLD.
+**Still pending:** Diesel + Nova pages on disk, not committed. `breeder-voice-brief.docx` still with Renee. sameAs links ON HOLD.
 **Color page pattern:** Each page uses `width: full` in front matter → controls own sections → alternating `uk-section-default`/`uk-section-muted` for visual rhythm. Prose sections use `markdown="1"` on the `uk-container` div. All HTML structural elements (badges, price cards, steps, cross-links, CTAs) are pure HTML.
 **Application page:** REDESIGNED + MERGED (Session 23). File: `application.md` (NOT `pricing.md` — both exist). Trust credential bar (4 badges), 3-step process timeline, dual-path CTA (apply form + "Message Us" with iMessage/Heymarket), HubSpot form (replaced broken Typeform), Google review strip (4.8/5), 2 side-by-side testimonials, "Not Ready?" soft CTA with 3 icon links, 2 updated application FAQs. "Message Us" button: iOS → iMessage for Business, non-iOS → triggers Heymarket chat. Hero: cropped 1600x400 banner (`application-hero.jpg`), 30vh override via inline CSS. Commits: `9e03482` (redesign), `9b0ddc7` (hero crop).
 **Pricing page:** `pricing.md` generates at `/pricing/` (separate from `/application/`). Has Typeform + "What Our Families Say" + `pricingfaq` FAQs.
@@ -121,8 +122,8 @@ James, CEO/Founder of Ethical Frenchie LLC. French Bulldog breeder, NYC. Worked 
 39. **Gitignore content briefs (Session 21)** — Added `content-brief-*.docx`, `content-gap-*.docx`, `breeder-voice-brief.docx`, and generator scripts to `.gitignore`. Commit `97f792f`. ✅
 40. **Removed GA4 + Bing UET tags (Session 21)** — No ads running, switched to Netlify Analytics (server-side, already active with 30 days of data: 23,688 pageviews, 7,624 unique visitors). Saves ~30KB client-side JS + eliminates third-party requests. GSC stays for organic search data. Trial period — monitor for a few days. Commit `63d4344`. ✅
 
-**Last commit on master:** `9b0ddc7` (Session 23 — application hero crop)
-**Last commit on phase5/mobile-perf:** `9b0ddc7` (in sync with master)
+**Last commit on master:** `55f809c` (Session 29 — merge CDN cache fix + About Us V2)
+**Last commit on phase5/mobile-perf:** `aa2492f` (in sync with master)
 **Production:** ethicalfrenchie.com (Netlify, live)
 
 ---
@@ -257,6 +258,9 @@ All 8 duplicate groups fixed with 301 redirects:
 45. **Application page redesign (Session 23)** — `application.md` (serves `/application/`) fully redesigned from thin Typeform-only page. New subtitle ("Every puppy deserves the right home..."), trust credential bar (4 badges), 3-step process timeline (Apply → Video Call → Bring Home), dual-path CTA cards (maroon "Fill Out Application" + outlined "Message Us Instead"), HubSpot form (replaced broken Typeform), maroon Google review strip (4.8/5, 87 reviews), 2 side-by-side testimonial blockquotes (Nikol B. + Kelly L.), "Not Ready to Apply?" soft CTA with 3 icon links, 2 updated application FAQs. "Message Us" button: iOS → iMessage for Business, non-iOS → triggers Heymarket chat widget (same as floating bubble). Commit `9e03482`. ✅
 46. **Application page hero crop (Session 23)** — Cropped `header-6.jpg` (1600x905) to 1600x400 wide banner → `uploads/application-hero.jpg`. Two Frenchies on park bench. Hero height overridden from 60vh to 30vh via inline `<style>` (template hardcodes 60vh). Front matter: `header_size: xsmall`, `heading_size: small`, `transparent: true`. Commit `9b0ddc7`. ✅
 47. **GSC recrawl requests (Session 23)** — Submitted 5 updated pages to Google Search Console URL Inspection → Request Indexing. `/application/` was "Discovered - currently not indexed" (never crawled). All 4 color pages were already indexed with FAQ schema. Merle had transient rejection on first attempt, succeeded on retry via Live Test. All 5 now in Google's priority crawl queue. ✅
+48. **Happy Tails CDN cache fix (Session 29)** — `@netlify/blobs` caching was silently broken (cache never hit despite data existing in blob store). Replaced with Netlify CDN response caching via HTTP headers: `Netlify-CDN-Cache-Control: public, durable, s-maxage=7200, stale-while-revalidate=86400`. Result: 14-19s → **42ms** (330x speedup). Removed `@netlify/blobs` from `package.json`. First visitor every ~2hrs takes ~14s (Apps Script cold start); all others served from CDN edge. Commits: `b3ee782` (debug), `aa2492f` (CDN fix), `55f809c` (merge to master). ✅
+49. **About Us V2 Alt promoted (Session 28)** — `about-us-v2alt.md` (warm community design) promoted to `about-us.md`. Draft pages deleted. Commit `e1fa657`, merged `9b41568`. ✅
+50. **Chicago internal linking + cleanup (Session 30)** — Chicago page had only 2 internal links (footer + mobile nav). Added 4 links: `delivery.md` (Chicago in service areas), `happy-tails.md` (3 puppy cards: Polar Bear, Winnie, Daisy Mae). Also removed Apple Business Chat banner from Chicago contact page and fixed phone number (was NYC `+1-212-739-0182`, now Chicago `+1-312-566-3990`). GSC investigation: `/illinois/chicago` (no-slash) impressions dropped to 0 around Mar 4 — confirmed this was Google consolidating onto canonical `/illinois/chicago/` (trailing slash), not a traffic loss. Total Chicago impressions stable at ~440/day. ✅
 
 ### Still to do (Section E remaining + SEO)
 1. ~~**Step 2:** Add 301 redirects~~ ✅ DONE (Session 14 — commit `1482a7c`)
