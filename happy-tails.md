@@ -24,35 +24,7 @@ hubspotneeded: true
 happytails: true
 ---
 
-<!-- Stats Bar -->
-<div class="uk-section uk-section-muted" style="padding: 16px 0;">
-  <div class="uk-container uk-container-expand">
-    <div class="uk-child-width-1-4@s uk-text-center uk-grid-small uk-flex-middle" data-uk-grid>
-      <div>
-        <span data-uk-icon="icon: calendar; ratio: 1.4" style="color: #901941;"></span>
-        <p style="font-size: 15px; font-weight: 700; color: #901941; margin: 4px 0 0 0;">Since 2017</p>
-        <p style="font-size: 12px; color: #5c5e65; margin: 2px 0 0 0;">Family operated from day one</p>
-      </div>
-      <div>
-        <a href="https://embarkvet.com/" target="_blank" rel="noopener" style="text-decoration: none;">
-          <span data-uk-icon="icon: check; ratio: 1.4" style="color: #901941;"></span>
-          <p style="font-size: 15px; font-weight: 700; color: #901941; margin: 4px 0 0 0;">Embark DNA Tested</p>
-          <p style="font-size: 12px; color: #5c5e65; margin: 2px 0 0 0;">250+ conditions screened</p>
-        </a>
-      </div>
-      <div>
-        <span data-uk-icon="icon: heart; ratio: 1.4" style="color: #901941;"></span>
-        <p style="font-size: 15px; font-weight: 700; color: #901941; margin: 4px 0 0 0;">1-Year Guarantee</p>
-        <p style="font-size: 12px; color: #5c5e65; margin: 2px 0 0 0;">Strongest in the industry</p>
-      </div>
-      <div>
-        <span data-uk-icon="icon: location; ratio: 1.4" style="color: #901941;"></span>
-        <p style="font-size: 15px; font-weight: 700; color: #901941; margin: 4px 0 0 0;">Hand Delivered</p>
-        <p style="font-size: 12px; color: #5c5e65; margin: 2px 0 0 0;">By us, personally, to your door</p>
-      </div>
-    </div>
-  </div>
-</div>
+{% include trust-bar.html %}
 
 <!-- Breeder Voice — short version (full story on /about-us/) -->
 <div class="uk-section uk-section-default" style="padding: 28px 0 20px;">

@@ -28,10 +28,92 @@
   {% assign topics = topics | split: "," | uniq | sort: self %}
   
   {% if include.topic %}
-	{% assign puppies = site.french-bulldog-puppies | where: "topics", include.topic %}
+	{% assign puppies_all = site.french-bulldog-puppies | where: "topics", include.topic %}
   {% else %}
-	{% assign puppies = site.french-bulldog-puppies %}
+	{% assign puppies_all = site.french-bulldog-puppies %}
   {% endif %}
+  {% assign puppies_available = puppies_all | where: "status", "available" %}
+  {% assign puppies_sold = puppies_all | where: "status", "sold" %}
+
+  <!-- Sold overlay styles -->
+  <style>
+    .ef-sold-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(155deg, rgba(74,14,34,0.52) 0%, rgba(144,25,65,0.42) 40%, rgba(168,34,85,0.35) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: default;
+      backdrop-filter: blur(1px);
+      -webkit-backdrop-filter: blur(1px);
+      z-index: 1;
+    }
+    .ef-sold-overlay__icon {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      filter: drop-shadow(0 3px 12px rgba(0,0,0,0.3));
+    }
+    .ef-sold-overlay__text {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: clamp(0.9rem, 2.5vw, 1.15rem);
+      color: #fff;
+      text-align: center;
+      line-height: 1.3;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+    .ef-sold-overlay__name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.55);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 8px;
+    }
+    .ef-sold-overlay__line {
+      width: 32px;
+      height: 1px;
+      background: rgba(255,255,255,0.25);
+      margin-top: 6px;
+    }
+    .ef-status-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 11px;
+      border-radius: 100px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      z-index: 2;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+    .ef-status-badge--available {
+      background: rgba(232, 245, 233, 0.92);
+      color: #2e7d32;
+    }
+    .ef-status-badge__dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #2e7d32;
+      animation: ef-pulse 2s infinite;
+    }
+    @keyframes ef-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+  </style>
+
 	<div data-uk-filter="target: [data-uk-grid]; animation: 500">
 		  {% if include.filter %}
 			  <ul class="uk-subnav uk-subnav-pill uk-flex uk-flex-center uk-margin-medium-bottom">
@@ -41,12 +123,13 @@
 				  {% endfor %}
 			  </ul>
 		  {% endif %}
-  
+
 		  <ul class="uk-child-width-1-2 uk-child-width-{{ include.grid | default: '1-4' }}@m{% if include.gutter %} uk-grid-{{ include.gutter }}{% endif %} uk-text-center" data-uk-grid="masonry: true">
-			  {% for post in puppies %}
+			  {% for post in puppies_available %}
 				  <li data-topic="{{ post.topics }}">
 					  <div class="uk-inline uk-light uk-transition-toggle">
-						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}" data-uk-img>
+						  <span class="ef-status-badge ef-status-badge--available"><span class="ef-status-badge__dot"></span> Available</span>
+						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
 						  <a href="{{ post.url | absolute_url }}" class="uk-overlay uk-overlay-primary uk-position-cover uk-transition-fade">
 							  <div class="uk-position-center">
 								  {% if include.title == 'bellow' %}
@@ -56,6 +139,22 @@
 								  {% endif %}
 							  </div>
 						  </a>
+					  </div>
+					  {% if include.title == 'bellow' %}
+						  <h5 class="uk-text-uppercase uk-margin-top uk-margin-remove-bottom">{{ post.title }}</h5>
+					  {% endif %}
+				  </li>
+			  {% endfor %}
+			  {% for post in puppies_sold %}
+				  <li data-topic="{{ post.topics }}">
+					  <div class="uk-inline uk-light" style="cursor: default;">
+						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
+						  <div class="ef-sold-overlay">
+							  <div class="ef-sold-overlay__icon">🏡</div>
+							  <div class="ef-sold-overlay__text">Found a<br>Furever Home</div>
+							  <div class="ef-sold-overlay__name">{{ post.title }} &bull; {{ post.color_coat }}</div>
+							  <div class="ef-sold-overlay__line"></div>
+						  </div>
 					  </div>
 					  {% if include.title == 'bellow' %}
 						  <h5 class="uk-text-uppercase uk-margin-top uk-margin-remove-bottom">{{ post.title }}</h5>

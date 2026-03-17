@@ -493,6 +493,19 @@ RUBY_VERSION = "3.2.2"
   to = "/french-bulldog-puppies/"
   status = 301
 
+# Cosmo & Diesel — sold March 2026
+[[redirects]]
+  from = "/french-bulldog-puppies/cosmo"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/diesel"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
 # Remaining /french-bulldog-puppies/ sold pages not featured on Happy Tails
 # force=false so available puppies (eva, labubu, mila, etc.) still serve
 [[redirects]]

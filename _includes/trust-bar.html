@@ -1,0 +1,36 @@
+<style>
+  .ef-trust-bar { background: #f7f2ec; padding: 18px 0; }
+  .ef-trust-bar__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; max-width: 960px; margin: 0 auto; padding: 0 12px; }
+  .ef-trust-pill { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: 'Montserrat', sans-serif; transition: all 0.35s cubic-bezier(0.25,0.46,0.45,0.94); text-decoration: none; }
+  .ef-trust-pill:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.07); transform: translateY(-2px); }
+  .ef-trust-pill svg { width: 18px; height: 18px; stroke: #901941; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+  .ef-trust-pill__text { display: flex; flex-direction: column; line-height: 1.2; flex: 1; text-align: center; }
+  .ef-trust-pill__title { font-size: 0.78rem; font-weight: 700; color: #1a1a1a; }
+  .ef-trust-pill__sub { font-size: 0.62rem; font-weight: 500; color: #8a8a8a; }
+  @media (max-width: 640px) {
+    .ef-trust-bar__row { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .ef-trust-pill { padding: 8px 12px; gap: 8px; }
+    .ef-trust-pill__title { font-size: 0.72rem; }
+    .ef-trust-pill__sub { font-size: 0.58rem; }
+  }
+</style>
+<div class="ef-trust-bar">
+  <div class="ef-trust-bar__row">
+    <span class="ef-trust-pill">
+      <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+      <span class="ef-trust-pill__text"><span class="ef-trust-pill__title">Embark DNA Tested</span><span class="ef-trust-pill__sub">250+ conditions screened</span></span>
+    </span>
+    <span class="ef-trust-pill">
+      <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <span class="ef-trust-pill__text"><span class="ef-trust-pill__title">1-Year Health Guarantee</span><span class="ef-trust-pill__sub">Strongest in the industry</span></span>
+    </span>
+    <span class="ef-trust-pill">
+      <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      <span class="ef-trust-pill__text"><span class="ef-trust-pill__title">AKC Registered</span><span class="ef-trust-pill__sub">Full registration included</span></span>
+    </span>
+    <span class="ef-trust-pill">
+      <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span class="ef-trust-pill__text"><span class="ef-trust-pill__title">Hand-Delivered Nationwide</span><span class="ef-trust-pill__sub">By us, personally, to your door</span></span>
+    </span>
+  </div>
+</div>
