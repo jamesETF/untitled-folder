@@ -20,7 +20,7 @@ chat: true
 
 gender: Female
 color_coat: Blue Merle and Tan
-age_weeks: 6
+age_weeks: 8
 dob: 2026-01-20
 ready_date: 2026-03-17
 estimated_adult_weight_lbs: "22"
@@ -1080,7 +1080,7 @@ html, body {
   background: #e8f5e9;
   color: #2e7d32;
 }
-.luna-status--soon {
+.luna-status--available {
   background: #fff8e1;
   color: #e65100;
 }
@@ -1173,9 +1173,9 @@ html, body {
   <div class="luna-hero__gradient" aria-hidden="true"></div>
   <div class="luna-hero__content">
     <div class="luna-hero__text">
-      <span class="luna-status luna-status--soon">
+      <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Yours in 2 Weeks
+        Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Nova!</h1>
@@ -1183,7 +1183,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">6 Weeks</span>
+        <span class="luna-hero__stat-value">8 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1212,9 +1212,9 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle &amp; Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 6 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#129470;</span> Petite Build</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Yours in 2 Weeks</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1372,9 +1372,9 @@ html, body {
       <div class="luna-reveal luna-reveal-delay-2">
         <span class="luna-eyebrow--accent">Investment</span>
         <div class="luna-price">
-          <span class="luna-status luna-status--soon" style="margin-bottom:8px;">
+          <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Yours in 2 Weeks
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,000 – $6,500 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
