@@ -24,33 +24,7 @@ hubspotneeded: true
 
 {% assign google_reviews = "https://www.google.com/maps/place/Ethical+Frenchie/@40.7028885,-74.0138771,17z/data=!4m8!3m7!1s0x89c25b610f061fb1:0x24ac563bf3edce66!8m2!3d40.7028885!4d-74.0138771!9m1!1b1!16s%2Fg%2F11mnghzshz" %}
 
-<!-- ═══════════ TRUST CREDENTIAL BAR ═══════════ -->
-<div class="uk-section uk-section-default uk-section-small">
-<div class="uk-container uk-container-small">
-<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
-  <div>
-    <span data-uk-icon="icon: check; ratio: 1.8" style="color:#901941"></span>
-    <p class="uk-text-bold uk-margin-remove-top" style="font-size:0.85rem">Embark DNA Tested</p>
-    <p class="uk-text-meta uk-margin-remove-top" style="margin-top:-8px">250+ conditions screened</p>
-  </div>
-  <div>
-    <span data-uk-icon="icon: heart; ratio: 1.8" style="color:#901941"></span>
-    <p class="uk-text-bold uk-margin-remove-top" style="font-size:0.85rem">1-Year Health Guarantee</p>
-    <p class="uk-text-meta uk-margin-remove-top" style="margin-top:-8px">Written, not verbal</p>
-  </div>
-  <div>
-    <span data-uk-icon="icon: file-text; ratio: 1.8" style="color:#901941"></span>
-    <p class="uk-text-bold uk-margin-remove-top" style="font-size:0.85rem">AKC Registered</p>
-    <p class="uk-text-meta uk-margin-remove-top" style="margin-top:-8px">Full documentation included</p>
-  </div>
-  <div>
-    <span data-uk-icon="icon: location; ratio: 1.8" style="color:#901941"></span>
-    <p class="uk-text-bold uk-margin-remove-top" style="font-size:0.85rem">In-Cabin Delivery</p>
-    <p class="uk-text-meta uk-margin-remove-top" style="margin-top:-8px">Hand-delivered nationwide</p>
-  </div>
-</div>
-</div>
-</div>
+{% include trust-bar.html %}
 
 <!-- ═══════════ HOW IT WORKS — 3 STEPS ═══════════ -->
 <div class="uk-section uk-section-muted">

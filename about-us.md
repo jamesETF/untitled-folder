@@ -148,23 +148,22 @@ html, body { overflow-x: hidden; }
   background: var(--luna-bg-cream);
 }
 .alt-trust-bar__row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 .alt-trust-pill {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
+  gap: 10px;
+  padding: 10px 18px;
   background: var(--luna-bg);
   border-radius: var(--luna-radius-pill);
   box-shadow: var(--luna-shadow-sm);
   font-family: var(--luna-font);
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--luna-heading);
   transition: all var(--luna-transition);
 }
 .alt-trust-pill:hover {
@@ -180,6 +179,29 @@ html, body { overflow-x: hidden; }
   stroke-linecap: round;
   stroke-linejoin: round;
   flex-shrink: 0;
+}
+.alt-trust-pill__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  flex: 1;
+  text-align: center;
+}
+.alt-trust-pill__title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--luna-heading);
+}
+.alt-trust-pill__sub {
+  font-size: 0.62rem;
+  font-weight: 500;
+  color: var(--luna-text-light);
+}
+@media (max-width: 640px) {
+  .alt-trust-bar__row { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .alt-trust-pill { padding: 8px 12px; gap: 8px; }
+  .alt-trust-pill__title { font-size: 0.72rem; }
+  .alt-trust-pill__sub { font-size: 0.58rem; }
 }
 
 /* ============================================================
@@ -925,19 +947,19 @@ html, body { overflow-x: hidden; }
     <div class="alt-trust-bar__row luna-reveal">
       <span class="alt-trust-pill">
         <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-        Embark DNA Tested
+        <span class="alt-trust-pill__text"><span class="alt-trust-pill__title">Embark DNA Tested</span><span class="alt-trust-pill__sub">250+ conditions screened</span></span>
       </span>
       <span class="alt-trust-pill">
         <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        1-Year Health Guarantee
+        <span class="alt-trust-pill__text"><span class="alt-trust-pill__title">1-Year Health Guarantee</span><span class="alt-trust-pill__sub">Strongest in the industry</span></span>
       </span>
       <span class="alt-trust-pill">
         <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-        AKC Registered
+        <span class="alt-trust-pill__text"><span class="alt-trust-pill__title">AKC Registered</span><span class="alt-trust-pill__sub">Full registration included</span></span>
       </span>
       <span class="alt-trust-pill">
         <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        Hand-Delivered Nationwide
+        <span class="alt-trust-pill__text"><span class="alt-trust-pill__title">Hand-Delivered Nationwide</span><span class="alt-trust-pill__sub">By us, personally, to your door</span></span>
       </span>
     </div>
   </div>
