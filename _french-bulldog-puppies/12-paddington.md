@@ -1,10 +1,10 @@
 ---
 title: Paddington
-description: Meet Paddington, a curious, gentle Isabella French Bulldog puppy with striking blue eyes — attentive, clever, and endlessly endearing.
-subtitle: Isabella Frenchie Paddington
+description: Meet Paddington, a curious, gentle Blue Fawn French Bulldog puppy with a smoky blue mask and striking blue eyes — attentive, clever, and endlessly endearing.
+subtitle: Blue Fawn Frenchie Paddington
 width: full
 image: french-bulldog-puppies/paddington/paddington-1.webp
-topics: [Our Puppies, Isabella French Bulldog]
+topics: [Our Puppies, Blue Fawn French Bulldog]
 
 navbar:
   sticky: true
@@ -19,7 +19,7 @@ hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Isabella
+color_coat: Blue Fawn
 age_weeks: 9
 dob: 2026-04-18
 ready_date: 2026-06-13
@@ -1161,7 +1161,7 @@ html, body {
 <section class="luna-hero" aria-label="Paddington hero">
   <img
     src="/uploads/french-bulldog-puppies/paddington/paddington-1.webp"
-    alt="Paddington, an Isabella French Bulldog puppy available from Ethical Frenchie"
+    alt="Paddington, a Blue Fawn French Bulldog puppy available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1176,7 +1176,7 @@ html, body {
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Paddington!</h1>
-      <p class="luna-hero__breed">Isabella French Bulldog</p>
+      <p class="luna-hero__breed">Blue Fawn French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
@@ -1208,7 +1208,7 @@ html, body {
     <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Paddington">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Isabella</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Fawn</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1271,7 +1271,7 @@ html, body {
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Paddington's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr 1fr 1fr;">
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-1.webp" class="luna-gallery__item" data-caption="Paddington - Isabella French Bulldog" style="grid-row: 1 / -1;">
+      <a href="/uploads/french-bulldog-puppies/paddington/paddington-1.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/paddington/paddington-1.webp"
@@ -1286,7 +1286,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-2.webp" class="luna-gallery__item" data-caption="Paddington - Isabella French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/paddington/paddington-2.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/paddington/paddington-2.webp"
@@ -1301,7 +1301,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-3.webp" class="luna-gallery__item" data-caption="Paddington - Isabella French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/paddington/paddington-3.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/paddington/paddington-3.webp"
@@ -1316,7 +1316,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-4.webp" class="luna-gallery__item" data-caption="Paddington - Isabella French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/paddington/paddington-4.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/paddington/paddington-4.webp"
@@ -1349,8 +1349,8 @@ html, body {
         <div class="luna-personality">
           <p class="luna-personality__quote">Like his namesake from Darkest Peru, he meets the world wide-eyed and well-mannered — endlessly curious, and always up for the next small adventure.</p>
           <div class="luna-personality__body">
-            <p>There's something old-fashioned and gentlemanly about Paddington. This <strong>Isabella boy</strong> studies the world with a curious tilt of the head and a pair of <strong>bright blue eyes</strong> that don't miss a thing — a rustling leaf, a new voice, a toy that clearly needs investigating. Like the little bear he's named for, he's polite, observant, and endlessly endearing: the kind of puppy who considers you for a thoughtful moment, then decides you're worth trotting straight over to.</p>
-            <p>Beyond that soft, dilute <strong>Isabella coat</strong> — pale fawn warmed by a smoky lilac mask and nose — Paddington is built like a proper little explorer. Compact and sturdy, he'll pop right up on his back legs to get a better look at whatever's caught his eye. That same attentiveness makes him <strong>wonderfully easy to train</strong>; he watches, he listens, and he genuinely wants to understand what you're showing him.</p>
+            <p>There's something old-fashioned and gentlemanly about Paddington. This <strong>Blue Fawn boy</strong> studies the world with a curious tilt of the head and a pair of <strong>bright blue eyes</strong> that don't miss a thing — a rustling leaf, a new voice, a toy that clearly needs investigating. Like the little bear he's named for, he's polite, observant, and endlessly endearing: the kind of puppy who considers you for a thoughtful moment, then decides you're worth trotting straight over to.</p>
+            <p>Then there's that <strong>Blue Fawn coat</strong> — a warm, biscuity fawn set off by a soft, smoky blue mask and nose that frame those clear blue eyes beautifully. Paddington is built like a proper little explorer: compact and sturdy, he'll pop right up on his back legs to get a better look at whatever's caught his eye. That same attentiveness makes him <strong>wonderfully easy to train</strong>; he watches, he listens, and he genuinely wants to understand what you're showing him.</p>
             <p>Curious, gentle, clever, and impeccably sweet — with a heart as warm as a marmalade sandwich, Paddington is <strong>ready to come home right now</strong>, and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
@@ -1480,7 +1480,7 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Isabella</li>
+              <li><strong>Color:</strong> Blue Fawn</li>
               <li><strong>Age:</strong> 9 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 20-25 lbs</li>
               <li><strong>Date of Birth:</strong> April 18, 2026</li>
@@ -1763,8 +1763,8 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Paddington - Isabella French Bulldog Puppy",
-  "description": "Meet Paddington, a curious, gentle Isabella French Bulldog puppy with striking blue eyes — attentive, clever, and endlessly endearing. Available from Ethical Frenchie.",
+  "name": "Paddington - Blue Fawn French Bulldog Puppy",
+  "description": "Meet Paddington, a curious, gentle Blue Fawn French Bulldog puppy with a smoky blue mask and striking blue eyes — attentive, clever, and endlessly endearing. Available from Ethical Frenchie.",
   "image": [
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-1.webp",
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-2.webp",
@@ -1776,7 +1776,7 @@ block_title="false"
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Isabella" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Fawn" },
     { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "20-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
