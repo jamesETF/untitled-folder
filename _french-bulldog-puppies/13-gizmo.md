@@ -1770,32 +1770,8 @@ block_title="false"
 </script>
 
 
-<!-- ═══════════════════════════════════════════════════════════
-     STRUCTURED DATA (JSON-LD)
-     ═══════════════════════════════════════════════════════════ -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "Gizmo - Blue Merle French Bulldog Puppy",
-  "description": "Meet Gizmo, a gentle blue merle French Bulldog puppy with huge light-blue eyes — curious, sweet, and irresistibly cuddly, ready to come home now.",
-  "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-5.webp"
-  ],
-  "sku": "gizmo-2026",
-  "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
-  "additionalProperty": [
-    { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
-    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
-  ]
-}
-</script>
+<!-- STRUCTURED DATA (JSON-LD) — intentionally omitted for now.
+     A Product needs one of offers/review/aggregateRating to be valid; with pricing hidden
+     and no per-puppy ratings, any Product block here triggers a critical GSC error
+     ("Either offers, review, or aggregateRating should be specified"). Re-add a full
+     Product + offers block when pricing is shown (see skill references/structured-data.md §4a). -->
