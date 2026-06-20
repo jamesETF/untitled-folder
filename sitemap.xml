@@ -50,23 +50,37 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       AVAILABLE PUPPIES (4)
+       AVAILABLE PUPPIES (7)
+       Updated 2026-06-20 — current litter (DOB 2026-04-18). Found-a-home pups
+       (Cosmo/Diesel/Luke) are intentionally excluded (sitemap: false + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/hey-arnold</loc>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/paddington</loc>
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/labubu</loc>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/gizmo</loc>
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/eva</loc>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/baloo</loc>
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/mila</loc>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/brunson</loc>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/nala</loc>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/simba</loc>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/buttercup</loc>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
