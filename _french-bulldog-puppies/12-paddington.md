@@ -1174,6 +1174,7 @@ html, body {
         <span class="luna-status__dot" aria-hidden="true"></span>
         Ready to Come Home
       </span>
+      <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Paddington!</h1>
       <p class="luna-hero__breed">Isabella French Bulldog</p>
     </div>
@@ -1344,7 +1345,7 @@ html, body {
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow">Meet Paddington</span>
+        <span class="luna-eyebrow--accent">Meet Paddington</span>
         <div class="luna-personality">
           <p class="luna-personality__quote">Like his namesake from Darkest Peru, he meets the world wide-eyed and well-mannered — endlessly curious, and always up for the next small adventure.</p>
           <div class="luna-personality__body">
@@ -1365,13 +1366,14 @@ html, body {
 
       <!-- Price Card -->
       <div class="luna-reveal luna-reveal-delay-2">
-        <span class="luna-eyebrow">Investment</span>
+        <span class="luna-eyebrow--accent">Investment</span>
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
             Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
+          <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
