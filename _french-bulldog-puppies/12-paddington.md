@@ -1780,12 +1780,6 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "20-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
-  ],
-  "offers": {
-    "@type": "Offer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/paddington",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/LimitedAvailability"
-  }
+  ]
 }
 </script>

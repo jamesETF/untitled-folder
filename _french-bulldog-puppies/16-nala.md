@@ -1812,12 +1812,6 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
-  ],
-  "offers": {
-    "@type": "Offer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/nala",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/LimitedAvailability"
-  }
+  ]
 }
 </script>
