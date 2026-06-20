@@ -677,10 +677,11 @@ html, body {
   background: var(--luna-bg);
   border: 1.5px solid var(--luna-border);
   border-radius: var(--luna-radius-lg);
-  padding: clamp(32px, 5vw, 48px);
+  padding: clamp(24px, 4vw, 48px);
   text-align: center;
   position: relative;
   overflow: hidden;
+  max-width: 100%;
 }
 .luna-price::after {
   content: '';
@@ -1079,10 +1080,6 @@ html, body {
 .luna-status--available {
   background: #e8f5e9;
   color: #2e7d32;
-}
-.luna-status--available {
-  background: #fff8e1;
-  color: #e65100;
 }
 .luna-status__dot {
   width: 8px;
