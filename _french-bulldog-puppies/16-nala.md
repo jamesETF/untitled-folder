@@ -1406,7 +1406,6 @@ html, body {
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
-            <li>Embark DNA screening</li>
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
