@@ -263,7 +263,7 @@ happytails: true
       <div>
         <div class="uk-card uk-card-default uk-card-hover">
           <div class="uk-card-media-top happy-tails-img">
-            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}french-bulldog-puppies/paddington/paddington-blue-sable-fawn-french-bulldog-puppy-1.webp" alt="Paddington the Blue Sable Fawn French Bulldog" width="900" height="640" data-uk-img>
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ site.uploads | absolute_url }}happytails/paddington-blue-sable-fawn-french-bulldog-puppy-1.webp" alt="Paddington the Blue Sable Fawn French Bulldog" width="900" height="640" data-uk-img>
           </div>
           <div class="uk-card-body">
             <h3 class="uk-card-title">Paddington</h3>
