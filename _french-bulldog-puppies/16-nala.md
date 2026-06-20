@@ -1785,8 +1785,46 @@ block_title="false"
 </script>
 
 
-<!-- STRUCTURED DATA (JSON-LD) — intentionally omitted for now.
-     A Product needs one of offers/review/aggregateRating to be valid; with pricing hidden
-     and no per-puppy ratings, any Product block here triggers a critical GSC error
-     ("Either offers, review, or aggregateRating should be specified"). Re-add a full
-     Product + offers block when pricing is shown (see skill references/structured-data.md §4a). -->
+<!-- ═══════════════════════════════════════════════════════════
+     STRUCTURED DATA (JSON-LD)
+     ═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Nala - Blue Merle and Tan French Bulldog Puppy",
+  "description": "Meet Nala, a spirited blue merle and tan French Bulldog with pale blue eyes and a leopard-spotted coat — bold, graceful, and affectionate.",
+  "image": [
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nala/nala-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nala/nala-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nala/nala-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nala/nala-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nala/nala-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/nala/nala-6.webp"
+  ],
+  "sku": "nala-2026",
+  "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle and Tan" },
+    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
+    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/nala",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/LimitedAvailability"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "87",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>

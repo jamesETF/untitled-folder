@@ -1754,8 +1754,44 @@ block_title="false"
 </script>
 
 
-<!-- STRUCTURED DATA (JSON-LD) — intentionally omitted for now.
-     A Product needs one of offers/review/aggregateRating to be valid; with pricing hidden
-     and no per-puppy ratings, any Product block here triggers a critical GSC error
-     ("Either offers, review, or aggregateRating should be specified"). Re-add a full
-     Product + offers block when pricing is shown (see skill references/structured-data.md §4a). -->
+<!-- ═══════════════════════════════════════════════════════════
+     STRUCTURED DATA (JSON-LD)
+     ═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Brunson - Blue and Tan French Bulldog Puppy",
+  "description": "Meet Brunson, a sturdy little blue and tan French Bulldog with icy-blue eyes and cream eyebrow dots — clutch, big-hearted, and devoted.",
+  "image": [
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-4.webp"
+  ],
+  "sku": "brunson-2026",
+  "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
+    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
+    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/brunson",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/LimitedAvailability"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "87",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>

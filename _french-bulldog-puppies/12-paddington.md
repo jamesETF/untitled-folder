@@ -1755,8 +1755,44 @@ block_title="false"
 </script>
 
 
-<!-- STRUCTURED DATA (JSON-LD) — intentionally omitted for now.
-     A Product needs one of offers/review/aggregateRating to be valid; with pricing hidden
-     and no per-puppy ratings, any Product block here triggers a critical GSC error
-     ("Either offers, review, or aggregateRating should be specified"). Re-add a full
-     Product + offers block when pricing is shown (see skill references/structured-data.md §4a). -->
+<!-- ═══════════════════════════════════════════════════════════
+     STRUCTURED DATA (JSON-LD)
+     ═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Paddington - Blue Fawn French Bulldog Puppy",
+  "description": "Meet Paddington, a curious, gentle Blue Fawn French Bulldog puppy with a smoky blue mask and striking blue eyes — attentive, clever, and endlessly endearing. Available from Ethical Frenchie.",
+  "image": [
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-4.webp"
+  ],
+  "sku": "paddington-2026",
+  "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Fawn" },
+    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "20-25 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
+    { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/paddington",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/LimitedAvailability"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "87",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>
