@@ -402,12 +402,6 @@ RUBY_VERSION = "3.2.2"
   force = true
 
 [[redirects]]
-  from = "/french-bulldog-puppies/paddington"
-  to = "/happy-tails/"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/french-bulldog-puppies/brioche"
   to = "/happy-tails/"
   status = 301
