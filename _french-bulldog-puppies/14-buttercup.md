@@ -1803,6 +1803,7 @@ block_title="false"
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/buttercup/buttercup-6.webp"
   ],
   "sku": "buttercup-2026",
+  "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
@@ -1815,10 +1816,15 @@ block_title="false"
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
-    "@type": "Offer",
+    "@type": "AggregateOffer",
     "url": "https://ethicalfrenchie.com/french-bulldog-puppies/buttercup",
     "priceCurrency": "USD",
-    "availability": "https://schema.org/LimitedAvailability"
+    "lowPrice": "4000",
+    "highPrice": "5500",
+    "offerCount": "1",
+    "availability": "https://schema.org/LimitedAvailability",
+    "availabilityStarts": "{{ page.ready_date }}",
+    "priceValidUntil": "2026-09-01"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
