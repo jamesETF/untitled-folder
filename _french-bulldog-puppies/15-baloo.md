@@ -1,10 +1,10 @@
 ---
 title: Baloo
-description: Meet Baloo, a mellow, big-hearted Isabella French Bulldog puppy with soulful blue eyes — easygoing, cuddly, and the snuggliest of his litter.
-subtitle: Isabella Frenchie Baloo
+description: Meet Baloo, a mellow, big-hearted Lilac French Bulldog puppy with soulful blue eyes — easygoing, cuddly, and the snuggliest of his litter.
+subtitle: Lilac Frenchie Baloo
 width: full
 image: french-bulldog-puppies/baloo/baloo-1.webp
-topics: [Our Puppies, Isabella French Bulldog]
+topics: [Our Puppies, Lilac French Bulldog]
 
 navbar:
   sticky: true
@@ -19,7 +19,7 @@ hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Isabella
+color_coat: Lilac
 age_weeks: 9
 dob: 2026-04-20
 ready_date: 2026-06-15
@@ -1160,7 +1160,7 @@ html, body {
 <section class="luna-hero" aria-label="Baloo hero">
   <img
     src="/uploads/french-bulldog-puppies/baloo/baloo-1.webp"
-    alt="Baloo, an Isabella French Bulldog puppy with blue eyes available from Ethical Frenchie"
+    alt="Baloo, an Lilac French Bulldog puppy with blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1175,7 +1175,7 @@ html, body {
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Baloo!</h1>
-      <p class="luna-hero__breed">Isabella French Bulldog</p>
+      <p class="luna-hero__breed">Lilac French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
@@ -1207,7 +1207,7 @@ html, body {
     <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Baloo">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Isabella</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
@@ -1270,7 +1270,7 @@ html, body {
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Baloo's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide">
-      <a href="/uploads/french-bulldog-puppies/baloo/baloo-1.webp" class="luna-gallery__item" data-caption="Baloo - Isabella French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/baloo/baloo-1.webp" class="luna-gallery__item" data-caption="Baloo - Lilac French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/baloo/baloo-1.webp"
@@ -1285,7 +1285,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/baloo/baloo-2.webp" class="luna-gallery__item" data-caption="Baloo - Isabella French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/baloo/baloo-2.webp" class="luna-gallery__item" data-caption="Baloo - Lilac French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/baloo/baloo-2.webp"
@@ -1300,7 +1300,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/baloo/baloo-3.webp" class="luna-gallery__item" data-caption="Baloo - Isabella French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/baloo/baloo-3.webp" class="luna-gallery__item" data-caption="Baloo - Lilac French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/baloo/baloo-3.webp"
@@ -1334,7 +1334,7 @@ html, body {
           <p class="luna-personality__quote">Like the easygoing bear he's named for, Baloo takes life at his own gentle pace — and the moment you sit down, he leans right in.</p>
           <div class="luna-personality__body">
             <p>There's an old soul behind those <strong>soulful blue eyes</strong>. Baloo is the mellow one of the litter — a big-hearted little bear who would rather melt into your lap than chase the chaos. He meets new people with the same unhurried calm, settling in close and looking up at you like he's known you all along. He's the <strong>snuggliest of the bunch</strong>, and a kindred spirit to his brother Paddington.</p>
-            <p>He wears a soft, plush <strong>Isabella coat</strong> — a dilute, self-colored pale fawn warmed by a smoky mauve cast, set off by a gentle greyish-lilac nose and those clear blue eyes. He's <strong>compact and sturdy</strong>, with neat little bat ears and a cobby, cuddle-ready build that's made for curling up beside you on the couch.</p>
+            <p>He wears a soft, plush <strong>lilac coat</strong> — a dilute pale fawn warmed by a smoky mauve cast, set off by a gentle lilac-grey nose and those clear blue eyes. He's <strong>compact and sturdy</strong>, with neat little bat ears and a cobby, cuddle-ready build that's made for curling up beside you on the couch.</p>
             <p>Easygoing, cuddly, mellow, and big-hearted — Baloo is <strong>ready to come home right now</strong>, and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
@@ -1441,7 +1441,7 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Easygoing, cuddly, and big-hearted — a mellow old-soul boy in a dilute Isabella coat who leans right into you and is the snuggliest of his litter</li>
+              <li><strong>Personality:</strong> Easygoing, cuddly, and big-hearted — a mellow old-soul boy in a dilute lilac coat who leans right into you and is the snuggliest of his litter</li>
               <li><strong>Ideal Home:</strong> Wonderful for first-time owners, families with children, multi-pet households, or anyone who wants a laid-back lap companion</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — his calm, willing nature makes him an easy learner</li>
               <li><strong>Energy Level:</strong> Low to moderate — a short play session, then happy to settle in close and relax beside you</li>
@@ -1463,7 +1463,7 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Isabella</li>
+              <li><strong>Color:</strong> Lilac</li>
               <li><strong>Eye Color:</strong> Blue</li>
               <li><strong>Age:</strong> 9 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
@@ -1747,8 +1747,8 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Baloo - Isabella French Bulldog Puppy",
-  "description": "Meet Baloo, a mellow, big-hearted Isabella French Bulldog puppy with soulful blue eyes — easygoing, cuddly, and the snuggliest of his litter.",
+  "name": "Baloo - Lilac French Bulldog Puppy",
+  "description": "Meet Baloo, a mellow, big-hearted Lilac French Bulldog puppy with soulful blue eyes — easygoing, cuddly, and the snuggliest of his litter.",
   "image": [
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/baloo/baloo-1.webp",
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/baloo/baloo-2.webp",
@@ -1760,7 +1760,7 @@ block_title="false"
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Isabella" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac" },
     { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
