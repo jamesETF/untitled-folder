@@ -20,9 +20,9 @@ chat: true
 
 gender: Male
 color_coat: Blue Merle
-age_weeks: 9
-dob: 2026-04-18
-ready_date: 2026-06-13
+age_weeks: 12
+dob: 2026-03-31
+ready_date: 2026-05-26
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
@@ -30,7 +30,7 @@ microchipped: false
 akc_papers: true
 parents: ""
 date: 2026-06-20
-last_modified_at: 2026-06-20
+last_modified_at: 2026-06-25
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1179,7 +1179,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">9 Weeks</span>
+        <span class="luna-hero__stat-value">12 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1208,7 +1208,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128064;</span> Light-Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1495,9 +1495,9 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Blue Merle</li>
               <li><strong>Eye Color:</strong> Light Blue</li>
-              <li><strong>Age:</strong> 9 weeks old (ready mid June)</li>
+              <li><strong>Age:</strong> 12 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> April 18, 2026</li>
+              <li><strong>Date of Birth:</strong> March 31, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1793,7 +1793,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "12 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

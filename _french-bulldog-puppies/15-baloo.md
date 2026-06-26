@@ -21,8 +21,8 @@ chat: true
 gender: Male
 color_coat: Isabella
 age_weeks: 9
-dob: 2026-04-18
-ready_date: 2026-06-13
+dob: 2026-04-20
+ready_date: 2026-06-15
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
@@ -30,7 +30,7 @@ microchipped: false
 akc_papers: true
 parents: ""
 date: 2026-06-20
-last_modified_at: 2026-06-20
+last_modified_at: 2026-06-25
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1465,9 +1465,9 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Isabella</li>
               <li><strong>Eye Color:</strong> Blue</li>
-              <li><strong>Age:</strong> 9 weeks old (ready mid June)</li>
+              <li><strong>Age:</strong> 9 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> April 18, 2026</li>
+              <li><strong>Date of Birth:</strong> April 20, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>

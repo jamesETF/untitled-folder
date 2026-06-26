@@ -1,10 +1,10 @@
 ---
-title: Brunson
-description: Meet Brunson, a sturdy little blue and tan French Bulldog with icy-blue eyes and cream eyebrow dots — clutch, big-hearted, and devoted.
-subtitle: Blue and Tan Frenchie Brunson
+title: Matilda
+description: Meet Matilda, a sweet lilac and tan French Bulldog with icy-blue eyes and cream eyebrow dots — bright, gentle, and quietly clever.
+subtitle: Lilac and Tan Frenchie Matilda
 width: full
-image: french-bulldog-puppies/brunson/brunson-1.webp
-topics: [Our Puppies, Blue and Tan French Bulldog]
+image: french-bulldog-puppies/matilda/matilda-1.webp
+topics: [Our Puppies, Lilac and Tan French Bulldog]
 
 navbar:
   sticky: true
@@ -14,23 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/brunson
+permalink: /french-bulldog-puppies/matilda
 hubspotneeded: true
 chat: true
 
-gender: Male
-color_coat: Blue and Tan
+gender: Female
+color_coat: Lilac and Tan
 age_weeks: 9
-dob: 2026-04-18
-ready_date: 2026-06-13
-estimated_adult_weight_lbs: "25-28"
+dob: 2026-04-20
+ready_date: 2026-06-15
+estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
 microchipped: false
 akc_papers: true
 parents: ""
-date: 2026-06-20
-last_modified_at: 2026-06-20
+date: 2026-06-25
+last_modified_at: 2026-06-25
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1157,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Brunson hero">
+<section class="luna-hero" aria-label="Matilda hero">
   <img
-    src="/uploads/french-bulldog-puppies/brunson/brunson-1.webp"
-    alt="Brunson, a Blue and Tan French Bulldog puppy with icy-blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/matilda/matilda-1.webp"
+    alt="Matilda, a Lilac and Tan French Bulldog puppy with icy-blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1174,8 +1174,8 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Brunson!</h1>
-      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Matilda!</h1>
+      <p class="luna-hero__breed">Lilac &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
@@ -1183,11 +1183,11 @@ html, body {
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Male</span>
+        <span class="luna-hero__stat-value">Female</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">25-28 lbs</span>
+        <span class="luna-hero__stat-value">22-25 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
@@ -1204,10 +1204,10 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Brunson">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Matilda">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac and Tan</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Icy-Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
@@ -1267,14 +1267,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Brunson's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Matilda's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr 1fr 1fr;">
-      <a href="/uploads/french-bulldog-puppies/brunson/brunson-1.webp" class="luna-gallery__item" data-caption="Brunson - Blue and Tan French Bulldog" style="grid-row: 1 / -1;">
+      <a href="/uploads/french-bulldog-puppies/matilda/matilda-1.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/brunson/brunson-1.webp"
-          alt="Brunson the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/matilda/matilda-1.webp"
+          alt="Matilda the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1285,11 +1285,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/brunson/brunson-2.webp" class="luna-gallery__item" data-caption="Brunson - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/matilda/matilda-2.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/brunson/brunson-2.webp"
-          alt="Brunson the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/matilda/matilda-2.webp"
+          alt="Matilda the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1300,11 +1300,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/brunson/brunson-3.webp" class="luna-gallery__item" data-caption="Brunson - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/matilda/matilda-3.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/brunson/brunson-3.webp"
-          alt="Brunson the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/matilda/matilda-3.webp"
+          alt="Matilda the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1315,11 +1315,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/brunson/brunson-4.webp" class="luna-gallery__item" data-caption="Brunson - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/matilda/matilda-4.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/brunson/brunson-4.webp"
-          alt="Brunson the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/matilda/matilda-4.webp"
+          alt="Matilda the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1338,27 +1338,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Brunson">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Matilda">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Brunson</span>
+        <span class="luna-eyebrow--accent">Meet Matilda</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Small in size, huge in heart — Brunson is the little floor general who's first to step toward you and last to give up your lap.</p>
+          <p class="luna-personality__quote">Quietly clever and impossibly sweet — Matilda is the bright little soul who reads the whole room, then chooses you.</p>
           <div class="luna-personality__body">
-            <p>Named for a captain who proved the magic is in the work, <strong>Brunson is an underdog with a giant heart</strong>. Look at that first photo and you'll see it — one paw already reaching out toward you, a pair of <strong>bright icy-blue eyes</strong> sizing you up, and two little cream eyebrow dots that give him a face you simply can't say no to. He's the pup who steps forward when the others hang back.</p>
-            <p>His coat is a soft, dilute <strong>slate-blue</strong> warmed by classic <strong>tan points</strong> — those cream eyebrow dots, tan cheeks and muzzle, a pale chest, and tan socks on sturdy little legs. Built compact and low and solid, he's a true floor general: humble, hardworking, and team-first, the kind of <strong>clutch little companion</strong> who's never too high and never too low, just steady and all-in on his people.</p>
-            <p>Big-hearted, devoted, and quietly determined, Brunson is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
+            <p>Named for the small girl with the big, brilliant heart, <strong>Matilda is gentle, bright, and quietly self-assured</strong>. Look at that first photo and you'll see it — one paw already reaching out toward you, a pair of <strong>clear icy-blue eyes</strong> taking everything in, and two little cream eyebrow dots that give her a thoughtful, can't-say-no face. She's the pup who watches for a beat, then pads straight over and settles in like she's known you all along.</p>
+            <p>Her coat is a soft, dilute <strong>lilac</strong> — a warm mauve-grey washed with pale lavender, finished with classic <strong>tan points</strong>: those cream eyebrow dots, tan cheeks and muzzle, a pale chest, and tan socks on neat little legs. Compact and sweetly built, she's the kind of <strong>calm, affectionate companion</strong> who is content to entertain herself and absolutely thrilled when you join in.</p>
+            <p>Sweet, clever, and gently independent, Matilda is <strong>ready to come home right now</strong> — and her spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128170; Clutch</span>
-            <span class="luna-trait">&#128156; Big-Hearted</span>
-            <span class="luna-trait">&#129309; Devoted</span>
-            <span class="luna-trait">&#129767; Hardworking</span>
+            <span class="luna-trait">&#128214; Bright</span>
+            <span class="luna-trait">&#127891; Clever</span>
+            <span class="luna-trait">&#128155; Gentle</span>
+            <span class="luna-trait">&#10024; Sweet</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#128171; Determined</span>
+            <span class="luna-trait">&#129309; Loyal</span>
           </div>
         </div>
       </div>
@@ -1385,7 +1385,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Brunson — Apply Now
+            Reserve Matilda — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1413,11 +1413,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Brunson's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Matilda's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Brunson's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Matilda's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1431,7 +1431,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Brunson has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Matilda has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1455,9 +1455,9 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Clutch, big-hearted, and devoted — a sturdy little floor general who steps forward first, never too high and never too low, and stays glued to his favorite people</li>
-              <li><strong>Ideal Home:</strong> Wonderful for families who want an affectionate, people-first companion; his confident-but-humble nature suits first-time and experienced owners alike, and households with kids or other pets</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — his hardworking, eager-to-please streak makes him a willing student</li>
+              <li><strong>Personality:</strong> Sweet, bright, and gently independent — a thoughtful little soul who reads the room, then chooses her person and settles in close</li>
+              <li><strong>Ideal Home:</strong> Wonderful for families who want an affectionate, easygoing companion; her calm, clever nature suits first-time and experienced owners alike, and households with kids or other pets</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — her quick, eager-to-please mind makes her a willing student</li>
               <li><strong>Energy Level:</strong> Playful and game in bursts, then happy to settle right into your lap — a nicely balanced little companion</li>
             </ul>
           </div>
@@ -1476,12 +1476,12 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Blue and Tan</li>
+              <li><strong>Gender:</strong> Female</li>
+              <li><strong>Color:</strong> Lilac and Tan</li>
               <li><strong>Eye Color:</strong> Icy Blue</li>
-              <li><strong>Age:</strong> 9 weeks old (ready mid June)</li>
-              <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> April 18, 2026</li>
+              <li><strong>Age:</strong> 9 weeks old (ready to come home now)</li>
+              <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
+              <li><strong>Date of Birth:</strong> April 20, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1501,7 +1501,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Brunson (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Matilda (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1611,11 +1611,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Brunson">
+<section class="luna-final-cta luna-section" aria-label="Apply for Matilda">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Brunson Before He's Gone</h2>
-    <p class="luna-final-cta__sub">Brunson is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Reserve Matilda Before She's Gone</h2>
+    <p class="luna-final-cta__sub">Matilda is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1644,11 +1644,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Brunson">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Matilda">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Brunson">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Matilda">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1761,29 +1761,29 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Brunson - Blue and Tan French Bulldog Puppy",
-  "description": "Meet Brunson, a sturdy little blue and tan French Bulldog with icy-blue eyes and cream eyebrow dots — clutch, big-hearted, and devoted.",
+  "name": "Matilda - Lilac and Tan French Bulldog Puppy",
+  "description": "Meet Matilda, a sweet lilac and tan French Bulldog with icy-blue eyes and cream eyebrow dots — bright, gentle, and quietly clever.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/brunson/brunson-4.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-4.webp"
   ],
-  "sku": "brunson-2026",
+  "sku": "matilda-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac and Tan" },
     { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/brunson",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/matilda",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
