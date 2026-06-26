@@ -1,10 +1,10 @@
 ---
 title: Simba
-description: Meet Simba, a bold, playful Lilac Merle French Bulldog with dreamy aqua eyes and a silvery dilute coat — curious, toy-driven, and a born little leader.
-subtitle: Lilac Merle Frenchie Simba
+description: Meet Simba, a bold, playful Blue and Tan Merle French Bulldog with dreamy aqua eyes and a cool blue-grey merle coat — curious, toy-driven, and a born little leader.
+subtitle: Blue and Tan Merle Frenchie Simba
 width: full
 image: french-bulldog-puppies/simba/simba-1.webp
-topics: [Our Puppies, "Lilac Merle French Bulldog"]
+topics: [Our Puppies, "Blue and Tan Merle French Bulldog"]
 
 navbar:
   sticky: true
@@ -19,10 +19,10 @@ hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Lilac Merle
-age_weeks: 9
-dob: 2026-04-18
-ready_date: 2026-06-13
+color_coat: Blue and Tan Merle
+age_weeks: 15
+dob: 2026-03-12
+ready_date: 2026-05-07
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
@@ -30,7 +30,7 @@ microchipped: false
 akc_papers: true
 parents: ""
 date: 2026-06-20
-last_modified_at: 2026-06-20
+last_modified_at: 2026-06-25
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1160,7 +1160,7 @@ html, body {
 <section class="luna-hero" aria-label="Simba hero">
   <img
     src="/uploads/french-bulldog-puppies/simba/simba-1.webp"
-    alt="Simba, a Lilac Merle French Bulldog puppy with aqua eyes available from Ethical Frenchie"
+    alt="Simba, a Blue and Tan Merle French Bulldog puppy with aqua eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1175,11 +1175,11 @@ html, body {
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Simba!</h1>
-      <p class="luna-hero__breed">Lilac Merle French Bulldog</p>
+      <p class="luna-hero__breed">Blue and Tan Merle French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">9 Weeks</span>
+        <span class="luna-hero__stat-value">15 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1207,8 +1207,8 @@ html, body {
     <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Simba">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac Merle</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan Merle</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 15 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128064;</span> Aqua Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1270,7 +1270,7 @@ html, body {
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Simba's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr 1fr 1fr;">
-      <a href="/uploads/french-bulldog-puppies/simba/simba-1.webp" class="luna-gallery__item" data-caption="Simba - Lilac Merle French Bulldog" style="grid-row: 1 / -1;">
+      <a href="/uploads/french-bulldog-puppies/simba/simba-1.webp" class="luna-gallery__item" data-caption="Simba - Blue and Tan Merle French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/simba/simba-1.webp"
@@ -1285,7 +1285,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/simba/simba-2.webp" class="luna-gallery__item" data-caption="Simba - Lilac Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/simba/simba-2.webp" class="luna-gallery__item" data-caption="Simba - Blue and Tan Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/simba/simba-2.webp"
@@ -1300,7 +1300,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/simba/simba-3.webp" class="luna-gallery__item" data-caption="Simba - Lilac Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/simba/simba-3.webp" class="luna-gallery__item" data-caption="Simba - Blue and Tan Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/simba/simba-3.webp"
@@ -1315,7 +1315,7 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/simba/simba-4.webp" class="luna-gallery__item" data-caption="Simba - Lilac Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/simba/simba-4.webp" class="luna-gallery__item" data-caption="Simba - Blue and Tan Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/simba/simba-4.webp"
@@ -1349,7 +1349,7 @@ html, body {
           <p class="luna-personality__quote">Like the little lion he's named for, Simba meets the world head-on — bold, busy, and convinced every toy in the yard was put there for him.</p>
           <div class="luna-personality__body">
             <p>Simba is your <strong>born little leader</strong>. He's the first one to the ball and the first to wrestle down the rope toy, and he greets every new sight with that soulful, faintly furrowed brow that makes him look like he's thinking something over. There's a playful boldness to him — curious, busy, and always sizing up his next small adventure — but it's wrapped in the sweetest, most expressive little face.</p>
-            <p>His coat is the showstopper: a <strong>dreamy silvery lilac-merle</strong>, a soft dilute grey-lavender base scattered with darker charcoal merle mottling, warmed by faint tan points above each eye. Set against that misty coat are a pair of <strong>pale aqua eyes</strong> that genuinely stop you in your tracks. He's compact and sturdily built — a proper little explorer who pairs naturally with his sister Nala from the same litter.</p>
+            <p>His coat is the showstopper: a <strong>cool blue-and-tan merle</strong>, a soft dilute blue-grey base scattered with darker charcoal merle mottling, warmed by tan points above each eye and along his cheeks. Set against that misty coat are a pair of <strong>pale aqua eyes</strong> that genuinely stop you in your tracks. He's compact and sturdily built — a proper little explorer who pairs naturally with his sister Nala from the same litter.</p>
             <p>Bold, playful, curious, and endlessly entertaining — Simba is <strong>ready to come home right now</strong>, and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
@@ -1478,11 +1478,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Lilac Merle</li>
+              <li><strong>Color:</strong> Blue and Tan Merle</li>
               <li><strong>Eye Color:</strong> Aqua</li>
-              <li><strong>Age:</strong> 9 weeks old (ready mid June)</li>
+              <li><strong>Age:</strong> 15 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> April 18, 2026</li>
+              <li><strong>Date of Birth:</strong> March 12, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1762,8 +1762,8 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Simba - Lilac Merle French Bulldog Puppy",
-  "description": "Meet Simba, a bold, playful Lilac Merle French Bulldog with dreamy aqua eyes and a silvery dilute coat — curious, toy-driven, and a born little leader.",
+  "name": "Simba - Blue and Tan Merle French Bulldog Puppy",
+  "description": "Meet Simba, a bold, playful Blue and Tan Merle French Bulldog with dreamy aqua eyes and a cool blue-grey merle coat — curious, toy-driven, and a born little leader.",
   "image": [
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/simba/simba-1.webp",
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/simba/simba-2.webp",
@@ -1776,8 +1776,8 @@ block_title="false"
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac Merle" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan Merle" },
+    { "@type": "PropertyValue", "name": "Age", "value": "15 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

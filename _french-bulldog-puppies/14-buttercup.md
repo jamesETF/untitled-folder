@@ -20,9 +20,9 @@ chat: true
 
 gender: Female
 color_coat: Cream
-age_weeks: 9
-dob: 2026-04-18
-ready_date: 2026-06-13
+age_weeks: 10
+dob: 2026-04-10
+ready_date: 2026-06-05
 estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
@@ -30,7 +30,7 @@ microchipped: false
 akc_papers: true
 parents: ""
 date: 2026-06-20
-last_modified_at: 2026-06-20
+last_modified_at: 2026-06-25
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1179,7 +1179,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">9 Weeks</span>
+        <span class="luna-hero__stat-value">10 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1208,7 +1208,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Cream</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 10 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1510,9 +1510,9 @@ html, body {
               <li><strong>Gender:</strong> Female</li>
               <li><strong>Color:</strong> Cream (platinum, dilute pigment)</li>
               <li><strong>Eye Color:</strong> Blue</li>
-              <li><strong>Age:</strong> 9 weeks old (ready mid June)</li>
+              <li><strong>Age:</strong> 10 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
-              <li><strong>Date of Birth:</strong> April 18, 2026</li>
+              <li><strong>Date of Birth:</strong> April 10, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1810,7 +1810,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Cream" },
     { "@type": "PropertyValue", "name": "Eye Color", "value": "Blue" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "10 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

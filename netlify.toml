@@ -87,6 +87,19 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
+# Renamed puppy: Brunson relisted as Matilda (female, lilac & tan) — Jun 25, 2026
+[[redirects]]
+  from = "/french-bulldog-puppies/brunson"
+  to = "/french-bulldog-puppies/matilda"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/brunson/"
+  to = "/french-bulldog-puppies/matilda"
+  status = 301
+  force = true
+
 # Sold puppy pages not yet covered by existing redirects
 [[redirects]]
   from = "/french-bulldog-puppies/brutus"
