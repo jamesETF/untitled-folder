@@ -666,3 +666,45 @@ RUBY_VERSION = "3.2.2"
   to = "/french-bulldog-puppies/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/paddington"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/gizmo"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/buttercup"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/baloo"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/nala"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/simba"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/french-bulldog-puppies/matilda"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true

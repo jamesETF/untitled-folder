@@ -1,10 +1,10 @@
 ---
-title: Gizmo
-description: Meet Gizmo, a gentle blue merle French Bulldog puppy with huge light-blue eyes — curious, sweet, and irresistibly cuddly, ready to come home now.
-subtitle: Blue Merle Frenchie Gizmo
+title: Yoda
+description: Meet Yoda, a calm lilac and tan French Bulldog with honey-tan eyebrow dots and pale blue eyes — watchful, gentle, and endlessly patient.
+subtitle: Lilac and Tan Frenchie Yoda
 width: full
-image: french-bulldog-puppies/gizmo/gizmo-1.webp
-topics: [Our Puppies, "Blue Merle French Bulldog"]
+image: french-bulldog-puppies/yoda/yoda-1.webp
+topics: [Our Puppies, Lilac and Tan French Bulldog]
 
 navbar:
   sticky: true
@@ -14,23 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/gizmo
+permalink: /french-bulldog-puppies/yoda
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Blue Merle
-age_weeks: 12
-dob: 2026-03-31
-ready_date: 2026-05-26
+color_coat: Lilac and Tan
+age_weeks: 8
+dob: 2026-06-10
+ready_date: 2026-08-05
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
-microchipped: false
+microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-06-20
-last_modified_at: 2026-06-25
+date: 2026-08-06
+last_modified_at: 2026-08-06
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1157,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Gizmo hero">
+<section class="luna-hero" aria-label="Yoda hero">
   <img
-    src="/uploads/french-bulldog-puppies/gizmo/gizmo-1.webp"
-    alt="Gizmo, a Blue Merle French Bulldog puppy with light-blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/yoda/yoda-1.webp"
+    alt="Yoda, a Lilac and Tan French Bulldog puppy with pale blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1174,12 +1174,12 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Gizmo!</h1>
-      <p class="luna-hero__breed">Blue Merle French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Yoda!</h1>
+      <p class="luna-hero__breed">Lilac &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">12 Weeks</span>
+        <span class="luna-hero__stat-value">8 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1204,14 +1204,15 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Gizmo">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Yoda">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128064;</span> Light-Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Pale Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1267,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Gizmo's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Yoda's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(4, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/gizmo/gizmo-1.webp" class="luna-gallery__item" data-caption="Gizmo - Blue Merle French Bulldog" style="grid-row: 1 / -1;">
+       <a href="/uploads/french-bulldog-puppies/yoda/yoda-1.webp" class="luna-gallery__item" data-caption="Yoda - Lilac and Tan French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/gizmo/gizmo-1.webp"
-          alt="Gizmo the Blue Merle French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/yoda/yoda-1.webp"
+          alt="Yoda the Lilac and Tan French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1285,11 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/gizmo/gizmo-2.webp" class="luna-gallery__item" data-caption="Gizmo - Blue Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/yoda/yoda-2.webp" class="luna-gallery__item" data-caption="Yoda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/gizmo/gizmo-2.webp"
-          alt="Gizmo the Blue Merle French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/yoda/yoda-2.webp"
+          alt="Yoda the Lilac and Tan French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1300,11 +1301,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/gizmo/gizmo-3.webp" class="luna-gallery__item" data-caption="Gizmo - Blue Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/yoda/yoda-3.webp" class="luna-gallery__item" data-caption="Yoda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/gizmo/gizmo-3.webp"
-          alt="Gizmo the Blue Merle French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/yoda/yoda-3.webp"
+          alt="Yoda the Lilac and Tan French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1315,11 +1316,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/gizmo/gizmo-4.webp" class="luna-gallery__item" data-caption="Gizmo - Blue Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/yoda/yoda-4.webp" class="luna-gallery__item" data-caption="Yoda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/gizmo/gizmo-4.webp"
-          alt="Gizmo the Blue Merle French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/yoda/yoda-4.webp"
+          alt="Yoda the Lilac and Tan French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1330,11 +1331,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/gizmo/gizmo-5.webp" class="luna-gallery__item" data-caption="Gizmo - Blue Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/yoda/yoda-5.webp" class="luna-gallery__item" data-caption="Yoda - Lilac and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/gizmo/gizmo-5.webp"
-          alt="Gizmo the Blue Merle French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/yoda/yoda-5.webp"
+          alt="Yoda the Lilac and Tan French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1353,27 +1354,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Gizmo">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Yoda">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Gizmo</span>
+        <span class="luna-eyebrow--accent">Meet Yoda</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Just like the wide-eyed little Mogwai he's named for, Gizmo meets the world gently — all soft fur, big curious eyes, and a heart that melts the moment you pick him up.</p>
+          <p class="luna-personality__quote">Small, still, and impossibly wise-looking — Yoda watches the whole room, then decides you're the one worth following.</p>
           <div class="luna-personality__body">
-            <p>There's no other way to say it: Gizmo is a dead-ringer for his namesake. With those <strong>huge, light-blue eyes</strong> peering up at you and a coat as soft as it looks, he is gentle, sweet, and impossibly cute — the kind of puppy who would happily disappear into a folded blanket and stay there all afternoon. Curious by nature, he tilts his head at every new sound, then pads right over to see what you're up to.</p>
-            <p>His coat is the showstopper: a <strong>dilute blue-merle</strong>, a pale silvery-blue base dappled with soft slate-grey mottling, no two patches alike. Underneath it he's a proper little Frenchie — <strong>compact, chunky, and sturdy</strong>, with classic bat ears and a wrinkly, expressive face. In his photos he's busy wrestling a plush toy nearly his own size, all four paws planted, having the time of his little life before flopping down for a rest.</p>
-            <p>Gentle, curious, playful, and irresistibly cuddly, Gizmo is <strong>ready to come home right now</strong> — his spot is open to reserve today, and he's hoping the family he melts into is yours.</p>
+            <p>Named for the small, unmistakably big-eared one, <strong>Yoda has the ears and the temperament to match</strong>. His are enormous — one usually standing at full attention while the other tips over mid-thought — set above a softly wrinkled face and a pair of <strong>clear pale blue eyes</strong> that study you before he commits. He is not a puppy who rushes. He watches, he decides, and then he's yours.</p>
+            <p>His coat is a beautiful dilute <strong>lilac</strong> — a smoky dove-grey with a faint marbled shimmer in the sun — finished with warm <strong>honey-tan points</strong>: two neat eyebrow dots, tan inside the ears, a tan-washed muzzle, and a cream chest and paws. He's low, compact, and solidly built, the sort of sturdy little frame that grows into a <strong>calm, steady companion</strong>.</p>
+            <p>Patient, gentle, and quietly observant, Yoda is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128064; Wide-Eyed</span>
-            <span class="luna-trait">&#128156; Gentle</span>
-            <span class="luna-trait">&#128269; Curious</span>
-            <span class="luna-trait">&#129505; Sweet</span>
-            <span class="luna-trait">&#128150; Cuddly</span>
-            <span class="luna-trait">&#127880; Playful</span>
+            <span class="luna-trait">&#128524; Calm</span>
+            <span class="luna-trait">&#128269; Watchful</span>
+            <span class="luna-trait">&#128155; Gentle</span>
+            <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">&#10024; Sweet</span>
+            <span class="luna-trait">&#129504; Thoughtful</span>
           </div>
         </div>
       </div>
@@ -1386,7 +1387,7 @@ html, body {
             <span class="luna-status__dot" aria-hidden="true"></span>
             Ready to Come Home
           </span>
-          <!-- PRICING REMOVED — A/B test later. Set Gizmo's range with James before re-enabling. -->
+          <!-- PRICING REMOVED — A/B test later. -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
@@ -1394,14 +1395,14 @@ html, body {
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
-            <li>Microchip at appropriate age</li>
+            <li>Microchipped</li>
             <li>Age-appropriate vaccines</li>
             <li>Deworming complete</li>
             <li>Puppy starter kit</li>
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Gizmo — Apply Now
+            Reserve Yoda — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1429,11 +1430,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Gizmo's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Yoda's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Gizmo's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Yoda's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1447,12 +1448,12 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Gizmo will receive a thorough examination by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Yoda has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Will be chipped at the appropriate age</li>
+              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1471,10 +1472,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Gentle, curious, and irresistibly cuddly — a wide-eyed blue-merle boy who explores every new sound, then melts into your arms the moment he's picked up</li>
-              <li><strong>Ideal Home:</strong> Wonderful for families, first-time owners, and anyone who wants an affectionate, people-loving companion happy to curl up close</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — his curious, eager nature makes him a willing little student</li>
-              <li><strong>Energy Level:</strong> Playful in happy bursts — toy in mouth one minute, snoozing in a blanket the next — then content to rest right beside you</li>
+              <li><strong>Personality:</strong> Calm, watchful, and quietly wise — a patient little soul who takes in the whole room before choosing his person, then never really leaves their side</li>
+              <li><strong>Ideal Home:</strong> Wonderful for calm households and first-time owners alike; his steady, unhurried nature suits families with children, seniors, and multi-pet homes</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — his watchful, deliberate mind picks things up quickly once he trusts you</li>
+              <li><strong>Energy Level:</strong> Gentle and moderate — happy to potter and explore, then perfectly content to settle at your feet</li>
             </ul>
           </div>
         </div>
@@ -1493,11 +1494,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Blue Merle</li>
-              <li><strong>Eye Color:</strong> Light Blue</li>
-              <li><strong>Age:</strong> 12 weeks old (ready to come home now)</li>
+              <li><strong>Color:</strong> Lilac and Tan</li>
+              <li><strong>Eye Color:</strong> Pale Blue</li>
+              <li><strong>Age:</strong> 8 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> March 31, 2026</li>
+              <li><strong>Date of Birth:</strong> June 10, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1517,7 +1518,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Gizmo (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Yoda (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1627,11 +1628,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Gizmo">
+<section class="luna-final-cta luna-section" aria-label="Apply for Yoda">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Gizmo Before He's Gone</h2>
-    <p class="luna-final-cta__sub">Gizmo is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Reserve Yoda Before He's Gone</h2>
+    <p class="luna-final-cta__sub">Yoda is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1660,11 +1661,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Gizmo">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Yoda">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Gizmo">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Yoda">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1772,35 +1773,41 @@ block_title="false"
 
 <!-- ═══════════════════════════════════════════════════════════
      STRUCTURED DATA (JSON-LD)
+     Default pattern (James-authorized, see structured-data.md §4): Product +
+     AggregateOffer (price range $4,000–$5,500) + aggregateRating. The range sits in
+     schema ahead of the visible on-page price by James's standing override.
+     ⚠️ KEEP the aggregateRating — it's what makes the block valid. Removing it (or
+     dropping back to a bare price-less Offer with no rating) is a critical GSC error.
+     productionDate / availabilityStarts are Liquid-bound to front matter — leave them.
      ═══════════════════════════════════════════════════════════ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Gizmo - Blue Merle French Bulldog Puppy",
-  "description": "Meet Gizmo, a gentle blue merle French Bulldog puppy with huge light-blue eyes — curious, sweet, and irresistibly cuddly, ready to come home now.",
+  "name": "Yoda - Lilac and Tan French Bulldog Puppy",
+  "description": "Meet Yoda, a calm lilac and tan French Bulldog with honey-tan eyebrow dots and pale blue eyes — watchful, gentle, and endlessly patient.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/gizmo/gizmo-5.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/yoda/yoda-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/yoda/yoda-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/yoda/yoda-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/yoda/yoda-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/yoda/yoda-5.webp"
   ],
-  "sku": "gizmo-2026",
+  "sku": "yoda-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle" },
-    { "@type": "PropertyValue", "name": "Age", "value": "12 weeks" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac and Tan" },
+    { "@type": "PropertyValue", "name": "Age", "value": "8 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/gizmo",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/yoda",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
@@ -1818,3 +1825,10 @@ block_title="false"
   }
 }
 </script>
+<!-- Pricing notes: the AggregateOffer range above is the standing default (James override —
+     schema price ahead of the visible price). To revert to strict Google-visibility
+     compliance (only when James says so), swap back to a price-less "Offer" (drop
+     lowPrice/highPrice/offerCount/priceValidUntil) and keep aggregateRating. To earn a
+     single-price merchant-listing card instead, show one price on the page and use a single
+     "Offer" with "price" + "priceCurrency". See structured-data.md §4. -->
+

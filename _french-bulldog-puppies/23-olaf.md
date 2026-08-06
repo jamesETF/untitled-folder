@@ -1,10 +1,10 @@
 ---
-title: Matilda
-description: Meet Matilda, a sweet lilac and tan French Bulldog with icy-blue eyes and cream eyebrow dots — bright, gentle, and quietly clever.
-subtitle: Lilac and Tan Frenchie Matilda
+title: Olaf
+description: Meet Olaf, a platinum fluffy French Bulldog with a soft long coat, ice-blue eyes and a rose-pink nose — sunny, cuddly, and endlessly warm.
+subtitle: Platinum Fluffy Frenchie Olaf
 width: full
-image: french-bulldog-puppies/matilda/matilda-1.webp
-topics: [Our Puppies, Lilac and Tan French Bulldog]
+image: french-bulldog-puppies/olaf/olaf-1.webp
+topics: [Our Puppies, Platinum Fluffy French Bulldog]
 
 navbar:
   sticky: true
@@ -14,23 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/matilda
+permalink: /french-bulldog-puppies/olaf
 hubspotneeded: true
 chat: true
 
-gender: Female
-color_coat: Lilac and Tan
+gender: Male
+color_coat: Platinum Fluffy
 age_weeks: 9
-dob: 2026-04-20
-ready_date: 2026-06-15
-estimated_adult_weight_lbs: "22-25"
+dob: 2026-06-04
+ready_date: 2026-07-30
+estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
-microchipped: false
+microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-06-25
-last_modified_at: 2026-06-25
+date: 2026-08-06
+last_modified_at: 2026-08-06
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1157,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Matilda hero">
+<section class="luna-hero" aria-label="Olaf hero">
   <img
-    src="/uploads/french-bulldog-puppies/matilda/matilda-1.webp"
-    alt="Matilda, a Lilac and Tan French Bulldog puppy with icy-blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/olaf/olaf-1.webp"
+    alt="Olaf, a Platinum Fluffy French Bulldog puppy with ice-blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1174,8 +1174,8 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Matilda!</h1>
-      <p class="luna-hero__breed">Lilac &amp; Tan French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Olaf!</h1>
+      <p class="luna-hero__breed">Platinum Fluffy French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
@@ -1183,11 +1183,11 @@ html, body {
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Female</span>
+        <span class="luna-hero__stat-value">Male</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">22-25 lbs</span>
+        <span class="luna-hero__stat-value">25-28 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
@@ -1204,14 +1204,15 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Matilda">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Olaf">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Platinum Fluffy</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Icy-Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Ice-Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1267,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Matilda's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Olaf's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr 1fr 1fr;">
-      <a href="/uploads/french-bulldog-puppies/matilda/matilda-1.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog" style="grid-row: 1 / -1;">
+    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr;">
+       <a href="/uploads/french-bulldog-puppies/olaf/olaf-1.webp" class="luna-gallery__item" data-caption="Olaf - Platinum Fluffy French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/matilda/matilda-1.webp"
-          alt="Matilda the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/olaf/olaf-1.webp"
+          alt="Olaf the Platinum Fluffy French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1285,41 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/matilda/matilda-2.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/olaf/olaf-2.webp" class="luna-gallery__item" data-caption="Olaf - Platinum Fluffy French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/matilda/matilda-2.webp"
-          alt="Matilda the French Bulldog - Photo 2"
-          class="luna-gallery__img"
-          data-uk-img
-          loading="lazy"
-        >
-        <div class="luna-gallery__overlay" aria-hidden="true">
-          <div class="luna-gallery__zoom">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-        </div>
-      </a>
-      <a href="/uploads/french-bulldog-puppies/matilda/matilda-3.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog">
-        <img
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/matilda/matilda-3.webp"
-          alt="Matilda the French Bulldog - Photo 3"
-          class="luna-gallery__img"
-          data-uk-img
-          loading="lazy"
-        >
-        <div class="luna-gallery__overlay" aria-hidden="true">
-          <div class="luna-gallery__zoom">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-        </div>
-      </a>
-      <a href="/uploads/french-bulldog-puppies/matilda/matilda-4.webp" class="luna-gallery__item" data-caption="Matilda - Lilac and Tan French Bulldog">
-        <img
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/matilda/matilda-4.webp"
-          alt="Matilda the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/olaf/olaf-2.webp"
+          alt="Olaf the Platinum Fluffy French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1338,27 +1309,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Matilda">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Olaf">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Matilda</span>
+        <span class="luna-eyebrow--accent">Meet Olaf</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Quietly clever and impossibly sweet — Matilda is the bright little soul who reads the whole room, then chooses you.</p>
+          <p class="luna-personality__quote">He was quite literally built for warm hugs — and he seems to know it.</p>
           <div class="luna-personality__body">
-            <p>Named for the small girl with the big, brilliant heart, <strong>Matilda is gentle, bright, and quietly self-assured</strong>. Look at that first photo and you'll see it — one paw already reaching out toward you, a pair of <strong>clear icy-blue eyes</strong> taking everything in, and two little cream eyebrow dots that give her a thoughtful, can't-say-no face. She's the pup who watches for a beat, then pads straight over and settles in like she's known you all along.</p>
-            <p>Her coat is a soft, dilute <strong>lilac</strong> — a warm mauve-grey washed with pale lavender, finished with classic <strong>tan points</strong>: those cream eyebrow dots, tan cheeks and muzzle, a pale chest, and tan socks on neat little legs. Compact and sweetly built, she's the kind of <strong>calm, affectionate companion</strong> who is content to entertain herself and absolutely thrilled when you join in.</p>
-            <p>Sweet, clever, and gently independent, Matilda is <strong>ready to come home right now</strong> — and her spot is open to reserve today.</p>
+            <p>Named for the sunniest snowman ever drawn, <strong>Olaf is all warmth and no edges</strong>. He has the soft, unhurried manner of a puppy who assumes everyone he meets is a friend he simply hasn't hugged yet, and he'll lean into your hand the moment it lands on him.</p>
+            <p>His coat is the reason people stop: a genuine <strong>fluffy (long-haired) platinum</strong> — soft cream, feathered out at the ears and chest, the rare long-coat gene that gives Frenchies that plush teddy-bear silhouette. Set against it are a pair of <strong>ice-blue eyes</strong> and a soft <strong>rose-pink nose</strong>, a combination that photographs like something out of a storybook.</p>
+            <p>Sunny, cuddly, and effortlessly gentle, Olaf is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128214; Bright</span>
-            <span class="luna-trait">&#127891; Clever</span>
+            <span class="luna-trait">&#129303; Cuddly</span>
+            <span class="luna-trait">&#9728;&#65039; Sunny</span>
             <span class="luna-trait">&#128155; Gentle</span>
-            <span class="luna-trait">&#10024; Sweet</span>
+            <span class="luna-trait">&#128524; Easygoing</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">&#129528; Plush</span>
           </div>
         </div>
       </div>
@@ -1379,13 +1350,14 @@ html, body {
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
+            <li>Microchipped</li>
             <li>Age-appropriate vaccines</li>
             <li>Deworming complete</li>
             <li>Puppy starter kit</li>
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Matilda — Apply Now
+            Reserve Olaf — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1413,11 +1385,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Matilda's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Olaf's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Matilda's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Olaf's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1431,12 +1403,12 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Matilda has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Olaf has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Will be microchipped at the appropriate age</li>
+              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1455,10 +1427,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Sweet, bright, and gently independent — a thoughtful little soul who reads the room, then chooses her person and settles in close</li>
-              <li><strong>Ideal Home:</strong> Wonderful for families who want an affectionate, easygoing companion; her calm, clever nature suits first-time and experienced owners alike, and households with kids or other pets</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — her quick, eager-to-please mind makes her a willing student</li>
-              <li><strong>Energy Level:</strong> Playful and game in bursts, then happy to settle right into your lap — a nicely balanced little companion</li>
+              <li><strong>Personality:</strong> Sunny, soft, and endlessly affectionate — a rare fluffy platinum boy who treats every new person as a friend he simply hasn't hugged yet</li>
+              <li><strong>Ideal Home:</strong> Perfect for first-time owners, families with children, and anyone who wants a genuinely cuddly, low-drama companion</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — eager to please and easy to motivate with praise</li>
+              <li><strong>Energy Level:</strong> Gentle and moderate — a short burst of play, then straight onto the nearest lap</li>
             </ul>
           </div>
         </div>
@@ -1476,12 +1448,12 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Female</li>
-              <li><strong>Color:</strong> Lilac and Tan</li>
-              <li><strong>Eye Color:</strong> Icy Blue</li>
+              <li><strong>Gender:</strong> Male</li>
+              <li><strong>Color:</strong> Platinum Fluffy</li>
+              <li><strong>Eye Color:</strong> Ice Blue</li>
               <li><strong>Age:</strong> 9 weeks old (ready to come home now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
-              <li><strong>Date of Birth:</strong> April 20, 2026</li>
+              <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
+              <li><strong>Date of Birth:</strong> June 4, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1501,7 +1473,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Matilda (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Olaf (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1611,11 +1583,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Matilda">
+<section class="luna-final-cta luna-section" aria-label="Apply for Olaf">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Matilda Before She's Gone</h2>
-    <p class="luna-final-cta__sub">Matilda is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Reserve Olaf Before He's Gone</h2>
+    <p class="luna-final-cta__sub">Olaf is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1644,11 +1616,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Matilda">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Olaf">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Matilda">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Olaf">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1756,34 +1728,38 @@ block_title="false"
 
 <!-- ═══════════════════════════════════════════════════════════
      STRUCTURED DATA (JSON-LD)
+     Default pattern (James-authorized, see structured-data.md §4): Product +
+     AggregateOffer (price range $4,000–$5,500) + aggregateRating. The range sits in
+     schema ahead of the visible on-page price by James's standing override.
+     ⚠️ KEEP the aggregateRating — it's what makes the block valid. Removing it (or
+     dropping back to a bare price-less Offer with no rating) is a critical GSC error.
+     productionDate / availabilityStarts are Liquid-bound to front matter — leave them.
      ═══════════════════════════════════════════════════════════ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Matilda - Lilac and Tan French Bulldog Puppy",
-  "description": "Meet Matilda, a sweet lilac and tan French Bulldog with icy-blue eyes and cream eyebrow dots — bright, gentle, and quietly clever.",
+  "name": "Olaf - Platinum Fluffy French Bulldog Puppy",
+  "description": "Meet Olaf, a platinum fluffy French Bulldog with a soft long coat, ice-blue eyes and a rose-pink nose — sunny, cuddly, and endlessly warm.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/matilda/matilda-4.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/olaf/olaf-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/olaf/olaf-2.webp"
   ],
-  "sku": "matilda-2026",
+  "sku": "olaf-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac and Tan" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum Fluffy" },
     { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/matilda",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/olaf",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
@@ -1801,3 +1777,10 @@ block_title="false"
   }
 }
 </script>
+<!-- Pricing notes: the AggregateOffer range above is the standing default (James override —
+     schema price ahead of the visible price). To revert to strict Google-visibility
+     compliance (only when James says so), swap back to a price-less "Offer" (drop
+     lowPrice/highPrice/offerCount/priceValidUntil) and keep aggregateRating. To earn a
+     single-price merchant-listing card instead, show one price on the page and use a single
+     "Offer" with "price" + "priceCurrency". See structured-data.md §4. -->
+
