@@ -26,7 +26,7 @@ ready_date: 2026-07-28
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
-microchipped: false
+microchipped: true
 akc_papers: true
 parents: ""
 date: 2026-08-06
@@ -1212,6 +1212,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Bright Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1349,6 +1350,7 @@ html, body {
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
+            <li>Microchipped</li>
             <li>Age-appropriate vaccines</li>
             <li>Deworming complete</li>
             <li>Puppy starter kit</li>
@@ -1406,7 +1408,7 @@ html, body {
               <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Will be microchipped at the appropriate age</li>
+              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1752,7 +1754,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac and Tan Fluffy" },
     { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
