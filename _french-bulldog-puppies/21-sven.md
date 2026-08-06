@@ -1,9 +1,9 @@
 ---
-title: Pongo
-description: Meet Pongo, a rare Isabella merle French Bulldog with a pale champagne coat, rose nose and violet-blue eyes — curious, gentle, and quietly striking.
-subtitle: Isabella Merle Frenchie Pongo
+title: Sven
+description: Meet Sven, a rare Isabella merle French Bulldog with a pale champagne coat, rose nose and violet-blue eyes — steady, gentle, and quietly striking.
+subtitle: Isabella Merle Frenchie Sven
 width: full
-image: french-bulldog-puppies/pongo/pongo-1.webp
+image: french-bulldog-puppies/sven/sven-1.webp
 topics: [Our Puppies, Isabella Merle French Bulldog]
 
 navbar:
@@ -14,7 +14,7 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/pongo
+permalink: /french-bulldog-puppies/sven
 hubspotneeded: true
 chat: true
 
@@ -1157,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Pongo hero">
+<section class="luna-hero" aria-label="Sven hero">
   <img
-    src="/uploads/french-bulldog-puppies/pongo/pongo-1.webp"
-    alt="Pongo, a Isabella Merle French Bulldog puppy with soft violet-blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/sven/sven-1.webp"
+    alt="Sven, a Isabella Merle French Bulldog puppy with soft violet-blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1174,7 +1174,7 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Pongo!</h1>
+      <h1 class="luna-hero__name">Hi, I'm Sven!</h1>
       <p class="luna-hero__breed">Isabella Merle French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
@@ -1204,7 +1204,7 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Pongo">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Sven">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Isabella Merle</li>
@@ -1268,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Pongo's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sven's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(3, 1fr);">
-       <a href="/uploads/french-bulldog-puppies/pongo/pongo-1.webp" class="luna-gallery__item" data-caption="Pongo - Isabella Merle French Bulldog" style="grid-row: 1 / -1;">
+       <a href="/uploads/french-bulldog-puppies/sven/sven-1.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/pongo/pongo-1.webp"
-          alt="Pongo the Isabella Merle French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/sven/sven-1.webp"
+          alt="Sven the Isabella Merle French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1286,11 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/pongo/pongo-2.webp" class="luna-gallery__item" data-caption="Pongo - Isabella Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/sven/sven-2.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/pongo/pongo-2.webp"
-          alt="Pongo the Isabella Merle French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/sven/sven-2.webp"
+          alt="Sven the Isabella Merle French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1301,11 +1301,11 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/pongo/pongo-3.webp" class="luna-gallery__item" data-caption="Pongo - Isabella Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/sven/sven-3.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/pongo/pongo-3.webp"
-          alt="Pongo the Isabella Merle French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/sven/sven-3.webp"
+          alt="Sven the Isabella Merle French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1316,11 +1316,11 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/pongo/pongo-4.webp" class="luna-gallery__item" data-caption="Pongo - Isabella Merle French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/sven/sven-4.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/pongo/pongo-4.webp"
-          alt="Pongo the Isabella Merle French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/sven/sven-4.webp"
+          alt="Sven the Isabella Merle French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,27 +1339,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Pongo">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Sven">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Pongo</span>
+        <span class="luna-eyebrow--accent">Meet Sven</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Dappled head to tail like his Dalmatian namesake — except every spot on Pongo is poured in mocha and champagne.</p>
+          <p class="luna-personality__quote">Steady, soft-hearted and always right at your shoulder — Sven is the one who decides you're his and simply stays there.</p>
           <div class="luna-personality__body">
-            <p>Named for the spotted dad who started it all, <strong>Pongo wears his own set of markings</strong> — and they are something to see. He is the calm, curious one: he settles in close, tips his head at every new sound, and watches you with a pair of soft <strong>violet-blue eyes</strong> that sit somewhere between blue and lavender depending on the light.</p>
-            <p>His coat is a genuinely rare <strong>Isabella merle</strong> — a pale champagne base scattered with soft mocha-taupe dappling, fine freckling across the face and larger soft patches over his back and shoulders. The giveaway for true Isabella is the <strong>rose-liver nose</strong> and warm pink-lined ears, and Pongo has both. It is one of the least common colour combinations in the breed.</p>
-            <p>Curious, gentle, and quietly confident, Pongo is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
+            <p>Named for the most loyal sidekick in the snow, <strong>Sven has the same steady, soft-hearted way about him</strong> — more interested in being near you than in being the centre of attention. He settles in close, tips his head at every new sound, and watches with a pair of soft <strong>violet-blue eyes</strong> that sit somewhere between blue and lavender depending on the light.</p>
+            <p>His coat is a genuinely rare <strong>Isabella merle</strong> — a pale champagne base scattered with soft mocha-taupe dappling, fine freckling across the face and larger soft patches over his back and shoulders. The giveaway for true Isabella is the <strong>rose-liver nose</strong> and warm pink-lined ears, and Sven has both. It is one of the least common colour combinations in the breed.</p>
+            <p>Loyal, gentle, and quietly confident, Sven is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128269; Curious</span>
+            <span class="luna-trait">&#129309; Loyal</span>
             <span class="luna-trait">&#128155; Gentle</span>
-            <span class="luna-trait">&#128524; Calm</span>
+            <span class="luna-trait">&#128524; Steady</span>
             <span class="luna-trait">&#10024; Rare</span>
-            <span class="luna-trait">&#129309; Affectionate</span>
-            <span class="luna-trait">&#129504; Watchful</span>
+            <span class="luna-trait">&#128269; Curious</span>
+            <span class="luna-trait">&#128150; Devoted</span>
           </div>
         </div>
       </div>
@@ -1387,7 +1387,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Pongo — Apply Now
+            Reserve Sven — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1415,11 +1415,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Pongo's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sven's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Pongo's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Sven's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1433,7 +1433,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Pongo has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Sven has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1457,10 +1457,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Curious, gentle, and quietly confident — a rare Isabella merle boy who takes in every new sound before padding over and settling against you</li>
+              <li><strong>Personality:</strong> Loyal, gentle, and steady — a rare Isabella merle boy who would rather be at your shoulder than anywhere else in the room</li>
               <li><strong>Ideal Home:</strong> Lovely for first-time owners and families alike; his calm, adaptable nature suits busy homes and quiet ones, with children or other pets</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — observant and even-tempered, he takes direction well once he trusts you</li>
-              <li><strong>Energy Level:</strong> Moderate and easy — curious pottering and short bursts of play, then happy to nap somewhere close by</li>
+              <li><strong>Energy Level:</strong> Moderate and easy — curious pottering and short bursts of play, then happy to settle against your leg</li>
             </ul>
           </div>
         </div>
@@ -1503,7 +1503,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Pongo (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Sven (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1613,11 +1613,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Pongo">
+<section class="luna-final-cta luna-section" aria-label="Apply for Sven">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Pongo Before He's Gone</h2>
-    <p class="luna-final-cta__sub">Pongo is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Reserve Sven Before He's Gone</h2>
+    <p class="luna-final-cta__sub">Sven is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1646,11 +1646,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Pongo">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Sven">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Pongo">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Sven">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1769,15 +1769,15 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Pongo - Isabella Merle French Bulldog Puppy",
-  "description": "Meet Pongo, a rare Isabella merle French Bulldog with a pale champagne coat, rose nose and violet-blue eyes — curious, gentle, and quietly striking.",
+  "name": "Sven - Isabella Merle French Bulldog Puppy",
+  "description": "Meet Sven, a rare Isabella merle French Bulldog with a pale champagne coat, rose nose and violet-blue eyes — steady, gentle, and quietly striking.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/pongo/pongo-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/pongo/pongo-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/pongo/pongo-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/pongo/pongo-4.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-4.webp"
   ],
-  "sku": "pongo-2026",
+  "sku": "sven-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
@@ -1791,7 +1791,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/pongo",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/sven",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
