@@ -1,10 +1,10 @@
 ---
-title: Paddington
-description: Meet Paddington, a curious, gentle Blue Fawn French Bulldog puppy with a smoky blue mask and striking blue eyes — attentive, clever, and endlessly endearing.
-subtitle: Blue Fawn Frenchie Paddington
+title: Boo
+description: Meet Boo, a blue merle and tan French Bulldog with one ice-blue eye and one deep brown — bold, curious, and impossible to ignore.
+subtitle: Blue Merle and Tan Frenchie Boo
 width: full
-image: french-bulldog-puppies/paddington/paddington-1.webp
-topics: [Our Puppies, Blue Fawn French Bulldog]
+image: french-bulldog-puppies/boo/boo-1.webp
+topics: [Our Puppies, Blue Merle and Tan French Bulldog]
 
 navbar:
   sticky: true
@@ -14,23 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/paddington
+permalink: /french-bulldog-puppies/boo
 hubspotneeded: true
 chat: true
 
-gender: Male
-color_coat: Blue Fawn
-age_weeks: 10
-dob: 2026-04-10
-ready_date: 2026-06-05
-estimated_adult_weight_lbs: "20-25"
+gender: Female
+color_coat: Blue Merle and Tan
+age_weeks: 8
+dob: 2026-06-11
+ready_date: 2026-08-06
+estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
-microchipped: true
+microchipped: false
 akc_papers: true
 parents: ""
-date: 2026-06-20
-last_modified_at: 2026-06-25
+date: 2026-08-06
+last_modified_at: 2026-08-06
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -204,7 +204,6 @@ html, body {
   margin-bottom: 8px;
   display: block;
 }
-
 
 /* ============================================================
    1. HERO SECTION — Cinematic full-bleed
@@ -1158,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Paddington hero">
+<section class="luna-hero" aria-label="Boo hero">
   <img
-    src="/uploads/french-bulldog-puppies/paddington/paddington-1.webp"
-    alt="Paddington, a Blue Fawn French Bulldog puppy available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/boo/boo-1.webp"
+    alt="Boo, a Blue Merle and Tan French Bulldog puppy with one blue and one brown eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1175,20 +1174,20 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Paddington!</h1>
-      <p class="luna-hero__breed">Blue Fawn French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Boo!</h1>
+      <p class="luna-hero__breed">Blue Merle &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">10 Weeks</span>
+        <span class="luna-hero__stat-value">8 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Male</span>
+        <span class="luna-hero__stat-value">Female</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">20-25 lbs</span>
+        <span class="luna-hero__stat-value">22-25 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
@@ -1205,14 +1204,14 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Paddington">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Boo">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Fawn</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 10 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128198;</span> Ready to Come Home</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> One Blue, One Brown Eye</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1268,14 +1267,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Paddington's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Boo's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr 1fr 1fr;">
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-1.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog" style="grid-row: 1 / -1;">
+    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(4, 1fr);">
+       <a href="/uploads/french-bulldog-puppies/boo/boo-1.webp" class="luna-gallery__item" data-caption="Boo - Blue Merle and Tan French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/paddington/paddington-1.webp"
-          alt="Paddington the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/boo/boo-1.webp"
+          alt="Boo the Blue Merle and Tan French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1286,11 +1285,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-2.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/boo/boo-2.webp" class="luna-gallery__item" data-caption="Boo - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/paddington/paddington-2.webp"
-          alt="Paddington the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/boo/boo-2.webp"
+          alt="Boo the Blue Merle and Tan French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1301,11 +1300,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-3.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/boo/boo-3.webp" class="luna-gallery__item" data-caption="Boo - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/paddington/paddington-3.webp"
-          alt="Paddington the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/boo/boo-3.webp"
+          alt="Boo the Blue Merle and Tan French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1316,11 +1315,26 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/paddington/paddington-4.webp" class="luna-gallery__item" data-caption="Paddington - Blue Fawn French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/boo/boo-4.webp" class="luna-gallery__item" data-caption="Boo - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/paddington/paddington-4.webp"
-          alt="Paddington the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/boo/boo-4.webp"
+          alt="Boo the Blue Merle and Tan French Bulldog - Photo 4"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+       <a href="/uploads/french-bulldog-puppies/boo/boo-5.webp" class="luna-gallery__item" data-caption="Boo - Blue Merle and Tan French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/boo/boo-5.webp"
+          alt="Boo the Blue Merle and Tan French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,27 +1353,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Paddington">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Boo">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Paddington</span>
+        <span class="luna-eyebrow--accent">Meet Boo</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Like his namesake from Darkest Peru, he meets the world wide-eyed and well-mannered — endlessly curious, and always up for the next small adventure.</p>
+          <p class="luna-personality__quote">One ice-blue eye, one deep brown, and absolutely no fear — Boo arrives in your life at full tilt and never once looks back.</p>
           <div class="luna-personality__body">
-            <p>There's something old-fashioned and gentlemanly about Paddington. This <strong>Blue Fawn boy</strong> studies the world with a curious tilt of the head and a pair of <strong>bright blue eyes</strong> that don't miss a thing — a rustling leaf, a new voice, a toy that clearly needs investigating. Like the little bear he's named for, he's polite, observant, and endlessly endearing: the kind of puppy who considers you for a thoughtful moment, then decides you're worth trotting straight over to.</p>
-            <p>Then there's that <strong>Blue Fawn coat</strong> — a warm, biscuity fawn set off by a soft, smoky blue mask and nose that frame those clear blue eyes beautifully. Paddington is built like a proper little explorer: compact and sturdy, he'll pop right up on his back legs to get a better look at whatever's caught his eye. That same attentiveness makes him <strong>wonderfully easy to train</strong>; he watches, he listens, and he genuinely wants to understand what you're showing him.</p>
-            <p>Curious, gentle, clever, and impeccably sweet — with a heart as warm as a marmalade sandwich, Paddington is <strong>ready to come home right now</strong>, and his spot is open to reserve today.</p>
+            <p>Named for the fearless little one who wandered into a world of monsters and made friends with all of them, <strong>Boo has exactly that kind of nerve</strong>. She meets you head-on, gives a small considering head-tilt, and then decides you're hers. And you will notice her eyes immediately — <strong>one clear ice-blue, one deep warm brown</strong>, a striking mismatch that makes every photo of her stop people mid-scroll.</p>
+            <p>Her coat is a bold <strong>blue merle</strong>: a silver-and-cream base splashed with slate-charcoal patches, one of them draped over an eye like a mask, with warm <strong>tan eyebrow dots</strong> and a freckled cream muzzle. She's compact and neatly put together, and she carries herself with the easy confidence of a puppy who has never doubted she'd be welcome.</p>
+            <p>Bold, curious, and endlessly affectionate, Boo is <strong>ready to come home right now</strong> — and her spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
+            <span class="luna-trait">&#127775; Bold</span>
             <span class="luna-trait">&#128269; Curious</span>
-            <span class="luna-trait">&#127891; Clever</span>
-            <span class="luna-trait">&#128156; Gentle</span>
-            <span class="luna-trait">&#129505; Sweet</span>
             <span class="luna-trait">&#128150; Affectionate</span>
+            <span class="luna-trait">&#128512; Playful</span>
             <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">&#10024; Charming</span>
           </div>
         </div>
       </div>
@@ -1372,7 +1386,7 @@ html, body {
             <span class="luna-status__dot" aria-hidden="true"></span>
             Ready to Come Home
           </span>
-          <!-- PRICING REMOVED — A/B test later. Original: $4,000 – $5,500 -->
+          <!-- PRICING REMOVED — A/B test later. -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
@@ -1380,14 +1394,13 @@ html, body {
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
-            <li>Microchipped</li>
             <li>Age-appropriate vaccines</li>
             <li>Deworming complete</li>
             <li>Puppy starter kit</li>
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Paddington — Apply Now
+            Reserve Boo — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1415,11 +1428,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Paddington's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Boo's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Paddington's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Boo's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1433,12 +1446,12 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Paddington has been examined by a licensed veterinarian and is ready to come home.</p>
+            <p>Boo has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
+              <li><strong>Microchipped:</strong> Will be microchipped at the appropriate age</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1457,10 +1470,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Curious, attentive, and clever — a polite little explorer who studies everything around him, then settles happily into your lap for a cuddle</li>
-              <li><strong>Ideal Home:</strong> Wonderful for families who'll enjoy an engaged, people-oriented pup; his easy focus makes him a quick study and a great fit for first-time or experienced owners alike</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — his watch-and-learn nature makes him a willing student</li>
-              <li><strong>Energy Level:</strong> Playful and inquisitive in bursts, then content to rest close by — a nicely balanced companion</li>
+              <li><strong>Personality:</strong> Bold, curious, and wonderfully confident — a fearless little character with a head-tilt that disarms everyone and a striking pair of mismatched eyes</li>
+              <li><strong>Ideal Home:</strong> Ideal for active families who want a puppy with personality; her confidence suits homes with children, other dogs, and plenty going on</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — bright and food-motivated, she learns fast when there's a game in it</li>
+              <li><strong>Energy Level:</strong> Lively and game — a proper burst of play, then a hard, happy nap in your lap</li>
             </ul>
           </div>
         </div>
@@ -1478,11 +1491,12 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Blue Fawn</li>
-              <li><strong>Age:</strong> 10 weeks old (ready to come home now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 20-25 lbs</li>
-              <li><strong>Date of Birth:</strong> April 10, 2026</li>
+              <li><strong>Gender:</strong> Female</li>
+              <li><strong>Color:</strong> Blue Merle and Tan</li>
+              <li><strong>Eye Color:</strong> One Blue, One Brown</li>
+              <li><strong>Age:</strong> 8 weeks old (ready to come home now)</li>
+              <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
+              <li><strong>Date of Birth:</strong> June 11, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1502,7 +1516,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Paddington (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Boo (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1612,11 +1626,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Paddington">
+<section class="luna-final-cta luna-section" aria-label="Apply for Boo">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Paddington Before He's Gone</h2>
-    <p class="luna-final-cta__sub">Paddington is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Reserve Boo Before She's Gone</h2>
+    <p class="luna-final-cta__sub">Boo is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1645,11 +1659,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Paddington">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Boo">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Paddington">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Boo">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1757,34 +1771,41 @@ block_title="false"
 
 <!-- ═══════════════════════════════════════════════════════════
      STRUCTURED DATA (JSON-LD)
+     Default pattern (James-authorized, see structured-data.md §4): Product +
+     AggregateOffer (price range $4,000–$5,500) + aggregateRating. The range sits in
+     schema ahead of the visible on-page price by James's standing override.
+     ⚠️ KEEP the aggregateRating — it's what makes the block valid. Removing it (or
+     dropping back to a bare price-less Offer with no rating) is a critical GSC error.
+     productionDate / availabilityStarts are Liquid-bound to front matter — leave them.
      ═══════════════════════════════════════════════════════════ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Paddington - Blue Fawn French Bulldog Puppy",
-  "description": "Meet Paddington, a curious, gentle Blue Fawn French Bulldog puppy with a smoky blue mask and striking blue eyes — attentive, clever, and endlessly endearing. Available from Ethical Frenchie.",
+  "name": "Boo - Blue Merle and Tan French Bulldog Puppy",
+  "description": "Meet Boo, a blue merle and tan French Bulldog with one ice-blue eye and one deep brown — bold, curious, and impossible to ignore.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/paddington/paddington-4.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/boo/boo-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/boo/boo-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/boo/boo-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/boo/boo-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/boo/boo-5.webp"
   ],
-  "sku": "paddington-2026",
+  "sku": "boo-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Fawn" },
-    { "@type": "PropertyValue", "name": "Age", "value": "10 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "20-25 lbs" },
-    { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle and Tan" },
+    { "@type": "PropertyValue", "name": "Age", "value": "8 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
+    { "@type": "PropertyValue", "name": "Microchipped", "value": "Will be chipped at appropriate age" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/paddington",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/boo",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
@@ -1802,3 +1823,10 @@ block_title="false"
   }
 }
 </script>
+<!-- Pricing notes: the AggregateOffer range above is the standing default (James override —
+     schema price ahead of the visible price). To revert to strict Google-visibility
+     compliance (only when James says so), swap back to a price-less "Offer" (drop
+     lowPrice/highPrice/offerCount/priceValidUntil) and keep aggregateRating. To earn a
+     single-price merchant-listing card instead, show one price on the page and use a single
+     "Offer" with "price" + "priceCurrency". See structured-data.md §4. -->
+
