@@ -50,7 +50,7 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       AVAILABLE PUPPIES (8)
+       AVAILABLE PUPPIES (7)
        Updated 2026-08-06 — current litter (DOB 2026-06-02..06-11). Found-a-home pups
        (Cosmo/Diesel/Luke) are intentionally excluded (sitemap: false + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
@@ -72,11 +72,6 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/fern</loc>
-    <lastmod>2026-08-06</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/hobbes</loc>
     <lastmod>2026-08-06</lastmod>
   </url>
 
