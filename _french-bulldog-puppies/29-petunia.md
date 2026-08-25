@@ -1,10 +1,10 @@
 ---
-title: Sven
-description: Meet Sven, a rare Isabella merle French Bulldog with a pale champagne coat, rose nose and violet-blue eyes — steady, gentle, and quietly striking.
-subtitle: Isabella Merle Frenchie Sven
+title: Petunia
+description: Meet Petunia, a sweet platinum French Bulldog with a powder-cream coat and rose-petal ears — sunny, cuddly, and ready to bloom in your home.
+subtitle: Platinum Frenchie Petunia
 width: full
-image: french-bulldog-puppies/sven/sven-1.webp
-topics: [Our Puppies, Isabella Merle French Bulldog]
+image: french-bulldog-puppies/petunia/petunia-1.webp
+topics: [Our Puppies, Platinum French Bulldog]
 
 navbar:
   sticky: true
@@ -14,23 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/sven
+permalink: /french-bulldog-puppies/petunia
 hubspotneeded: true
 chat: true
 
-gender: Male
-color_coat: Isabella Merle
-age_weeks: 8
-dob: 2026-06-06
-ready_date: 2026-08-01
-estimated_adult_weight_lbs: "25-28"
+gender: Female
+color_coat: Platinum
+age_weeks: 9
+dob: 2026-06-23
+ready_date: 2026-08-18
+estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-08-06
-last_modified_at: 2026-08-06
+date: 2026-08-25
+last_modified_at: 2026-08-25
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1157,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Sven hero">
+<section class="luna-hero" aria-label="Petunia hero">
   <img
-    src="/uploads/french-bulldog-puppies/sven/sven-1.webp"
-    alt="Sven, a Isabella Merle French Bulldog puppy with soft violet-blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/petunia/petunia-1.webp"
+    alt="Petunia, a Platinum French Bulldog puppy available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1174,25 +1174,25 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Sven!</h1>
-      <p class="luna-hero__breed">Isabella Merle French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Petunia!</h1>
+      <p class="luna-hero__breed">Platinum French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">8 Weeks</span>
+        <span class="luna-hero__stat-value">9 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Male</span>
+        <span class="luna-hero__stat-value">Female</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">25-28 lbs</span>
+        <span class="luna-hero__stat-value">22-25 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready Now</span>
-        <span class="luna-hero__stat-label">Ready In</span>
+        <span class="luna-hero__stat-value">Now</span>
+        <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
   </div>
@@ -1204,15 +1204,15 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Sven">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Petunia">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Isabella Merle</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Violet-Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Platinum</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127800;</span> Powder-Cream Coat</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1268,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sven's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Petunia's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(3, 1fr);">
-       <a href="/uploads/french-bulldog-puppies/sven/sven-1.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog" style="grid-row: 1 / -1;">
+    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
+      <a href="/uploads/french-bulldog-puppies/petunia/petunia-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Petunia - Platinum French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sven/sven-1.webp"
-          alt="Sven the Isabella Merle French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/petunia/petunia-1.webp"
+          alt="Petunia the Platinum French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1286,11 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/sven/sven-2.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/petunia/petunia-2.webp" class="luna-gallery__item" data-caption="Petunia - Platinum French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sven/sven-2.webp"
-          alt="Sven the Isabella Merle French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/petunia/petunia-2.webp"
+          alt="Petunia the Platinum French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1301,11 +1301,11 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/sven/sven-3.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/petunia/petunia-3.webp" class="luna-gallery__item" data-caption="Petunia - Platinum French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sven/sven-3.webp"
-          alt="Sven the Isabella Merle French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/petunia/petunia-3.webp"
+          alt="Petunia the Platinum French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1316,11 +1316,41 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/sven/sven-4.webp" class="luna-gallery__item" data-caption="Sven - Isabella Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/petunia/petunia-4.webp" class="luna-gallery__item" data-caption="Petunia - Platinum French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sven/sven-4.webp"
-          alt="Sven the Isabella Merle French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/petunia/petunia-4.webp"
+          alt="Petunia the Platinum French Bulldog - Photo 4"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/petunia/petunia-5.webp" class="luna-gallery__item" data-caption="Petunia - Platinum French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/petunia/petunia-5.webp"
+          alt="Petunia the Platinum French Bulldog - Photo 5"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/petunia/petunia-6.webp" class="luna-gallery__item" data-caption="Petunia - Platinum French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/petunia/petunia-6.webp"
+          alt="Petunia the Platinum French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,27 +1369,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Sven">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Petunia">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Sven</span>
+        <span class="luna-eyebrow--accent">Meet Petunia</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Steady, soft-hearted and always right at your shoulder — Sven is the one who decides you're his and simply stays there.</p>
+          <p class="luna-personality__quote">Like the flower she's named for, Petunia turns any patch of sunshine into her own little garden.</p>
           <div class="luna-personality__body">
-            <p>Named for the most loyal sidekick in the snow, <strong>Sven has the same steady, soft-hearted way about him</strong> — more interested in being near you than in being the centre of attention. He settles in close, tips his head at every new sound, and watches with a pair of soft <strong>violet-blue eyes</strong> that sit somewhere between blue and lavender depending on the light.</p>
-            <p>His coat is a genuinely rare <strong>Isabella merle</strong> — a pale champagne base scattered with soft mocha-taupe dappling, fine freckling across the face and larger soft patches over his back and shoulders. The giveaway for true Isabella is the <strong>rose-liver nose</strong> and warm pink-lined ears, and Sven has both. It is one of the least common colour combinations in the breed.</p>
-            <p>Loyal, gentle, and quietly confident, Sven is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
+            <p>Wrapped in a <strong>powder-cream platinum coat</strong> as soft as fresh linen, Petunia has the kind of sweet, open face that makes strangers stop mid-sentence. She sits, tilts her head, and quietly owns the room.</p>
+            <p>Petunia is <strong>sunny and gently curious</strong>. Hand her a plush toy and she parades it around like a prize bloom; sit down and she's in your lap before the cushion settles. You can see it in her photos — one moment happily gnawing her pink heart toy, the next posing outdoors like she planned the photoshoot herself.</p>
+            <p>She's <strong>ready to come home now</strong> — vet-checked, microchipped, and AKC-papered, with her spot open to reserve right now for the family that gets to watch her bloom.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#129309; Loyal</span>
-            <span class="luna-trait">&#128155; Gentle</span>
-            <span class="luna-trait">&#128524; Steady</span>
-            <span class="luna-trait">&#10024; Rare</span>
+            <span class="luna-trait">&#127800; Sweet</span>
+            <span class="luna-trait">&#9728;&#65039; Sunny</span>
             <span class="luna-trait">&#128269; Curious</span>
-            <span class="luna-trait">&#128150; Devoted</span>
+            <span class="luna-trait">&#128150; Affectionate</span>
+            <span class="luna-trait">&#129528; Playful</span>
+            <span class="luna-trait">&#129303; Cuddly</span>
           </div>
         </div>
       </div>
@@ -1372,11 +1402,12 @@ html, body {
             <span class="luna-status__dot" aria-hidden="true"></span>
             Ready to Come Home
           </span>
-          <!-- PRICING REMOVED — A/B test later. -->
+          <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
+            <li>Embark DNA screening</li>
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
@@ -1387,7 +1418,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Sven — Apply Now
+            Reserve Petunia — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1415,11 +1446,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sven's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Petunia's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Sven's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Petunia's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1433,12 +1464,12 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Sven has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Petunia will receive a thorough examination by a licensed veterinarian before going home, and comes with a clean bill of health.</p>
             <ul>
-              <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
+              <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
+              <li><strong>Microchipped:</strong> Yes, registered to new owner</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1457,10 +1488,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Loyal, gentle, and steady — a rare Isabella merle boy who would rather be at your shoulder than anywhere else in the room</li>
-              <li><strong>Ideal Home:</strong> Lovely for first-time owners and families alike; his calm, adaptable nature suits busy homes and quiet ones, with children or other pets</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — observant and even-tempered, he takes direction well once he trusts you</li>
-              <li><strong>Energy Level:</strong> Moderate and easy — curious pottering and short bursts of play, then happy to settle against your leg</li>
+              <li><strong>Personality:</strong> Sweet, sunny, and people-first — a platinum girl who greets everyone like an old friend and settles into laps like she was made for them</li>
+              <li><strong>Ideal Home:</strong> Perfect for first-time owners, families with children, or apartment life — anywhere with a sunny window and a warm lap</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
+              <li><strong>Energy Level:</strong> Moderate — playful when it's time to play, calm when it's time to relax</li>
             </ul>
           </div>
         </div>
@@ -1478,12 +1509,12 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Isabella Merle</li>
-              <li><strong>Eye Color:</strong> Violet Blue</li>
-              <li><strong>Age:</strong> 8 weeks old (ready to come home now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> June 6, 2026</li>
+              <li><strong>Gender:</strong> Female</li>
+              <li><strong>Color:</strong> Platinum</li>
+              <li><strong>Eye Color:</strong> Dark Brown</li>
+              <li><strong>Age:</strong> 9 weeks old (ready now)</li>
+              <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
+              <li><strong>Date of Birth:</strong> June 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1503,7 +1534,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Sven (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Petunia (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1613,11 +1644,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Sven">
+<section class="luna-final-cta luna-section" aria-label="Apply for Petunia">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Sven Before He's Gone</h2>
-    <p class="luna-final-cta__sub">Sven is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Petunia Is Ready for Her Forever Home</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Start your application today and take the first step toward bringing Petunia home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1646,11 +1677,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Sven">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Petunia">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Sven">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Petunia">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1769,36 +1800,38 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Sven - Isabella Merle French Bulldog Puppy",
-  "description": "Meet Sven, a rare Isabella merle French Bulldog with a pale champagne coat, rose nose and violet-blue eyes — steady, gentle, and quietly striking.",
+  "name": "Petunia - Platinum French Bulldog Puppy",
+  "description": "Meet Petunia, a sweet platinum French Bulldog with a powder-cream coat and rose-petal ears — sunny, cuddly, and ready to bloom in your home.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sven/sven-4.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/petunia/petunia-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/petunia/petunia-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/petunia/petunia-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/petunia/petunia-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/petunia/petunia-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/petunia/petunia-6.webp"
   ],
-  "sku": "sven-2026",
+  "sku": "petunia-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Isabella Merle" },
-    { "@type": "PropertyValue", "name": "Age", "value": "8 weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum" },
+    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/sven",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/petunia",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
     "offerCount": "1",
     "availability": "https://schema.org/LimitedAvailability",
     "availabilityStarts": "{{ page.ready_date }}",
-    "priceValidUntil": "2026-09-01"
+    "priceValidUntil": "2026-12-01"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
