@@ -14,7 +14,7 @@ const PASSTHROUGH = new Set([
 export default async (request: Request, context: { next: (req?: Request) => Promise<Response> }) => {
   // Deploy-previews bypass maintenance entirely so PRs can be reviewed.
   // Production/branch deploys are unaffected (CONTEXT is "production"/"branch-deploy").
-  if (Netlify.env.get("CONTEXT") === "deploy-preview") return context.next();
+  if (new URL(request.url).hostname.startsWith("deploy-preview-")) return context.next();
 
   const path = new URL(request.url).pathname;
 
