@@ -51,19 +51,21 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       AVAILABLE PUPPIES (7)
+       AVAILABLE PUPPIES (5)
        Updated 2026-08-06 — current litter (DOB 2026-06-02..06-11). Found-a-home pups
        (Cosmo/Diesel/Luke) are intentionally excluded (sitemap: false + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/sven</loc>
-    <lastmod>2026-08-06</lastmod>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/perdita</loc>
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/jessie</loc>
-    <lastmod>2026-08-06</lastmod>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/stitch</loc>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/petunia</loc>
   </url>
 
   <url>
@@ -72,22 +74,7 @@
   </url>
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/fern</loc>
-    <lastmod>2026-08-06</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/sandy</loc>
-    <lastmod>2026-08-06</lastmod>
-  </url>
-
-  <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/olaf</loc>
-    <lastmod>2026-08-06</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/yoda</loc>
     <lastmod>2026-08-06</lastmod>
   </url>
 
