@@ -156,7 +156,7 @@ redirect_from:
   }
   .pup:hover { transform: translateY(-3px); box-shadow: 0 24px 52px -24px rgba(144, 25, 65, .38), 0 0 0 1px var(--ring); }
   .pup:focus-visible { outline: 2px solid var(--raspberry); outline-offset: 3px; }
-  .pup img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
+  .pup img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
   .pup-body { padding: 14px 16px 16px; }
   .pup-name {
     font-family: 'Playfair Display', Georgia, serif;
@@ -167,6 +167,7 @@ redirect_from:
   }
   .pup-meta { font-size: .8rem; color: var(--muted); margin-top: 2px; }
   .pup-cta { font-size: .82rem; font-weight: 600; color: var(--ink); margin-top: 8px; }
+  .note .pup, .note .pup * { text-decoration: none; }
 
   /* --- Sign-off + contact + archive --- */
   .signoff { margin-top: 48px; }
@@ -292,11 +293,9 @@ redirect_from:
     <p class="contact">Records, questions, or the last two puppies: <a href="mailto:adopt@ethicalfrenchie.com">adopt@ethicalfrenchie.com</a></p>
 
     <nav class="archive" aria-label="Site archive">
-      <a href="/french-bulldog-puppies/">Puppies</a>
-      <a href="/happy-tails/">Happy Tails</a>
-      <a href="/about-us/">Our story</a>
+      <a href="/french-bulldog-puppies/">Available Puppies</a>
       <a href="/blog/">Blog</a>
-      <a href="/faq/">FAQ</a>
+      <a href="/contact-us/">Contact Us</a>
     </nav>
   </section>
 
