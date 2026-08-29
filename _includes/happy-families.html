@@ -86,7 +86,7 @@
 
   /* Lazy-load the Maps API only when the section is near the viewport */
   var loaded=false;
-  function load(){if(loaded)return;loaded=true;var s=document.createElement('script');s.async=true;s.defer=true;s.src='https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_api_key }}&callback=initHappyFamiliesMap';document.head.appendChild(s);}
+  function load(){if(loaded)return;loaded=true;var s=document.createElement('script');s.async=true;s.defer=true;s.src='https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_api_key }}&loading=async&callback=initHappyFamiliesMap';document.head.appendChild(s);}
   var sec=document.getElementById('happy-families');
   if(!sec)return;
   if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){load();io.disconnect();}});},{rootMargin:'600px 0px'});io.observe(sec);}
