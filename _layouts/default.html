@@ -41,6 +41,8 @@
       </div>
     {% endif %}
 
+    {% unless page.happytails or page.nomap %}{% include happy-families.html %}{% endunless %}
+
     {% if site.footer.layout == 'columns' %}
       {% include partials/footer-columns.html %}
     {% else %}

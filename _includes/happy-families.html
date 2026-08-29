@@ -1,0 +1,95 @@
+{%- comment -%}
+  Happy Families — site-wide map footer section (added Aug 29, 2026, closing page).
+  Self-contained: own CSS, lazy-loads Google Maps only when scrolled near, pulls pins
+  from /api/happy-tails (Netlify function → Apps Script). Skipped on /happy-tails/
+  (page.happytails) — that page has the full-height version — and on any page with
+  `nomap: true`.
+{%- endcomment -%}
+<style>
+  .hf { background: #FBF4F6; padding: clamp(44px, 7vw, 80px) 0 0; font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .hf__head { max-width: 720px; margin: 0 auto 26px; padding: 0 24px; text-align: center; }
+  .hf__eyebrow { display: block; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #901941; margin-bottom: 10px; }
+  .hf__title { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 600; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.1; color: #2B2228; margin: 0 0 12px; }
+  .hf__title .acc { color: #901941; }
+  .hf__sub { font-size: 1rem; line-height: 1.65; color: #5F5058; margin: 0; }
+  .hf__map-wrap { position: relative; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  #happy-families-map { width: 100%; height: 440px; border-radius: 20px; overflow: hidden; background: #f5f5f5; box-shadow: 0 28px 64px -32px rgba(144,25,65,.35), 0 0 0 1px #F0DFE6; }
+  .hf__loading { display: flex; align-items: center; justify-content: center; height: 100%; color: #901941; font-size: .9rem; font-weight: 600; }
+  .hf__foot { max-width: 1200px; margin: 0 auto; padding: 18px 24px 44px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 28px; font-size: .88rem; color: #5F5058; }
+  .hf__foot a { color: #901941; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  .hf__foot a:hover { color: #6E1332; }
+  @media (max-width: 640px) {
+    .hf__map-wrap { padding: 0 14px; }
+    #happy-families-map { height: 340px; border-radius: 16px; }
+  }
+  /* InfoWindow popup (shared look with /happy-tails/) */
+  .ht-popup { font-family: 'Montserrat', sans-serif; max-width: 300px; padding: 0; }
+  .ht-popup-name { font-size: 18px; font-weight: 700; color: #000; margin: 0 0 4px; }
+  .ht-popup-region { font-size: 13px; color: #901941; font-weight: 600; margin: 0 0 10px; }
+  .ht-popup-quote { font-size: 14px; color: #5c5e65; line-height: 1.5; margin: 0 0 12px; font-style: italic; }
+  .ht-popup-owner { font-size: 12px; color: #999; margin: 0; }
+  .ht-slider-wrap { position: relative; width: 100%; height: 200px; overflow: hidden; border-radius: 8px; margin-bottom: 12px; background: #f0f0f0; cursor: ew-resize; touch-action: none; }
+  .ht-slider-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+  .ht-slider-after { clip-path: inset(0 0 0 50%); }
+  .ht-slider-divider { position: absolute; top: 0; bottom: 0; left: 50%; width: 3px; background: #fff; box-shadow: 0 0 6px rgba(0,0,0,.4); transform: translateX(-50%); z-index: 2; pointer-events: none; }
+  .ht-slider-handle { position: absolute; top: 50%; left: 50%; width: 32px; height: 32px; background: #901941; border: 3px solid #fff; border-radius: 50%; transform: translate(-50%,-50%); z-index: 3; box-shadow: 0 2px 6px rgba(0,0,0,.3); pointer-events: none; }
+  .ht-slider-label { position: absolute; bottom: 8px; font-size: 11px; font-weight: 700; color: #fff; background: rgba(0,0,0,.5); padding: 2px 8px; border-radius: 3px; z-index: 2; pointer-events: none; }
+  .ht-slider-label-then { left: 8px; }
+  .ht-slider-label-now { right: 8px; }
+  .ht-no-photo { width: 100%; height: 140px; border-radius: 8px; margin-bottom: 12px; background: linear-gradient(135deg,#f8f0f3 0%,#ede0e5 100%); display: flex; align-items: center; justify-content: center; color: #901941; font-size: 13px; font-weight: 600; }
+</style>
+
+<section class="hf" id="happy-families" aria-labelledby="hf-title">
+  <div class="hf__head">
+    <span class="hf__eyebrow">Happy families</span>
+    <h2 class="hf__title" id="hf-title">Where they all <span class="acc">ended up</span>.</h2>
+    <p class="hf__sub">Every pin is a family and a Frenchie. Tap one for the then-and-now.</p>
+  </div>
+  <div class="hf__map-wrap">
+    <div id="happy-families-map"><div class="hf__loading">Loading map&hellip;</div></div>
+  </div>
+  <div class="hf__foot">
+    <span><a href="/happy-tails/">See every family &rarr;</a></span>
+    <span>Have an Ethical Frenchie at home? <a href="https://docs.google.com/forms/d/e/1FAIpQLSehuypnX_BbJlNzjxW8-cmyLgTldJuaWib8O4EXitC4fYKleA/viewform" target="_blank" rel="noopener">Add your pup to the map</a></span>
+  </div>
+</section>
+
+<script>
+(function(){
+  var API_URL='/api/happy-tails', CENTER={lat:38.5,lng:-96.5}, ZOOM=4, BRAND='#901941';
+  var silver=[{elementType:"geometry",stylers:[{color:"#f5f5f5"}]},{elementType:"labels.icon",stylers:[{visibility:"off"}]},{elementType:"labels.text.fill",stylers:[{color:"#616161"}]},{elementType:"labels.text.stroke",stylers:[{color:"#f5f5f5"}]},{featureType:"administrative.land_parcel",elementType:"labels.text.fill",stylers:[{color:"#bdbdbd"}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#eeeeee"}]},{featureType:"poi",elementType:"labels.text.fill",stylers:[{color:"#757575"}]},{featureType:"poi.park",elementType:"geometry",stylers:[{color:"#e5e5e5"}]},{featureType:"road",elementType:"geometry",stylers:[{color:"#ffffff"}]},{featureType:"road.arterial",elementType:"labels.text.fill",stylers:[{color:"#757575"}]},{featureType:"road.highway",elementType:"geometry",stylers:[{color:"#dadada"}]},{featureType:"road.highway",elementType:"labels.text.fill",stylers:[{color:"#616161"}]},{featureType:"road.local",elementType:"labels.text.fill",stylers:[{color:"#9e9e9e"}]},{featureType:"transit.line",elementType:"geometry",stylers:[{color:"#e5e5e5"}]},{featureType:"transit.station",elementType:"geometry",stylers:[{color:"#eeeeee"}]},{featureType:"water",elementType:"geometry",stylers:[{color:"#c9c9c9"}]},{featureType:"water",elementType:"labels.text.fill",stylers:[{color:"#9e9e9e"}]}];
+
+  function icon(){return {url:'data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="38" viewBox="0 0 28 38"><path d="M14 0C6.268 0 0 6.268 0 14c0 10.5 14 24 14 24s14-13.5 14-24C28 6.268 21.732 0 14 0z" fill="'+BRAND+'"/><circle cx="14" cy="13" r="6" fill="white"/><text x="14" y="16" text-anchor="middle" font-size="10" font-weight="bold" fill="'+BRAND+'">&#x1f43e;</text></svg>'),scaledSize:new google.maps.Size(28,38),anchor:new google.maps.Point(14,38)};}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function popup(p){
+    var h='<div class="ht-popup">';
+    if(p.thenPhoto&&p.nowPhoto){h+='<div class="ht-slider-wrap" data-slider><img class="ht-slider-before" src="'+esc(p.thenPhoto)+'" alt="'+esc(p.name)+' then"><img class="ht-slider-after" src="'+esc(p.nowPhoto)+'" alt="'+esc(p.name)+' now"><div class="ht-slider-divider"></div><div class="ht-slider-handle"></div><span class="ht-slider-label ht-slider-label-then">Then</span><span class="ht-slider-label ht-slider-label-now">Now</span></div>';}
+    else{h+='<div class="ht-no-photo">Photos coming soon</div>';}
+    h+='<p class="ht-popup-name">'+esc(p.name)+'</p><p class="ht-popup-region">'+esc(p.region)+'</p><p class="ht-popup-quote">"'+esc(p.quote)+'"</p><p class="ht-popup-owner">&mdash; '+esc(p.owner)+'</p></div>';
+    return h;
+  }
+  function slider(iw){google.maps.event.addListenerOnce(iw,'domready',function(){document.querySelectorAll('[data-slider]').forEach(function(w){if(w._i)return;w._i=true;var a=w.querySelector('.ht-slider-after'),d=w.querySelector('.ht-slider-divider'),h=w.querySelector('.ht-slider-handle'),drag=false;function up(x){var r=w.getBoundingClientRect(),p=Math.max(0,Math.min(1,(x-r.left)/r.width)),s=(p*100)+'%';a.style.clipPath='inset(0 0 0 '+s+')';d.style.left=s;h.style.left=s;}w.addEventListener('mousedown',function(e){drag=true;up(e.clientX);});document.addEventListener('mousemove',function(e){if(drag)up(e.clientX);});document.addEventListener('mouseup',function(){drag=false;});w.addEventListener('touchstart',function(e){drag=true;up(e.touches[0].clientX);},{passive:true});document.addEventListener('touchmove',function(e){if(drag)up(e.touches[0].clientX);},{passive:true});document.addEventListener('touchend',function(){drag=false;});});});}
+
+  window.initHappyFamiliesMap=function(){
+    var el=document.getElementById('happy-families-map'); if(!el)return; el.innerHTML='';
+    var map=new google.maps.Map(el,{zoom:ZOOM,center:CENTER,styles:silver,disableDefaultUI:true,zoomControl:true,scrollwheel:false,gestureHandling:'cooperative',mapTypeId:google.maps.MapTypeId.ROADMAP});
+    fetch(API_URL).then(function(r){return r.json();}).then(function(data){
+      if(!data.puppies||!data.puppies.length){el.innerHTML='<div class="hf__loading">No families on the map yet.</div>';return;}
+      var open=null,ic=icon();
+      data.puppies.forEach(function(p){
+        var m=new google.maps.Marker({position:{lat:p.lat,lng:p.lng},map:map,icon:ic,title:p.name+' — '+p.region});
+        var iw=new google.maps.InfoWindow({content:popup(p),maxWidth:320});
+        m.addListener('click',function(){if(open)open.close();iw.open(map,m);open=iw;slider(iw);});
+      });
+    }).catch(function(){el.innerHTML='<div class="hf__loading">Could not load the map right now.</div>';});
+  };
+
+  /* Lazy-load the Maps API only when the section is near the viewport */
+  var loaded=false;
+  function load(){if(loaded)return;loaded=true;var s=document.createElement('script');s.async=true;s.defer=true;s.src='https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_api_key }}&callback=initHappyFamiliesMap';document.head.appendChild(s);}
+  var sec=document.getElementById('happy-families');
+  if(!sec)return;
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){load();io.disconnect();}});},{rootMargin:'600px 0px'});io.observe(sec);}
+  else{load();}
+})();
+</script>
