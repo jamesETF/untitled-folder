@@ -733,11 +733,7 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/french-bulldog-puppies/yoda"
-  to = "/french-bulldog-puppies/"
-  status = 301
-  force = true
+# Yoda — relisted Aug 29, 2026 (last available litter); retirement redirect removed.
 
 [[redirects]]
   from = "/french-bulldog-puppies/sandy"

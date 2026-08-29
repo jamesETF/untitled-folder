@@ -9,7 +9,24 @@ const PASSTHROUGH = new Set([
   "/favicon.ico",
   "/apple-touch-icon.png",
   "/coming-soon.html", // serve the raw file directly; also prevents any rewrite loop
+
+  // TEMPORARY (Aug 29, 2026) — final three available males, sent directly to a family.
+  // These three listing URLs stay reachable at 200 while the rest of the site stays
+  // paused. Remove this block (and the PREFIXES below) when the family has decided,
+  // or when maintenance mode itself comes off on Sep 8.
+  "/french-bulldog-puppies/olaf",
+  "/french-bulldog-puppies/buzz",
+  "/french-bulldog-puppies/yoda",
 ]);
+
+// Path prefixes that pass through — needed so the three listing pages above actually
+// render (site CSS/JS/fonts) and show their photos. Part of the same temporary block.
+const PASSTHROUGH_PREFIXES = [
+  "/assets/",
+  "/uploads/french-bulldog-puppies/olaf/",
+  "/uploads/french-bulldog-puppies/buzz/",
+  "/uploads/french-bulldog-puppies/yoda/",
+];
 
 export default async (request: Request, context: { next: (req?: Request) => Promise<Response> }) => {
   // Deploy-previews bypass maintenance entirely so PRs can be reviewed.
@@ -18,7 +35,10 @@ export default async (request: Request, context: { next: (req?: Request) => Prom
 
   const path = new URL(request.url).pathname;
 
-  if (PASSTHROUGH.has(path)) return context.next();
+  // Trailing slash is equivalent for the allowed listing URLs.
+  const bare = path.length > 1 && path.endsWith("/") ? path.slice(0, -1) : path;
+  if (PASSTHROUGH.has(bare)) return context.next();
+  if (PASSTHROUGH_PREFIXES.some((prefix) => path.startsWith(prefix))) return context.next();
 
   const page = await context.next(
     new Request(new URL("/coming-soon.html", request.url), request),
