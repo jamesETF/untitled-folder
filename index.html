@@ -238,14 +238,14 @@ redirect_from:
   .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--ring); }
   .divider svg { width: 15px; height: 15px; fill: var(--raspberry); opacity: .45; transform: rotate(-12deg); }
   .divider + h2 { margin-top: 18px; }
-  .pull {
+  .note p.pull {
     font-family: 'Playfair Display', Georgia, serif;
     font-style: italic; font-weight: 500;
     font-size: clamp(1.5rem, 3.4vw, 2.1rem);
     line-height: 1.25; color: var(--ink);
     margin: 4px 0 22px; max-width: 22ch;
   }
-  .pull .acc { color: var(--raspberry); }
+  .note p.pull .acc { color: var(--raspberry); }
   .card-thanks {
     background: #fff;
     border-left: 3px solid var(--raspberry);
@@ -274,7 +274,7 @@ redirect_from:
   @media (max-width: 780px) {
     .watermark { width: 220px; height: 220px; top: -30px; right: -50px; }
     .note p.lead::first-letter { font-size: 3em; }
-    .pull { max-width: none; }
+    .note p.pull { max-width: none; }
   }
   @media (max-width: 480px) {
     .last-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
