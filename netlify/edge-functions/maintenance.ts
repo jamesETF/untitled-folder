@@ -23,9 +23,11 @@ const PASSTHROUGH = new Set([
 // render (site CSS/JS/fonts) and show their photos. Part of the same temporary block.
 const PASSTHROUGH_PREFIXES = [
   "/assets/",
-  "/uploads/french-bulldog-puppies/olaf/",
-  "/uploads/french-bulldog-puppies/buzz/",
-  "/uploads/french-bulldog-puppies/yoda/",
+  // Whole /uploads/ tree, not just the three puppy folders: the site chrome pulls
+  // logo-dark.png / logo-light.png / favicon.png from the root of /uploads/, and a
+  // 503 there left a broken-image placeholder in the header. Images are not
+  // indexable pages, so serving them at 200 does not weaken the maintenance signal.
+  "/uploads/",
 ];
 
 export default async (request: Request, context: { next: (req?: Request) => Promise<Response> }) => {
