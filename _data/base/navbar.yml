@@ -1,15 +1,29 @@
 # Navbar menu navigation links
-# Trimmed Aug 29, 2026 (closing page): only Available Puppies, Blog, Contact Us.
-# Pages (Delivery, Happy Tails, About Us, etc.) still exist — just unlinked from nav.
+
 
 center:
+  - title: Home
+    url: /
+
   - title: Available Puppies
     url: /french-bulldog-puppies
+
+  - title: Delivery
+    url: /puppy-delivery
+
+  - title: Happy Tails
+    url: /happy-tails/
 
   - title: Blog
     url: /blog/
 
+  - title: About Us
+    url: /about-us
+
+ 
 right:
   - title: Contact Us
     url: /contact-us
     button: danger
+
+

@@ -25,12 +25,12 @@ dob: 2026-06-23
 ready_date: 2026-08-18
 estimated_adult_weight_lbs: "22-25"
 price: 0
-status: available
+status: sold
 microchipped: true
 akc_papers: true
 parents: ""
 date: 2026-08-25
-last_modified_at: 2026-08-25
+last_modified_at: 2026-09-02
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1080,6 +1080,11 @@ html, body {
   background: #e8f5e9;
   color: #2e7d32;
 }
+.luna-status--sold {
+  background: #F0DFE6;
+  color: #901941;
+}
+.luna-status--sold .luna-status__dot { animation: none; }
 .luna-status__dot {
   width: 8px;
   height: 8px;
@@ -1169,9 +1174,9 @@ html, body {
   <div class="luna-hero__gradient" aria-hidden="true"></div>
   <div class="luna-hero__content">
     <div class="luna-hero__text">
-      <span class="luna-status luna-status--available">
+      <span class="luna-status luna-status--sold">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Ready to Come Home
+        Found a Furever Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Perdita!</h1>
@@ -1368,9 +1373,9 @@ html, body {
       <div class="luna-reveal luna-reveal-delay-2">
         <span class="luna-eyebrow--accent">Investment</span>
         <div class="luna-price">
-          <span class="luna-status luna-status--available" style="margin-bottom:8px;">
+          <span class="luna-status luna-status--sold" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Ready to Come Home
+            Found a Furever Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
