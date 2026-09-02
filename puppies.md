@@ -1,5 +1,5 @@
 ---
-title: French Bulldog Puppies for Sale | Ethical Frenchie
+title: French Bulldog Puppies for Sale
 subtitle: Embark DNA-tested, AKC-registered French Bulldog puppies with a 1-year health guarantee — hand-delivered to your door nationwide.
 width: full
 navbar:
@@ -108,7 +108,7 @@ redirect_from:
       <div>
         <div class="uk-card uk-card-default uk-card-body uk-card-small" style="border-left: 3px solid #901941;">
           <h4 style="font-size: 0.95rem; font-weight: 700; margin: 0 0 4px 0;">❤️ Lifetime Breeder Support</h4>
-          <p style="font-size: 0.82rem; color: #666; margin: 0;">Questions at 2 AM about housetraining? We answer. For the life of your dog.</p>
+          <p style="font-size: 0.82rem; color: #666; margin: 0;">Questions at 2 AM about housetraining? We answer. For the life of your pup.</p>
         </div>
       </div>
     </div>

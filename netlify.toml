@@ -58,6 +58,19 @@ RUBY_VERSION = "3.2.2"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# --- Maintenance page retired (Sep 2, 2026) ---
+# coming-soon.html is excluded from the build (kept in repo as a relaunch asset);
+# redirect its known URLs home so the "Taking a Breather" page can never resurface.
+[[redirects]]
+  from = "/coming-soon"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/coming-soon.html"
+  to = "/"
+  status = 301
+
 # --- GSC 404 cleanup (March 3, 2026) ---
 # Source: GSC Page Indexing > Not Found (404) report
 

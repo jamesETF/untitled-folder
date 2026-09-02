@@ -27,11 +27,13 @@
   <!-- About Us -->
   <url>
     <loc>https://ethicalfrenchie.com/about-us/</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <!-- Application -->
   <url>
     <loc>https://ethicalfrenchie.com/application/</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <!-- Contact -->
@@ -42,7 +44,7 @@
   <!-- FAQ -->
   <url>
     <loc>https://ethicalfrenchie.com/faq/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <!-- Pricing -->
@@ -51,9 +53,10 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       AVAILABLE PUPPIES (5)
-       Updated 2026-08-06 — current litter (DOB 2026-06-02..06-11). Found-a-home pups
-       (Cosmo/Diesel/Luke) are intentionally excluded (sitemap: false + 301).
+       PUPPY LISTINGS (7: 2 available — Olaf & Buzz; 5 placed, pages kept live)
+       Updated 2026-09-02 — placed pups with full pages (Yoda/Paddington/Petunia/
+       Stitch/Perdita) stay listed for SEO equity; stub retirees
+       (Cosmo/Diesel/Luke/Hobbes) are excluded (sitemap: false + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
@@ -68,27 +71,27 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/petunia</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/paddington</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/buzz</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/olaf</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/yoda</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════

@@ -20,7 +20,7 @@ chat: true
 
 gender: Male
 color_coat: Platinum Fluffy
-age_weeks: 9
+age_weeks: 13
 dob: 2026-06-04
 ready_date: 2026-07-30
 estimated_adult_weight_lbs: "25-28"
@@ -30,7 +30,7 @@ microchipped: true
 akc_papers: true
 parents: ""
 date: 2026-08-06
-last_modified_at: 2026-08-06
+last_modified_at: 2026-09-02
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1179,7 +1179,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">9 Weeks</span>
+        <span class="luna-hero__stat-value">13 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1208,7 +1208,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Platinum Fluffy</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 13 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Ice-Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1451,7 +1451,7 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Platinum Fluffy</li>
               <li><strong>Eye Color:</strong> Ice Blue</li>
-              <li><strong>Age:</strong> 9 weeks old (ready to come home now)</li>
+              <li><strong>Age:</strong> 13 weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
               <li><strong>Date of Birth:</strong> June 4, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1752,7 +1752,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum Fluffy" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "13 weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
@@ -1766,7 +1766,7 @@ block_title="false"
     "offerCount": "1",
     "availability": "https://schema.org/LimitedAvailability",
     "availabilityStarts": "{{ page.ready_date }}",
-    "priceValidUntil": "2026-09-01"
+    "priceValidUntil": "2026-12-31"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
