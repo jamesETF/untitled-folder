@@ -976,7 +976,7 @@ html, body { overflow-x: hidden; }
 
       <h2>It Started with Vilma</h2>
 
-      <p>When my wife wanted a dog — through little hints here and there — I picked up on it pretty quickly. So I started searching. And within about an hour I was completely overwhelmed. Every site was either an "Add Your Dog to Cart" checkout page, a Craigslist post that felt like a scam, or something in between.</p>
+      <p>When my wife wanted a pup — through little hints here and there — I picked up on it pretty quickly. So I started searching. And within about an hour I was completely overwhelmed. Every site was either an "Add Your Pup to Cart" checkout page, a Craigslist post that felt like a scam, or something in between.</p>
 
       <p>I spent hours weeding through the noise until I finally found our pup, Vilma. She changed everything for us.</p>
 
@@ -1021,7 +1021,7 @@ html, body { overflow-x: hidden; }
         <img src="{{ site.uploads | absolute_url }}about-us-2.jpg" alt="Renee meeting Ethical Frenchie families at a customer meetup" loading="lazy">
       </div>
       <p>As we started placing more puppies with more families, one thing became non-negotiable: transparency. That means a white-glove process — photos and videos of your puppy as they grow, a real relationship with the people raising them, and zero anxiety from start to finish.</p>
-      <p>We don't do shopping carts. We do FaceTime calls so you can meet your puppy and the person behind it. We hand-deliver every dog ourselves — the person you talk to is the person who shows up at your door. And we stay in touch long after. Ask any of <a href="/happy-tails/" style="color:var(--luna-primary);font-weight:600">our families</a>.</p>
+      <p>We don't do shopping carts. We do FaceTime calls so you can meet your puppy and the person behind it. We hand-deliver every pup ourselves — the person you talk to is the person who shows up at your door. And we stay in touch long after. Ask any of <a href="/happy-tails/" style="color:var(--luna-primary);font-weight:600">our families</a>.</p>
     </div>
 
     <div class="alt-diff__grid">

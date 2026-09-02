@@ -12,19 +12,19 @@ title: Why Blue French Bulldogs
 
 ## Why do we breed blue french bulldogs?
 
-When it comes to breeding blues, we are aware of the risks behind poor breeding. That is why we take responsibility as our highest priority when selecting Frenchie mates for our breeding line. That means we only choose the best dogs to breed. 
+When it comes to breeding blues, we are aware of the risks behind poor breeding. That is why we take responsibility as our highest priority when selecting Frenchie mates for our breeding line. That means we only choose the best Frenchies to breed. 
 In particular, the males and females we choose must meet with a certain health standard in which there are no presences of illness. For the characteristics, we go for the best quality by testing and sorting out unhealthy canine individuals.
 As a result, our “blue lines” are healthy and not more prone to issues, skin problems and other complications. You must understand the “Blue” color isn’t an issue itself. It’s the greed and poor breeding behind this color that causes issues.
 Our priorities are HEALTH. QUALITY and then COLOR.
 
 ### Price tag and quality
 We receive many inquiries with clients looking for “the cheapest Frenchie possible”, or potential customers asking questions about the price tag. 
-You must understand that producing a quality litter is not cheap. When you find cheap French bulldog for sale advertised online, don’t take that as victory, take it as a red flag. Breeders that sell cheap puppies for sale don’t invest in their dogs. But let’s elaborate that further.
+You must understand that producing a quality litter is not cheap. When you find cheap French bulldog for sale advertised online, don’t take that as victory, take it as a red flag. Breeders that sell cheap puppies for sale don’t invest in their pups. But let’s elaborate that further.
 
 ### Cheap Frenchies?
-Most people looking to turn a quick buck don’t take any responsibility when crossbreeding Frenchies with unhealthy dogs, their mind is set solely on profit. That results in morbid puppies that called “cheap dogs.” 
+Most people looking to turn a quick buck don’t take any responsibility when crossbreeding Frenchies with unhealthy pups, their mind is set solely on profit. That results in morbid puppies that called “cheap pups.” 
 
-When they sell the pups away, you will never meet them again and spend even more for medical bills for a sick dog. Don’t be cheap when adding a new family member. Research the breeder and make sure they have their heart in the right place.
+When they sell the pups away, you will never meet them again and spend even more for medical bills for a sick pup. Don’t be cheap when adding a new family member. Research the breeder and make sure they have their heart in the right place.
 
 Here at Ethical Frenchie – we wouldn’t dream of conducting such an immoral operation, otherwise we wouldn’t be able to call ourselves “Ethical Frenchie!” In fact, we are real-life Frenchies parents of twelve, taking care of them with all the love we have. We guess the combination of responsible breeding plus affection is the perfect formula for creating a healthy and well temperament companion.  We provide nothing but the best diets, extreme care, healthy living space, and ultimate love from a true family.
 
@@ -33,8 +33,8 @@ Here at Ethical Frenchie – we wouldn’t dream of conducting such an immoral o
 We believe French Bulldogs have their distinctive beauty that deserves any admiration; especially the blue ones. When breeding a blue, we must work diligently and make sure the Dam and Sire we choose for the mating are in excellent health and 4 panel clear. 
 So, what is the blue gene and why does it occur? 
 
-There is no real explanation for the occurrence of the blue gene, or the “dilution” gene, but it has been observed for centuries not only in French Bulldogs, but in multiple dog breeds.
-The dilution gene affects the coat and eye color and affects the “D-Locus”, turning a black-haired dog into a diluted version of black, which is gray. There has been no proven fact that confirms that the dilution gene is in any way connected to the overall health of the dog. 
+There is no real explanation for the occurrence of the blue gene, or the “dilution” gene, but it has been observed for centuries not only in French Bulldogs, but in multiple breeds.
+The dilution gene affects the coat and eye color and affects the “D-Locus”, turning a black-haired Frenchie into a diluted version of black, which is gray. There has been no proven fact that confirms that the dilution gene is in any way connected to the overall health of the Frenchie. 
 
 As we mentioned before, the reasons behind all the negative controversies regarding the blue color, and labeling it as a color that brings more vet bills – is bad, poor quality breeding, and nothing else. The blue Frenchie is no different from a lilac or chocolate colored French bulldog. Chocolate is also a dilution of the black coat, and lilac is a double dilution (dd,bb).
 
@@ -51,11 +51,11 @@ Click here to learn more about the French Bulldog colors.
 
 ### Our piece of advice when purchasing a French Bulldog Puppy
 The first thing is you should consider the breeder you are meeting with. Ask the person if he has any license, past work, and references/reviews.
-Ask the breeder about the health of his dogs and the care he provides when it comes to his blue French Bulldog Puppies for sale. It’s better to equip yourself some knowledge before looking to any buy a blue Frenchie. 
+Ask the breeder about the health of his Frenchies and the care he provides when it comes to his blue French Bulldog Puppies for sale. It’s better to equip yourself some knowledge before looking to any buy a blue Frenchie. 
 
 Don’t trust any one-sided debate or you can fall into the hype for a budget French pup. Don’t let the breeder play the angle of increasing the price due to the fact that the Frenchie Puppy has “Blue Eyes”. Every reputable breeder will inform you that Blue French Bulldogs possess the sapphire blue eyes only as babies. 
 
-As the dog grows the eye color turns from a light blue to a grayish green, medium brown or golden yellow. There is absolutely no scenario in which a blue dog will keep the light blue eyes, don’t let a breeder convince your otherwise. 
+As the pup grows the eye color turns from a light blue to a grayish green, medium brown or golden yellow. There is absolutely no scenario in which a blue Frenchie will keep the light blue eyes, don’t let a breeder convince your otherwise. 
 
 The light ocean blue eyes are only occasionally present in the Extreme Pied (albino) French Bulldogs and the Merle French Bulldogs in which the merle gene creates a streak over the iris of the pup, making it lose pigment. 
 

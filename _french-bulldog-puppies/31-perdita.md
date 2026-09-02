@@ -1,6 +1,6 @@
 ---
 title: Perdita
-description: Meet Perdita, a rare lilac merle French Bulldog with pale blue eyes and constellation spots — gentle, devoted, and ready for her forever family.
+description: Meet Perdita, a rare lilac merle French Bulldog with pale blue eyes and constellation spots — gentle, devoted, and now home with her furever family.
 subtitle: Merle Frenchie Perdita
 width: full
 image: french-bulldog-puppies/perdita/perdita-1.webp
@@ -15,7 +15,7 @@ navbar:
 
 parallax: false
 permalink: /french-bulldog-puppies/perdita
-hubspotneeded: true
+hubspotneeded: false
 chat: true
 
 gender: Female
@@ -1165,7 +1165,7 @@ html, body {
 <section class="luna-hero" aria-label="Perdita hero">
   <img
     src="/uploads/french-bulldog-puppies/perdita/perdita-1.webp"
-    alt="Perdita, a Merle French Bulldog puppy available from Ethical Frenchie"
+    alt="Perdita, a Merle French Bulldog pup from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1196,8 +1196,8 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Now</span>
-        <span class="luna-hero__stat-label">Ready</span>
+        <span class="luna-hero__stat-value">Placed</span>
+        <span class="luna-hero__stat-label">Status</span>
       </div>
     </div>
   </div>
@@ -1215,7 +1215,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Merle</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 9 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Blue Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127969;</span> Found a Furever Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1356,7 +1356,7 @@ html, body {
           <div class="luna-personality__body">
             <p>Perdita's <strong>lilac merle coat</strong> is a one-of-one — a soft silvery ground scattered with dapples, finished with <strong>pale blue eyes</strong> that seem lit from within. No two merles are alike, and hers reads like a constellation.</p>
             <p>Like her <em>101 Dalmatians</em> namesake, she's <strong>gentle, graceful, and quietly devoted</strong>. In her photos she's keeping careful watch over her plush mermaid — carrying it, curling around it, standing guard like it's her own little litter. That's Perdita: she picks her people, and she keeps them.</p>
-            <p>She's <strong>calm, cuddly, and ready to come home now</strong> — vet-checked, microchipped, and AKC-papered, with her spot open to reserve today for a family she can dote on.</p>
+            <p>Perdita <strong>found her furever family</strong> — she went home vet-checked, microchipped, and AKC-papered, and now has a family of her very own to dote on.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#129293; Gentle</span>
@@ -1391,9 +1391,9 @@ html, body {
             <li>Deworming complete</li>
             <li>Puppy starter kit</li>
           </ul>
-          <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
+          <a href="/french-bulldog-puppies/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Perdita — Apply Now
+            See Available Pups
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1439,7 +1439,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Perdita will receive a thorough examination by a licensed veterinarian before going home, and comes with a clean bill of health.</p>
+            <p>Perdita received a thorough examination by a licensed veterinarian before going home, and left with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1487,7 +1487,7 @@ html, body {
               <li><strong>Gender:</strong> Female</li>
               <li><strong>Color:</strong> Merle</li>
               <li><strong>Eye Color:</strong> Blue</li>
-              <li><strong>Age:</strong> 9 weeks old (ready now)</li>
+              <li><strong>Age:</strong> 9 weeks old</li>
               <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
               <li><strong>Date of Birth:</strong> June 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1509,7 +1509,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Perdita (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve an available pup (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1619,15 +1619,15 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Perdita">
+<section class="luna-final-cta luna-section" aria-label="Perdita found a furever home">
   <div class="luna-container luna-container--narrow luna-reveal">
-    <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Perdita Is Ready for Her Forever Home</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Start your application today and take the first step toward bringing Perdita home.</p>
+    <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Happily Homed</span>
+    <h2 class="luna-final-cta__heading">Perdita Found a Furever Home</h2>
+    <p class="luna-final-cta__sub">Perdita is home with her family — but her brothers Olaf and Buzz are still looking for theirs.</p>
     <div class="luna-final-cta__buttons">
-      <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
+      <a href="/french-bulldog-puppies/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        Apply Now
+        Meet Olaf &amp; Buzz
       </a>
       <button type="button" class="luna-btn luna-btn--ghost luna-btn--lg" id="luna-chat-cta" onclick="(function(){var f=document.querySelector('.heymarket-fab');if(f){f.click()}else{window.location.href='tel:212-739-0182'}})()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
@@ -1639,9 +1639,15 @@ block_title="false"
 
 
 <!-- ═══════════════════════════════════════════════════════════
-     HUBSPOT FORM
+     SOLD-STATE BLOCK — form removed; Perdita is placed
      ═══════════════════════════════════════════════════════════ -->
-{% include hubspotform.html %}
+<section class="luna-section--compact" style="background: var(--luna-bg);" aria-label="Looking for a pup like Perdita">
+  <div class="luna-container luna-container--narrow luna-reveal" style="text-align: center;">
+    <h2 class="luna-heading luna-heading--md">Looking for a pup like Perdita?</h2>
+    <p class="luna-body">Olaf and Buzz — two Platinum Fluffy brothers — are ready to come home now.</p>
+    <a href="/french-bulldog-puppies/" class="luna-btn luna-btn--primary luna-btn--lg" style="margin-top: 16px;">Meet the Available Pups</a>
+  </div>
+</section>
 
 
 <!-- Bottom spacer for mobile sticky CTA bar -->
@@ -1776,7 +1782,7 @@ block_title="false"
   "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Perdita - Merle French Bulldog Puppy",
-  "description": "Meet Perdita, a rare lilac merle French Bulldog with pale blue eyes and constellation spots — gentle, devoted, and ready for her forever family.",
+  "description": "Meet Perdita, a rare lilac merle French Bulldog with pale blue eyes and constellation spots — gentle and devoted. Placed with her furever family by Ethical Frenchie.",
   "image": [
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/perdita/perdita-1.webp",
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/perdita/perdita-2.webp",
@@ -1802,9 +1808,8 @@ block_title="false"
     "lowPrice": "4000",
     "highPrice": "5500",
     "offerCount": "1",
-    "availability": "https://schema.org/LimitedAvailability",
-    "availabilityStarts": "{{ page.ready_date }}",
-    "priceValidUntil": "2026-12-01"
+    "availability": "https://schema.org/SoldOut",
+    "availabilityStarts": "{{ page.ready_date }}"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -1818,7 +1823,7 @@ block_title="false"
 <!-- Pricing notes: the AggregateOffer range above is the standing default (James override —
      schema price ahead of the visible price). To revert to strict Google-visibility
      compliance (only when James says so), swap back to a price-less "Offer" (drop
-     lowPrice/highPrice/offerCount/priceValidUntil) and keep aggregateRating. To earn a
+     lowPrice/highPrice/offerCount) and keep aggregateRating. To earn a
      single-price merchant-listing card instead, show one price on the page and use a single
      "Offer" with "price" + "priceCurrency". See structured-data.md §4. -->
 

@@ -10,6 +10,8 @@ url:                    "https://ethicalfrenchie.com"  # Site base hostname & pr
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
 logo:                   logo-dark.png
+brand:
+  image:                header-6.jpg # og:image default (resolved against uploads: path in head.html)
 logo_light:             logo-light.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -139,7 +141,8 @@ plugins:
   
 
 
-exclude: 
+exclude:
+  - coming-soon.html
   - vendor
   - .bundle
   - .sass-cache

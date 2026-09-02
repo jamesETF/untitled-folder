@@ -43,7 +43,7 @@ hubspotneeded: true
         </div>
         <div class="uk-width-expand">
           <h4 class="uk-margin-remove-bottom">Fill Out the Application</h4>
-          <p class="uk-text-small uk-margin-remove-top">It takes about 5 minutes. We ask about your living situation, lifestyle, and experience with dogs — nothing invasive, just enough to make sure this is the right fit for both sides.</p>
+          <p class="uk-text-small uk-margin-remove-top">It takes about 5 minutes. We ask about your living situation, lifestyle, and experience with pups — nothing invasive, just enough to make sure this is the right fit for both sides.</p>
         </div>
       </div>
     </div>
