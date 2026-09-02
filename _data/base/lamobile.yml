@@ -1,10 +1,23 @@
 # Navbar menu navigation links
-# Trimmed Aug 29, 2026 (closing page): only Available Puppies, Blog, Contact Us.
-- title: Available Puppies
+- title: Home
+  url: /California/Los_Angeles
+
+- title: Our Puppies
   url: /french-bulldog-puppies
+
+- title: Delivery by hand
+  url: /puppy-delivery
+
+- title: Happy Tails
+  url: /happy-tails/
 
 - title: Blog
   url: /blog/
 
+- title: About Us
+  url: /about-us/
+
 - title: Contact Us
   url: /contact-us
+
+
