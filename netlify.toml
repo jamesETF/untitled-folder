@@ -58,9 +58,9 @@ RUBY_VERSION = "3.2.2"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# --- Maintenance page retired (Sep 2, 2026) ---
-# coming-soon.html is excluded from the build (kept in repo as a relaunch asset);
-# redirect its known URLs home so the "Taking a Breather" page can never resurface.
+# --- Maintenance page removed (Sep 4, 2026) ---
+# coming-soon.html + uploads/coming-soon/ deleted from the repo (restore from commit
+# c7dd218 or tag closing-page-v1); redirect its old URLs home so nothing 404s.
 [[redirects]]
   from = "/coming-soon"
   to = "/"
