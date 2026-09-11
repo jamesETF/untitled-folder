@@ -29,7 +29,6 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-09-11
 last_modified_at: 2026-09-11
 ---
 

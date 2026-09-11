@@ -29,7 +29,6 @@ status: sold
 microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-08-25
 last_modified_at: 2026-09-02
 ---
 
