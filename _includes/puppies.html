@@ -129,7 +129,7 @@
 				  <li data-topic="{{ post.topics }}">
 					  <div class="uk-inline uk-light uk-transition-toggle">
 						  <span class="ef-status-badge ef-status-badge--available"><span class="ef-status-badge__dot"></span> Available</span>
-						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
+						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% elsif post.image contains '/uploads/' %}{{ post.image | absolute_url }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
 						  <a href="{{ post.url | absolute_url }}" class="uk-overlay uk-overlay-primary uk-position-cover uk-transition-fade">
 							  <div class="uk-position-center">
 								  {% if include.title == 'bellow' %}
@@ -148,7 +148,7 @@
 			  {% for post in puppies_sold %}
 				  <li data-topic="{{ post.topics }}">
 					  <div class="uk-inline uk-light" style="cursor: default;">
-						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
+						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% elsif post.image contains '/uploads/' %}{{ post.image | absolute_url }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
 						  <div class="ef-sold-overlay">
 							  <div class="ef-sold-overlay__icon">🏡</div>
 							  <div class="ef-sold-overlay__text">Found a<br>Furever Home</div>

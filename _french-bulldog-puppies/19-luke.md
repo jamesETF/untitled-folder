@@ -1,6 +1,6 @@
 ---
 title: Luke
-image: french-bulldog-puppies/luke/luke-1.webp
+image: /uploads/french-bulldog-puppies/luke/luke-1.webp
 topics: [Our Puppies, Blue Pied French Bulldog]
 permalink: /french-bulldog-puppies/luke
 gender: Male

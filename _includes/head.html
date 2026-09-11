@@ -3,7 +3,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
-    {% if site.brand.image %}<meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>{% endif %}
+    {% comment %}og:image — sitewide fallback only. When a page sets its own image front matter,
+    jekyll-seo-tag (the seo tag further down) emits the page-specific og:image. Emitting both put
+    the generic one first in the head and scrapers picked it over the real one.{% endcomment %}
+    {% unless page.image %}{% if site.brand.image %}<meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>{% endif %}{% endunless %}
     {% include hook-head.html %}
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <style>
@@ -62,21 +65,8 @@
     {% comment %}Freshness signals — published/modified timestamps from front matter (used by puppy listings & dated pages){% endcomment %}
     {% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">{% elsif page.date %}<meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-    <!-- Twitter cards -->
-    <meta name="twitter:site"    content="@ethicalfrenchie">
-    <meta name="twitter:creator" content="@{{ page.author }}">
-    <meta name="twitter:title"   content="{{ page.title }}">
-    {% if page.summary %}
-    <meta name="twitter:description" content="{{ page.summary }}">
-    {% else %}
-    <meta name="twitter:description" content="{{ page.description }}">
-    {% endif %}
-    {% if page.image %}
-    <meta name="twitter:card"  content="{{ page.summary }}">
-    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-    {% else %}
-    <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.title_image }}">
-    {% endif %}
-    <!-- end of Twitter cards -->
+    {% comment %}Twitter cards come from jekyll-seo-tag above (twitter:card / :image / :title /
+    :site / :creator). The hand-rolled block that used to live here duplicated those tags, set
+    twitter:card to the page summary instead of a card type, and joined site.url to page.image
+    with no slash and no uploads prefix, so every twitter:image 404'd.{% endcomment %}
 </head>

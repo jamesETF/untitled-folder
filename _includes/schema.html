@@ -178,7 +178,38 @@
       ]
     }
     </script>
+ {%- comment -%}
+ Southampton and Raleigh are service-area markets with no street address, so they stay
+ @type Organization — a LocalBusiness without `address` trips Google's required-field
+ warning. Chicago / Boston / LA / Atlanta have addresses and use LocalBusiness above.
+ Until Sep 11, 2026 both pages shared one `southampton` flag and both emitted the block
+ below naming Raleigh, so /newyork/southampton told Google it was the Raleigh business.
+ {%- endcomment -%}
  {% elsif page.southampton %}
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ethical Frenchie - Southampton",
+      "image": "https://ethicalfrenchie.com/uploads/logo.png",
+      "url": "https://ethicalfrenchie.com/newyork/southampton",
+      "telephone": "+1 212 739-0182",
+      "areaServed": {
+        "@type": "City",
+        "name": "Southampton",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "New York"
+        }
+      },
+      "sameAs": [
+        "https://www.facebook.com/ethicalfrenchie",
+        "https://www.instagram.com/ethicalfrenchie",
+        "https://www.linkedin.com/company/ethicalfrenchie/"
+      ]
+    }
+    </script>
+ {% elsif page.raleigh %}
  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -275,73 +306,42 @@
         {% if page.extraseoabout %}
         <script type="application/ld+json">
         {
-            "@context": "http://schema.org/",
+            "@context": "https://schema.org",
             "@type": "AboutPage",
-            "description":"About Ethical Frenchie — how founder James Harrison built a transparent, white-glove French Bulldog breeding program after experiencing the broken puppy-buying process firsthand.",
-            "image":"https://ethicalfrenchie.com/images/logo.png",
-            "name":"About Us — Ethical Frenchie",
-            “url”:”https://ethicalfrenchie.com/about-us/”,
-            “dateModified”: “2026-03-03”
+            "description": "About Ethical Frenchie — how founder James Harrison built a transparent, white-glove French Bulldog breeding program after experiencing the broken puppy-buying process firsthand.",
+            "image": "{{ '/uploads/logo-dark.png' | absolute_url }}",
+            "name": "About Us — Ethical Frenchie",
+            "url": "{{ '/about-us/' | absolute_url }}",
+            "dateModified": "{{ site.time | date: '%Y-%m-%d' }}"
         }
         </script>
-        <script type=”application/ld+json”>
+        <script type="application/ld+json">
         {
-            “@context”: “https://schema.org”,
-            “@type”: “ProfilePage”,
-            “mainEntity”: {
-                “@type”: “Person”,
-                “@id”: “https://ethicalfrenchie.com/about-us/#james-harrison”,
-                “name”: “James Harrison”,
-                “jobTitle”: “Founder”,
-                “description”: “Founder of Ethical Frenchie with 10+ years of experience in ethical French Bulldog breeding and placement.”,
-                “image”: “https://ethicalfrenchie.com/images/james.jpg”,
-                “url”: “https://ethicalfrenchie.com/about-us/”,
-                “worksFor”: {
-                    “@type”: “Organization”,
-                    “name”: “Ethical Frenchie LLC”,
-                    “url”: “https://ethicalfrenchie.com”
-                },
-                “knowsAbout”: [“French Bulldog breeding”, “canine genetics”, “puppy socialization”, “ethical pet sourcing”],
-                “sameAs”: [
-                    “https://www.facebook.com/jamerson.nc”,
-                    “https://www.linkedin.com/in/jamesharrisoniii”
-                ]
-            }
-        }
-        </script>
-        <script type=”application/ld+json”>
-        {
-            "@context": "http://schema.org",
-            "@graph": 
-            [
-                {
-                    "@type": "Person",
-                    "name": "James Harrison",
-                    "jobTitle": "Founder",
-                    "worksFor": {
-                        "@type": "Organization",
-                        "name": "Ethical Frenchie LLC"
-                    },
-                    "description": "Founder of Ethical Frenchie with 10+ years of experience in ethical French Bulldog breeding and placement.",
-                    "knowsAbout": ["French Bulldog breeding", "ethical pet sourcing", "puppy socialization", "canine genetics"],
-                    "image": "https://ethicalfrenchie.com/images/james.jpg",
-                    "url": "https://ethicalfrenchie.com/about-us/",
-                    "sameAs": [
-                        "https://www.facebook.com/jamerson.nc",
-                        "https://www.linkedin.com/in/jamesharrisoniii"
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "mainEntity": {
+                "@type": "Person",
+                "@id": "{{ '/about-us/' | absolute_url }}#james-harrison",
+                "name": "James Harrison",
+                "jobTitle": "Founder",
+                "description": "Founder of Ethical Frenchie with 10+ years of experience in ethical French Bulldog breeding and placement.",
+                "image": "{{ '/uploads/james.jpg' | absolute_url }}",
+                "url": "{{ '/about-us/' | absolute_url }}",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Ethical Frenchie LLC",
+                    "url": "{{ '/' | absolute_url }}",
+                    "employee": [
+                        { "@type": "Person", "name": "Renee", "jobTitle": "The Puppy Whisperer", "image": "{{ '/uploads/renee.jpg' | absolute_url }}" },
+                        { "@type": "Person", "name": "David", "jobTitle": "Puppy Whisperer", "image": "{{ '/uploads/david.jpg' | absolute_url }}" }
                     ]
                 },
-                {
-                    "@type": "Person",
-                    "name": "Renee Harrison",
-                    "image": "https://ethicalfrenchie.com/images/renee.jpg"
-                },
-                {
-                    "@type": "Person",
-                    "name": "Brian Lee",
-                    "image": "https://ethicalfrenchie.com/images/bryan.jpg"
-                }
-            ]
+                "knowsAbout": ["French Bulldog breeding", "canine genetics", "puppy socialization", "ethical pet sourcing"],
+                "sameAs": [
+                    "https://www.facebook.com/jamerson.nc",
+                    "https://www.linkedin.com/in/jamesharrisoniii"
+                ]
+            }
         }
         </script>
         <script type="application/ld+json">
@@ -443,7 +443,7 @@
             "headline": {{ page.title | jsonify }},
             {% if page.image %}"image": {
                 "@type": "ImageObject",
-                "url": "https://ethicalfrenchie.com{{ page.image }}"
+                "url": "{% if page.image contains 'http' %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}"
             },{% endif %}
             {% if page.categories %}"keywords": {{ page.categories | jsonify }},{% endif %}
             "publisher": {
@@ -579,7 +579,7 @@
                 "headline": {{ page.title | jsonify }},
                 {% if page.image %}"image": {
                     "@type": "ImageObject",
-                    "url": "https://ethicalfrenchie.com{{ page.image }}"
+                    "url": "{% if page.image contains 'http' %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}"
                 },{% endif %}
                 {% if page.categories %}"keywords": {{ page.categories | jsonify }},{% endif %}
                 "publisher": {
@@ -857,7 +857,7 @@
                   "position": {{ forloop.index }},
                   "name": "{{ puppy.title }} - {{ puppy.color_coat }} French Bulldog Puppy",
                   "url": "https://ethicalfrenchie.com{{ puppy.url }}",
-                  "image": "https://ethicalfrenchie.com/uploads/{{ puppy.image }}"
+                  "image": "{% if puppy.image contains 'http' %}{{ puppy.image }}{% else %}{{ puppy.image | absolute_url }}{% endif %}"
                 }{% unless forloop.last %},{% endunless %}
                 {% endfor %}
               ]

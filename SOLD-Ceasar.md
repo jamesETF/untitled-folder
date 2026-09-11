@@ -3,7 +3,7 @@ title: Cesar
 description: A Blue French Bulldog puppy with a knack for stopping traffic. Me and my siblings live in a place called Williamsburg, Brooklyn. That is in New York City
 subtitle: Yo! Everyone calls me Cesar. I am the coolest pup on the block. Trust me; I ought to know, I run this block.
 width: xsmall
-image: /cesar/cesar.jpg
+image: /uploads/cesar/cesar.jpg
 topics: [Our Puppies, Merle French Bulldog]
 navbar:
   sticky: true

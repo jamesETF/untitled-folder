@@ -27,7 +27,7 @@
   <!-- About Us -->
   <url>
     <loc>https://ethicalfrenchie.com/about-us/</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <!-- Application -->
@@ -61,37 +61,37 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/perdita</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/stitch</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/petunia</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/paddington</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/buzz</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/olaf</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/yoda</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
@@ -159,7 +159,7 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       SERVICE PAGES (2)
+       SERVICE PAGES (3)
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
@@ -168,6 +168,33 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-payment-plans/</loc>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-preparation-list/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════
+       RESOURCE / ARCHIVE PAGES (3)
+       Live, indexable and previously missing from this file (added 2026-09-11).
+       cesar is an archived listing kept live for SEO equity, same as the placed
+       pups above; privacy is linked from the footer on every page.
+       ═══════════════════════════════════════════════════════════════════════ -->
+
+  <url>
+    <loc>https://ethicalfrenchie.com/puppies/partner-puppies/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/puppies/cesar/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/privacy/</loc>
+    <lastmod>2026-09-11</lastmod>
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════

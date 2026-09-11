@@ -3,7 +3,7 @@ title: Stitch
 description: Meet Stitch, a striking blue and tan French Bulldog with ice-blue eyes — playful and fiercely loyal, now home with his furever ohana.
 subtitle: Blue and Tan Frenchie Stitch
 width: full
-image: french-bulldog-puppies/stitch/stitch-1.webp
+image: /uploads/french-bulldog-puppies/stitch/stitch-1.webp
 topics: [Our Puppies, Blue and Tan French Bulldog]
 
 navbar:
@@ -1472,7 +1472,7 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Blue and Tan</li>
               <li><strong>Eye Color:</strong> Blue</li>
-              <li><strong>Age:</strong> 9 weeks old</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
               <li><strong>Date of Birth:</strong> June 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1780,7 +1780,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

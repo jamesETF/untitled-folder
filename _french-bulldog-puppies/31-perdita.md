@@ -3,7 +3,7 @@ title: Perdita
 description: Meet Perdita, a rare lilac merle French Bulldog with pale blue eyes and constellation spots — gentle, devoted, and now home with her furever family.
 subtitle: Merle Frenchie Perdita
 width: full
-image: french-bulldog-puppies/perdita/perdita-1.webp
+image: /uploads/french-bulldog-puppies/perdita/perdita-1.webp
 topics: [Our Puppies, Merle French Bulldog]
 
 navbar:
@@ -1487,7 +1487,7 @@ html, body {
               <li><strong>Gender:</strong> Female</li>
               <li><strong>Color:</strong> Merle</li>
               <li><strong>Eye Color:</strong> Blue</li>
-              <li><strong>Age:</strong> 9 weeks old</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old</li>
               <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
               <li><strong>Date of Birth:</strong> June 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1796,7 +1796,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Merle" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

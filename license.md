@@ -4,7 +4,7 @@ hidden: true
 robots: noindex
 subtitle: Inspection Records and License Info
 width: small
-image: /merle-french-bulldog-diamond/diamond.jpg
+image: /uploads/merle-french-bulldog-diamond/diamond.jpg
 draft: false
 navbar:
   sticky: false

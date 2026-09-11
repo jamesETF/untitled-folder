@@ -4,7 +4,7 @@ description: Partner Puppies are french bulldog puppies that are not bred by us,
 subtitle: Same Health Gaurantee, Same Quality, Vetted Partner Breeder
 width: small
 section: normal
-image: /Partner-Puppies/FullSizeRender.jpg
+image: /uploads/Partner-Puppies/FullSizeRender.jpg
 topics: [Our Puppies, black French Bulldog]
 navbar:
   sticky: true

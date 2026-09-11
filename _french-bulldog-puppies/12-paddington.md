@@ -3,7 +3,7 @@ title: Paddington
 description: Meet Paddington, a curious, gentle Blue Fawn French Bulldog puppy with a smoky blue mask and striking blue eyes — attentive, clever, and endlessly endearing.
 subtitle: Blue Fawn Frenchie Paddington
 width: full
-image: french-bulldog-puppies/paddington/paddington-1.webp
+image: /uploads/french-bulldog-puppies/paddington/paddington-1.webp
 topics: [Our Puppies, Blue Fawn French Bulldog]
 
 navbar:
@@ -1485,7 +1485,7 @@ html, body {
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Blue Fawn</li>
-              <li><strong>Age:</strong> 10 weeks old</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old</li>
               <li><strong>Estimated Adult Weight:</strong> 20-25 lbs</li>
               <li><strong>Date of Birth:</strong> April 10, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1788,7 +1788,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Fawn" },
-    { "@type": "PropertyValue", "name": "Age", "value": "10 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "20-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

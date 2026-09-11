@@ -3,7 +3,7 @@ title: Olaf
 description: Meet Olaf, a platinum fluffy French Bulldog with a soft long coat, ice-blue eyes and a rose-pink nose — sunny, cuddly, and endlessly warm.
 subtitle: Platinum Fluffy Frenchie Olaf
 width: full
-image: french-bulldog-puppies/olaf/olaf-1.webp
+image: /uploads/french-bulldog-puppies/olaf/olaf-1.webp
 topics: [Our Puppies, Platinum Fluffy French Bulldog]
 
 navbar:
@@ -20,7 +20,7 @@ chat: true
 
 gender: Male
 color_coat: Platinum Fluffy
-age_weeks: 13
+age_weeks: 14 # only used once this pup is marked sold — live age is computed from dob
 dob: 2026-06-04
 ready_date: 2026-07-30
 estimated_adult_weight_lbs: "25-28"
@@ -1451,7 +1451,7 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Platinum Fluffy</li>
               <li><strong>Eye Color:</strong> Ice Blue</li>
-              <li><strong>Age:</strong> 13 weeks old (ready to come home now)</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
               <li><strong>Date of Birth:</strong> June 4, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1752,7 +1752,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum Fluffy" },
-    { "@type": "PropertyValue", "name": "Age", "value": "13 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
@@ -1764,7 +1764,7 @@ block_title="false"
     "lowPrice": "4000",
     "highPrice": "5500",
     "offerCount": "1",
-    "availability": "https://schema.org/LimitedAvailability",
+    "availability": "https://schema.org/InStock",
     "availabilityStarts": "{{ page.ready_date }}",
     "priceValidUntil": "2026-12-31"
   },
