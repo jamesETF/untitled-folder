@@ -1,5 +1,5 @@
 ---
-title: Frenchie Health gaurantee
+title: Frenchie Health Guarantee
 icon: ios-user-groups.svg
 ---
 
