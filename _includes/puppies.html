@@ -32,12 +32,7 @@
   {% else %}
 	{% assign puppies_all = site.french-bulldog-puppies %}
   {% endif %}
-  {%- comment -%} Lineup order = the NN- prefix on each listing filename (01-mowgli, 02-patch, ...).
-     Sorting on relative_path makes that explicit: Jekyll orders a collection by `date` when the
-     documents carry one, and these do (Olaf/Buzz are dated Aug 6, the Sep 11 litter later), so
-     renaming files alone would have been silently overridden. relative_path is a real document
-     attribute, so it sorts reliably. Renumber the files to reorder the grid. {%- endcomment -%}
-  {% assign puppies_available = puppies_all | where: "status", "available" | sort: "relative_path" %}
+  {% assign puppies_available = puppies_all | where: "status", "available" %}
   {% assign puppies_sold_all = puppies_all | where: "status", "sold" %}
   {%- comment -%} Grid shows only the 2 most recent placed puppies as "Found a Furever Home"
      placeholders. Every sold page stays live at its own URL for SEO equity — this only
