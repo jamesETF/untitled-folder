@@ -32,7 +32,14 @@
   {% else %}
 	{% assign puppies_all = site.french-bulldog-puppies %}
   {% endif %}
-  {% assign puppies_available = puppies_all | where: "status", "available" %}
+  {%- comment -%} Lineup order is set explicitly by the `order:` front-matter field on each
+     available listing (1 = first card). Jekyll's implicit collection sort is date-then-filename,
+     which made reordering mean renaming files or faking dates — this is the deliberate lever.
+     Any listing missing `order:` falls to the end rather than disappearing. {%- endcomment -%}
+  {% assign puppies_available_raw = puppies_all | where: "status", "available" %}
+  {% assign puppies_ordered = puppies_available_raw | where_exp: "p", "p.order" | sort: "order" %}
+  {% assign puppies_unordered = puppies_available_raw | where_exp: "p", "p.order == nil" %}
+  {% assign puppies_available = puppies_ordered | concat: puppies_unordered %}
   {% assign puppies_sold_all = puppies_all | where: "status", "sold" %}
   {%- comment -%} Grid shows only the 2 most recent placed puppies as "Found a Furever Home"
      placeholders. Every sold page stays live at its own URL for SEO equity — this only

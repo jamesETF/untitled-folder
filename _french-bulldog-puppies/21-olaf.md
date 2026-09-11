@@ -26,6 +26,7 @@ ready_date: 2026-07-30
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
+order: 4
 microchipped: true
 akc_papers: true
 parents: ""
