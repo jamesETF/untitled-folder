@@ -49,16 +49,6 @@ redirect_from:
 
 {% include trust-bar.html %}
 
-<!-- S2: Breeder Voice Intro -->
-<div class="uk-section uk-section-default" style="padding: 28px 0 20px;">
-  <div class="uk-container uk-container-small">
-    <p style="font-size: 16px; line-height: 1.8; color: #3c3c3c; text-align: center; margin: 0;">
-      Every puppy on this page was born in our home, raised underfoot, and health-tested through Embark before they ever meet a family. I built Ethical Frenchie in 2017 because I saw too many people burned by scam sites and backyard breeders — and I wanted the process to feel the way it should: transparent, personal, and backed by someone who actually answers the phone.
-    </p>
-    <p style="font-size: 14px; color: #901941; font-weight: 600; text-align: center; margin: 10px 0 0 0;">— James, Founder &middot; <a href="/about-us/" style="color: #901941; text-decoration: underline;">Read our full story</a></p>
-  </div>
-</div>
-
 <!-- S3: Puppy Grid -->
 {% include puppies.html
   section_size="large"
@@ -66,6 +56,37 @@ redirect_from:
   section_header_align="center"
   grid="1-3"
 %}
+
+<!-- S3b: Breeder Voice — pull quote (moved below the grid 2026-09-11) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<style>
+  .ef-voice { background: #faf7f5; padding: 56px 0 60px; }
+  .ef-voice__card { position: relative; max-width: 760px; margin: 0 auto; padding: 0 24px 0 40px; border-left: 4px solid #901941; }
+  .ef-voice__mark { position: absolute; left: 22px; top: -22px; font-family: 'Playfair Display', Georgia, serif; font-size: 5rem; line-height: 1; color: rgba(144,25,65,0.14); pointer-events: none; user-select: none; }
+  .ef-voice__quote { position: relative; font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 700; font-size: clamp(1.25rem, 2.4vw, 1.6rem); line-height: 1.45; color: #901941; margin: 0 0 18px; }
+  .ef-voice__body { font-size: 15.5px; line-height: 1.8; color: #3c3c3c; margin: 0; }
+  .ef-voice__footer { margin: 18px 0 0; font-size: 14px; font-weight: 600; color: #901941; font-style: normal; }
+  .ef-voice__footer a { color: #901941; text-decoration: underline; }
+  .ef-voice__footer cite { font-style: normal; }
+  @media (max-width: 639px) {
+    .ef-voice { padding: 40px 0 44px; }
+    .ef-voice__card { padding-left: 24px; }
+    .ef-voice__mark { left: 10px; top: -18px; font-size: 3.6rem; }
+  }
+</style>
+
+<section class="ef-voice" aria-label="A note from the breeder">
+  <div class="uk-container uk-container-small">
+    <blockquote class="ef-voice__card" cite="/about-us/">
+      <span class="ef-voice__mark" aria-hidden="true">&ldquo;</span>
+      <p class="ef-voice__quote">Every puppy here was born in our home and raised with love in a home of dogs and cats &mdash; prepared for any home environment.</p>
+      <p class="ef-voice__body">Each one is health-tested through Embark before they ever meet a family. I built Ethical Frenchie in 2017 because I saw too many people burned by scam sites and backyard breeders &mdash; and I wanted the process to feel the way it should: transparent, personal, and backed by someone who actually answers the phone.</p>
+      <footer class="ef-voice__footer">&mdash; James, Founder &middot; <cite><a href="/about-us/">Read our full story</a></cite></footer>
+    </blockquote>
+  </div>
+</section>
 
 <!-- S4: What's Included -->
 <div class="uk-section uk-section-muted">
