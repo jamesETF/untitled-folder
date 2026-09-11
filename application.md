@@ -128,26 +128,52 @@ hubspotneeded: true
   if (isApple) {
     btn.href = 'https://bcrw.apple.com/urn:biz:aea0f1e1-d35e-4943-a9f1-141bc4d2db78';
     btn.textContent = 'Message Us on iMessage';
-  } else {
-    btn.href = '#';
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      /* Trigger the Heymarket facade/widget click */
-      var facade = document.getElementById('heymk-facade');
-      if (facade) {
-        facade.click();
-      } else {
-        /* Fallback: look for already-loaded Heymarket widget button */
-        var hw = document.getElementById('heymarket-widget');
-        if (hw) {
-          var hb = hw.querySelector('button');
-          if (hb) hb.click();
-        } else {
-          window.location.href = '/contact-us/';
-        }
-      }
-    });
+    return;
   }
+
+  /* Non-Apple: open the Heymarket widget.
+     Do NOT just click #heymk-facade. On high-intent pages like this one the chat
+     loader (hook-pre-closing-body.html) auto-loads Heymarket, hides the facade and
+     never binds a click listener to it — so facade.click() is a silent no-op, and
+     because the element still exists the old fallback never ran. Talk to the real
+     widget instead, and only use the facade where it is actually interactive. */
+  function clickWidget(){
+    var w = document.getElementById('heymarket-widget');
+    if (!w) return false;
+    var b = w.querySelector('button');
+    if (!b) return false;
+    b.click();
+    return true;
+  }
+
+  /* Same poll the loader uses for its own auto-open: 20 x 150ms */
+  function pollWidget(onFail){
+    var tries = 0;
+    (function tick(){
+      if (clickWidget()) return;
+      if (++tries < 20) { setTimeout(tick, 150); return; }
+      if (onFail) onFail();
+    })();
+  }
+
+  btn.href = '#';
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+
+    /* 1. Widget already constructed (the usual case here — it auto-loads) */
+    if (clickWidget()) return;
+
+    /* 2. Facade page: the facade is visible and owns the load-then-open logic */
+    var facade = document.getElementById('heymk-facade');
+    if (facade && facade.offsetParent !== null) {
+      facade.click();
+      pollWidget();
+      return;
+    }
+
+    /* 3. Widget still loading — wait for it, then give up gracefully */
+    pollWidget(function(){ window.location.href = '/contact-us/'; });
+  });
 })();
 </script>
 
