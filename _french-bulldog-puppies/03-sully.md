@@ -1,10 +1,10 @@
 ---
-title: Zapier
-description: Meet Zapier, a striking black and tan French Bulldog with crisp tan eyebrow points — bright, spirited, and full of character.
-subtitle: Black and Tan Frenchie Zapier
+title: Sully
+description: Meet Sully, a blue and tan French Bulldog with a smoky blue coat and striking blue eyes — gentle, warm, and quietly devoted.
+subtitle: Blue and Tan Frenchie Sully
 width: full
-image: /uploads/french-bulldog-puppies/zapier/zapier-1.webp
-topics: [Our Puppies, "Black and Tan French Bulldog"]
+image: /uploads/french-bulldog-puppies/sully/sully-1.webp
+topics: [Our Puppies, "Blue and Tan French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,19 +14,18 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/zapier
+permalink: /french-bulldog-puppies/sully
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Black and Tan
-age_weeks: 7
-dob: 2026-07-22
-ready_date: 2026-09-16
+color_coat: Blue and Tan
+age_weeks: 8
+dob: 2026-07-14
+ready_date: 2026-09-08
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
-lineup_order: 5
 microchipped: true
 akc_papers: true
 parents: ""
@@ -1158,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Zapier hero">
+<section class="luna-hero" aria-label="Sully hero">
   <img
-    src="/uploads/french-bulldog-puppies/zapier/zapier-1.webp"
-    alt="Zapier, a Black and Tan French Bulldog puppy with tan eyebrow points available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/sully/sully-1.webp"
+    alt="Sully, a Blue and Tan French Bulldog puppy with bright blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1172,15 +1171,15 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Yours in 1 Week
+        Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Zapier!</h1>
-      <p class="luna-hero__breed">Black &amp; Tan French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Sully!</h1>
+      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">7 Weeks</span>
+        <span class="luna-hero__stat-value">8 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1192,7 +1191,7 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">1 Week</span>
+        <span class="luna-hero__stat-value">Ready Now</span>
         <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
@@ -1205,13 +1204,13 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Zapier">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Sully">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Black and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 7 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Dark Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Yours in 1 Week</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Bright Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1269,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Zapier's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sully's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/zapier/zapier-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Zapier - Black and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/sully/sully-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Sully - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/zapier/zapier-1.webp"
-          alt="Zapier the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/sully/sully-1.webp"
+          alt="Sully the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1287,11 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/zapier/zapier-2.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/sully/sully-2.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/zapier/zapier-2.webp"
-          alt="Zapier the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/sully/sully-2.webp"
+          alt="Sully the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1302,11 +1301,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/zapier/zapier-3.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/sully/sully-3.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/zapier/zapier-3.webp"
-          alt="Zapier the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/sully/sully-3.webp"
+          alt="Sully the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1317,11 +1316,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/zapier/zapier-4.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/sully/sully-4.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/zapier/zapier-4.webp"
-          alt="Zapier the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/sully/sully-4.webp"
+          alt="Sully the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1332,11 +1331,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/zapier/zapier-5.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/sully/sully-5.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/zapier/zapier-5.webp"
-          alt="Zapier the French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/sully/sully-5.webp"
+          alt="Sully the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1347,11 +1346,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/zapier/zapier-6.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/sully/sully-6.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/zapier/zapier-6.webp"
-          alt="Zapier the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/sully/sully-6.webp"
+          alt="Sully the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1370,27 +1369,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Zapier">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Sully">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Zapier</span>
+        <span class="luna-eyebrow--accent">Meet Sully</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">They call him Zap for short, and about ten seconds with him will tell you exactly why.</p>
+          <p class="luna-personality__quote">Every big softie needs a good heart behind the size, and Sully has had his from the very first day.</p>
           <div class="luna-personality__body">
-            <p><strong>Zapier</strong> — <strong>Zap</strong> to everyone who meets him — is the <strong>spark</strong> of his litter. He's <strong>quick, bright and endlessly interested</strong>, the puppy who hears a door open two rooms away and is already on his way to see who it is. There is nothing slow about him, and nothing shy either.</p>
-            <p>His markings are the classic black and tan and they are <strong>beautifully crisp</strong>: a deep <strong>jet-black coat</strong> broken by <strong>sharp tan eyebrow pips</strong>, tan cheeks and muzzle, and warm tan running down his chest and legs. It's one of the most striking colour combinations the breed produces and he wears it perfectly.</p>
-            <p>Underneath the energy he's a <strong>real snuggler</strong> — busy all afternoon, then asleep against you by evening. He'll be <strong>ready for his family in mid September</strong> and can be reserved now.</p>
+            <p>There was only ever one name for him. Like the gentle giant from <strong>Monsters, Inc.</strong>, Sully is <strong>warm, soft-hearted and protective</strong> — a puppy whose whole job, as far as he's concerned, is to be near his people. He's the one who walks straight up to say hello while the others are still deciding.</p>
+            <p>He wears a <strong>smoky blue coat</strong> with clean <strong>tan points</strong> on his cheeks, chest and legs — solid all the way through, no dapple — and a pair of <strong>remarkable bright blue eyes</strong> that are the first thing anyone notices about him. He's compact, well-boned, and already carrying himself with that easy Frenchie confidence.</p>
+            <p><strong>Gentle, steady and affectionate</strong>, he's the puppy you'll find leaning on your leg while you cook. At eight weeks Sully is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#9889; Spirited</span>
-            <span class="luna-trait">&#129504; Clever</span>
-            <span class="luna-trait">&#128269; Inquisitive</span>
+            <span class="luna-trait">&#129309; Gentle</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#127881; Fun</span>
-            <span class="luna-trait">&#128171; Bold</span>
+            <span class="luna-trait">&#128021; Loyal</span>
+            <span class="luna-trait">&#128524; Calm</span>
+            <span class="luna-trait">&#127881; Sweet</span>
+            <span class="luna-trait">&#128172; Sociable</span>
           </div>
         </div>
       </div>
@@ -1401,7 +1400,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Yours in 1 Week
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
@@ -1419,7 +1418,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Zapier — Apply Now
+            Reserve Sully — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1447,11 +1446,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Zapier's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sully's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Zapier's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Sully's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1465,7 +1464,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Zapier has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Sully has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1489,10 +1488,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Bright, spirited and quick to engage — a black and tan boy with a lot of personality and an affectionate streak underneath it</li>
-              <li><strong>Ideal Home:</strong> Best with families who want an engaged, interactive puppy — he loves people, games, and having a job to do</li>
+              <li><strong>Personality:</strong> Gentle, warm and people-focused — a blue and tan boy who would rather be leaning against you than doing almost anything else</li>
+              <li><strong>Ideal Home:</strong> Ideal for first-time owners, families with children, seniors, or anyone wanting a calm and deeply affectionate companion</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Lively — genuinely playful and inquisitive, with a real off-switch once the day is done</li>
+              <li><strong>Energy Level:</strong> Moderate to low — happy with a short play session and a long cuddle</li>
             </ul>
           </div>
         </div>
@@ -1511,11 +1510,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Black and Tan</li>
-              <li><strong>Eye Color:</strong> Dark</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready mid September)</li>
+              <li><strong>Color:</strong> Blue and Tan</li>
+              <li><strong>Eye Color:</strong> Bright Blue</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> July 22, 2026</li>
+              <li><strong>Date of Birth:</strong> July 14, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1535,7 +1534,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Zapier (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Sully (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1645,11 +1644,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Zapier">
+<section class="luna-final-cta luna-section" aria-label="Apply for Sully">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Zapier Before He's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Zapier will be ready in mid September — start your application today and take the first step toward bringing Zapier home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Sully Before He's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Sully is ready to come home now — start your application today and take the first step toward bringing Sully home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1678,11 +1677,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Zapier">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Sully">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Zapier">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Sully">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1801,23 +1800,23 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Zapier - Black and Tan French Bulldog Puppy",
-  "description": "Meet Zapier, a striking black and tan French Bulldog with crisp tan eyebrow points — bright, spirited, and full of character.",
+  "name": "Sully - Blue and Tan French Bulldog Puppy",
+  "description": "Meet Sully, a blue and tan French Bulldog with a smoky blue coat and striking blue eyes — gentle, warm, and quietly devoted.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-6.webp"
   ],
-  "sku": "zapier-2026",
+  "sku": "sully-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Black and Tan" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1825,7 +1824,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/zapier",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/sully",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",

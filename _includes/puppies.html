@@ -32,21 +32,12 @@
   {% else %}
 	{% assign puppies_all = site.french-bulldog-puppies %}
   {% endif %}
-  {%- comment -%} Lineup order is set explicitly by the `lineup_order:` front-matter field on
-     each available listing (1 = first card). Two deliberate choices here:
-     (1) the field is NOT called `order` — that name reads back nil through Jekyll's document
-         drop, which silently left the grid in its default sequence;
-     (2) the list is assembled by looping order values and using `where`, not the `sort`
-         filter, so ordering does not depend on how Liquid compares drop properties.
-     Any listing missing `lineup_order` falls to the end rather than disappearing. {%- endcomment -%}
-  {% assign puppies_available_raw = puppies_all | where: "status", "available" %}
-  {% assign puppies_available = "" | split: "" %}
-  {% for i in (1..40) %}
-    {% assign match = puppies_available_raw | where: "lineup_order", i %}
-    {% if match.size > 0 %}{% assign puppies_available = puppies_available | concat: match %}{% endif %}
-  {% endfor %}
-  {% assign puppies_unordered = puppies_available_raw | where_exp: "p", "p.lineup_order == nil" %}
-  {% assign puppies_available = puppies_available | concat: puppies_unordered %}
+  {%- comment -%} Lineup order = the NN- prefix on each listing filename (01-mowgli, 02-patch, ...).
+     Sorting on relative_path makes that explicit: Jekyll orders a collection by `date` when the
+     documents carry one, and these do (Olaf/Buzz are dated Aug 6, the Sep 11 litter later), so
+     renaming files alone would have been silently overridden. relative_path is a real document
+     attribute, so it sorts reliably. Renumber the files to reorder the grid. {%- endcomment -%}
+  {% assign puppies_available = puppies_all | where: "status", "available" | sort: "relative_path" %}
   {% assign puppies_sold_all = puppies_all | where: "status", "sold" %}
   {%- comment -%} Grid shows only the 2 most recent placed puppies as "Found a Furever Home"
      placeholders. Every sold page stays live at its own URL for SEO equity — this only

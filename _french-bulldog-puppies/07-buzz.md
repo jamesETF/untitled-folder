@@ -1,10 +1,10 @@
 ---
-title: Sully
-description: Meet Sully, a blue and tan French Bulldog with a smoky blue coat and striking blue eyes — gentle, warm, and quietly devoted.
-subtitle: Blue and Tan Frenchie Sully
+title: Buzz
+description: Meet Buzz, a platinum fluffy French Bulldog with a bright white long coat and clear blue eyes — bold, playful, and always first to investigate.
+subtitle: Platinum Fluffy Frenchie Buzz
 width: full
-image: /uploads/french-bulldog-puppies/sully/sully-1.webp
-topics: [Our Puppies, "Blue and Tan French Bulldog"]
+image: /uploads/french-bulldog-puppies/buzz/buzz-1.webp
+topics: [Our Puppies, Platinum Fluffy French Bulldog]
 
 navbar:
   sticky: true
@@ -14,24 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/sully
+permalink: /french-bulldog-puppies/buzz
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Blue and Tan
-age_weeks: 8
-dob: 2026-07-14
-ready_date: 2026-09-08
+color_coat: Platinum Fluffy
+age_weeks: 14 # only used once this pup is marked sold — live age is computed from dob
+dob: 2026-06-03
+ready_date: 2026-07-29
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
-lineup_order: 3
 microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-09-11
-last_modified_at: 2026-09-11
+date: 2026-08-06
+last_modified_at: 2026-09-02
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1158,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Sully hero">
+<section class="luna-hero" aria-label="Buzz hero">
   <img
-    src="/uploads/french-bulldog-puppies/sully/sully-1.webp"
-    alt="Sully, a Blue and Tan French Bulldog puppy with bright blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/buzz/buzz-1.webp"
+    alt="Buzz, a Platinum Fluffy French Bulldog puppy with clear blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1175,12 +1174,12 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Sully!</h1>
-      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Buzz!</h1>
+      <p class="luna-hero__breed">Platinum Fluffy French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">8 Weeks</span>
+        <span class="luna-hero__stat-value">13 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1188,12 +1187,12 @@ html, body {
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">~25-28 lbs</span>
+        <span class="luna-hero__stat-value">25-28 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
         <span class="luna-hero__stat-value">Ready Now</span>
-        <span class="luna-hero__stat-label">Ready</span>
+        <span class="luna-hero__stat-label">Ready In</span>
       </div>
     </div>
   </div>
@@ -1205,15 +1204,15 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Sully">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Buzz">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Bright Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Platinum Fluffy</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 13 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Clear Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1269,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sully's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Buzz's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/sully/sully-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Sully - Blue and Tan French Bulldog">
+    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr;">
+       <a href="/uploads/french-bulldog-puppies/buzz/buzz-1.webp" class="luna-gallery__item" data-caption="Buzz - Platinum Fluffy French Bulldog" style="grid-row: 1 / -1;">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sully/sully-1.webp"
-          alt="Sully the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/buzz/buzz-1.webp"
+          alt="Buzz the Platinum Fluffy French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1287,71 +1286,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/sully/sully-2.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
+       <a href="/uploads/french-bulldog-puppies/buzz/buzz-2.webp" class="luna-gallery__item" data-caption="Buzz - Platinum Fluffy French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sully/sully-2.webp"
-          alt="Sully the French Bulldog - Photo 2"
-          class="luna-gallery__img"
-          data-uk-img
-          loading="lazy"
-        >
-        <div class="luna-gallery__overlay" aria-hidden="true">
-          <div class="luna-gallery__zoom">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-        </div>
-      </a>
-      <a href="/uploads/french-bulldog-puppies/sully/sully-3.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
-        <img
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sully/sully-3.webp"
-          alt="Sully the French Bulldog - Photo 3"
-          class="luna-gallery__img"
-          data-uk-img
-          loading="lazy"
-        >
-        <div class="luna-gallery__overlay" aria-hidden="true">
-          <div class="luna-gallery__zoom">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-        </div>
-      </a>
-      <a href="/uploads/french-bulldog-puppies/sully/sully-4.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
-        <img
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sully/sully-4.webp"
-          alt="Sully the French Bulldog - Photo 4"
-          class="luna-gallery__img"
-          data-uk-img
-          loading="lazy"
-        >
-        <div class="luna-gallery__overlay" aria-hidden="true">
-          <div class="luna-gallery__zoom">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-        </div>
-      </a>
-      <a href="/uploads/french-bulldog-puppies/sully/sully-5.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
-        <img
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sully/sully-5.webp"
-          alt="Sully the French Bulldog - Photo 5"
-          class="luna-gallery__img"
-          data-uk-img
-          loading="lazy"
-        >
-        <div class="luna-gallery__overlay" aria-hidden="true">
-          <div class="luna-gallery__zoom">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
-          </div>
-        </div>
-      </a>
-      <a href="/uploads/french-bulldog-puppies/sully/sully-6.webp" class="luna-gallery__item" data-caption="Sully - Blue and Tan French Bulldog">
-        <img
-          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/sully/sully-6.webp"
-          alt="Sully the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/buzz/buzz-2.webp"
+          alt="Buzz the Platinum Fluffy French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1370,27 +1309,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Sully">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Buzz">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Sully</span>
+        <span class="luna-eyebrow--accent">Meet Buzz</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Every big softie needs a good heart behind the size, and Sully has had his from the very first day.</p>
+          <p class="luna-personality__quote">Chest out, ears up, marching straight at whatever's new — Buzz has never once considered that something might not go his way.</p>
           <div class="luna-personality__body">
-            <p>There was only ever one name for him. Like the gentle giant from <strong>Monsters, Inc.</strong>, Sully is <strong>warm, soft-hearted and protective</strong> — a puppy whose whole job, as far as he's concerned, is to be near his people. He's the one who walks straight up to say hello while the others are still deciding.</p>
-            <p>He wears a <strong>smoky blue coat</strong> with clean <strong>tan points</strong> on his cheeks, chest and legs — solid all the way through, no dapple — and a pair of <strong>remarkable bright blue eyes</strong> that are the first thing anyone notices about him. He's compact, well-boned, and already carrying himself with that easy Frenchie confidence.</p>
-            <p><strong>Gentle, steady and affectionate</strong>, he's the puppy you'll find leaning on your leg while you cook. At eight weeks Sully is <strong>ready to come home now</strong>.</p>
+            <p>Named for the space ranger who charges at everything with total conviction, <strong>Buzz has exactly that swagger</strong>. Point him at a new room, a new toy, or a new person and he goes — square little shoulders first, a pair of clear <strong>bright blue eyes</strong> locked on, absolutely certain it's going to be excellent.</p>
+            <p>His coat is a bright, clean <strong>fluffy (long-haired) platinum</strong> — soft white, feathered at the ears and chest, with a sweet <strong>pink nose</strong> and pale paws. He's the sturdiest of this litter, well-boned and solid, and he moves like a puppy who fully intends to keep up with whatever you're doing.</p>
+            <p>Bold, playful, and thoroughly friendly, Buzz is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#129309; Gentle</span>
+            <span class="luna-trait">&#128640; Bold</span>
+            <span class="luna-trait">&#128512; Playful</span>
+            <span class="luna-trait">&#128269; Adventurous</span>
+            <span class="luna-trait">&#128170; Sturdy</span>
+            <span class="luna-trait">&#129309; Friendly</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#128021; Loyal</span>
-            <span class="luna-trait">&#128524; Calm</span>
-            <span class="luna-trait">&#127881; Sweet</span>
-            <span class="luna-trait">&#128172; Sociable</span>
           </div>
         </div>
       </div>
@@ -1403,12 +1342,11 @@ html, body {
             <span class="luna-status__dot" aria-hidden="true"></span>
             Ready to Come Home
           </span>
-          <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
+          <!-- PRICING REMOVED — A/B test later. -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
-            <li>Embark DNA screening</li>
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
@@ -1419,7 +1357,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Sully — Apply Now
+            Reserve Buzz — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1447,11 +1385,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Sully's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Buzz's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Sully's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Buzz's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1465,12 +1403,12 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Sully has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Buzz has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
-              <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
+              <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Yes, registered to new owner</li>
+              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1489,10 +1427,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Gentle, warm and people-focused — a blue and tan boy who would rather be leaning against you than doing almost anything else</li>
-              <li><strong>Ideal Home:</strong> Ideal for first-time owners, families with children, seniors, or anyone wanting a calm and deeply affectionate companion</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate to low — happy with a short play session and a long cuddle</li>
+              <li><strong>Personality:</strong> Bold, playful, and full of forward momentum — a confident fluffy platinum boy who investigates everything first and worries about none of it</li>
+              <li><strong>Ideal Home:</strong> Great for active families and homes with children or other furbabies; he wants to be in the middle of whatever is happening</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — confident and quick, he does best with clear, consistent structure</li>
+              <li><strong>Energy Level:</strong> Higher-spirited — a genuine play drive and real stamina for a Frenchie, balanced by solid off-switch naps</li>
             </ul>
           </div>
         </div>
@@ -1511,11 +1449,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Blue and Tan</li>
-              <li><strong>Eye Color:</strong> Bright Blue</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
+              <li><strong>Color:</strong> Platinum Fluffy</li>
+              <li><strong>Eye Color:</strong> Clear Blue</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready to come home now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> July 14, 2026</li>
+              <li><strong>Date of Birth:</strong> June 3, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1535,8 +1473,8 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Sully (non-refundable, transferable to future litter)</li>
-              <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
+              <li><strong>Deposit:</strong> Required to reserve Buzz (non-refundable, transferable to future litter)</li>
+              <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
           </div>
@@ -1645,11 +1583,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Sully">
+<section class="luna-final-cta luna-section" aria-label="Apply for Buzz">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Sully Before He's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Sully is ready to come home now — start your application today and take the first step toward bringing Sully home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Buzz Before He's Gone</h2>
+    <p class="luna-final-cta__sub">Buzz is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1678,11 +1616,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Sully">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Buzz">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Sully">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Buzz">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1801,23 +1739,19 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Sully - Blue and Tan French Bulldog Puppy",
-  "description": "Meet Sully, a blue and tan French Bulldog with a smoky blue coat and striking blue eyes — gentle, warm, and quietly devoted.",
+  "name": "Buzz - Platinum Fluffy French Bulldog Puppy",
+  "description": "Meet Buzz, a platinum fluffy French Bulldog with a bright white long coat and clear blue eyes — bold, playful, and always first to investigate.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/sully/sully-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/buzz/buzz-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/buzz/buzz-2.webp"
   ],
-  "sku": "sully-2026",
+  "sku": "buzz-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum Fluffy" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1825,7 +1759,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/sully",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/buzz",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",

@@ -1,10 +1,10 @@
 ---
-title: Olaf
-description: Meet Olaf, a platinum fluffy French Bulldog with a soft long coat, ice-blue eyes and a rose-pink nose — sunny, cuddly, and endlessly warm.
-subtitle: Platinum Fluffy Frenchie Olaf
+title: Zapier
+description: Meet Zapier, a striking black and tan French Bulldog with crisp tan eyebrow points — bright, spirited, and full of character.
+subtitle: Black and Tan Frenchie Zapier
 width: full
-image: /uploads/french-bulldog-puppies/olaf/olaf-1.webp
-topics: [Our Puppies, Platinum Fluffy French Bulldog]
+image: /uploads/french-bulldog-puppies/zapier/zapier-1.webp
+topics: [Our Puppies, "Black and Tan French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,24 +14,23 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/olaf
+permalink: /french-bulldog-puppies/zapier
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Platinum Fluffy
-age_weeks: 14 # only used once this pup is marked sold — live age is computed from dob
-dob: 2026-06-04
-ready_date: 2026-07-30
+color_coat: Black and Tan
+age_weeks: 7
+dob: 2026-07-22
+ready_date: 2026-09-16
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
-lineup_order: 4
 microchipped: true
 akc_papers: true
 parents: ""
-date: 2026-08-06
-last_modified_at: 2026-09-02
+date: 2026-09-11
+last_modified_at: 2026-09-11
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1158,10 +1157,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Olaf hero">
+<section class="luna-hero" aria-label="Zapier hero">
   <img
-    src="/uploads/french-bulldog-puppies/olaf/olaf-1.webp"
-    alt="Olaf, a Platinum Fluffy French Bulldog puppy with ice-blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/zapier/zapier-1.webp"
+    alt="Zapier, a Black and Tan French Bulldog puppy with tan eyebrow points available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1172,15 +1171,15 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Ready to Come Home
+        Yours in 1 Week
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Olaf!</h1>
-      <p class="luna-hero__breed">Platinum Fluffy French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Zapier!</h1>
+      <p class="luna-hero__breed">Black &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">13 Weeks</span>
+        <span class="luna-hero__stat-value">7 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1188,12 +1187,12 @@ html, body {
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">25-28 lbs</span>
+        <span class="luna-hero__stat-value">~25-28 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready Now</span>
-        <span class="luna-hero__stat-label">Ready In</span>
+        <span class="luna-hero__stat-value">1 Week</span>
+        <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
   </div>
@@ -1205,15 +1204,15 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Olaf">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Zapier">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Platinum Fluffy</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 13 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128153;</span> Ice-Blue Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Black and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 7 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Dark Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Yours in 1 Week</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128229;</span> Microchipped</li>
     </ul>
   </div>
 </div>
@@ -1269,14 +1268,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Olaf's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Zapier's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: 1fr;">
-       <a href="/uploads/french-bulldog-puppies/olaf/olaf-1.webp" class="luna-gallery__item" data-caption="Olaf - Platinum Fluffy French Bulldog" style="grid-row: 1 / -1;">
+    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
+      <a href="/uploads/french-bulldog-puppies/zapier/zapier-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Zapier - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/olaf/olaf-1.webp"
-          alt="Olaf the Platinum Fluffy French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/zapier/zapier-1.webp"
+          alt="Zapier the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1287,11 +1286,71 @@ html, body {
           </div>
         </div>
       </a>
-       <a href="/uploads/french-bulldog-puppies/olaf/olaf-2.webp" class="luna-gallery__item" data-caption="Olaf - Platinum Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/zapier/zapier-2.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/olaf/olaf-2.webp"
-          alt="Olaf the Platinum Fluffy French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/zapier/zapier-2.webp"
+          alt="Zapier the French Bulldog - Photo 2"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/zapier/zapier-3.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/zapier/zapier-3.webp"
+          alt="Zapier the French Bulldog - Photo 3"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/zapier/zapier-4.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/zapier/zapier-4.webp"
+          alt="Zapier the French Bulldog - Photo 4"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/zapier/zapier-5.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/zapier/zapier-5.webp"
+          alt="Zapier the French Bulldog - Photo 5"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/zapier/zapier-6.webp" class="luna-gallery__item" data-caption="Zapier - Black and Tan French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/zapier/zapier-6.webp"
+          alt="Zapier the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1310,27 +1369,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Olaf">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Zapier">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Olaf</span>
+        <span class="luna-eyebrow--accent">Meet Zapier</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">He was quite literally built for warm hugs — and he seems to know it.</p>
+          <p class="luna-personality__quote">They call him Zap for short, and about ten seconds with him will tell you exactly why.</p>
           <div class="luna-personality__body">
-            <p>Named for the sunniest snowman ever drawn, <strong>Olaf is all warmth and no edges</strong>. He has the soft, unhurried manner of a puppy who assumes everyone he meets is a friend he simply hasn't hugged yet, and he'll lean into your hand the moment it lands on him.</p>
-            <p>His coat is the reason people stop: a genuine <strong>fluffy (long-haired) platinum</strong> — soft cream, feathered out at the ears and chest, the rare long-coat gene that gives Frenchies that plush teddy-bear silhouette. Set against it are a pair of <strong>ice-blue eyes</strong> and a soft <strong>rose-pink nose</strong>, a combination that photographs like something out of a storybook.</p>
-            <p>Sunny, cuddly, and effortlessly gentle, Olaf is <strong>ready to come home right now</strong> — and his spot is open to reserve today.</p>
+            <p><strong>Zapier</strong> — <strong>Zap</strong> to everyone who meets him — is the <strong>spark</strong> of his litter. He's <strong>quick, bright and endlessly interested</strong>, the puppy who hears a door open two rooms away and is already on his way to see who it is. There is nothing slow about him, and nothing shy either.</p>
+            <p>His markings are the classic black and tan and they are <strong>beautifully crisp</strong>: a deep <strong>jet-black coat</strong> broken by <strong>sharp tan eyebrow pips</strong>, tan cheeks and muzzle, and warm tan running down his chest and legs. It's one of the most striking colour combinations the breed produces and he wears it perfectly.</p>
+            <p>Underneath the energy he's a <strong>real snuggler</strong> — busy all afternoon, then asleep against you by evening. He'll be <strong>ready for his family in mid September</strong> and can be reserved now.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#129303; Cuddly</span>
-            <span class="luna-trait">&#9728;&#65039; Sunny</span>
-            <span class="luna-trait">&#128155; Gentle</span>
-            <span class="luna-trait">&#128524; Easygoing</span>
+            <span class="luna-trait">&#9889; Spirited</span>
+            <span class="luna-trait">&#129504; Clever</span>
+            <span class="luna-trait">&#128269; Inquisitive</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#129528; Plush</span>
+            <span class="luna-trait">&#127881; Fun</span>
+            <span class="luna-trait">&#128171; Bold</span>
           </div>
         </div>
       </div>
@@ -1341,13 +1400,14 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Ready to Come Home
+            Yours in 1 Week
           </span>
-          <!-- PRICING REMOVED — A/B test later. -->
+          <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
           <p class="luna-price__note">Individually priced based on coat, markings &amp; overall quality</p>
           <hr class="luna-price__divider">
           <ul class="luna-price__includes">
+            <li>Embark DNA screening</li>
             <li>Vet health certificate</li>
             <li>1-year health guarantee</li>
             <li>AKC registration</li>
@@ -1358,7 +1418,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Olaf — Apply Now
+            Reserve Zapier — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1386,11 +1446,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Olaf's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Zapier's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Olaf's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Zapier's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1404,12 +1464,12 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Olaf has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Zapier has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
-              <li><strong>Vaccinations:</strong> Up-to-date on age-appropriate DHPP</li>
+              <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
               <li><strong>Health Check:</strong> Fully examined by a licensed veterinarian</li>
-              <li><strong>Microchipped:</strong> Yes — already microchipped</li>
+              <li><strong>Microchipped:</strong> Yes, registered to new owner</li>
               <li><strong>DNA Health Screening:</strong> Embark tested (parents tested)</li>
               <li><strong>Health Guarantee:</strong> 1-year written health guarantee</li>
             </ul>
@@ -1428,10 +1488,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Sunny, soft, and endlessly affectionate — a rare fluffy platinum boy who treats every new person as a friend he simply hasn't hugged yet</li>
-              <li><strong>Ideal Home:</strong> Perfect for first-time owners, families with children, and anyone who wants a genuinely cuddly, low-drama companion</li>
-              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization — eager to please and easy to motivate with praise</li>
-              <li><strong>Energy Level:</strong> Gentle and moderate — a short burst of play, then straight onto the nearest lap</li>
+              <li><strong>Personality:</strong> Bright, spirited and quick to engage — a black and tan boy with a lot of personality and an affectionate streak underneath it</li>
+              <li><strong>Ideal Home:</strong> Best with families who want an engaged, interactive puppy — he loves people, games, and having a job to do</li>
+              <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
+              <li><strong>Energy Level:</strong> Lively — genuinely playful and inquisitive, with a real off-switch once the day is done</li>
             </ul>
           </div>
         </div>
@@ -1450,11 +1510,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Platinum Fluffy</li>
-              <li><strong>Eye Color:</strong> Ice Blue</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready to come home now)</li>
+              <li><strong>Color:</strong> Black and Tan</li>
+              <li><strong>Eye Color:</strong> Dark</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready mid September)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> June 4, 2026</li>
+              <li><strong>Date of Birth:</strong> July 22, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1474,8 +1534,8 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Olaf (non-refundable, transferable to future litter)</li>
-              <li><strong>Nationwide Delivery:</strong> We personally hand-deliver anywhere in the U.S. in-cabin for a safe, low-stress experience</li>
+              <li><strong>Deposit:</strong> Required to reserve Zapier (non-refundable, transferable to future litter)</li>
+              <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
           </div>
@@ -1584,11 +1644,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Olaf">
+<section class="luna-final-cta luna-section" aria-label="Apply for Zapier">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Olaf Before He's Gone</h2>
-    <p class="luna-final-cta__sub">Olaf is ready to come home right now, and a puppy this special won't stay available for long. Start your application today and reserve your spot.</p>
+    <h2 class="luna-final-cta__heading">Reserve Zapier Before He's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Zapier will be ready in mid September — start your application today and take the first step toward bringing Zapier home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1617,11 +1677,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Olaf">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Zapier">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Olaf">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Zapier">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1740,19 +1800,23 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Olaf - Platinum Fluffy French Bulldog Puppy",
-  "description": "Meet Olaf, a platinum fluffy French Bulldog with a soft long coat, ice-blue eyes and a rose-pink nose — sunny, cuddly, and endlessly warm.",
+  "name": "Zapier - Black and Tan French Bulldog Puppy",
+  "description": "Meet Zapier, a striking black and tan French Bulldog with crisp tan eyebrow points — bright, spirited, and full of character.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/olaf/olaf-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/olaf/olaf-2.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/zapier/zapier-6.webp"
   ],
-  "sku": "olaf-2026",
+  "sku": "zapier-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum Fluffy" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Black and Tan" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1760,7 +1824,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/olaf",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/zapier",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
