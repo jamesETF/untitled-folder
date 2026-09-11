@@ -1,5 +1,5 @@
 ---
-title: Puppy Health Gaurantee
+title: Puppy Health Guarantee
 image: puppysource.jpg
 ---
 
