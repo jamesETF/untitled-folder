@@ -176,6 +176,15 @@ redirect_from:
   </div>
 </div>
 
+<!-- S9: Google Reviews -->
+<div class="uk-section uk-section-default uk-section-large">
+  <div class="uk-container uk-text-center">
+    <h2 style="font-weight: 800; font-size: 1.75rem; color: #1a1a1a; margin-bottom: 8px;">What Our Families Say</h2>
+    <p style="font-size: 15px; color: #6b6b6b; margin-bottom: 32px;"><strong style="color: #901941;">&#9733; 4.8</strong> out of 5 on Google &middot; 87+ Reviews</p>
+    {% include reviewsg.html %}
+  </div>
+</div>
+
 <!-- S8: FAQ -->
 {% include faqs.html
   multiple="true"
@@ -186,15 +195,6 @@ redirect_from:
   section_container="xsmall"
   section_header_align="center"
 %}
-
-<!-- S9: Google Reviews -->
-<div class="uk-section uk-section-default uk-section-large">
-  <div class="uk-container uk-text-center">
-    <h2 style="font-weight: 800; font-size: 1.75rem; color: #1a1a1a; margin-bottom: 8px;">What Our Families Say</h2>
-    <p style="font-size: 15px; color: #6b6b6b; margin-bottom: 32px;"><strong style="color: #901941;">&#9733; 4.8</strong> out of 5 on Google &middot; 87+ Reviews</p>
-    {% include reviewsg.html %}
-  </div>
-</div>
 
 <!-- S6: Explore Colors -->
 <div class="uk-section uk-section-muted">
