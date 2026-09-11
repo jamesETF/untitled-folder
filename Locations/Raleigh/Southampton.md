@@ -21,7 +21,7 @@ header:
 extraseoabout: false
 permalink: /northCarolina/raleigh
 applechat: true
-southampton: true
+raleigh: true
 hubspotneeded: true
 faqschema: "raleighfaq"
 ---

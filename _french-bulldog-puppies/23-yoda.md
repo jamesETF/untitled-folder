@@ -3,7 +3,7 @@ title: Yoda
 description: Meet Yoda, a calm lilac and tan French Bulldog with honey-tan eyebrow dots and pale blue eyes — watchful, gentle, and endlessly patient.
 subtitle: Lilac and Tan Frenchie Yoda
 width: full
-image: french-bulldog-puppies/yoda/yoda-1.webp
+image: /uploads/french-bulldog-puppies/yoda/yoda-1.webp
 topics: [Our Puppies, Lilac and Tan French Bulldog]
 
 navbar:
@@ -1501,7 +1501,7 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Lilac and Tan</li>
               <li><strong>Eye Color:</strong> Pale Blue</li>
-              <li><strong>Age:</strong> 8 weeks old</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
               <li><strong>Date of Birth:</strong> June 10, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1811,7 +1811,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac and Tan" },
-    { "@type": "PropertyValue", "name": "Age", "value": "8 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

@@ -3,7 +3,7 @@ title: Petunia
 description: Meet Petunia, a sweet platinum French Bulldog with a powder-cream coat and rose-petal ears — sunny and cuddly, now blooming at home with her furever family.
 subtitle: Platinum Frenchie Petunia
 width: full
-image: french-bulldog-puppies/petunia/petunia-1.webp
+image: /uploads/french-bulldog-puppies/petunia/petunia-1.webp
 topics: [Our Puppies, Platinum French Bulldog]
 
 navbar:
@@ -1517,7 +1517,7 @@ html, body {
               <li><strong>Gender:</strong> Female</li>
               <li><strong>Color:</strong> Platinum</li>
               <li><strong>Eye Color:</strong> Dark Brown</li>
-              <li><strong>Age:</strong> 9 weeks old</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old</li>
               <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
               <li><strong>Date of Birth:</strong> June 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1828,7 +1828,7 @@ block_title="false"
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
     { "@type": "PropertyValue", "name": "Color/Coat", "value": "Platinum" },
-    { "@type": "PropertyValue", "name": "Age", "value": "9 weeks" },
+    { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }

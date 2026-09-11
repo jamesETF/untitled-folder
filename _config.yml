@@ -9,10 +9,24 @@ description:            We are a family and friends based French Bulldog Breeder
 url:                    "https://ethicalfrenchie.com"  # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
-logo:                   logo-dark.png
+logo:                   /uploads/logo-dark.png # root-relative: jekyll-seo-tag uses this verbatim for publisher.logo
+logo_light:             /uploads/logo-light.png
 brand:
   image:                header-6.jpg # og:image default (resolved against uploads: path in head.html)
-logo_light:             logo-light.png
+
+# jekyll-seo-tag identity. Without `social.name` it fell back to author.name, so every
+# BlogPosting published as "James Harrison" instead of the business. `twitter.username`
+# is what makes seo-tag emit twitter:site.
+social:
+  name:                 Ethical Frenchie
+  links:
+    - https://www.facebook.com/ethicalfrenchie
+    - https://www.instagram.com/ethicalfrenchie
+    - https://twitter.com/ethicalfrenchie
+twitter:
+  username:             ethicalfrenchie
+  card:                 summary_large_image
+
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
@@ -134,7 +148,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
-  - jekyll-sitemap
+  # jekyll-sitemap intentionally NOT enabled — sitemap.xml is hand-maintained (see CLAUDE.md)
   - jemoji
   - jekyll-redirect-from
   - jekyll-target-blank
@@ -142,6 +156,22 @@ plugins:
 
 
 exclude:
+  # internal working files — Jekyll copies front-matter-less files verbatim, so these
+  # were being published (TODO.md served 200 at /TODO.md until Sep 11, 2026)
+  - TODO.md
+  - CLAUDE.md
+  - benchmark-report.md
+  - directory-submission-checklist.md
+  - benchmark-website.js
+  - lighthouse-benchmark.js
+  - lighthouse-report.report.html
+  - report-brand-trust-2026.html
+  - report-feb25-26-2026.html
+  - content-audit.xlsx
+  - gsc-credentials.json
+  - fix_soldpuppies_frontmatter.py
+  - memory
+  - scripts
   - vendor
   - .bundle
   - .sass-cache

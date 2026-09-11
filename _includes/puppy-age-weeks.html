@@ -1,0 +1,16 @@
+{%- comment -%}
+Whole-week age for a puppy listing. Outputs a bare integer — callers add the word "weeks".
+
+  available -> computed from page.dob at BUILD TIME, so a live listing never goes stale
+               between edits (it was hand-typed before, and drifted a week by Sep 11, 2026).
+  sold      -> page.age_weeks, frozen at the age the pup was when it was placed.
+
+So when you mark a pup sold, set age_weeks to its age on that day; the page then stops aging.
+{%- endcomment -%}
+{%- if page.status == 'available' and page.dob -%}
+{%- assign _now = site.time | date: '%s' | plus: 0 -%}
+{%- assign _dob = page.dob | date: '%s' | plus: 0 -%}
+{{- _now | minus: _dob | divided_by: 604800 -}}
+{%- else -%}
+{{- page.age_weeks -}}
+{%- endif -%}
