@@ -53,7 +53,7 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       PUPPY LISTINGS (7: 2 available — Olaf & Buzz; 5 placed, pages kept live)
+       PUPPY LISTINGS (12: 7 available — Olaf, Buzz, Mowgli, Patch, Sully, Zapier, Eddie; 5 placed, pages kept live)
        Updated 2026-09-02 — placed pups with full pages (Yoda/Paddington/Petunia/
        Stitch/Perdita) stay listed for SEO equity; stub retirees
        (Cosmo/Diesel/Luke/Hobbes) are excluded (sitemap: false + 301).
@@ -86,6 +86,31 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/olaf</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/mowgli</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/patch</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/sully</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/zapier</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/eddie</loc>
     <lastmod>2026-09-11</lastmod>
   </url>
 
