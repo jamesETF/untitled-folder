@@ -2,6 +2,9 @@
 title: French Bulldog Puppies for Sale
 subtitle: Embark DNA-tested, AKC-registered French Bulldog puppies with a 1-year health guarantee — hand-delivered to your door nationwide.
 width: full
+# Map is placed inline below the breeder quote (S3c) instead of the layout's
+# site-wide slot at the page bottom. See _layouts/default.html + happy-families.html.
+nomap: true
 navbar:
   sticky: true
   scroll_up: true
@@ -84,6 +87,9 @@ redirect_from:
     </blockquote>
   </div>
 </section>
+
+<!-- S3c: Happy Families map — moved up from the site-wide layout slot 2026-09-11 -->
+{% include happy-families.html %}
 
 <!-- S4: What's Included -->
 <div class="uk-section uk-section-muted">
@@ -170,21 +176,6 @@ redirect_from:
   </div>
 </div>
 
-<!-- S6: Explore Colors -->
-<div class="uk-section uk-section-muted">
-  <div class="uk-container uk-container-small uk-text-center">
-    <p style="font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #901941; margin-bottom: 8px;">EXPLORE BY COLOR</p>
-    <h2 style="font-weight: 800; font-size: 1.75rem; color: #1a1a1a; margin: 0 0 12px 0;">French Bulldog Colors & Pricing</h2>
-    <p style="font-size: 15px; color: #6b6b6b; line-height: 1.6; margin-bottom: 24px;">French Bulldogs come in a range of rare and standard colors — each with different genetics, health considerations, and price points. Tap a color to learn more.</p>
-    <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-small" data-uk-grid>
-      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/blue-french-bulldog">Blue</a></div>
-      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/lilac-french-bulldog">Lilac</a></div>
-      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/merle-french-bulldog">Merle</a></div>
-      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/fluffy-french-bulldog">Fluffy</a></div>
-    </div>
-  </div>
-</div>
-
 <!-- S8: FAQ -->
 {% include faqs.html
   multiple="true"
@@ -202,6 +193,21 @@ redirect_from:
     <h2 style="font-weight: 800; font-size: 1.75rem; color: #1a1a1a; margin-bottom: 8px;">What Our Families Say</h2>
     <p style="font-size: 15px; color: #6b6b6b; margin-bottom: 32px;"><strong style="color: #901941;">&#9733; 4.8</strong> out of 5 on Google &middot; 87+ Reviews</p>
     {% include reviewsg.html %}
+  </div>
+</div>
+
+<!-- S6: Explore Colors -->
+<div class="uk-section uk-section-muted">
+  <div class="uk-container uk-container-small uk-text-center">
+    <p style="font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #901941; margin-bottom: 8px;">EXPLORE BY COLOR</p>
+    <h2 style="font-weight: 800; font-size: 1.75rem; color: #1a1a1a; margin: 0 0 12px 0;">French Bulldog Colors & Pricing</h2>
+    <p style="font-size: 15px; color: #6b6b6b; line-height: 1.6; margin-bottom: 24px;">French Bulldogs come in a range of rare and standard colors — each with different genetics, health considerations, and price points. Tap a color to learn more.</p>
+    <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-small" data-uk-grid>
+      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/blue-french-bulldog">Blue</a></div>
+      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/lilac-french-bulldog">Lilac</a></div>
+      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/merle-french-bulldog">Merle</a></div>
+      <div><a style="display:block; padding: 14px 20px; background: #fff; border-radius: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 600; color: #1a1a1a; text-decoration: none; text-align: center;" href="/puppies/upcoming-colors/fluffy-french-bulldog">Fluffy</a></div>
+    </div>
   </div>
 </div>
 
