@@ -34,7 +34,7 @@
   {% endif %}
   {% assign puppies_available = puppies_all | where: "status", "available" %}
   {% assign puppies_sold_all = puppies_all | where: "status", "sold" %}
-  {%- comment -%} Grid shows only the 2 most recent placed puppies as "Found a Furever Home"
+  {%- comment -%} Grid shows only the 3 most recent placed puppies as "Found a Furever Home"
      placeholders. Every sold page stays live at its own URL for SEO equity — this only
      limits how many appear on the grid. Reverse => highest NN- prefix (most recent) first. {%- endcomment -%}
   {% assign puppies_sold = puppies_sold_all | reverse %}
@@ -149,7 +149,7 @@
 					  {% endif %}
 				  </li>
 			  {% endfor %}
-			  {% for post in puppies_sold limit: 2 %}
+			  {% for post in puppies_sold limit: 3 %}
 				  <li data-topic="{{ post.topics }}">
 					  <div class="uk-inline uk-light" style="cursor: default;">
 						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% elsif post.image contains '/uploads/' %}{{ post.image | absolute_url }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
