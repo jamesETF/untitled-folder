@@ -22,14 +22,16 @@ def h(text)
 end
 
 # Chrome re-encodes WebP when printing, which bloats the PDF, so every image under
-# /uploads/supply-list/ is handed to Chrome as a JPEG made with macOS `sips`,
-# capped at `max` pixels on its long side.
+# /uploads/supply-list/ is handed to Chrome as a JPEG (PNG if it has transparency)
+# made with macOS `sips`, capped at `max` pixels on its long side.
 def asset(rel, max = 900)
   src = File.join(ROOT, 'uploads', 'supply-list', rel)
-  out = File.join($print_dir, rel.tr('/', '_').sub(/\.\w+\z/, '.jpg'))
+  info  = `sips -g pixelWidth -g pixelHeight -g hasAlpha "#{src}" 2>/dev/null`
+  alpha = info.include?('hasAlpha: yes') # transparent art (the cartoons) must stay PNG
+  out   = File.join($print_dir, rel.tr('/', '_').sub(/\.\w+\z/, alpha ? '.png' : '.jpg'))
   unless File.exist?(out)
-    dims = `sips -g pixelWidth -g pixelHeight "#{src}" 2>/dev/null`.scan(/: (\d+)/).flatten.map(&:to_i)
-    cmd = ['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '82']
+    dims = info.scan(/pixel(?:Width|Height): (\d+)/).flatten.map(&:to_i)
+    cmd = alpha ? ['sips', '-s', 'format', 'png'] : ['sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '82']
     cmd += ['-Z', max.to_s] if dims.max.to_i > max
     ok = system(*cmd, src, '--out', out, out: File::NULL, err: File::NULL)
     abort "sips could not convert #{rel}" unless ok && File.size?(out)
