@@ -17,7 +17,7 @@ header:
   parallax: true
   container: small
   content:
-    block: puppy-supply-list
+    block: puppy-supply-list-header
 permalink: /french-bulldog-preparation-list/
 pipedrive: true
 ---
