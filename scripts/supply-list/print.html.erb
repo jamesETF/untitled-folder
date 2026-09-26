@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title><%= h DATA['title'] %> | Ethical Frenchie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=block" rel="stylesheet">
+<style>
+/* Print version of /french-bulldog-preparation-list/ in the V2 (Luna) design language. */
+:root {
+  --primary: #901941; --primary-light: #a82255; --primary-dark: #6e1232; --glow: rgba(144,25,65,0.12);
+  --warm: #faf8f6; --muted: #f5f3f0; --text: #3d3d3d; --text-light: #6b6b6b; --heading: #1a1a1a;
+  --border: #e8e4e0; --gold-light: #f5ecd7; --gold-text: #7a5c12;
+  --font: 'Montserrat', -apple-system, sans-serif; --accent: 'Playfair Display', Georgia, serif;
+}
+@page {
+  size: letter;
+  margin: 0.55in 0.6in 0.7in;
+  @bottom-left { content: "Ethical Frenchie  \00B7  French Bulldog Puppy Supply List"; font-family: 'Montserrat', sans-serif;
+    font-size: 6.5pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #a3a3a3; }
+  @bottom-right { content: counter(page); font-family: 'Montserrat', sans-serif; font-size: 8pt; font-weight: 800; color: #901941; }
+}
+@page cover { margin: 0; @bottom-left { content: none; } @bottom-right { content: none; } }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; font-family: var(--font); color: var(--text); font-size: 9.5pt; line-height: 1.55; }
+a { color: inherit; text-decoration: none; }
+h1, h2, h3, h4, p { margin: 0; }
+
+/* ---------- Cover ---------- */
+.cover { page: cover; position: relative; width: 8.5in; height: 11in; overflow: hidden; background: #1a1a1a; }
+.cover__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.cover__shade { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.6) 36%, rgba(0,0,0,0.12) 64%, rgba(0,0,0,0.32) 100%); }
+.cover__brand { position: absolute; top: 0.6in; left: 0.65in; display: flex; align-items: center; gap: 12px; }
+.cover__brand .mark { height: 0.5in; }
+.cover__brand .word { height: 0.3in; }
+.cover__content { position: absolute; left: 0.65in; right: 0.65in; bottom: 0.7in; color: #fff; }
+.pill-must { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 100px; background: var(--gold-light); color: var(--gold-text);
+  font-size: 7.5pt; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.cover__eyebrow { display: block; margin: 0.22in 0 0.04in; font-size: 10pt; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.65); }
+.cover__title { font-family: var(--accent); font-style: italic; font-weight: 700; font-size: 56pt; line-height: 1.02; letter-spacing: -0.01em; color: #fff; }
+.cover__sub { margin-top: 0.14in; max-width: 5in; font-size: 13pt; line-height: 1.5; font-weight: 500; color: rgba(255,255,255,0.82); }
+.cover__stats { display: inline-flex; margin-top: 0.36in; background: rgba(255,255,255,0.96); border-radius: 18px; padding: 14px 8px; color: var(--heading); }
+.cover__stat { text-align: center; padding: 0 20px; }
+.cover__stat + .cover__stat { border-left: 1px solid var(--border); }
+.cover__stat b { display: block; font-size: 14pt; font-weight: 800; }
+.cover__stat span { display: block; font-size: 6.5pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-light); }
+
+/* ---------- Welcome page ---------- */
+.welcome { break-before: page; }
+.personality { position: relative; overflow: hidden; background: var(--warm); border-radius: 20px; padding: 0.42in 0.42in 0.38in;
+  display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 0.3in; align-items: center; }
+.personality::before { content: ''; position: absolute; top: -60px; right: -60px; width: 220px; height: 220px; border-radius: 50%; background: var(--glow); filter: blur(60px); }
+.eyebrow { display: block; font-size: 7.5pt; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary); margin-bottom: 8px; }
+.quote { font-family: var(--accent); font-style: italic; font-weight: 700; font-size: 19pt; line-height: 1.3; color: var(--primary);
+  padding-left: 16px; border-left: 4px solid var(--primary); margin-bottom: 14px; }
+.personality p.body { font-size: 10pt; line-height: 1.7; margin-bottom: 8px; }
+.personality p.body:last-child { font-weight: 700; color: var(--primary-dark); margin-bottom: 0; }
+.personality img { width: 100%; display: block; position: relative;
+  -webkit-mask-image: radial-gradient(closest-side, #000 72%, transparent 100%); mask-image: radial-gradient(closest-side, #000 72%, transparent 100%); }
+.trust { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0.26in 0 0; border: 1px solid var(--border); border-radius: 16px; background: var(--muted); overflow: hidden; }
+.trust__item { display: flex; align-items: center; gap: 9px; padding: 14px 12px; }
+.trust__item + .trust__item { border-left: 1px solid var(--border); }
+.trust__icon { width: 30px; height: 30px; flex: 0 0 30px; border-radius: 50%; background: var(--glow); color: var(--primary); display: flex; align-items: center; justify-content: center; }
+.trust__icon svg { width: 15px; height: 15px; }
+.trust b { display: block; font-size: 7.5pt; font-weight: 700; color: var(--heading); line-height: 1.3; }
+.trust span { display: block; font-size: 6.5pt; color: var(--text-light); line-height: 1.35; }
+.contents { margin-top: 0.34in; }
+.contents h2 { font-size: 20pt; font-weight: 800; color: var(--heading); margin-bottom: 4px; }
+.contents__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.14in; margin-top: 0.16in; }
+.tile { display: block; border: 1.2px solid var(--border); border-radius: 16px; padding: 14px 16px; background: #fff; }
+.tile__emoji { font-size: 18pt; line-height: 1; }
+.tile__label { display: block; margin-top: 8px; font-family: var(--accent); font-style: italic; font-weight: 700; font-size: 12.5pt; color: var(--primary); }
+.tile__title { display: block; font-size: 9.5pt; font-weight: 700; color: var(--heading); margin-top: 2px; }
+.tile__count { display: block; font-size: 7.5pt; color: var(--text-light); margin-top: 4px; }
+.tile--pdf { background: linear-gradient(135deg, var(--primary-dark), var(--primary) 55%, var(--primary-light)); border-color: transparent; color: #fff; }
+.tile--pdf .tile__label, .tile--pdf .tile__title { color: #fff; }
+.tile--pdf .tile__count { color: rgba(255,255,255,0.8); }
+.howto { margin-top: 0.22in; font-size: 8.5pt; color: var(--text-light); }
+.howto b { color: var(--heading); }
+
+/* ---------- Sections ---------- */
+.section { break-before: page; }
+.s-head { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 0.32in; align-items: center; margin-bottom: 0.24in; }
+.s-head__cartoon { height: 0.56in; display: block; margin-bottom: 6px; }
+.s-head__label { display: block; font-family: var(--accent); font-style: italic; font-weight: 700; font-size: 13pt; color: var(--primary); margin-bottom: 2px; }
+.s-head h2 { font-size: 25pt; font-weight: 800; line-height: 1.12; color: var(--heading); }
+.divider { width: 40px; height: 3px; border-radius: 2px; background: var(--primary); margin: 12px 0; }
+.s-head__intro { font-size: 10.5pt; line-height: 1.6; color: var(--text-light); }
+.s-head__img { height: 2.35in; border-radius: 18px; overflow: hidden; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+.s-head__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.diet { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.14in; margin-bottom: 0.2in; break-inside: avoid; }
+.diet__card { border: 1.2px solid var(--border); border-radius: 16px; overflow: hidden; background: #fff; }
+.diet__card img { width: 100%; height: 1.25in; object-fit: cover; display: block; }
+.diet__body { padding: 10px 13px 13px; }
+.diet__body h3 { font-family: var(--accent); font-style: italic; font-weight: 700; font-size: 12pt; color: var(--primary); margin-bottom: 4px; }
+.diet__body p { font-size: 8.3pt; line-height: 1.5; }
+
+.feature { position: relative; display: grid; grid-template-columns: 0.9fr 1.1fr; border: 1.2px solid var(--border); border-radius: 18px; overflow: hidden; break-inside: avoid; }
+.feature::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary), #c9a84c); }
+.feature__img { background: var(--muted); }
+.feature__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.feature__body { padding: 0.24in 0.26in; }
+.feature__body h3 { font-size: 16pt; font-weight: 800; color: var(--heading); margin-bottom: 8px; }
+.feature__body p { font-size: 8.8pt; line-height: 1.55; margin-bottom: 6px; }
+.btn { display: inline-block; margin-top: 6px; padding: 9px 18px; border-radius: 100px; background: var(--primary); color: #fff; font-size: 8.5pt; font-weight: 700; }
+
+.checks { list-style: none; padding: 0; margin: 0 0 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 5px 18px; }
+.feature .checks { grid-template-columns: 1fr; margin-bottom: 10px; }
+.checks li { display: flex; gap: 8px; align-items: flex-start; font-size: 8.8pt; line-height: 1.45; }
+.checks li::before { content: ''; flex: 0 0 15px; height: 15px; margin-top: 1px; border-radius: 50%; background-color: var(--glow);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23901941' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E");
+  background-size: 9px; background-repeat: no-repeat; background-position: center; }
+
+.avoid { display: flex; align-items: center; gap: 10px 16px; flex-wrap: wrap; border: 1.2px solid rgba(144,25,65,0.22); border-radius: 16px; padding: 12px 16px; margin-bottom: 0.08in; break-inside: avoid; }
+.avoid p { font-size: 9pt; font-weight: 800; color: var(--primary-dark); }
+.avoid ul { display: flex; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.avoid li { padding: 5px 11px; border-radius: 100px; background: var(--warm); font-size: 8pt; font-weight: 600; }
+.avoid li::before { content: '\2715'; font-weight: 800; color: var(--primary); margin-right: 6px; }
+
+.group { margin-top: 0.24in; }
+.group__intro { break-inside: avoid; break-after: avoid; }
+.group__head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.group__head h3 { font-size: 13.5pt; font-weight: 800; color: var(--heading); }
+.tip { display: inline-block; padding: 4px 11px; border-radius: 100px; background: var(--glow); color: var(--primary-dark); font-size: 7.5pt; font-weight: 700; }
+.note { font-size: 9pt; line-height: 1.55; color: var(--text-light); margin-bottom: 10px; max-width: 6.4in; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.13in; }
+.grid--four { grid-template-columns: repeat(4, 1fr); }
+.card { break-inside: avoid; display: flex; flex-direction: column; border: 1.2px solid var(--border); border-radius: 14px; overflow: hidden; background: #fff; }
+.card__media { height: 1.3in; padding: 0.12in; display: flex; align-items: center; justify-content: center; }
+.grid--four .card__media { height: 1.12in; }
+.card__media img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+.card__body { flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding: 8px 12px 11px; border-top: 1px solid var(--border); }
+.must { display: inline-block; padding: 2px 8px; border-radius: 100px; background: var(--gold-light); color: var(--gold-text); font-size: 6pt; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.card__name { font-size: 9.3pt; font-weight: 700; line-height: 1.28; color: var(--heading); }
+.card__desc { font-size: 7.8pt; line-height: 1.45; color: var(--text); }
+.card__shop { margin-top: auto; padding-top: 4px; font-size: 6.8pt; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; color: var(--primary); }
+.card__where { margin-top: auto; padding-top: 4px; font-size: 7pt; font-weight: 700; color: var(--text-light); }
+
+/* ---------- Closing ---------- */
+.closing { break-inside: avoid; margin-top: 0.4in; border-radius: 22px; padding: 0.45in 0.5in; text-align: center; color: #fff; position: relative; overflow: hidden;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%); }
+.closing .mark { height: 0.5in; margin-bottom: 10px; }
+.closing .eyebrow { color: rgba(255,255,255,0.65); }
+.closing h2 { font-family: var(--accent); font-style: italic; font-weight: 700; font-size: 27pt; line-height: 1.15; color: #fff; margin-bottom: 8px; }
+.closing p { font-size: 10pt; color: rgba(255,255,255,0.85); max-width: 4.6in; margin: 0 auto 16px; }
+.closing__links { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.closing__links a { padding: 9px 18px; border-radius: 100px; font-size: 8.5pt; font-weight: 700; }
+.closing__links a.solid { background: #fff; color: var(--primary); }
+.closing__links a.ghost { border: 1.5px solid rgba(255,255,255,0.6); color: #fff; }
+.fineprint { margin-top: 0.16in; text-align: center; font-size: 7pt; color: var(--text-light); }
+.fineprint img { height: 0.17in; display: block; margin: 0 auto 8px; }
+</style>
+</head>
+<body>
+
+<%# ================= COVER ================= -%>
+<section class="cover">
+  <img class="cover__img" src="<%= asset(DATA['hero']['image'], 1700) %>" alt="<%= h DATA['hero']['image_alt'] %>">
+  <div class="cover__shade"></div>
+  <div class="cover__brand">
+    <img class="word" src="<%= site_file('/uploads/logo-light.png') %>" alt="Ethical Frenchie">
+  </div>
+  <div class="cover__content">
+    <span class="pill-must">&#9733; Must-haves marked</span>
+    <span class="cover__eyebrow"><%= h DATA['hero']['eyebrow'] %></span>
+    <h1 class="cover__title"><%= h DATA['hero']['title'] %></h1>
+    <p class="cover__sub"><%= h DATA['hero']['subtitle'] %></p>
+    <div class="cover__stats">
+      <div class="cover__stat"><b><%= total %></b><span>Picks</span></div>
+      <div class="cover__stat"><b><%= musts %></b><span>Must-haves</span></div>
+      <div class="cover__stat"><b><%= sections.size %></b><span>Categories</span></div>
+      <div class="cover__stat"><b><%= h DATA['updated'].split.last %></b><span>Updated</span></div>
+    </div>
+  </div>
+</section>
+
+<%# ================= WELCOME + CONTENTS ================= -%>
+<section class="welcome">
+  <div class="personality">
+    <div style="position: relative;">
+      <span class="eyebrow">Before you shop</span>
+      <p class="quote"><%= h DATA['welcome']['quote'] %></p>
+      <% DATA['welcome']['body'].each do |p| -%>
+      <p class="body"><%= h p %></p>
+      <% end -%>
+    </div>
+    <img src="<%= asset(DATA['welcome']['image'], 900) %>" alt="<%= h DATA['welcome']['image_alt'] %>">
+  </div>
+
+  <div class="trust">
+    <% DATA['trust'].each do |t| -%>
+    <div class="trust__item">
+      <div class="trust__icon">
+        <% case t['icon'] when 'check' -%>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        <% when 'heart' -%>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <% when 'download' -%>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <% else -%>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <% end -%>
+      </div>
+      <div><b><%= h t['title'] %></b><span><%= h t['sub'] %></span></div>
+    </div>
+    <% end -%>
+  </div>
+
+  <div class="contents">
+    <span class="eyebrow">What's inside</span>
+    <h2>Five stops to a puppy-ready home</h2>
+    <div class="contents__grid">
+      <% sections.each do |s| -%>
+      <% m = s['groups'].sum { |g| g['items'].count { |i| i['must'] } } -%>
+      <a class="tile" href="#<%= s['id'] %>">
+        <span class="tile__emoji"><%= s['emoji'] %></span>
+        <span class="tile__label"><%= h s['label'] %></span>
+        <span class="tile__title"><%= h s['title'] %></span>
+        <span class="tile__count"><%= count_for(s) %> picks &middot; <%= m %> must-haves</span>
+      </a>
+      <% end -%>
+      <a class="tile tile--pdf" href="https://ethicalfrenchie.com/french-bulldog-preparation-list/">
+        <span class="tile__emoji">&#128241;</span>
+        <span class="tile__label">Online</span>
+        <span class="tile__title">Shop from your phone</span>
+        <span class="tile__count">ethicalfrenchie.com</span>
+      </a>
+    </div>
+    <p class="howto"><b>How to use it:</b> anything marked &#9733; is a must-have before your puppy comes home. Tap any product to shop it.</p>
+  </div>
+</section>
+
+<%# ================= SECTIONS ================= -%>
+<% sections.each do |s| -%>
+<section class="section" id="<%= s['id'] %>">
+  <div class="s-head">
+    <div>
+      <% if s['cartoon'] -%><img class="s-head__cartoon" src="<%= asset(s['cartoon'], 300) %>" alt=""><% end -%>
+      <span class="s-head__label"><%= h s['label'] %></span>
+      <h2><%= h s['title'] %></h2>
+      <div class="divider"></div>
+      <p class="s-head__intro"><%= h s['intro'] %></p>
+    </div>
+    <div class="s-head__img"><img src="<%= asset(s['image'], 1000) %>" alt="<%= h s['image_alt'] %>"></div>
+  </div>
+
+  <% if s['diet'] -%>
+  <div class="diet">
+    <% s['diet'].each do |d| -%>
+    <div class="diet__card">
+      <img src="<%= asset(d['image'], 600) %>" alt="<%= h d['title'] %>">
+      <div class="diet__body"><h3><%= h d['title'] %></h3><p><%= h d['text'] %></p></div>
+    </div>
+    <% end -%>
+  </div>
+  <% end -%>
+
+  <% if (f = s['feature']) -%>
+  <div class="feature">
+    <div class="feature__img"><img src="<%= asset("products/#{f['slug']}.webp", 800) %>" alt="<%= h f['name'] %>"></div>
+    <div class="feature__body">
+      <span class="eyebrow"><%= h f['eyebrow'] %></span>
+      <h3><a href="<%= h f['url'] %>"><%= h f['name'] %></a></h3>
+      <ul class="checks">
+        <% f['bullets'].each do |b| -%><li><%= h b %></li><% end -%>
+      </ul>
+      <% f['text'].each do |p| -%><p><%= h p %></p><% end -%>
+      <a class="btn" href="<%= h f['url'] %>"><%= h f['cta'] %> &rarr;</a>
+    </div>
+  </div>
+  <% end -%>
+
+  <% if (a = s['avoid']) -%>
+  <div class="avoid">
+    <p><%= h a['title'] %></p>
+    <ul><% a['items'].each do |x| -%><li><%= h x %></li><% end -%></ul>
+  </div>
+  <% end -%>
+
+  <% s['groups'].each do |g| -%>
+  <% four = g['items'].none? { |i| i['desc'] } || g['items'].size == 4 -%>
+  <div class="group">
+    <div class="group__intro">
+      <div class="group__head"><h3><%= h g['title'] %></h3><% if g['tip'] %><span class="tip"><%= h g['tip'] %></span><% end %></div>
+      <% if g['note'] -%><p class="note"><%= h g['note'] %></p><% end -%>
+      <% if g['bullets'] -%>
+      <ul class="checks"><% g['bullets'].each do |b| -%><li><%= h b %></li><% end -%></ul>
+      <% end -%>
+    </div>
+    <div class="grid<%= ' grid--four' if four %>">
+      <% g['items'].each do |i| -%>
+      <div class="card">
+        <div class="card__media"><img src="<%= asset("products/#{i['slug']}.webp", 450) %>" alt="<%= h i['name'] %>"></div>
+        <div class="card__body">
+          <% if i['must'] -%><span class="must">&#9733; Must-have</span><% end -%>
+          <% if i['url'] -%>
+          <a class="card__name" href="<%= h i['url'] %>"><%= h i['name'] %></a>
+          <% else -%>
+          <span class="card__name"><%= h i['name'] %></span>
+          <% end -%>
+          <% if i['desc'] -%><p class="card__desc"><%= h i['desc'] %></p><% end -%>
+          <% if i['url'] -%>
+          <a class="card__shop" href="<%= h i['url'] %>">Shop now &rarr;</a>
+          <% elsif i['where'] -%>
+          <span class="card__where"><%= h i['where'] %></span>
+          <% end -%>
+        </div>
+      </div>
+      <% end -%>
+    </div>
+  </div>
+  <% end -%>
+</section>
+<% end -%>
+
+<%# ================= CLOSING ================= -%>
+<div class="closing">
+  <img class="mark" src="<%= local('logo-mark-white.png') %>" alt="">
+  <span class="eyebrow"><%= h DATA['closing']['eyebrow'] %></span>
+  <h2><%= h DATA['closing']['title'] %></h2>
+  <p><%= h DATA['closing']['pdf_text'] %></p>
+  <div class="closing__links">
+    <a class="solid" href="https://ethicalfrenchie.com/french-bulldog-puppies">Meet our puppies &rarr;</a>
+    <a class="ghost" href="tel:+12127390182">Text or call 212-739-0182</a>
+  </div>
+</div>
+<div class="fineprint">
+  <img src="<%= site_file('/uploads/logo-dark.png') %>" alt="Ethical Frenchie">
+  <%= h DATA['closing']['disclosure'] %> Updated <%= h DATA['updated'] %>. &middot; ethicalfrenchie.com
+</div>
+
+</body>
+</html>
