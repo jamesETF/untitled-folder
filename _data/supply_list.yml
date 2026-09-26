@@ -1,0 +1,383 @@
+# French Bulldog Puppy Supply List. This file is the single source for BOTH outputs:
+#   - the web page  French-Bulldog-Puppy-Supply-List.md  -> /french-bulldog-preparation-list/
+#   - the PDF       ruby scripts/supply-list/build-pdf.rb -> uploads/Puppy_Supply_List.pdf
+# To update: edit here, rebuild the PDF, then commit both.
+# Images live in /uploads/supply-list/ (products/<slug>.webp for each item).
+# Keep every `url`: most are Amazon affiliate links (tag ethicalfren09-20).
+# Voice rule: say pup / puppy / furbaby in copy, never "dog".
+
+title: French Bulldog Puppy Supply List
+updated: September 2026
+pdf: /uploads/Puppy_Supply_List.pdf
+
+hero:
+  image: hero-frenchie-on-bed.webp
+  image_alt: A fawn French Bulldog puppy relaxing on a white bed
+  eyebrow: Frenchie 101
+  title: The Puppy Supply List
+  subtitle: Everything your French Bulldog puppy needs before coming home, picked by Ethical Frenchie.
+
+welcome:
+  image: welcome-three-frenchies.webp
+  image_alt: Three French Bulldog puppies sitting side by side
+  quote: "Hi friend! We put this together so you don't have to."
+  body:
+    - "We have a special skill of judging you as you shop, to make sure you don't miss the most impawtant products."
+    - "Anything marked with a ★ is not optional. It's a must-have before your puppy comes home."
+    - "Best of luck on your shopping spree ♥"
+
+trust:
+  - icon: check
+    title: "★ = Must-have"
+    sub: Ready before pickup day
+  - icon: heart
+    title: Picked for Frenchies
+    sub: Sensitive skin, backs & tummies
+  - icon: download
+    title: Free printable PDF
+    sub: Take it shopping
+  - icon: star
+    title: 4.8/5 on Google
+    sub: 87 verified reviews
+
+sections:
+  - id: feeding
+    emoji: "🥣"
+    label: Feeding
+    title: The ideal diet
+    intro: French Bulldogs are one of the most sensitive breeds. A great diet helps prevent skin and tummy troubles, plus other allergies.
+    image: section-feeding.webp
+    image_alt: Spot & Tango fresh food with a bowl of lamb and brown rice
+    cartoon: cartoon-bowl.webp
+    diet:
+      - title: Fresh food delivery
+        image: diet-fresh.webp
+        text: Gently cooked, human-grade meals delivered to your door. It's our favorite way to feed a Frenchie.
+      - title: The raw (BARF) diet
+        image: diet-raw.webp
+        text: An excellent approach once your Frenchie turns 6 months old. It's anti-inflammatory and can help with allergies and joint issues, which Frenchies are prone to.
+      - title: Supplements
+        image: diet-supplements.webp
+        text: Bone broth, probiotics, omega-3 and a joint supplement support healthy growth. Keep them up long-term for top-notch skin.
+    feature:
+      eyebrow: Our fresh-food pick
+      name: Spot & Tango Fresh Food
+      slug: spot-and-tango
+      url: https://spotandtango.com/discount=FREN50
+      bullets:
+        - Human grade
+        - Formulated for all life stages
+        - Gently cooked
+        - Gluten and corn free (the most common Bulldog allergens)
+        - Delivered to your door
+      text:
+        - Meals arrive frozen, so thaw before serving. Choose lamb, turkey or beef.
+        - Order and customize your puppy's plan with our link. Your Ethical Frenchie puppy whisperer can give you the details it asks for, like your pup's weight and age.
+      cta: Order Spot & Tango
+    groups:
+      - title: Other foods we recommend
+        note: Never switch your puppy's food overnight. Every switch should be gradual.
+        items:
+          - slug: honest-kitchen
+            name: The Honest Kitchen
+            desc: Human-grade powdered food that takes about 5 minutes to prep.
+            url: https://amzn.to/3pSapAW
+          - slug: freshpet
+            name: Freshpet
+            desc: Fresh food you can pick up locally.
+            where: At PetSmart & Petco
+          - slug: raw-dynamic
+            name: Raw Dynamic
+            desc: Raw food for pups 6 months and up.
+          - slug: farmina
+            name: Farmina Kibble
+            desc: We never recommend kibble, but if fresh food is out of budget, Farmina is the only kibble we trust.
+            url: https://amzn.to/3FZcEs2
+      - title: Supplements
+        items:
+          - slug: aller-immuno-bites
+            name: Aller-Immune Bites
+            must: true
+            desc: A long-term must for Frenchies. Daily use keeps their skin in great shape and their immune system working properly.
+            url: https://amzn.to/31pcwTs
+          - slug: joint-supplement
+            name: Joint Supplement
+            must: true
+            desc: Another long-term must. Glucosamine helps prevent hip and spinal disc issues.
+            url: https://amzn.to/3qLrDiF
+          - slug: bone-broth-powder
+            name: Bone Broth Powder
+            must: true
+            desc: Supports healthy digestion, gives an immunity boost and nourishes sensitive joints.
+            url: https://amzn.to/3pUvRW5
+          - slug: fish-oil
+            name: Fish Oil
+            desc: A great, optional addition. The Aller-Immune Bites already contain plenty of salmon oil.
+            url: https://amzn.to/3pUwajH
+          - slug: firm-it-up-pumpkin
+            name: Firm It Up Pumpkin
+            desc: For poops on the softer side. This pumpkin supplement firms things up fast.
+            url: https://amzn.to/3pUsMp6
+      - title: Bowls
+        note: These professional manipulators will beg every time the fridge opens (news flash, they're not hungry). Keeping them lean helps avoid health problems.
+        items:
+          - slug: slow-feeder-bowl
+            name: Slow Feeder Bowl
+            must: true
+            desc: Stops them swallowing too much air (hello, gassiness) and prevents choking.
+            url: https://www.amazon.com/s?k=IRIS+slow+feeder+bowl&tag=ethicalfren09-20
+          - slug: elevated-water-bowl
+            name: Elevated Water Bowl
+            must: true
+            desc: Any ceramic or stainless-steel bowl works, just skip plastic. Elevated matters on a dry-food diet.
+            url: https://amzn.to/3zu2Aof
+          - slug: water-fountain
+            name: Water Fountain
+            desc: 24/7 fresh, flowing water. Is it boujee? Yes. Do they need it? Also yes.
+            url: https://amzn.to/3mWdZbm
+
+  - id: grooming
+    emoji: "🛁"
+    label: Grooming
+    title: So fresh & so clean
+    intro: Their least favorite time of the month. Everything here is picked for sensitive Bulldog skin. Some care is daily, some weekly, some monthly.
+    image: section-grooming.webp
+    image_alt: A happy fawn French Bulldog puppy lying down with its tongue out
+    cartoon: cartoon-bath.webp
+    groups:
+      - title: Bath time
+        tip: Bath 1–2× a month, max
+        items:
+          - slug: 4-legger-shampoo
+            name: 4-Legger Sensitive Skin Shampoo
+            must: true
+            desc: A hydrating shampoo made for sensitive skin.
+            url: https://amzn.to/3FXxb03
+          - slug: hydrating-butter
+            name: Warren London Hydrating Butter
+            desc: A leave-in conditioner that keeps skin and coat silky smooth.
+            url: https://amzn.to/3JEyRO9
+          - slug: lick-pad
+            name: The Lick Pad
+            desc: A treat pad that sticks to the wall. Add peanut butter or yogurt and watch a bath hater turn into a chill cooperator. Great for ear cleaning and nail trims too.
+            url: https://amzn.to/3pTbkky
+      - title: Skin care routine
+        tip: Face care several times a week, at least once
+        bullets:
+          - Clean their wrinkles to prevent bacteria build-up and infection.
+          - Moisturize the nose every other day. Their flat faces mean they can't lick it moist.
+          - Use wrinkle paste if your pup develops tear stains.
+          - Moisturize and protect their paw pads.
+        items:
+          - slug: snout-soother
+            name: Snout Soother
+            must: true
+            desc: Keeps that flat-faced nose from drying out.
+            url: https://amzn.to/31oJmUq
+          - slug: pawtection
+            name: Pawtection
+            must: true
+            desc: Moisturizes and protects paw pads.
+            url: https://amzn.to/3t24BH4
+          - slug: antibacterial-wipes
+            name: Antibacterial Wipes
+            must: true
+            desc: For quick, everyday wrinkle cleaning.
+            url: https://amzn.to/3ESQTZp
+          - slug: wrinkle-paste
+            name: Wrinkle Paste
+            desc: Protects wrinkles and helps with tear stains.
+            url: https://amzn.to/3ePOkwz
+      - title: Ears & teeth
+        note: Flat-faced breeds get dental disease faster, and those bat ears collect everything around them.
+        items:
+          - slug: ear-cleaner
+            name: Kin+Kind Ear Cleaner
+            must: true
+            desc: Clean every 7–10 days, or as soon as you see brown wax.
+            url: https://amzn.to/3ninL8b
+          - slug: dental-wipes
+            name: Pet MD Dental Wipes
+            must: true
+            desc: Wipe daily, or at least once a week.
+            url: https://amzn.to/3sVzoW7
+
+  - id: home
+    emoji: "🏠"
+    label: Home
+    title: Prepare your home
+    intro: Your home needs a few things before it's fully puppy-proofed. Start with the top three, then pick a crate.
+    image: section-home.webp
+    image_alt: A French Bulldog's back paws on white bed sheets
+    groups:
+      - title: The top 3 home essentials
+        items:
+          - slug: donut-bed
+            name: Fluffy Donut Bed
+            must: true
+            desc: Their second favorite activity? Nap time. They adore this fluffy, snuggly bed.
+            url: https://amzn.to/3EUnluv
+          - slug: pet-stairs
+            name: Pet Stairs
+            must: true
+            desc: Frenchies can hurt their backs and hips jumping off furniture. Put stairs by every couch and bed they're allowed on.
+            url: https://www.amazon.com/s?k=foam+pet+stairs&tag=ethicalfren09-20
+          - slug: playpen
+            name: Puppy Playpen
+            must: true
+            desc: Puppies are curious, sometimes too curious. Use a playpen when they're unsupervised, never as punishment. Our team will walk you through playpen training.
+            url: https://amzn.to/3pSkyxw
+      - title: Pick one crate
+        note: Crate training is one of the most effective ways to potty train and keep your puppy safe. Three models at different prices; choose whichever works best for you.
+        items:
+          - slug: wire-crate
+            name: Small Wire Crate
+            must: true
+            url: https://amzn.to/3zqryoq
+          - slug: revol-crate
+            name: Revol Crate
+            must: true
+            url: https://amzn.to/3zqkckR
+          - slug: kindtail-crate
+            name: KindTail Crate
+            must: true
+            url: https://amzn.to/3qQf05T
+      - title: Comfort & peace of mind
+        items:
+          - slug: snuggle-puppy
+            name: Snuggle Heartbeat Puppy
+            must: true
+            desc: Some puppies get anxious away from their siblings. A heat pack and heartbeat mimic littermates so they sleep comfortably.
+            url: https://amzn.to/31wOQg8
+          - slug: clear-playpen
+            name: Clearly Loved Pets Playpen
+            desc: A modern, fully transparent playpen that blends into your home.
+            url: https://clearlylovedpets.com/collections/shop
+          - slug: treat-camera
+            name: Treat-Tossing Puppy Camera
+            desc: Check in and toss a treat from your phone.
+            url: https://amzn.to/3zqkHLL
+          - slug: potty-doorbell
+            name: Potty Communication Doorbell
+            desc: Teach them to ring when it's time to go out.
+            url: https://amzn.to/3HEcypQ
+      - title: Potty training
+        note: The trick to potty training is consistency and patience.
+        items:
+          - slug: angry-orange
+            name: Angry Orange Odor Eliminator
+            must: true
+            desc: Accidents happen. This takes care of the smell.
+            url: https://amzn.to/34gemXL
+          - slug: wee-wee-pads
+            name: Wee-Wee Pads
+            must: true
+            url: https://amzn.to/3FUAXHy
+          - slug: pad-holder
+            name: Wee Pad Holder
+            desc: Keeps pads flat and in place.
+            url: https://amzn.to/3ETabxW
+          - slug: bitter-apple
+            name: Bitter Apple Spray
+            desc: Stops furniture chewing.
+            url: https://amzn.to/3eN2m2d
+
+  - id: play
+    emoji: "🧸"
+    label: Play
+    title: Keep 'em busy
+    intro: A tired puppy is a happy puppy. Combine chewing, mental-stimulation games and gentle activity.
+    image: section-play.webp
+    image_alt: A treat puzzle game for puppies
+    cartoon: cartoon-play.webp
+    avoid:
+      title: Skip these. Frenchie backs are sensitive.
+      items:
+        - Tug of war
+        - Catching frisbees
+        - Jumping off furniture
+    groups:
+      - title: Toys that last
+        note: Frenchies are notorious for destroying toys in under 60 seconds. Kong is the only brand we've found tough enough to last.
+        items:
+          - slug: kong-classic
+            name: Kong Chew Toy
+            must: true
+            url: https://amzn.to/31r5ei1
+          - slug: deer-antler
+            name: Deer Antler Chew
+            must: true
+            url: https://amzn.to/3HAvjun
+          - slug: puzzle-toy
+            name: Mental Stimulation Toy
+            must: true
+            url: https://amzn.to/3mRJ7Jd
+          - slug: kong-wubba
+            name: Kong Wubba Toy
+            url: https://amzn.to/3JShI3M
+          - slug: benebone
+            name: Benebone Durable Chew
+            url: https://amzn.to/3zxKUIr
+          - slug: kong-tennis-ball
+            name: Kong Extra Strong Tennis Ball
+            url: https://amzn.to/3FVKTk1
+
+  - id: wardrobe
+    emoji: "🧥"
+    label: Wardrobe
+    title: Accessories & wardrobe
+    intro: "Are you really a Frenchie parent if you don't own at least one ridiculous pajama?"
+    image: section-wardrobe.webp
+    image_alt: A woman lying on a rug lifting up her French Bulldog puppy
+    groups:
+      - title: The must-have accessories
+        note: Never walk your Frenchie on a collar. Collars are for style only, so pair a no-pull harness with a short, strong leash.
+        items:
+          - slug: no-pull-harness
+            name: No-Pull Harness
+            must: true
+            url: https://amzn.to/3JIaj6T
+          - slug: rope-leash
+            name: Sassy Woof Rope Leash
+            must: true
+            url: https://www.sassywoof.com/collections/leashes
+      - title: Below 45°F walking kit
+        tip: The drama is real
+        items:
+          - slug: winter-vest
+            name: Canada Pooch Winter Vest
+            must: true
+            url: https://amzn.to/3t3vsTn
+          - slug: bat-hat
+            name: The Winter Bat Hat
+            must: true
+            url: https://amzn.to/3JKLRSj
+          - slug: ultra-paws-boots
+            name: Ultra Paws Boots
+            url: https://amzn.to/3eTwwkc
+      - title: Keep it cool
+        note: French Bulldogs have trouble regulating their body temperature and can overheat when it's hot. These are musts, even for a 60-second summer walk.
+        items:
+          - slug: cooling-vest
+            name: Cooling Vest
+            must: true
+            url: https://amzn.to/331W1wY
+          - slug: water-bottle
+            name: Portable Water Bottle
+            must: true
+            url: https://amzn.to/3sVI12X
+      - title: Pajamas
+        items:
+          - slug: piggy-pajamas
+            name: Cute Bone Piggy Pajamas
+            url: https://amzn.to/3pUMMYL
+          - slug: frisco-pajamas
+            name: Frisco Siesta Pajamas
+            url: https://www.chewy.com/s?query=frisco%20pajamas
+
+closing:
+  eyebrow: Take it shopping
+  title: Ready for your new furbaby?
+  text: Save the printable version to your phone or print it, then come meet our puppies.
+  pdf_text: Come meet our puppies, or text us with any question about this list.
+  disclosure: As an Amazon Associate, Ethical Frenchie earns from qualifying purchases.
