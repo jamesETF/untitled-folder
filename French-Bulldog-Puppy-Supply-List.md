@@ -576,3 +576,51 @@ html { scroll-behavior: smooth; }
   }
 })();
 </script>
+
+{%- comment -%}
+  STRUCTURED DATA. Built from _data/supply_list.yml, so it always matches the page.
+  BreadcrumbList + ItemList follow the /french-bulldog-puppies pattern. Products are plain
+  ListItems, NOT Product: a Product needs offers, review or aggregateRating or GSC flags a
+  critical error (see .claude/skills/ef-add-puppy/references/structured-data.md §4a), and we
+  neither sell these items nor show prices. The WebPage block comes from jekyll-seo-tag in head.html.
+{%- endcomment -%}
+{%- assign page_abs = page.url | absolute_url -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" },
+        { "@type": "ListItem", "position": 2, "name": {{ sl.title | jsonify }}, "item": "{{ page_abs }}" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ page_abs }}#supply-list",
+      "name": {{ sl.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "url": "{{ page_abs }}",
+      "mainEntityOfPage": "{{ page_abs }}",
+      "image": "{{ img | append: sl.hero.image | absolute_url }}",
+      "numberOfItems": {{ total }},
+      "itemListElement": [
+{%- assign pos = 0 -%}
+{%- for s in sl.sections -%}
+  {%- if s.feature -%}
+    {%- assign pos = pos | plus: 1 -%}
+    {%- if pos > 1 %},{% endif %}
+        { "@type": "ListItem", "position": {{ pos }}, "name": {{ s.feature.name | jsonify }}, "url": {{ s.feature.url | jsonify }}, "image": "{{ img | append: 'products/' | append: s.feature.slug | append: '.webp' | absolute_url }}", "description": {{ s.feature.bullets | join: ', ' | jsonify }} }
+  {%- endif -%}
+  {%- for g in s.groups -%}{%- for i in g.items -%}
+    {%- assign pos = pos | plus: 1 -%}
+    {%- if pos > 1 %},{% endif %}
+        { "@type": "ListItem", "position": {{ pos }}, "name": {{ i.name | jsonify }}{% if i.url %}, "url": {{ i.url | jsonify }}{% endif %}, "image": "{{ img | append: 'products/' | append: i.slug | append: '.webp' | absolute_url }}"{% if i.desc %}, "description": {{ i.desc | jsonify }}{% endif %} }
+  {%- endfor -%}{%- endfor -%}
+{%- endfor %}
+      ]
+    }
+  ]
+}
+</script>
