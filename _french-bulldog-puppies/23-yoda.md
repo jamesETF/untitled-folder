@@ -1636,11 +1636,11 @@ block_title="false"
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Happily Homed</span>
     <h2 class="luna-final-cta__heading">Yoda Found a Furever Home</h2>
-    <p class="luna-final-cta__sub">Yoda is home with his family — but his brothers Olaf and Buzz are still looking for theirs.</p>
+    <p class="luna-final-cta__sub">Yoda is home with his family — and our current pups are still looking for theirs.</p>
     <div class="luna-final-cta__buttons">
       <a href="/french-bulldog-puppies/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        Meet Olaf &amp; Buzz
+        Meet the Available Pups
       </a>
       <button type="button" class="luna-btn luna-btn--ghost luna-btn--lg" id="luna-chat-cta" onclick="(function(){var f=document.querySelector('.heymarket-fab');if(f){f.click()}else{window.location.href='tel:212-739-0182'}})()">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
@@ -1657,7 +1657,7 @@ block_title="false"
 <section class="luna-section--compact" style="background: var(--luna-bg-warm); text-align: center;" aria-label="Looking for a pup like Yoda">
   <div class="luna-container luna-container--narrow luna-reveal">
     <h2 style="font-family: var(--luna-font-accent); color: var(--luna-heading); margin-bottom: 12px;">Looking for a pup like Yoda?</h2>
-    <p style="color: var(--luna-text); margin-bottom: 24px;">Olaf and Buzz — two Platinum Fluffy brothers — are ready to come home now.</p>
+    <p style="color: var(--luna-text); margin-bottom: 24px;">Our current pups are looking for their families right now.</p>
     <a href="/french-bulldog-puppies/" class="luna-btn luna-btn--primary luna-btn--lg">Meet the Available Pups</a>
   </div>
 </section>
