@@ -1,10 +1,10 @@
 ---
-title: Eddie
-description: Meet Eddie, a rare lilac fawn French Bulldog with soft tan points and pale blue-green eyes — watchful, independent, and quietly devoted.
-subtitle: Lilac Fawn Frenchie Eddie
+title: Kuzco
+description: Meet Kuzco, a blue merle and tan French Bulldog with a marbled silver-and-slate coat and blue eyes — confident, playful, and secretly a big softie.
+subtitle: Blue Merle and Tan Frenchie Kuzco
 width: full
-image: /uploads/french-bulldog-puppies/eddie/eddie-1.webp
-topics: [Our Puppies, "Lilac Fawn French Bulldog"]
+image: /uploads/french-bulldog-puppies/kuzco/kuzco-1.webp
+topics: [Our Puppies, "Blue Merle and Tan French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,22 +14,22 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/eddie
+permalink: /french-bulldog-puppies/kuzco
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Lilac Fawn
-age_weeks: 12
-dob: 2026-06-16
-ready_date: 2026-08-11
+color_coat: Blue Merle and Tan
+age_weeks: 7
+dob: 2026-08-23
+ready_date: 2026-10-18
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-09-11
+last_modified_at: 2026-10-12
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1156,10 +1156,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Eddie hero">
+<section class="luna-hero" aria-label="Kuzco hero">
   <img
-    src="/uploads/french-bulldog-puppies/eddie/eddie-1.webp"
-    alt="Eddie, a Lilac Fawn French Bulldog puppy with tan points available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/kuzco/kuzco-1.webp"
+    alt="Kuzco, a Blue Merle and Tan French Bulldog puppy with blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1170,15 +1170,15 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Ready to Come Home
+        Yours in 1 Week
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Eddie!</h1>
-      <p class="luna-hero__breed">Lilac Fawn French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Kuzco!</h1>
+      <p class="luna-hero__breed">Blue Merle &amp; Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">12 Weeks</span>
+        <span class="luna-hero__stat-value">7 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1190,7 +1190,7 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready Now</span>
+        <span class="luna-hero__stat-value">1 Week</span>
         <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
@@ -1203,13 +1203,13 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Eddie">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Kuzco">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac Fawn</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Pale Blue-Green Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 7 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Yours in 1 Week</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1267,14 +1267,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Eddie's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Kuzco's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/eddie/eddie-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Eddie - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kuzco/kuzco-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Kuzco - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/eddie/eddie-1.webp"
-          alt="Eddie the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/kuzco/kuzco-1.webp"
+          alt="Kuzco the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1285,11 +1285,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/eddie/eddie-2.webp" class="luna-gallery__item" data-caption="Eddie - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kuzco/kuzco-2.webp" class="luna-gallery__item" data-caption="Kuzco - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/eddie/eddie-2.webp"
-          alt="Eddie the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/kuzco/kuzco-2.webp"
+          alt="Kuzco the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1300,11 +1300,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/eddie/eddie-3.webp" class="luna-gallery__item" data-caption="Eddie - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kuzco/kuzco-3.webp" class="luna-gallery__item" data-caption="Kuzco - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/eddie/eddie-3.webp"
-          alt="Eddie the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/kuzco/kuzco-3.webp"
+          alt="Kuzco the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1315,11 +1315,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/eddie/eddie-4.webp" class="luna-gallery__item" data-caption="Eddie - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kuzco/kuzco-4.webp" class="luna-gallery__item" data-caption="Kuzco - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/eddie/eddie-4.webp"
-          alt="Eddie the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/kuzco/kuzco-4.webp"
+          alt="Kuzco the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1330,11 +1330,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/eddie/eddie-5.webp" class="luna-gallery__item" data-caption="Eddie - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kuzco/kuzco-5.webp" class="luna-gallery__item" data-caption="Kuzco - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/eddie/eddie-5.webp"
-          alt="Eddie the French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/kuzco/kuzco-5.webp"
+          alt="Kuzco the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1345,11 +1345,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/eddie/eddie-6.webp" class="luna-gallery__item" data-caption="Eddie - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kuzco/kuzco-6.webp" class="luna-gallery__item" data-caption="Kuzco - Blue Merle and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/eddie/eddie-6.webp"
-          alt="Eddie the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/kuzco/kuzco-6.webp"
+          alt="Kuzco the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1368,27 +1368,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Eddie">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Kuzco">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Eddie</span>
+        <span class="luna-eyebrow--accent">Meet Kuzco</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">He watches everything, says very little about it, and has decided — entirely on his own terms — that he likes you.</p>
+          <p class="luna-personality__quote">Like the emperor he's named for, Kuzco walks in like he owns the place — and then curls up in your lap like he's been waiting for you all along.</p>
           <div class="luna-personality__body">
-            <p>If you remember <strong>Eddie</strong> from <strong>Frasier</strong>, you already know this puppy. He's the <strong>watcher</strong> — calm, self-possessed, faintly amused, and perfectly happy doing his own thing until he decides you're worth joining. Then he's yours completely.</p>
-            <p>His colour is genuinely rare: a <strong>pale lilac fawn coat</strong>, almost cream where the light catches it, with <strong>soft tan points</strong> through the eyebrows, cheeks and legs, a <strong>dilute pinkish-taupe nose</strong>, and <strong>pale blue-green eyes</strong> that have held their colour past twelve weeks. He's the stockiest of the group, with a lovely square, substantial build.</p>
-            <p>As the <strong>oldest of our current puppies</strong> he's past the settling-in stage — independent, confident, already exploring the garden on his own. Eddie is <strong>ready to come home today</strong>.</p>
+            <p>Named for the groove-loving emperor from <strong>The Emperor's New Groove</strong>, Kuzco has <strong>presence, confidence and a flair for the dramatic</strong>. He's the first one out onto the lawn and the last to give up a game — but underneath all that swagger is a pup who just wants to be near his people.</p>
+            <p>He certainly has the wardrobe for it. His <strong>blue merle coat</strong> is marbled in silver-cream and slate blue, with <strong>tan points</strong> on his cheeks, eyebrows and legs and a pair of <strong>clear blue eyes</strong>. No two merles are alike, and Kuzco's pattern looks different from every angle — a coat that turns heads in every photo.</p>
+            <p><strong>Confident, playful and secretly a big softie</strong>, he'll keep you laughing all day. At seven weeks Kuzco will be <strong>ready for his family in mid October</strong>, and his spot is open to reserve right now.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128064; Watchful</span>
-            <span class="luna-trait">&#129504; Clever</span>
-            <span class="luna-trait">&#128526; Self-assured</span>
-            <span class="luna-trait">&#129309; Devoted</span>
-            <span class="luna-trait">&#127793; Independent</span>
-            <span class="luna-trait">&#128150; Sweet</span>
+            <span class="luna-trait">&#128081; Confident</span>
+            <span class="luna-trait">&#127881; Playful</span>
+            <span class="luna-trait">&#128516; Charming</span>
+            <span class="luna-trait">&#128269; Curious</span>
+            <span class="luna-trait">&#128150; Affectionate</span>
+            <span class="luna-trait">&#9889; Spirited</span>
           </div>
         </div>
       </div>
@@ -1399,7 +1399,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Ready to Come Home
+            Yours in 1 Week
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
@@ -1417,7 +1417,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Eddie — Apply Now
+            Reserve Kuzco — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1445,11 +1445,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Eddie's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Kuzco's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Eddie's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Kuzco's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1463,7 +1463,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Eddie has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Kuzco has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1487,10 +1487,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Watchful, independent and quietly affectionate — a lilac fawn boy who takes the world in first and commits completely once he has</li>
-              <li><strong>Ideal Home:</strong> Great for calmer households, working owners, first-time owners, or anyone who appreciates a dog with a bit of self-possession</li>
+              <li><strong>Personality:</strong> Confident, playful and charming — a bold blue merle boy with big-personality energy and a soft heart underneath</li>
+              <li><strong>Ideal Home:</strong> Great for active families, homes with children, or anyone who wants a pup with personality to spare</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate — a curious explorer outdoors and an easy, undemanding companion indoors</li>
+              <li><strong>Energy Level:</strong> Moderate to high — loves a game on the lawn, then a long nap</li>
             </ul>
           </div>
         </div>
@@ -1509,11 +1509,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Lilac Fawn</li>
-              <li><strong>Eye Color:</strong> Pale Blue-Green</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
+              <li><strong>Color:</strong> Blue Merle and Tan</li>
+              <li><strong>Eye Color:</strong> Blue</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready mid October)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> June 16, 2026</li>
+              <li><strong>Date of Birth:</strong> August 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1533,7 +1533,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Eddie (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Kuzco (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1643,11 +1643,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Eddie">
+<section class="luna-final-cta luna-section" aria-label="Apply for Kuzco">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Eddie Before He's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Eddie is ready to come home now — start your application today and take the first step toward bringing Eddie home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Kuzco Before He's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Kuzco will be ready in mid October — start your application today and take the first step toward bringing Kuzco home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1676,11 +1676,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Eddie">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Kuzco">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Eddie">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Kuzco">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1799,23 +1799,23 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Eddie - Lilac Fawn French Bulldog Puppy",
-  "description": "Meet Eddie, a rare lilac fawn French Bulldog with soft tan points and pale blue-green eyes — watchful, independent, and quietly devoted.",
+  "name": "Kuzco - Blue Merle and Tan French Bulldog Puppy",
+  "description": "Meet Kuzco, a blue merle and tan French Bulldog with a marbled silver-and-slate coat and blue eyes — confident, playful, and secretly a big softie.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/eddie/eddie-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/eddie/eddie-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/eddie/eddie-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/eddie/eddie-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/eddie/eddie-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/eddie/eddie-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kuzco/kuzco-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kuzco/kuzco-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kuzco/kuzco-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kuzco/kuzco-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kuzco/kuzco-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kuzco/kuzco-6.webp"
   ],
-  "sku": "eddie-2026",
+  "sku": "kuzco-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac Fawn" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle and Tan" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1823,7 +1823,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/eddie",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/kuzco",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
