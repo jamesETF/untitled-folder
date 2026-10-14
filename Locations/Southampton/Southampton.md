@@ -1,7 +1,7 @@
 ---
-title: Ethical Frenchie | Southampton
+title: Southampton French Bulldog Breeder
 subtitle: French Bulldog Breeder Southampton, NY
-description: French Bulldog Breeder Southampton, NY
+description: French Bulldog Breeder Southampton, NY. A family and friends run business with FaceTime calls so you can meet your puppy and the person behind it.
 author: James
 width: full
 navbar:

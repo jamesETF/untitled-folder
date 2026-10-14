@@ -1,7 +1,7 @@
 ---
-title: Fluffy French Bulldog Puppies for Sale | Long Haired Frenchie | Ethical Frenchie
+title: Fluffy French Bulldog Puppies for Sale
 subtitle: Fluffy French Bulldog Puppies for Sale — 100% Purebred, Health Tested
-description: Fluffy French Bulldog puppies for sale from a trusted NYC breeder. 100% purebred, Embark DNA tested, 1-year health guarantee. $6,000-$8,500 with nationwide delivery.
+description: Fluffy French Bulldog puppies for sale from a trusted NYC breeder. 100% purebred, Embark DNA tested, 1-year health guarantee. $6,000-$8,500.
 permalink: puppies/upcoming-colors/fluffy-french-bulldog
 width: full
 navbar:

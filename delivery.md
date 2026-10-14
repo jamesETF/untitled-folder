@@ -10,7 +10,7 @@ navbar:
   animation: true
   transparent: false
   transparent_color: light
-description: Nationwide Delivery options - Your Frenchie, Hand Delivered.
+description: Nationwide puppy delivery options. Each Frenchie is hand-delivered to your door and travels in our lap, never in the cargo hold.
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 header:
   layout: center

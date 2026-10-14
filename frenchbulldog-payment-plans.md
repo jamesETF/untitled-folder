@@ -32,15 +32,11 @@ pipedrive: true
   section_padding_remove="top"
 %}
 
-{% include cards.html 
-  block="card-media" 
-  media="top" 
+{% include puppies.html
   section_size="large"
-  section_container="expand"
-  section_background="default"
-  card_style="default"
-  section_content_align="center"
   section_padding_remove="top"
+  section_header_align="center"
+  grid="1-3"
 %}
 
 

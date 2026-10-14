@@ -1,6 +1,6 @@
 ---
 width: full
-title: French Bulldog Breeder in Atlanta, GA. We specialize in French Bulldog Puppies only (only frenchie puppies)
+title: Atlanta French Bulldog Breeder
 subtitle: French Bulldog Breeder in Atlanta, GA
 description: Ethical Frenchie of Atlanta, GA if you are looking for ethically bred french bulldog puppies look no further. Learn more about our breeding process.
 permalink: /georgia/atlanta

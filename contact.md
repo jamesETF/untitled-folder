@@ -19,7 +19,7 @@ header:
   heading_size: small
   parallax: true
   height: xsmall
-description: Contact Ethical Frenchie for a frenchie breeder near you
+description: Contact Ethical Frenchie for a frenchie breeder near you. Use the chat for a fast response, or fill out our contact form.
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 extraseocontactus: true
 permalink: /contact-us/

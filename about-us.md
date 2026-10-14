@@ -1,7 +1,7 @@
 ---
 title: About Us
 subtitle: About Ethical Frenchie
-description: How founder James Harrison built Ethical Frenchie — a health-tested, white-glove French Bulldog breeding program in NYC, born from his own frustrating puppy-buying experience.
+description: How founder James Harrison built Ethical Frenchie, a white-glove, health-tested French Bulldog breeding program in NYC, born from his own frustrating search.
 width: full
 navbar:
   sticky: true
@@ -1326,12 +1326,12 @@ html, body { overflow-x: hidden; }
         </div>
         <span class="alt-blog-link__arrow">→</span>
       </a>
-      <a href="/blog/4-types-of-french-bulldog-breeders-near-you/" class="alt-blog-link luna-reveal luna-reveal-delay-2">
+      <a href="/blog/why-french-bulldogs-are-expensive-before-adoption/" class="alt-blog-link luna-reveal luna-reveal-delay-2">
         <div class="alt-blog-link__icon">
           <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
         </div>
         <div>
-          <div class="alt-blog-link__title">4 Types of Breeders Near You</div>
+          <div class="alt-blog-link__title">Why French Bulldogs Are Expensive</div>
           <div class="alt-blog-link__meta">Written by James Harrison</div>
         </div>
         <span class="alt-blog-link__arrow">→</span>

@@ -6,9 +6,6 @@ Allow: /
 # Block thin/auto-generated FAQ individual pages
 Disallow: /faqs/
 
-# Block directory listings
-Disallow: /uploads/
-
 # Block HubSpot tracking parameter URLs
 Disallow: /*?__hstc=
 Disallow: /*?__hssc=

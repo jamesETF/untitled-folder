@@ -1,7 +1,7 @@
 ---
-title: Merle French Bulldog Puppies for Sale | DNA Tested | Ethical Frenchie
+title: Merle French Bulldog Puppies for Sale
 subtitle: Merle French Bulldog Puppies — Health Tested, Responsibly Bred
-description: Merle French Bulldog puppies for sale from a trusted NYC breeder. DNA tested, no double merle breeding, 1-year health guarantee. $5,000-$6,500 with nationwide delivery.
+description: Merle French Bulldog puppies for sale from a trusted NYC breeder. DNA tested, no double merle breeding, 1-year health guarantee. $5,000-$6,500.
 permalink: puppies/upcoming-colors/merle-french-bulldog
 width: full
 navbar:
