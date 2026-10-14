@@ -1,8 +1,9 @@
 {%- comment -%}
-  Follow along on Instagram. Static and self-hosted: no JavaScript, no third-party requests.
+  Follow along on Instagram. Static and self-hosted: no third-party requests.
   Data: site.data.instagram (_data/instagram.json), newest post first. include.count sets how many tiles show (default: every post in the data).
   include.bg sets the section background colour (any CSS colour; default #fff).
   include.cols sets the column count from 640px up (default 5). Under 640px the grid is 3 columns and shows up to 9 tiles.
+  Tapping a tile opens its photo large on the page (one small inline script). Without JavaScript, or without <dialog> support, each tile links straight to its Instagram post.
   Renders nothing if the data or its posts are missing. Tile images are the data's /uploads/instagram/*.webp paths.
 {%- endcomment -%}
 {%- assign ef_ig = site.data.instagram -%}
@@ -34,6 +35,30 @@
 .ef-ig__btn { display: inline-block; max-width: 100%; padding: 14px 36px; border: 2px solid #901941; border-radius: 500px; background: #fff; color: #901941; font-size: .875rem; line-height: 21px; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; }
 .ef-ig__btn:hover { background: #901941; color: #fff; }
 .ef-ig__handle:focus-visible, .ef-ig__btn:focus-visible { outline: 3px solid #901941; outline-offset: 3px; }
+.ef-ig__viewer { width: calc(100% - 16px); max-width: none; max-height: none; margin: auto; padding: 0; border: 0; background: transparent; color: #2B2228; overflow: visible; }
+.ef-ig__viewer:not([open]) { display: none; }
+.ef-ig__viewer::backdrop { background: rgba(20,10,15,.78); }
+.ef-ig__viewer-panel { display: grid; grid-template-columns: minmax(0, 1fr); background: #fff; border-radius: 16px; overflow: hidden; }
+.ef-ig__viewer-stage { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); place-items: center; min-width: 0; background: #F0DFE6; }
+.ef-ig__viewer-img { display: block; width: auto; height: auto; max-width: 100%; max-height: 52vh; }
+.ef-ig__viewer-nav, .ef-ig__viewer-close { position: absolute; display: grid; place-items: center; width: 40px; height: 40px; margin: 0; padding: 0; border: 0; border-radius: 50%; background: rgba(255,255,255,.92); color: #2B2228; box-shadow: 0 2px 10px rgba(0,0,0,.2); cursor: pointer; }
+.ef-ig__viewer-nav svg, .ef-ig__viewer-close svg { display: block; width: 20px; height: 20px; }
+.ef-ig__viewer-nav { top: 50%; transform: translateY(-50%); }
+.ef-ig__viewer-prev { left: 10px; }
+.ef-ig__viewer-next { right: 10px; }
+.ef-ig__viewer-close { top: 10px; right: 10px; z-index: 2; }
+.ef-ig__viewer-nav:hover, .ef-ig__viewer-close:hover { background: #fff; color: #901941; }
+.ef-ig__viewer-nav:focus-visible, .ef-ig__viewer-close:focus-visible { outline: 3px solid #901941; outline-offset: 2px; }
+.ef-ig__viewer-info { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; min-width: 0; padding: 20px 18px 22px; }
+.ef-ig__viewer-date { margin: 0; padding-right: 52px; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #901941; }
+.ef-ig__viewer-cap { margin: 0; font-size: 1rem; line-height: 1.6; color: #2B2228; overflow-wrap: anywhere; }
+.ef-ig__viewer-cta { margin-top: auto; padding: 12px 24px; border-radius: 500px; background: #901941; color: #fff; font-size: .8rem; font-weight: 700; line-height: 1.2; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; }
+.ef-ig__viewer-cta:hover { background: #6E1332; }
+.ef-ig__viewer-cta:focus-visible { outline: 3px solid #901941; outline-offset: 3px; }
+@media (min-width: 640px) { .ef-ig__viewer { width: min(920px, calc(100% - 48px)); } .ef-ig__viewer-panel { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } .ef-ig__viewer-img { max-height: min(78vh, 760px); } .ef-ig__viewer-info { padding: 28px 28px 26px; } .ef-ig__viewer-nav { width: 44px; height: 44px; } .ef-ig__viewer-prev { left: 14px; } .ef-ig__viewer-next { right: 14px; } }
+@media (prefers-reduced-motion: no-preference) { .ef-ig__viewer[open] { animation: ef-ig-viewer-in .22s ease-out; } .ef-ig__viewer::backdrop { animation: ef-ig-viewer-fade .22s ease-out; } }
+@keyframes ef-ig-viewer-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes ef-ig-viewer-fade { from { opacity: 0; } to { opacity: 1; } }
 </style>
 <div class="ef-ig__wrap">
 <div class="ef-ig__head">
@@ -44,7 +69,9 @@
 <div class="ef-ig__grid" style="--ef-ig-cols: {{ include.cols | default: 5 }}">
 {%- for post in ef_ig_list -%}
 {%- if post.image -%}
-<a class="ef-ig__tile" href="{{ post.url | default: ef_ig.profile_url | escape }}" target="_blank" rel="noopener" aria-label="View on Instagram: {{ post.alt | escape }}"><img class="ef-ig__img" src="{{ post.image | relative_url }}" width="{{ post.width }}" height="{{ post.height }}" loading="lazy" decoding="async" alt="{{ post.alt | escape }}"><span class="ef-ig__over"><svg class="ef-ig__glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.2" fill="#fff"/></svg></span></a>
+{%- assign ef_ig_src = post.image | relative_url -%}
+{%- assign ef_ig_when = post.date | date: '%B %Y' -%}
+<a class="ef-ig__tile" href="{{ post.url | default: ef_ig.profile_url | escape }}" target="_blank" rel="noopener" aria-label="View photo: {{ post.alt | escape }}" data-ig-img="{{ ef_ig_src | escape }}" data-ig-alt="{{ post.alt | escape }}" data-ig-date="{{ ef_ig_when | escape }}" data-ig-caption="{{ post.caption_short | default: post.caption | strip_newlines | escape }}" data-ig-w="{{ post.width }}" data-ig-h="{{ post.height }}"><img class="ef-ig__img" src="{{ ef_ig_src | escape }}" width="{{ post.width }}" height="{{ post.height }}" loading="lazy" decoding="async" alt="{{ post.alt | escape }}"><span class="ef-ig__over"><svg class="ef-ig__glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
 {%- endif -%}
 {%- endfor -%}
 </div>
@@ -52,5 +79,98 @@
 <a class="ef-ig__btn" href="{{ ef_ig.profile_url | escape }}" target="_blank" rel="noopener">Follow @{{ ef_ig.handle | escape }}</a>
 </div>
 </div>
+<dialog class="ef-ig__viewer" aria-label="Instagram photo">
+<button class="ef-ig__viewer-close" type="button" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+<div class="ef-ig__viewer-panel">
+<div class="ef-ig__viewer-stage">
+<img class="ef-ig__viewer-img" alt="" decoding="async">
+<button class="ef-ig__viewer-nav ef-ig__viewer-prev" type="button" aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<button class="ef-ig__viewer-nav ef-ig__viewer-next" type="button" aria-label="Next photo"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+</div>
+<div class="ef-ig__viewer-info">
+<p class="ef-ig__viewer-date" hidden></p>
+<p class="ef-ig__viewer-cap" hidden></p>
+<a class="ef-ig__viewer-cta" href="{{ ef_ig.profile_url | escape }}" target="_blank" rel="noopener">View on Instagram</a>
+</div>
+</div>
+</dialog>
+<script>
+(function () {
+var root = document.currentScript && document.currentScript.closest('.ef-ig');
+var viewer = root && root.querySelector('.ef-ig__viewer');
+if (!root || !viewer || !window.HTMLDialogElement || typeof viewer.showModal !== 'function') return;
+var tiles = Array.prototype.slice.call(root.querySelectorAll('.ef-ig__tile'));
+var img = viewer.querySelector('.ef-ig__viewer-img');
+var dateEl = viewer.querySelector('.ef-ig__viewer-date');
+var capEl = viewer.querySelector('.ef-ig__viewer-cap');
+var cta = viewer.querySelector('.ef-ig__viewer-cta');
+var current = 0;
+var opener = null;
+var savedOverflow = '';
+function show(i) {
+current = (i + tiles.length) % tiles.length;
+var t = tiles[current];
+var w = t.getAttribute('data-ig-w');
+var h = t.getAttribute('data-ig-h');
+img.src = t.getAttribute('data-ig-img');
+img.alt = t.getAttribute('data-ig-alt') || '';
+if (w && h) { img.setAttribute('width', w); img.setAttribute('height', h); } else { img.removeAttribute('width'); img.removeAttribute('height'); }
+dateEl.textContent = t.getAttribute('data-ig-date') || '';
+dateEl.hidden = !dateEl.textContent;
+capEl.textContent = t.getAttribute('data-ig-caption') || '';
+capEl.hidden = !capEl.textContent;
+cta.href = t.href;
+}
+function restore() {
+var t = opener;
+opener = null;
+document.documentElement.style.overflow = savedOverflow;
+if (t) t.focus({ preventScroll: true });
+}
+function closeViewer() {
+try { if (viewer.open) viewer.close(); } catch (err) {}
+restore();
+}
+function fallback(tile) {
+opener = null;
+try { if (viewer.open) viewer.close(); } catch (err) {}
+document.documentElement.style.overflow = savedOverflow;
+try { window.open(tile.href, '_blank', 'noopener'); } catch (err) {}
+}
+function openAt(i, tile) {
+var ok = false;
+opener = tile;
+savedOverflow = document.documentElement.style.overflow;
+try {
+show(i);
+document.documentElement.style.overflow = 'hidden';
+viewer.showModal();
+var box = viewer.getBoundingClientRect();
+ok = viewer.open && window.getComputedStyle(viewer).display !== 'none' && box.width > 0 && box.height > 0;
+} catch (err) {
+ok = false;
+}
+if (!ok) fallback(tile);
+}
+tiles.forEach(function (tile, i) {
+tile.addEventListener('click', function (e) {
+if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+e.preventDefault();
+openAt(i, tile);
+});
+});
+viewer.querySelector('.ef-ig__viewer-close').addEventListener('click', closeViewer);
+viewer.querySelector('.ef-ig__viewer-prev').addEventListener('click', function () { show(current - 1); });
+viewer.querySelector('.ef-ig__viewer-next').addEventListener('click', function () { show(current + 1); });
+cta.addEventListener('click', closeViewer);
+viewer.addEventListener('click', function (e) { if (e.target === viewer) closeViewer(); });
+viewer.addEventListener('close', function () { if (!viewer.open) restore(); });
+document.addEventListener('keydown', function (e) {
+if (!viewer.open) return;
+if (e.key === 'ArrowLeft') { e.preventDefault(); show(current - 1); }
+if (e.key === 'ArrowRight') { e.preventDefault(); show(current + 1); }
+});
+})();
+</script>
 </section>
 {%- endif -%}
