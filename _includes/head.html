@@ -8,7 +8,7 @@
     the generic one first in the head and scrapers picked it over the real one.{% endcomment %}
     {% unless page.image %}{% if site.brand.image %}<meta property="og:image" content="{% if site.brand.image contains 'http' %}{{ site.brand.image }}{% else %}{{ site.uploads | absolute_url }}{{ site.brand.image }}{% endif %}"/>{% endif %}{% endunless %}
     {% include hook-head.html %}
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}?v={{ site.time | date: "%s" }}">
     <style>
     /* Pre-position UIkit elements to prevent CLS when JS is deferred */
     [data-uk-navbar]{display:flex}
@@ -47,7 +47,7 @@
     .uk-card-primary a:not(.uk-button),.uk-card-secondary a:not(.uk-button),.uk-section-secondary a:not(.uk-button){color:#fff !important}
     .uk-card-primary .uk-button-default,.uk-card-secondary .uk-button-default,.uk-section-secondary .uk-button-default{color:#fff !important;border-color:rgba(255,255,255,.7) !important}
     </style>
-    <script defer src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+    <script defer src="{{ "/assets/js/main.min.js" | relative_url }}?v={{ site.time | date: "%s" }}"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
