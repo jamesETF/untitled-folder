@@ -41,7 +41,7 @@
       </div>
     {% endif %}
 
-    {% unless page.happytails or page.nomap %}{% include happy-families.html %}{% endunless %}
+    {% comment %}The interactive "Where they all ended up" map lives only on /happy-tails/ (its own map section).{% endcomment %}
 
     {% if site.footer.layout == 'columns' %}
       {% include partials/footer-columns.html %}
