@@ -2,9 +2,6 @@
 title: French Bulldog Puppies for Sale
 subtitle: Embark DNA-tested, AKC-registered French Bulldog puppies with a 1-year health guarantee — hand-delivered to your door nationwide.
 width: full
-# Map is placed inline below the breeder quote (S3c) instead of the layout's
-# site-wide slot at the page bottom. See _layouts/default.html + happy-families.html.
-nomap: true
 navbar:
   sticky: true
   scroll_up: true
@@ -84,9 +81,6 @@ redirect_from:
     </blockquote>
   </div>
 </section>
-
-<!-- S3c: Happy Families map — moved up from the site-wide layout slot 2026-09-11 -->
-{% include happy-families.html %}
 
 <!-- S4: What's Included -->
 <div class="uk-section uk-section-muted">
