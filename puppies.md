@@ -61,9 +61,6 @@ redirect_from:
 %}
 
 <!-- S3b: Breeder Voice — pull quote (moved below the grid 2026-09-11) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
 <style>
   .ef-voice { background: #faf7f5; padding: 56px 0 60px; }
   .ef-voice__card { position: relative; max-width: 760px; margin: 0 auto; padding: 0 24px 0 40px; border-left: 4px solid #901941; }

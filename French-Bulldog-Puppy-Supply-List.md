@@ -26,9 +26,6 @@ last_modified_at: 2026-09-26
 {%- assign total = 0 -%}{%- assign musts = 0 -%}
 {%- for s in sl.sections -%}{%- if s.feature -%}{%- assign total = total | plus: 1 -%}{%- endif -%}{%- for g in s.groups -%}{%- for i in g.items -%}{%- assign total = total | plus: 1 -%}{%- if i.must -%}{%- assign musts = musts | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- endfor -%}{%- endfor -%}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================================

@@ -1,13 +1,14 @@
 {%- comment -%}
   Follow along on Instagram. Static and self-hosted: no JavaScript, no third-party requests.
   Data: site.data.instagram (_data/instagram.json), newest post first. include.count sets how many tiles show (default 6).
+  include.bg sets the section background colour (any CSS colour; default #fff).
   Renders nothing if the data or its posts are missing. Tile images are the data's /uploads/instagram/*.webp paths.
 {%- endcomment -%}
 {%- assign ef_ig = site.data.instagram -%}
 {%- if ef_ig and ef_ig.posts and ef_ig.posts.size > 0 -%}
 {%- assign ef_ig_count = include.count | default: 6 -%}
 {%- assign ef_ig_list = ef_ig.posts | slice: 0, ef_ig_count -%}
-<section class="ef-ig" aria-labelledby="ef-ig-title">
+<section class="ef-ig" aria-labelledby="ef-ig-title"{% if include.bg %} style="background: {{ include.bg | escape }}"{% endif %}>
 <style>
 .ef-ig, .ef-ig *, .ef-ig *::before, .ef-ig *::after { box-sizing: border-box; }
 .ef-ig { background: #fff; padding: clamp(44px, 7vw, 80px) 0; font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }

@@ -32,9 +32,6 @@ parents: ""
 last_modified_at: 2026-09-02
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
 <style>
 /* ============================================================
@@ -1547,55 +1544,9 @@ html, body {
 
 
 <!-- ═══════════════════════════════════════════════════════════
-     FEATURED TESTIMONIAL
+     INSTAGRAM (static, _includes/instagram-feed.html)
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="Customer review">
-  <div class="luna-container luna-container--narrow">
-    <div class="luna-reveal" style="text-align:center; margin-bottom: 36px;">
-      <span class="luna-eyebrow">What Our Families Say</span>
-      <h2 class="luna-heading luna-heading--lg">Real Reviews From Real Families</h2>
-    </div>
-
-    <div class="luna-two-col" style="gap: 20px;">
-      <div class="luna-testimonial luna-reveal">
-        <div class="luna-testimonial__stars" aria-label="5 stars">
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-        </div>
-        <p class="luna-testimonial__text">James and his team made the entire process seamless. From our first FaceTime call to the day our puppy arrived, we felt completely supported. Our Frenchie is healthy, happy, and exactly what we hoped for.</p>
-        <div class="luna-testimonial__author">
-          <div class="luna-testimonial__avatar">NB</div>
-          <div>
-            <span class="luna-testimonial__name">Nikol B.</span>
-            <span class="luna-testimonial__source">Google Review</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="luna-testimonial luna-reveal luna-reveal-delay-2">
-        <div class="luna-testimonial__stars" aria-label="5 stars">
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <span class="luna-testimonial__star"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-        </div>
-        <p class="luna-testimonial__text">Best decision we ever made. Ethical Frenchie was transparent, communicative, and genuinely cared about matching us with the right puppy. Worth every penny.</p>
-        <div class="luna-testimonial__author">
-          <div class="luna-testimonial__avatar">KL</div>
-          <div>
-            <span class="luna-testimonial__name">Kelly L.</span>
-            <span class="luna-testimonial__source">Google Review</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
+{% include instagram-feed.html bg="#f5f3f0" %}
 
 
 <!-- ═══════════════════════════════════════════════════════════

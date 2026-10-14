@@ -1,1 +1,5 @@
-<!-- Montserrat font is self-hosted via @font-face in main.scss — no external requests needed -->
+<!-- Montserrat and Playfair Display fonts are self-hosted via @font-face in main.scss — no external requests needed -->
+{% if page.collection == "french-bulldog-puppies" %}
+<!-- Hero name (h1.luna-hero__name) is Playfair italic 700 and above the fold; no other Playfair face is used there, so only this one is preloaded -->
+<link rel="preload" href="{{ '/assets/fonts/playfair-display-latin-700-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+{% endif %}
