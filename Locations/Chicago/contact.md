@@ -18,7 +18,7 @@ header:
   heading_size: medium
   parallax: true
   height: half
-description: Contact Ethical Frenchie for a french bulldog puppy near you
+description: Contact Ethical Frenchie for a French Bulldog puppy near you. Send a message through our contact form, then join a FaceTime or Zoom meeting with the puppies.
 subtitle: Feel free to reach out to us regarding our puppies, We're disrupting the traditional petstore model, one frenchie at a time.
 extraseocontactus: true
 pipedrive: true

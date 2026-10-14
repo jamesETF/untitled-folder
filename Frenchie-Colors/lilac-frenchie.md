@@ -1,7 +1,7 @@
 ---
-title: Lilac French Bulldog Puppies for Sale | Health Tested | Ethical Frenchie
+title: Lilac French Bulldog Puppies for Sale
 subtitle: Lilac French Bulldog Puppies — DNA Health Tested, NYC Breeder
-description: Lilac French Bulldog puppies for sale from a trusted NYC breeder. Embark DNA tested, 1-year health guarantee, AKC registered. $4,500-$5,000 with nationwide delivery.
+description: Lilac French Bulldog puppies for sale from a trusted NYC breeder. Embark DNA tested, 1-year health guarantee, AKC registered. $4,500-$5,000.
 permalink: puppies/upcoming-colors/lilac-french-bulldog
 width: full
 navbar:

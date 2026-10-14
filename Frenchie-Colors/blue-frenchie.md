@@ -1,7 +1,7 @@
 ---
-title: Blue French Bulldog Puppies for Sale | NYC Breeder | Ethical Frenchie
+title: Blue French Bulldog Puppies for Sale
 subtitle: Blue French Bulldog Puppies — Health Tested, AKC Registered
-description: Blue French Bulldog puppies for sale from a trusted NYC breeder. Embark DNA tested, 1-year health guarantee, AKC registered. $4,000-$5,000 with nationwide delivery.
+description: Blue French Bulldog puppies for sale from a trusted NYC breeder. Embark DNA tested, 1-year health guarantee, AKC registered. $4,000-$5,000.
 permalink: puppies/upcoming-colors/blue-french-bulldog
 width: full
 navbar:

@@ -2,7 +2,7 @@
 title: French Bulldog Colors
 width: full
 section: large
-description: Learn more about all French Bulldog Colors, personality, and prices. Join The Waitlist for your dream puppy.
+description: Learn about French Bulldog colors, including personality and prices, from blue and merle to lilac and fluffy. Join the waitlist for your dream puppy.
 permalink: /puppies/upcoming-colors
 header:
   layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3

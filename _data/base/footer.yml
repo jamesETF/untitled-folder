@@ -13,8 +13,20 @@ center:
     url: /french-bulldog-puppies/
 
   - title: Contact
-    url: /contact-us
+    url: /contact-us/
 
   - title: Privacy Policy
-    url: /privacy
+    url: /privacy/
+
+  - title: FAQ
+    url: /faq/
+
+  - title: Puppy Supply List
+    url: /french-bulldog-preparation-list/
+
+  - title: Payment Plans
+    url: /french-bulldog-payment-plans/
+
+  - title: Partner Pups
+    url: /puppies/partner-puppies/
 

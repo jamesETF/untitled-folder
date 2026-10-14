@@ -20,7 +20,7 @@ header:
   heading_size: small
   parallax: true
   height: medium
-description: Browse Embark DNA-tested, AKC-registered French Bulldog puppies from Ethical Frenchie. Every puppy includes a 1-year health guarantee and personal hand-delivery nationwide.
+description: Browse Embark DNA-tested, AKC-registered French Bulldog puppies from Ethical Frenchie. Each has a 1-year health guarantee and hand-delivery nationwide.
 chat: false
 applechat: false
 hubspotneeded: true

@@ -231,12 +231,6 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
-# Chicago contact sub-page — no-slash wins (negligible but clean)
-[[redirects]]
-  from = "/illinois/chicago/contact-us/"
-  to = "/illinois/chicago/contact-us"
-  status = 301
-
 # --- Thin blog post redirects (GSC data: all under 200 impr, 0-1 clicks/year) ---
 # Source: Session 15 analysis, cannibalization data confirmed redirect targets
 

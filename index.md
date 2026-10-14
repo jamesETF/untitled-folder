@@ -3,7 +3,7 @@ title: Ethical Frenchie
 width: full
 section: large
 subtitle: Ethical Frenchie is a trustworthy French Bulldog breeder specializing in raising healthy, happy, and loving Frenchies. Experience the difference of our ethical approach to breeding.
-description: Ethical Frenchie is a trustworthy French Bulldog breeder specializing in raising healthy, happy, and loving Frenchies. Experience the difference of our ethical approach to breeding.
+description: Ethical Frenchie is a trustworthy French Bulldog breeder raising healthy, happy, loving Frenchies. Experience the difference ethical breeding makes.
 header:
   layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
   background_image: header-6.jpg
@@ -48,8 +48,6 @@ redirect_from:
   gutter="small"
   section_content_align="center"
 %}
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-3bf3cf5c-9354-439d-abc2-358215056e8d" data-elfsight-app-lazy></div>
 
 
 {% include cards.html 

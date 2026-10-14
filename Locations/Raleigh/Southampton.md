@@ -1,7 +1,7 @@
 ---
-title: Ethical Frenchie | Raleigh, NC
+title: Raleigh French Bulldog Breeder
 subtitle: French Bulldog Breeder Raleigh, NC
-description: French Bulldog Breeder Raleigh, NC
+description: French Bulldog Breeder Raleigh, NC. We personally deliver to Raleigh and the Triangle area, and Raleigh families can visit our NYC or Chicago location.
 author: James
 width: full
 navbar:

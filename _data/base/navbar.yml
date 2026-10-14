@@ -23,7 +23,7 @@ center:
  
 right:
   - title: Contact Us
-    url: /contact-us
+    url: /contact-us/
     button: danger
 
 

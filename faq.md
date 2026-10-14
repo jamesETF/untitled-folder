@@ -10,7 +10,7 @@ navbar:
   transparent_color: light
 header:
   layout: center
-  background_image: header-4.jpg
+  background_image: header-6.jpg
   background_overlay: "rgba(0, 0, 0, 0.45)"
   background_align: top-center
   color: light
