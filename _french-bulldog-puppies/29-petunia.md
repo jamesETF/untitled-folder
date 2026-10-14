@@ -1142,9 +1142,6 @@ html, body {
 .luna-include-wrap {
   /* Let the includes breathe inside our design */
 }
-.luna-include-wrap .elfsight-app-ca69e58c-686b-41a6-a53d-dc911996b5fd {
-  margin: 0 auto;
-}
 
 /* Hide the default header that the layout renders  */
 /* Since width:full is set, the page layout doesn't wrap in article.
@@ -1618,7 +1615,7 @@ html, body {
 
 
 <!-- ═══════════════════════════════════════════════════════════
-     GOOGLE REVIEWS (Elfsight Widget)
+     GOOGLE REVIEWS (static, _includes/reviewsg.html)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-include-wrap">
 {% include reviewsg.html
