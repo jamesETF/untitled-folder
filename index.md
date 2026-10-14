@@ -50,6 +50,8 @@ redirect_from:
 %}
 
 
+{% include instagram-feed.html %}
+
 {% include cards.html 
   block="frenchie-breeder-1" 
   media="right" 
