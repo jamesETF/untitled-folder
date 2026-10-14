@@ -26,16 +26,6 @@ happytails: true
 
 {% include trust-bar.html %}
 
-<!-- Breeder Voice — short version (full story on /about-us/) -->
-<div class="uk-section uk-section-default" style="padding: 28px 0 20px;">
-  <div class="uk-container uk-container-small">
-    <p style="font-size: 16px; line-height: 1.8; color: #3c3c3c; text-align: center; margin: 0;">
-      I started Ethical Frenchie after experiencing firsthand how broken the puppy-buying process was — scam sites, classifieds, zero transparency. Every family you see on this map went through the process I wished I'd had when I found our first Frenchie, Vilma.
-    </p>
-    <p style="font-size: 14px; color: #901941; font-weight: 600; text-align: center; margin: 10px 0 0 0;">— James, Founder &middot; <a href="/about-us/" style="color: #901941; text-decoration: underline;">Read our full story</a></p>
-  </div>
-</div>
-
 <!-- ============================================================
      INTERACTIVE MAP — Pins with before/after photo popups
      All CSS and JS is inline — zero impact on other pages.
@@ -191,15 +181,16 @@ happytails: true
   <div class="ht-loading">Loading map...</div>
 </div>
 
-<!-- Submit Photos CTA -->
-<div style="background: #901941; padding: 30px 20px; text-align: center;">
-  <p style="color: #fff; font-size: 20px; font-weight: 700; margin: 0 0 8px 0;">Have an Ethical Frenchie at Home?</p>
-  <p style="color: rgba(255,255,255,0.85); font-size: 15px; margin: 0 0 20px 0;">Submit your pup's before & after photos for our map!</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSehuypnX_BbJlNzjxW8-cmyLgTldJuaWib8O4EXitC4fYKleA/viewform" target="_blank" rel="noopener" style="display:inline-block; background:#fff; color:#901941; padding:12px 28px; border-radius:4px; font-weight:700; font-size:15px; text-decoration:none;">Submit Your Photos</a>
-</div>
+<!-- Add-your-pin line, directly under the map -->
+<p style="text-align: center; font-size: 14px; color: #5c5e65; margin: 14px 16px 0;">Is your pup on the map? <a href="https://docs.google.com/forms/d/e/1FAIpQLSehuypnX_BbJlNzjxW8-cmyLgTldJuaWib8O4EXitC4fYKleA/viewform" target="_blank" rel="noopener" style="color: #901941; font-weight: 600; text-decoration: underline;">Add your pin &rarr;</a></p>
 
 <!-- Puppy Showcase Grid -->
 <div class="uk-section uk-section-muted uk-section-large">
+  <style>
+  .ht-alumni-fade > *:nth-child(n+7) { display: none; }
+  .ht-alumni-fade { -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 380px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 380px), transparent); }
+  @media (max-width: 639.98px) { .ht-alumni-fade > *:nth-child(n+5) { display: none; } }
+  </style>
   <div class="uk-container uk-container-large">
     <div class="uk-text-center uk-margin-large-bottom">
       <h2 class="section-title">Meet Our Alumni</h2>
@@ -212,7 +203,7 @@ happytails: true
     {% assign nyc_reviews = "https://www.google.com/maps/place/Ethical+Frenchie/@40.7028885,-74.0138771,17z/data=!4m8!3m7!1s0x89c25b610f061fb1:0x24ac563bf3edce66!8m2!3d40.7028885!4d-74.0138771!9m1!1b1!16s%2Fg%2F11mnghzshz" %}
     {% assign chi_reviews = "https://www.google.com/maps/place/Ethical+Frenchie/@41.8847435,-87.6363389,17z/data=!4m8!3m7!1s0x880e2d623a6a4673:0x57d3c1f249c3cd83!8m2!3d41.8847435!4d-87.6363389!9m1!1b1!16s%2Fg%2F11lgvvz659" %}
 
-    <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match" data-uk-grid>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-grid-match ht-alumni-fade" data-uk-grid>
 
       <!-- Bean — quote from Diego David, NYC Google review -->
       <div>
@@ -398,14 +389,27 @@ happytails: true
   </div>
 </div>
 
+<!-- Instagram (static, _includes/instagram-feed.html) -->
+{% include instagram-feed.html %}
+
+<!-- Google reviews (static, _includes/reviewsg.html) -->
+{% include reviewsg.html exclude="Diego David,Hello Miss Mabel,nikol beljakovic,Kelly Lima,Rhiannon Lupo,David Kirsch" %}
+
+<!-- Breeder Voice — short version (full story on /about-us/) -->
+<div class="uk-section uk-section-muted" style="padding: 28px 0 20px;">
+  <div class="uk-container uk-container-small">
+    <p style="font-size: 16px; line-height: 1.8; color: #3c3c3c; text-align: center; margin: 0;">
+      I started Ethical Frenchie after experiencing firsthand how broken the puppy-buying process was — scam sites, classifieds, zero transparency. Every family you see on this map went through the process I wished I'd had when I found our first Frenchie, Vilma.
+    </p>
+    <p style="font-size: 14px; color: #901941; font-weight: 600; text-align: center; margin: 10px 0 0 0;">— James, Founder &middot; <a href="/about-us/" style="color: #901941; text-decoration: underline;">Read our full story</a></p>
+  </div>
+</div>
+
 <!-- Main CTAs -->
 <div class="uk-section uk-section-default uk-section-large">
   <div class="uk-container uk-container-small uk-text-center">
     <h2 class="section-title">Ready to Join the Ethical Frenchie Family?</h2>
     <p class="uk-text-lead uk-margin-medium-bottom">Browse our available puppies or start your application today.</p>
-    <div style="margin-bottom: 24px; font-size: 15px; color: #5c5e65;">
-      <strong style="color: #901941;">&#9733; 4.7</strong> out of 5 on <a href="https://www.google.com/maps/place/Ethical+Frenchie/@40.7028885,-74.0138771,17z/data=!4m8!3m7!1s0x89c25b610f061fb1:0x24ac563bf3edce66!8m2!3d40.7028885!4d-74.0138771!9m1!1b1!16s%2Fg%2F11mnghzshz" target="_blank" rel="noopener" style="color: #901941; font-weight: 700;">Google</a> &middot; 87 Reviews
-    </div>
     <div class="uk-child-width-1-2@s" data-uk-grid>
       <div>
         <a class="uk-button uk-button-xlarge uk-width-1-1" style="background-color: #901941; color: #fff; border: none;" href="/french-bulldog-puppies/">See Available Puppies</a>
@@ -537,6 +541,7 @@ happytails: true
       disableDefaultUI: true,
       zoomControl: true,
       scrollwheel: false,
+      gestureHandling: 'cooperative',
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 

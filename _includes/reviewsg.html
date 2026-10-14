@@ -1,9 +1,26 @@
 {%- comment -%}
   Google reviews, static. Replaces the old third-party review widget. Data: _data/google_reviews.json.
-  include.count sets how many reviews show (default 6). Other include params are ignored, as before.
+  include.count sets how many reviews show (default 6). include.exclude is a comma-separated list of reviewer names to skip (exact match, applied before the count). Other include params are ignored, as before.
   Avatars: /uploads/reviews/*.webp. A null avatar shows the reviewer's first letter in a coloured circle.
 {%- endcomment -%}
 {%- assign ef_all = site.data.google_reviews.reviews -%}
+{%- if include.exclude and include.exclude != "" -%}
+{%- assign ef_skip_list = include.exclude | split: "," -%}
+{%- assign ef_kept = ef_all | slice: 0, 0 -%}
+{%- for r in ef_all -%}
+{%- assign ef_i = forloop.index0 -%}
+{%- assign ef_drop = false -%}
+{%- for ef_skip in ef_skip_list -%}
+{%- assign ef_s = ef_skip | strip -%}
+{%- if r.name == ef_s -%}{%- assign ef_drop = true -%}{%- endif -%}
+{%- endfor -%}
+{%- unless ef_drop -%}
+{%- assign ef_one = ef_all | slice: ef_i, 1 -%}
+{%- assign ef_kept = ef_kept | concat: ef_one -%}
+{%- endunless -%}
+{%- endfor -%}
+{%- assign ef_all = ef_kept -%}
+{%- endif -%}
 {%- if ef_all and ef_all.size > 0 -%}
 {%- assign ef_count = include.count | default: 6 -%}
 {%- assign ef_list = ef_all | slice: 0, ef_count -%}
