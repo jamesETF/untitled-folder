@@ -1,12 +1,13 @@
 {%- comment -%}
   Follow along on Instagram. Static and self-hosted: no JavaScript, no third-party requests.
-  Data: site.data.instagram (_data/instagram.json), newest post first. include.count sets how many tiles show (default 6).
+  Data: site.data.instagram (_data/instagram.json), newest post first. include.count sets how many tiles show (default: every post in the data).
   include.bg sets the section background colour (any CSS colour; default #fff).
+  include.cols sets the column count from 640px up (default 5). Under 640px the grid is 3 columns and shows up to 9 tiles.
   Renders nothing if the data or its posts are missing. Tile images are the data's /uploads/instagram/*.webp paths.
 {%- endcomment -%}
 {%- assign ef_ig = site.data.instagram -%}
 {%- if ef_ig and ef_ig.posts and ef_ig.posts.size > 0 -%}
-{%- assign ef_ig_count = include.count | default: 6 -%}
+{%- assign ef_ig_count = include.count | default: ef_ig.posts.size -%}
 {%- assign ef_ig_list = ef_ig.posts | slice: 0, ef_ig_count -%}
 <section class="ef-ig" aria-labelledby="ef-ig-title"{% if include.bg %} style="background: {{ include.bg | escape }}"{% endif %}>
 <style>
@@ -26,8 +27,8 @@
 .ef-ig__glyph { width: 32%; max-width: 52px; height: auto; }
 .ef-ig__tile:hover .ef-ig__over, .ef-ig__tile:focus-visible .ef-ig__over { opacity: 1; }
 .ef-ig__tile:focus-visible { outline: 3px solid #901941; outline-offset: 3px; }
-@media (min-width: 960px) { .ef-ig__grid { grid-template-columns: repeat(var(--ef-ig-cols, 6), minmax(0, 1fr)); } }
-@media (max-width: 639.98px) { .ef-ig__grid { gap: 6px; } .ef-ig__tile { border-radius: 8px; } }
+@media (min-width: 640px) { .ef-ig__grid { grid-template-columns: repeat(var(--ef-ig-cols, 5), minmax(0, 1fr)); } }
+@media (max-width: 639.98px) { .ef-ig__grid { gap: 6px; } .ef-ig__tile { border-radius: 8px; } .ef-ig__tile:nth-child(n+10) { display: none; } }
 @media (prefers-reduced-motion: no-preference) { .ef-ig__img { transition: transform .4s ease; } .ef-ig__over { transition: opacity .3s ease; } .ef-ig__btn { transition: background-color .1s ease-in-out, color .1s ease-in-out; } .ef-ig__tile:hover .ef-ig__img, .ef-ig__tile:focus-visible .ef-ig__img { transform: scale(1.04); } }
 .ef-ig__foot { margin: clamp(28px, 4vw, 40px) 0 0; text-align: center; }
 .ef-ig__btn { display: inline-block; max-width: 100%; padding: 14px 36px; border: 2px solid #901941; border-radius: 500px; background: #fff; color: #901941; font-size: .875rem; line-height: 21px; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; }
@@ -40,7 +41,7 @@
 <h2 class="ef-ig__title" id="ef-ig-title">Life with <span class="acc">our Frenchies</span>.</h2>
 <a class="ef-ig__handle" href="{{ ef_ig.profile_url | escape }}" target="_blank" rel="noopener">@{{ ef_ig.handle | escape }}</a>
 </div>
-<div class="ef-ig__grid" style="--ef-ig-cols: {{ ef_ig_list.size }}">
+<div class="ef-ig__grid" style="--ef-ig-cols: {{ include.cols | default: 5 }}">
 {%- for post in ef_ig_list -%}
 {%- if post.image -%}
 <a class="ef-ig__tile" href="{{ post.url | default: ef_ig.profile_url | escape }}" target="_blank" rel="noopener" aria-label="View on Instagram: {{ post.alt | escape }}"><img class="ef-ig__img" src="{{ post.image | relative_url }}" width="{{ post.width }}" height="{{ post.height }}" loading="lazy" decoding="async" alt="{{ post.alt | escape }}"><span class="ef-ig__over"><svg class="ef-ig__glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.2" fill="#fff"/></svg></span></a>
