@@ -54,12 +54,12 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       PUPPY LISTINGS (12: 7 available — Kuzco, Flower, Sully, Olaf, Koda, Thumper,
+       PUPPY LISTINGS (11: 6 available — Sully, Kuzco, Flower, Koda, Thumper,
        Wonka; 5 placed, pages kept live)
        Updated 2026-10-17 — placed pups with full pages (Yoda/Paddington/Petunia/
        Stitch/Perdita) stay listed for SEO equity; stub retirees
        (Cosmo/Diesel/Luke/Hobbes/Kronk) are excluded (sitemap: false + 301);
-       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch) are excluded (page deleted + 301).
+       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf) are excluded (page deleted + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
@@ -104,11 +104,6 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/paddington</loc>
-    <lastmod>2026-10-14</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/olaf</loc>
     <lastmod>2026-10-14</lastmod>
   </url>
 
