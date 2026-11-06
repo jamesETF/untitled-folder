@@ -74,7 +74,6 @@ html { scroll-behavior: smooth; }
 
 .luna-section { padding: clamp(48px, 8vw, 96px) 0; }
 .luna-container { max-width: 1080px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 40px); }
-.luna-container--narrow { max-width: 720px; }
 .luna-container--wide { max-width: 1200px; }
 
 .luna-eyebrow { font-family: var(--luna-font); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em;
@@ -115,6 +114,13 @@ html { scroll-behavior: smooth; }
   .luna-hero__gradient { background: linear-gradient(to top, rgba(0,0,0,0.86) 0%, rgba(0,0,0,0.68) 45%, rgba(0,0,0,0.3) 78%, rgba(0,0,0,0.12) 100%); }
   .luna-hero__greeting { color: rgba(255,255,255,0.78); }
 }
+@media (max-width: 768px) {
+  /* Wide two-pup photo: stack it above the text on phones so both faces show. */
+  .luna-hero { display: block; min-height: 0; }
+  .luna-hero__img { position: relative; inset: auto; display: block; height: auto; aspect-ratio: 3 / 2; object-position: center; }
+  .luna-hero__gradient { display: none; }
+  .luna-hero__content { padding-top: 22px; }
+}
 @media (max-width: 480px) {
   .luna-hero__stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; padding: 14px 4px; }
   .luna-hero__stat { min-width: 0; padding: 0 4px; }
@@ -142,6 +148,9 @@ html { scroll-behavior: smooth; }
   color: #fff; font-family: var(--luna-font); font-size: 0.88rem; font-weight: 700; text-decoration: none; transition: all var(--luna-transition); }
 .bs-btn-primary svg { width: 18px; height: 18px; flex-shrink: 0; }
 .bs-btn-primary:hover { background: var(--luna-primary-light); color: #fff; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(144,25,65,0.25); text-decoration: none; }
+
+/* The site's global CSS fills SVGs; these icons are stroke-only. */
+.luna-trust__icon svg, .luna-btn svg, .bs-btn-primary svg, .luna-cta-bar__btn svg { fill: none; }
 
 /* --- Trust strip --- */
 .luna-trust { background: var(--luna-bg-muted); border-top: 1px solid var(--luna-border); border-bottom: 1px solid var(--luna-border); }
@@ -530,7 +539,7 @@ html { scroll-behavior: smooth; }
 
 <!-- CLOSING CTA -->
 <section class="luna-final-cta luna-section" aria-label="Download the guide">
-  <div class="luna-container luna-container--narrow luna-reveal">
+  <div class="luna-container luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.65);">{{ g.closing.eyebrow }}</span>
     <h2 class="luna-final-cta__heading">{{ g.closing.title }}</h2>
     <p class="luna-final-cta__sub">{{ g.closing.text }}</p>
