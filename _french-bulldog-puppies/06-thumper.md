@@ -20,7 +20,7 @@ chat: true
 
 gender: Male
 color_coat: Blue
-age_weeks: 8
+age_weeks: 12
 dob: 2026-08-15
 ready_date: 2026-10-10
 estimated_adult_weight_lbs: "25-28"
@@ -29,7 +29,7 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-10-12
+last_modified_at: 2026-11-09
 ---
 
 
@@ -1172,7 +1172,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">8 Weeks</span>
+        <span class="luna-hero__stat-value">12 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1201,7 +1201,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue-Grey Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
@@ -1374,7 +1374,7 @@ html, body {
           <div class="luna-personality__body">
             <p>Named for Bambi's best buddy, <strong>Thumper</strong> is <strong>playful, cheeky and fiercely loyal</strong>. He's the first to scramble over and say hello, the one who turns any toy into a game, and the pup who'll keep you company through every movie night.</p>
             <p>His <strong>solid blue coat</strong> is short, velvety and even from nose to tail, broken only by a <strong>little white blaze</strong> on his chest, with tall upright ears and a pair of <strong>soft blue-grey eyes</strong>. He's sturdy and well-built, with the deep chest and square frame the breed is loved for.</p>
-            <p><strong>Happy, playful and devoted</strong>, Thumper is a friend for life. At eight weeks he is <strong>ready to come home now</strong> — and his littermate Flower is looking for a family too.</p>
+            <p><strong>Happy, playful and devoted</strong>, Thumper is a friend for life. At twelve weeks he is <strong>ready to come home now</strong> — and his littermate Flower is looking for a family too.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#128048; Playful</span>

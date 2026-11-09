@@ -20,7 +20,7 @@ chat: true
 
 gender: Female
 color_coat: Blue Merle and Tan
-age_weeks: 8
+age_weeks: 12
 dob: 2026-08-15
 ready_date: 2026-10-10
 estimated_adult_weight_lbs: "22-25"
@@ -29,7 +29,7 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-10-12
+last_modified_at: 2026-11-09
 ---
 
 
@@ -1172,7 +1172,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">8 Weeks</span>
+        <span class="luna-hero__stat-value">12 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1201,7 +1201,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue-Grey Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
@@ -1374,7 +1374,7 @@ html, body {
           <div class="luna-personality__body">
             <p>Named for the sweet, bashful friend from Disney's <strong>Bambi</strong>, Flower is <strong>gentle, a little shy and wonderfully affectionate</strong>. She takes a moment to size up a new face, then tucks herself in close and decides you're her person.</p>
             <p>Her <strong>blue merle coat</strong> is dappled across her face, ears and legs, with a solid blue patch over one eye, soft <strong>tan points</strong>, a little <strong>white blaze</strong> on her chest and a pair of <strong>wide blue-grey eyes</strong>. Her ears already stand tall above a sweet, round face.</p>
-            <p><strong>Sweet, gentle and cuddly</strong>, Flower is the kind of girl who makes a house feel calmer. At eight weeks she is <strong>ready to come home now</strong> — and her littermate Thumper is looking for a family too.</p>
+            <p><strong>Sweet, gentle and cuddly</strong>, Flower is the kind of girl who makes a house feel calmer. At twelve weeks she is <strong>ready to come home now</strong> — and her littermate Thumper is looking for a family too.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#127800; Sweet</span>

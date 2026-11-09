@@ -20,7 +20,7 @@ chat: true
 
 gender: Male
 color_coat: Blue and Tan
-age_weeks: 7
+age_weeks: 11
 dob: 2026-08-23
 ready_date: 2026-10-18
 estimated_adult_weight_lbs: "25-28"
@@ -29,7 +29,7 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-10-12
+last_modified_at: 2026-11-09
 ---
 
 
@@ -1164,7 +1164,7 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Yours in 1 Week
+        Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
       <h1 class="luna-hero__name">Hi, I'm Koda!</h1>
@@ -1172,7 +1172,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">7 Weeks</span>
+        <span class="luna-hero__stat-value">11 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1184,7 +1184,7 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">1 Week</span>
+        <span class="luna-hero__stat-value">Ready Now</span>
         <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
@@ -1201,9 +1201,9 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 7 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 11 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Bright Blue Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Yours in 1 Week</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1374,7 +1374,7 @@ html, body {
           <div class="luna-personality__body">
             <p>Named for the chatty, big-hearted cub from <strong>Brother Bear</strong>, Koda is <strong>curious, playful and eager to be included</strong>. He's the pup who follows the bigger kids around the yard, inspects every leaf, and then flops down for a nap the moment the excitement winds down.</p>
             <p>He has a <strong>smoky blue coat</strong> with warm <strong>tan points</strong> on his cheeks, chest and legs, soft ears that are just starting to stand, and a pair of <strong>bright blue eyes</strong> you'll notice from across the room. He's compact and solid, with the open, trusting face of a pup who likes everyone he meets.</p>
-            <p><strong>Playful, affectionate and always up for company</strong>, Koda is happiest when he's part of the pack. At seven weeks he'll be <strong>ready for his family in mid October</strong>, and his spot is open to reserve right now.</p>
+            <p><strong>Playful, affectionate and always up for company</strong>, Koda is happiest when he's part of the pack. At eleven weeks he is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#128269; Curious</span>
@@ -1393,7 +1393,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Yours in 1 Week
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
@@ -1505,7 +1505,7 @@ html, body {
               <li><strong>Gender:</strong> Male</li>
               <li><strong>Color:</strong> Blue and Tan</li>
               <li><strong>Eye Color:</strong> Bright Blue</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready mid October)</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
               <li><strong>Date of Birth:</strong> August 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
@@ -1595,7 +1595,7 @@ block_title="false"
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
     <h2 class="luna-final-cta__heading">Reserve Koda Before He's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Koda will be ready in mid October — start your application today and take the first step toward bringing Koda home.</p>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Koda is ready to come home now — start your application today and take the first step toward bringing Koda home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>

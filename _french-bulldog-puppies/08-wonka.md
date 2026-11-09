@@ -20,7 +20,7 @@ chat: true
 
 gender: Male
 color_coat: Chocolate Merle
-age_weeks: 10
+age_weeks: 14
 dob: 2026-07-28
 ready_date: 2026-09-22
 estimated_adult_weight_lbs: "25-28"
@@ -29,7 +29,7 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-10-12
+last_modified_at: 2026-11-09
 ---
 
 
@@ -1172,7 +1172,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">10 Weeks</span>
+        <span class="luna-hero__stat-value">14 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1201,7 +1201,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Chocolate Merle</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 10 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 14 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
@@ -1374,7 +1374,7 @@ html, body {
           <div class="luna-personality__body">
             <p>Named for the one and only <strong>Willy Wonka</strong>, this boy is <strong>whimsical, curious and full of surprises</strong>. He explores the world nose-first, finds something fascinating in every patch of grass, and has a way of making ordinary afternoons feel a little magical.</p>
             <p>His <strong>chocolate merle coat</strong> is swirled in rich cocoa and cream — one side of his face a solid chocolate patch, the other dappled like a sprinkle-topped truffle — with pink, chocolate-ticked ears and a pair of <strong>clear blue eyes</strong>. No two angles of him look quite the same.</p>
-            <p><strong>Charming, inquisitive and sweet-natured</strong>, Wonka brings a little pure imagination to every day. At ten weeks he is <strong>ready to come home now</strong>.</p>
+            <p><strong>Charming, inquisitive and sweet-natured</strong>, Wonka brings a little pure imagination to every day. At fourteen weeks he is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#10024; Whimsical</span>
