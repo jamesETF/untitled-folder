@@ -20,7 +20,7 @@ chat: true
 
 gender: Male
 color_coat: Blue and Tan
-age_weeks: 8
+age_weeks: 16
 dob: 2026-07-14
 ready_date: 2026-09-08
 estimated_adult_weight_lbs: "25-28"
@@ -29,7 +29,7 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-09-11
+last_modified_at: 2026-11-09
 ---
 
 
@@ -1172,7 +1172,7 @@ html, body {
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">8 Weeks</span>
+        <span class="luna-hero__stat-value">16 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1201,7 +1201,7 @@ html, body {
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 16 Weeks Old</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Bright Blue Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
@@ -1374,7 +1374,7 @@ html, body {
           <div class="luna-personality__body">
             <p>There was only ever one name for him. Like the gentle giant from <strong>Monsters, Inc.</strong>, Sully is <strong>warm, soft-hearted and protective</strong> — a puppy whose whole job, as far as he's concerned, is to be near his people. He's the one who walks straight up to say hello while the others are still deciding.</p>
             <p>He wears a <strong>smoky blue coat</strong> with clean <strong>tan points</strong> on his cheeks, chest and legs — solid all the way through, no dapple — and a pair of <strong>remarkable bright blue eyes</strong> that are the first thing anyone notices about him. He's compact, well-boned, and already carrying himself with that easy Frenchie confidence.</p>
-            <p><strong>Gentle, steady and affectionate</strong>, he's the puppy you'll find leaning on your leg while you cook. At eight weeks Sully is <strong>ready to come home now</strong>.</p>
+            <p><strong>Gentle, steady and affectionate</strong>, he's the puppy you'll find leaning on your leg while you cook. At sixteen weeks Sully is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#129309; Gentle</span>
