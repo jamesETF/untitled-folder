@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# Jekyll 3.9 loads _plugins before the gems listed in _config.yml, so load seo-tag first.
+require "jekyll-seo-tag"
+
 # jekyll-seo-tag (2.8) names the JSON-LD publisher after the page author (site.author.name =
 # "James Harrison"), so every page said the publishing Organization was "James Harrison".
 # The publisher is the business; James stays the author (byline). This keeps seo-tag's own
