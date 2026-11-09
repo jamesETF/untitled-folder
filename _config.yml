@@ -16,10 +16,9 @@ brand:
   image:                header-6.jpg # og:image default (resolved against uploads: path in head.html)
 
 # jekyll-seo-tag identity. `twitter.username` is what makes seo-tag emit twitter:site.
-# NOTE: seo-tag's JSON-LD `publisher.name` follows site.author.name, NOT social.name —
-# so every BlogPosting still publishes under "James Harrison" rather than the business.
-# That is a plugin limitation (json_ld_drop.rb); changing site.author would break post
-# bylines. Valid schema, just an odd Organization name. Live with it or hand-author.
+# NOTE: seo-tag's JSON-LD `publisher.name` follows site.author.name by default; the override in
+# _plugins/seo_publisher.rb sets it to "Ethical Frenchie LLC" on every page (Nov 9, 2026).
+# site.author stays James Harrison so post bylines and the JSON-LD author are unchanged.
 social:
   name:                 Ethical Frenchie
   links:
