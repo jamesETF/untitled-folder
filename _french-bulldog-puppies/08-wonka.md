@@ -3,7 +3,7 @@ title: Wonka
 description: Meet Wonka, a chocolate merle French Bulldog with a swirled cocoa-and-cream coat and blue eyes — whimsical, curious, and full of surprises.
 subtitle: Chocolate Merle Frenchie Wonka
 width: full
-image: /uploads/french-bulldog-puppies/wonka/wonka-nov-1.webp
+image: /uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-1.webp
 topics: [Our Puppies, "Chocolate Merle French Bulldog"]
 
 navbar:
@@ -1152,7 +1152,7 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <section class="luna-hero" aria-label="Wonka hero">
   <img
-    src="/uploads/french-bulldog-puppies/wonka/wonka-nov-1.webp"
+    src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-1.webp"
     alt="Wonka, a Chocolate Merle French Bulldog puppy with blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
@@ -1264,10 +1264,10 @@ html, body {
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Wonka's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/wonka/wonka-nov-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Wonka - Chocolate Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Wonka - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/wonka/wonka-nov-1.webp"
+          data-src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-1.webp"
           alt="Wonka the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
@@ -1279,10 +1279,10 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/wonka/wonka-nov-2.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-2.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/wonka/wonka-nov-2.webp"
+          data-src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-2.webp"
           alt="Wonka the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
@@ -1294,10 +1294,10 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/wonka/wonka-nov-3.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-3.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/wonka/wonka-nov-3.webp"
+          data-src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-3.webp"
           alt="Wonka the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
@@ -1309,10 +1309,10 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/wonka/wonka-nov-4.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-4.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/wonka/wonka-nov-4.webp"
+          data-src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-4.webp"
           alt="Wonka the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
@@ -1324,10 +1324,10 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/wonka/wonka-nov-5.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-5.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/wonka/wonka-nov-5.webp"
+          data-src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-5.webp"
           alt="Wonka the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
@@ -1339,10 +1339,10 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/wonka/wonka-nov-6.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-6.webp" class="luna-gallery__item" data-caption="Wonka - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/wonka/wonka-nov-6.webp"
+          data-src="/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-6.webp"
           alt="Wonka the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
@@ -1750,12 +1750,12 @@ block_title="false"
   "name": "Wonka - Chocolate Merle French Bulldog Puppy",
   "description": "Meet Wonka, a chocolate merle French Bulldog with a swirled cocoa-and-cream coat and blue eyes — whimsical, curious, and full of surprises.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-nov-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-nov-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-nov-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-nov-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-nov-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-nov-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/wonka/wonka-2026-11-09-6.webp"
   ],
   "sku": "wonka-2026",
   "productionDate": "{{ page.dob }}",
