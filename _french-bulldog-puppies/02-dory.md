@@ -1,10 +1,10 @@
 ---
-title: Flower
-description: Meet Flower, a blue merle and tan French Bulldog girl with a dappled face, a white chest blaze and blue-grey eyes — sweet, shy, and cuddly.
-subtitle: Blue Merle and Tan Frenchie Flower
+title: Dory
+description: Meet Dory, a sunny blue merle French Bulldog girl with a freckled face and two different blue eyes — sociable, easygoing and a little goofy.
+subtitle: Blue Merle Frenchie Dory
 width: full
-image: /uploads/french-bulldog-puppies/flower/flower-1.webp
-topics: [Our Puppies, "Blue Merle and Tan French Bulldog"]
+image: /uploads/french-bulldog-puppies/dory/dory-1.webp
+topics: [Our Puppies, "Blue Merle French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,15 +14,15 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/flower
+permalink: /french-bulldog-puppies/dory
 hubspotneeded: true
 chat: true
 
 gender: Female
-color_coat: Blue Merle and Tan
-age_weeks: 12
-dob: 2026-08-15
-ready_date: 2026-10-10
+color_coat: Blue Merle
+age_weeks: 7
+dob: 2026-09-20
+ready_date: 2026-11-15
 estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
@@ -1150,10 +1150,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Flower hero">
+<section class="luna-hero" aria-label="Dory hero">
   <img
-    src="/uploads/french-bulldog-puppies/flower/flower-1.webp"
-    alt="Flower, a Blue Merle and Tan French Bulldog puppy with blue-grey eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/dory/dory-1.webp"
+    alt="Dory, a Blue Merle French Bulldog puppy with blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1164,15 +1164,15 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Ready to Come Home
+        Yours in 1 Week
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Flower!</h1>
-      <p class="luna-hero__breed">Blue Merle &amp; Tan French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Dory!</h1>
+      <p class="luna-hero__breed">Blue Merle French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">12 Weeks</span>
+        <span class="luna-hero__stat-value">7 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1184,7 +1184,7 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Ready Now</span>
+        <span class="luna-hero__stat-value">1 Week</span>
         <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
@@ -1197,13 +1197,13 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Flower">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Dory">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 12 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue-Grey Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue Merle</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 7 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Yours in 1 Week</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1261,14 +1261,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Flower's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Dory's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/flower/flower-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Flower - Blue Merle and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/dory/dory-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Dory - Blue Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/flower/flower-1.webp"
-          alt="Flower the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/dory/dory-1.webp"
+          alt="Dory the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1279,11 +1279,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/flower/flower-2.webp" class="luna-gallery__item" data-caption="Flower - Blue Merle and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/dory/dory-2.webp" class="luna-gallery__item" data-caption="Dory - Blue Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/flower/flower-2.webp"
-          alt="Flower the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/dory/dory-2.webp"
+          alt="Dory the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1294,11 +1294,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/flower/flower-3.webp" class="luna-gallery__item" data-caption="Flower - Blue Merle and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/dory/dory-3.webp" class="luna-gallery__item" data-caption="Dory - Blue Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/flower/flower-3.webp"
-          alt="Flower the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/dory/dory-3.webp"
+          alt="Dory the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1309,11 +1309,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/flower/flower-4.webp" class="luna-gallery__item" data-caption="Flower - Blue Merle and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/dory/dory-4.webp" class="luna-gallery__item" data-caption="Dory - Blue Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/flower/flower-4.webp"
-          alt="Flower the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/dory/dory-4.webp"
+          alt="Dory the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1324,11 +1324,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/flower/flower-5.webp" class="luna-gallery__item" data-caption="Flower - Blue Merle and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/dory/dory-5.webp" class="luna-gallery__item" data-caption="Dory - Blue Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/flower/flower-5.webp"
-          alt="Flower the French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/dory/dory-5.webp"
+          alt="Dory the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,11 +1339,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/flower/flower-6.webp" class="luna-gallery__item" data-caption="Flower - Blue Merle and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/dory/dory-6.webp" class="luna-gallery__item" data-caption="Dory - Blue Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/flower/flower-6.webp"
-          alt="Flower the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/dory/dory-6.webp"
+          alt="Dory the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1362,27 +1362,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Flower">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Dory">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Flower</span>
+        <span class="luna-eyebrow--accent">Meet Dory</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Like the bashful little skunk from Bambi, Flower is a touch shy at first — and then completely, wonderfully yours.</p>
+          <p class="luna-personality__quote">Like the forgetful little blue tang from Finding Nemo, Dory says hello to you as if it's the first time, every time, and means it.</p>
           <div class="luna-personality__body">
-            <p>Named for the sweet, bashful friend from Disney's <strong>Bambi</strong>, Flower is <strong>gentle, a little shy and wonderfully affectionate</strong>. She takes a moment to size up a new face, then tucks herself in close and decides you're her person.</p>
-            <p>Her <strong>blue merle coat</strong> is dappled across her face, ears and legs, with a solid blue patch over one eye, soft <strong>tan points</strong>, a little <strong>white blaze</strong> on her chest and a pair of <strong>wide blue-grey eyes</strong>. Her ears already stand tall above a sweet, round face.</p>
-            <p><strong>Sweet, gentle and cuddly</strong>, Flower is the kind of girl who makes a house feel calmer. At twelve weeks she is <strong>ready to come home now</strong> — and her littermate Thumper is looking for a family too.</p>
+            <p>Named for the sunny, scatterbrained blue tang from Disney·Pixar's Finding Nemo, Dory is <strong>sociable, unflappable and quietly funny</strong>. She sets off across the room on some important mission, loses the thread halfway, and comes trotting back to greet you all over again, just as delighted as before. Nothing rattles her for long; she simply keeps paddling forward.</p>
+            <p>Her <strong>blue merle coat</strong> looks like sunlight moving over a reef, with slate-blue patches drifting across a soft cream base and freckles scattered over her round face from brow to chin. Her eyes don't match: one is the deep blue of open water, the other the pale ice blue of the shallows. One ear stands tall while the other likes to tip over at the top, and she's built low and sturdy on thick little legs.</p>
+            <p>Easygoing, upbeat and ready to befriend whoever walks through the door, Dory brings the good mood with her. She'll be <strong>ready for her family in mid November</strong>, and her spot can be reserved now.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#127800; Sweet</span>
-            <span class="luna-trait">&#128155; Gentle</span>
-            <span class="luna-trait">&#128584; Bashful</span>
-            <span class="luna-trait">&#129528; Cuddly</span>
-            <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#128524; Calm</span>
+            <span class="luna-trait">&#128032; Sociable</span>
+            <span class="luna-trait">&#127754; Easygoing</span>
+            <span class="luna-trait">&#9728;&#65039; Sunny</span>
+            <span class="luna-trait">&#129517; Adventurous</span>
+            <span class="luna-trait">&#129767; Goofy</span>
+            <span class="luna-trait">&#128153; Loving</span>
           </div>
         </div>
       </div>
@@ -1393,7 +1393,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Ready to Come Home
+            Yours in 1 Week
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
@@ -1411,7 +1411,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Flower — Apply Now
+            Reserve Dory — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1439,11 +1439,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Flower's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Dory's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Flower's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Dory's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1457,7 +1457,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Flower has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Dory has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1481,10 +1481,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Sweet, gentle and a little bashful — a blue merle girl who warms up quickly and loves to be close</li>
-              <li><strong>Ideal Home:</strong> Ideal for first-time owners, quieter homes, couples, or families looking for a calm, affectionate companion</li>
+              <li><strong>Personality:</strong> Sociable, easygoing and a little goofy — a blue merle girl who greets you like it's the first time, every time</li>
+              <li><strong>Ideal Home:</strong> A lively, social household where someone is always coming through the door, from busy families to couples who love having friends over</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate to low — happy with a short play session and a long cuddle</li>
+              <li><strong>Energy Level:</strong> Moderate — happy bursts of wandering and play, then a long, contented nap</li>
             </ul>
           </div>
         </div>
@@ -1503,11 +1503,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Female</li>
-              <li><strong>Color:</strong> Blue Merle and Tan</li>
-              <li><strong>Eye Color:</strong> Blue-Grey</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
+              <li><strong>Color:</strong> Blue Merle</li>
+              <li><strong>Eye Color:</strong> Blue</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready mid November)</li>
               <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
-              <li><strong>Date of Birth:</strong> August 15, 2026</li>
+              <li><strong>Date of Birth:</strong> September 20, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1527,7 +1527,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Flower (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Dory (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1591,11 +1591,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Flower">
+<section class="luna-final-cta luna-section" aria-label="Apply for Dory">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Flower Before She's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Flower is ready to come home now — start your application today and take the first step toward bringing Flower home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Dory Before She's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Dory will be ready in mid November — start your application today and take the first step toward bringing Dory home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1624,11 +1624,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Flower">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Dory">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Flower">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Dory">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1747,23 +1747,23 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Flower - Blue Merle and Tan French Bulldog Puppy",
-  "description": "Meet Flower, a blue merle and tan French Bulldog girl with a dappled face, a white chest blaze and blue-grey eyes — sweet, shy, and cuddly.",
+  "name": "Dory - Blue Merle French Bulldog Puppy",
+  "description": "Meet Dory, a sunny blue merle French Bulldog girl with a freckled face and two different blue eyes — sociable, easygoing and a little goofy.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/flower/flower-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/flower/flower-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/flower/flower-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/flower/flower-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/flower/flower-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/flower/flower-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/dory/dory-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/dory/dory-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/dory/dory-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/dory/dory-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/dory/dory-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/dory/dory-6.webp"
   ],
-  "sku": "flower-2026",
+  "sku": "dory-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle and Tan" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue Merle" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1771,7 +1771,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/flower",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/dory",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",

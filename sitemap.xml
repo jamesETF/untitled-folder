@@ -54,26 +54,32 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       PUPPY LISTINGS (10: 5 available — Sully, Flower, Koda, Thumper, Wonka;
+       PUPPY LISTINGS (11: 6 available — Sully, Koda, Wonka, Dory, Faline,
+       Marie;
        5 placed, pages kept live)
        Updated 2026-11-09 — placed pups with full pages (Yoda/Paddington/Petunia/
        Stitch/Perdita) stay listed for SEO equity; stub retirees
        (Cosmo/Diesel/Luke/Hobbes/Kronk) are excluded (sitemap: false + 301);
-       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf, Kuzco) are excluded (page deleted + 301).
+       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf, Kuzco, Flower, Thumper) are excluded (page deleted + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/flower</loc>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/marie</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/faline</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/dory</loc>
     <lastmod>2026-11-09</lastmod>
   </url>
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/koda</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/thumper</loc>
     <lastmod>2026-11-09</lastmod>
   </url>
 
