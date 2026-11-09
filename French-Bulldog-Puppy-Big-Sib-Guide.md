@@ -607,7 +607,7 @@ html { scroll-behavior: smooth; }
 
 {%- comment -%}
   STRUCTURED DATA. One connected @graph (Article + HowTo + PDF + breadcrumb, linked to the
-  Organization, the WebSite and James as author and publisher). Built from _data/big_sib_guide.yml.
+  Organization as publisher, the WebSite and James as author). Built from _data/big_sib_guide.yml.
   custom_schema: true in the front matter makes head.html skip schema.html and seo-tag's JSON-LD,
   so this is the only JSON-LD on the page. The page layout is unchanged (not a blog post).
 {%- endcomment -%}
@@ -691,8 +691,7 @@ html { scroll-behavior: smooth; }
       "inLanguage": "en-US",
       "mainEntityOfPage": { "@id": "{{ page_abs }}#webpage" },
       "author": { "@id": "{{ james_id }}" },
-      "publisher": { "@id": "{{ james_id }}" },
-      "copyrightHolder": { "@id": "{{ org_id }}" },
+      "publisher": { "@id": "{{ org_id }}" },
       "about": [
         { "@type": "Thing", "name": "French Bulldog", "sameAs": "https://en.wikipedia.org/wiki/French_Bulldog" },
         { "@type": "Thing", "name": "Introducing a new puppy to a resident dog" }
@@ -723,7 +722,7 @@ html { scroll-behavior: smooth; }
       "url": "{{ pdf_url }}",
       "encodingFormat": "application/pdf",
       "author": { "@id": "{{ james_id }}" },
-      "publisher": { "@id": "{{ james_id }}" }
+      "publisher": { "@id": "{{ org_id }}" }
     },
     {
       "@type": "HowTo",
