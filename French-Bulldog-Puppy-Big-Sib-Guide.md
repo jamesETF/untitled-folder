@@ -14,7 +14,9 @@ navbar:
 parallax: false
 permalink: /french-bulldog-puppy-big-sib-guide/
 chat: true
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-09
+date_published: 2026-11-06
+custom_schema: true   # this page writes its own JSON-LD (Article graph below); head.html skips the site-wide blocks
 ---
 {%- comment -%}
   V2 (Luna) design, same system as the puppy supply list. All content comes from
@@ -604,30 +606,132 @@ html { scroll-behavior: smooth; }
 </script>
 
 {%- comment -%}
-  STRUCTURED DATA. Built from _data/big_sib_guide.yml, so it always matches the page.
-  BreadcrumbList + HowTo (the six steps). The WebPage block comes from jekyll-seo-tag in head.html.
+  STRUCTURED DATA. One connected @graph (Article + HowTo + PDF + breadcrumb, linked to the
+  Organization, the WebSite and James as author and publisher). Built from _data/big_sib_guide.yml.
+  custom_schema: true in the front matter makes head.html skip schema.html and seo-tag's JSON-LD,
+  so this is the only JSON-LD on the page. The page layout is unchanged (not a blog post).
 {%- endcomment -%}
 {%- assign page_abs = page.url | absolute_url -%}
+{%- assign site_abs = '/' | absolute_url -%}
+{%- assign org_id = site_abs | append: '#organization' -%}
+{%- assign james_id = 'about-us/' | prepend: site_abs | append: '#james-harrison' -%}
+{%- assign pdf_url = '/uploads/Puppy_Meets_Big_Dog_Guide.pdf' | absolute_url -%}
 {%- assign pos = 0 -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "{{ org_id }}",
+      "name": "Ethical Frenchie LLC",
+      "url": "{{ site_abs }}",
+      "logo": { "@type": "ImageObject", "url": "{{ '/uploads/logo.png' | absolute_url }}" },
+      "foundingDate": "2017",
+      "founder": { "@id": "{{ james_id }}" },
+      "sameAs": [
+        "https://www.facebook.com/ethicalfrenchie",
+        "https://www.instagram.com/ethicalfrenchie",
+        "https://www.linkedin.com/company/ethicalfrenchie/"
+      ],
+      "contactPoint": [{ "@type": "ContactPoint", "telephone": "+1-212-739-0182", "contactType": "customer support" }]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ james_id }}",
+      "name": "James Harrison",
+      "url": "{{ 'about-us/' | prepend: site_abs }}",
+      "worksFor": { "@id": "{{ org_id }}" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site_abs }}#website",
+      "url": "{{ site_abs }}",
+      "name": "Ethical Frenchie",
+      "publisher": { "@id": "{{ org_id }}" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ page_abs }}#webpage",
+      "url": "{{ page_abs }}",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "isPartOf": { "@id": "{{ site_abs }}#website" },
+      "primaryImageOfPage": { "@id": "{{ page_abs }}#primaryimage" },
+      "breadcrumb": { "@id": "{{ page_abs }}#breadcrumb" },
+      "mainEntity": { "@id": "{{ page_abs }}#article" },
+      "datePublished": "{{ page.date_published | date: '%Y-%m-%d' }}",
+      "dateModified": "{{ page.last_modified_at | date: '%Y-%m-%d' }}",
+      "inLanguage": "en-US",
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".luna-hero__name", ".luna-lead"] }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "{{ page_abs }}#primaryimage",
+      "url": "{{ page.image | absolute_url }}",
+      "caption": {{ page.title | jsonify }}
+    },
+    {
       "@type": "BreadcrumbList",
+      "@id": "{{ page_abs }}#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site_abs }}" },
         { "@type": "ListItem", "position": 2, "name": {{ g.title | jsonify }}, "item": "{{ page_abs }}" }
       ]
     },
     {
+      "@type": "Article",
+      "@id": "{{ page_abs }}#article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "image": "{{ page.image | absolute_url }}",
+      "datePublished": "{{ page.date_published | date: '%Y-%m-%d' }}",
+      "dateModified": "{{ page.last_modified_at | date: '%Y-%m-%d' }}",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": { "@id": "{{ page_abs }}#webpage" },
+      "author": { "@id": "{{ james_id }}" },
+      "publisher": { "@id": "{{ james_id }}" },
+      "copyrightHolder": { "@id": "{{ org_id }}" },
+      "about": [
+        { "@type": "Thing", "name": "French Bulldog", "sameAs": "https://en.wikipedia.org/wiki/French_Bulldog" },
+        { "@type": "Thing", "name": "Introducing a new puppy to a resident dog" }
+      ],
+      "citation": [
+        { "@type": "Organization", "name": "American Kennel Club" },
+        { "@type": "Organization", "name": "VCA Animal Hospitals" },
+        { "@type": "Organization", "name": "Dogs Trust" },
+        { "@type": "Organization", "name": "Purina" },
+        { "@type": "Organization", "name": "Karen Pryor Clicker Training" },
+        { "@type": "Organization", "name": "Dogs Playing for Life" },
+        { "@type": "Organization", "name": "Animal Humane Society" },
+        { "@type": "Organization", "name": "San Diego Humane Society" },
+        { "@type": "Organization", "name": "Peninsula Humane Society & SPCA" },
+        { "@type": "Organization", "name": "Show Dog Prep School" },
+        { "@type": "Organization", "name": "So Much Pet-ential" },
+        { "@type": "Organization", "name": "Astro Loyalty" },
+        { "@type": "Organization", "name": "CVETS" },
+        { "@type": "Organization", "name": "Where's the Frenchie" }
+      ],
+      "associatedMedia": { "@id": "{{ pdf_url }}" },
+      "hasPart": { "@id": "{{ page_abs }}#guide" }
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "{{ pdf_url }}",
+      "name": "Puppy Meets Big Dog Guide (printable PDF)",
+      "url": "{{ pdf_url }}",
+      "encodingFormat": "application/pdf",
+      "author": { "@id": "{{ james_id }}" },
+      "publisher": { "@id": "{{ james_id }}" }
+    },
+    {
       "@type": "HowTo",
       "@id": "{{ page_abs }}#guide",
-      "name": {{ g.title | jsonify }},
+      "name": "How to introduce a French Bulldog puppy to your older dog",
       "description": {{ page.description | jsonify }},
-      "url": "{{ page_abs }}",
-      "mainEntityOfPage": "{{ page_abs }}",
       "image": "{{ img | append: g.hero.image | absolute_url }}",
+      "isPartOf": { "@id": "{{ page_abs }}#article" },
       "step": [
 {%- for s in g.sections -%}
   {%- if s.step -%}
