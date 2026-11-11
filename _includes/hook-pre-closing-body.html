@@ -5,15 +5,12 @@
 
 
 <!-- Chat widget: iMessage for Business on iOS/iPadOS, Heymarket SMS on everything else -->
-{% assign _hm_facade = false %}
-{% if page.url == "/" or page.url == "/index.html" %}
-  {% assign _hm_facade = true %}
-{% elsif page.layout == "post" %}
-  {% assign _hm_facade = true %}
-{% elsif page.chicago or page.LA or page.Boston or page.atlanta or page.southampton %}
-  {% unless page.url contains "contact" or page.url contains "puppies" or page.url contains "french-bulldog-puppies" %}
-    {% assign _hm_facade = true %}
-  {% endunless %}
+{% comment %}Click-to-load bubble everywhere, including the puppy grid. Only the individual puppy
+pages (the french-bulldog-puppies collection) load the full Heymarket widget on page load: they
+are the highest-conversion pages (James, Nov 10, 2026).{% endcomment %}
+{% assign _hm_facade = true %}
+{% if page.collection == "french-bulldog-puppies" %}
+  {% assign _hm_facade = false %}
 {% endif %}
 
 <style>
@@ -64,12 +61,12 @@
   }
 
   if(isFacade){
-    /* Low-intent pages: click-to-load facade (saves ~240KB until interaction) */
+    /* Every page except individual puppy pages: click-to-load facade (saves ~240KB until interaction) */
     btn.style.display='flex';
     btn.addEventListener('click',function(){loadHeymarket(true);});
     btn.addEventListener('keydown',function(e){if(e.key==='Enter')loadHeymarket(true);});
   }else{
-    /* High-intent pages: auto-load Heymarket on page load */
+    /* Individual puppy pages: auto-load Heymarket on page load */
     if(document.readyState==='complete'){loadHeymarket(false);}
     else{window.addEventListener('load',function(){loadHeymarket(false);});}
   }
