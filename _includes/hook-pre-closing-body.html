@@ -5,11 +5,15 @@
 
 
 <!-- Chat widget: iMessage for Business on iOS/iPadOS, Heymarket SMS on everything else -->
-{% comment %}Click-to-load bubble everywhere, including the puppy grid. Only the individual puppy
-pages (the french-bulldog-puppies collection) load the full Heymarket widget on page load: they
-are the highest-conversion pages (James, Nov 10, 2026).{% endcomment %}
+{% comment %}Click-to-load bubble on most pages, including the puppy grid, to save ~240 KB of JS.
+The full Heymarket widget loads on page load on the individual puppy pages (the
+french-bulldog-puppies collection, the highest-conversion pages; James, Nov 10, 2026) and on any
+page with `chat_autoload: true` in its front matter: every page with its own "Message Us" button
+(application, Big Sib guide, supply list; James, Nov 12, 2026).
+Apple devices (iPhone, iPad, Mac) skip Heymarket and open iMessage for Business.
+Page buttons open the chat with window.efOpenChat(), defined below.{% endcomment %}
 {% assign _hm_facade = true %}
-{% if page.collection == "french-bulldog-puppies" %}
+{% if page.collection == "french-bulldog-puppies" or page.chat_autoload %}
   {% assign _hm_facade = false %}
 {% endif %}
 
@@ -27,7 +31,7 @@ are the highest-conversion pages (James, Nov 10, 2026).{% endcomment %}
   if(!btn)return;
 
   var ua=navigator.userAgent;
-  var isApple=/iPhone|iPad|iPod/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1);
+  var isApple=/iPhone|iPad|iPod|Macintosh/.test(ua);
   var imsgURL='https://bcrw.apple.com/urn:biz:aea0f1e1-d35e-4943-a9f1-141bc4d2db78';
   var isFacade={% if _hm_facade %}true{% else %}false{% endif %};
   var HM_ID='Zxty2CFLmAUkKi02CGybhrBdXT8gcUIKH_SA0tH3';
@@ -38,12 +42,16 @@ are the highest-conversion pages (James, Nov 10, 2026).{% endcomment %}
     function openIM(){window.location.href=imsgURL;}
     btn.addEventListener('click',openIM);
     btn.addEventListener('keydown',function(e){if(e.key==='Enter')openIM();});
+    window.efOpenChat=openIM;
     return;
   }
 
   /* --- Non-Apple: Heymarket SMS widget --- */
-  var loaded=false;
+  var loaded=false,ready=false,openOnReady=false;
+  function clickWidget(){var w=document.getElementById('heymarket-widget');if(!w)return false;var b=w.querySelector('button');if(!b)return false;b.click();return true;}
+  function pollOpen(){var tries=0;(function o(){if(clickWidget())return;if(++tries<20)setTimeout(o,150);})();}
   function loadHeymarket(autoOpen){
+    if(autoOpen)openOnReady=true;
     if(loaded)return;
     loaded=true;
     btn.style.opacity='.6';
@@ -53,12 +61,17 @@ are the highest-conversion pages (James, Nov 10, 2026).{% endcomment %}
       try{
         HeymarketWidget.construct({CLIENT_ID:HM_ID});
         btn.style.display='none';
-        if(autoOpen){var tries=0;(function o(){var w=document.getElementById('heymarket-widget');if(w){var b=w.querySelector('button');if(b){b.click();return;}}if(++tries<20)setTimeout(o,150);})();}
+        ready=true;
+        if(openOnReady){openOnReady=false;pollOpen();}
       }catch(e){btn.style.opacity='1';loaded=false;}
     };
     s.onerror=function(){btn.style.opacity='1';loaded=false;};
     document.head.appendChild(s);
   }
+
+  /* Any "message us" button on the site calls window.efOpenChat(): iMessage on iPhone/iPad/Mac,
+     otherwise loads the Heymarket widget if needed and opens it. */
+  window.efOpenChat=function(){if(ready){pollOpen();}else{loadHeymarket(true);}};
 
   if(isFacade){
     /* Every page except individual puppy pages: click-to-load facade (saves ~240KB until interaction) */
