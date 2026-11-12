@@ -18,6 +18,7 @@ header:
   heading_size: small
   parallax: true
 hubspotneeded: true
+chat_autoload: true
 ---
 
 <style>.uk-position-relative[style*="min-height: 60vh"]{min-height:30vh !important}</style>
@@ -116,14 +117,14 @@ hubspotneeded: true
 </div>
 </div>
 
-<!-- ═══════════ Message Us button: iMessage on iOS, Heymarket chat on everything else ═══════════ -->
+<!-- ═══════════ Message Us button: iMessage on iPhone/iPad/Mac, Heymarket chat on everything else ═══════════ -->
 <script>
 (function(){
   var btn = document.getElementById('message-us-btn');
   if (!btn) return;
 
   var ua = navigator.userAgent;
-  var isApple = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  var isApple = /iPhone|iPad|iPod|Macintosh/.test(ua);
 
   if (isApple) {
     btn.href = 'https://bcrw.apple.com/urn:biz:aea0f1e1-d35e-4943-a9f1-141bc4d2db78';
@@ -131,48 +132,13 @@ hubspotneeded: true
     return;
   }
 
-  /* Non-Apple: open the Heymarket widget.
-     Do NOT just click #heymk-facade. On high-intent pages like this one the chat
-     loader (hook-pre-closing-body.html) auto-loads Heymarket, hides the facade and
-     never binds a click listener to it — so facade.click() is a silent no-op, and
-     because the element still exists the old fallback never ran. Talk to the real
-     widget instead, and only use the facade where it is actually interactive. */
-  function clickWidget(){
-    var w = document.getElementById('heymarket-widget');
-    if (!w) return false;
-    var b = w.querySelector('button');
-    if (!b) return false;
-    b.click();
-    return true;
-  }
-
-  /* Same poll the loader uses for its own auto-open: 20 x 150ms */
-  function pollWidget(onFail){
-    var tries = 0;
-    (function tick(){
-      if (clickWidget()) return;
-      if (++tries < 20) { setTimeout(tick, 150); return; }
-      if (onFail) onFail();
-    })();
-  }
-
-  btn.href = '#';
+  /* Non-Apple: open the chat through the site-wide chat loader (hook-pre-closing-body.html),
+     which loads the Heymarket widget if needed and opens it. Without it, the link's
+     href (/contact-us/) still works. */
   btn.addEventListener('click', function(e){
+    if (typeof window.efOpenChat !== 'function') return;
     e.preventDefault();
-
-    /* 1. Widget already constructed (the usual case here — it auto-loads) */
-    if (clickWidget()) return;
-
-    /* 2. Facade page: the facade is visible and owns the load-then-open logic */
-    var facade = document.getElementById('heymk-facade');
-    if (facade && facade.offsetParent !== null) {
-      facade.click();
-      pollWidget();
-      return;
-    }
-
-    /* 3. Widget still loading — wait for it, then give up gracefully */
-    pollWidget(function(){ window.location.href = '/contact-us/'; });
+    window.efOpenChat();
   });
 })();
 </script>

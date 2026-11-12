@@ -15,6 +15,7 @@ parallax: false
 permalink: /french-bulldog-preparation-list/
 chat: true
 last_modified_at: 2026-09-26
+chat_autoload: true
 ---
 {%- comment -%}
   V2 (Luna) design, same system as the puppy listings. All content comes from
@@ -567,8 +568,8 @@ html { scroll-behavior: smooth; }
       var ua = navigator.userAgent || '';
       var isIOS = /iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
       if (isIOS) { window.location.href = 'https://bcrw.apple.com/urn:biz:aea0f1e1-d35e-4943-a9f1-141bc4d2db78'; return; }
-      var fab = document.querySelector('.heymarket-fab');
-      if (fab) { fab.click(); } else { window.location.href = 'tel:212-739-0182'; }
+      /* Opens iMessage on iPhone/iPad/Mac, the Heymarket chat everywhere else (hook-pre-closing-body.html) */
+      if (window.efOpenChat) { window.efOpenChat(); } else { window.location.href = 'tel:212-739-0182'; }
     });
   }
 })();
