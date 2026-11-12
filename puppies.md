@@ -21,6 +21,7 @@ description: Browse Embark DNA-tested, AKC-registered French Bulldog puppies fro
 chat: false
 applechat: false
 hubspotneeded: true
+hubspot_eager: true
 podium: false
 faqschema: "puppiesfaq"
 puppylist: true

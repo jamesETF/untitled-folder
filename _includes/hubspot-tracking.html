@@ -1,15 +1,25 @@
 {% comment %}HubSpot tracking code, portal 5322352, on every page (hook-pre-closing-body.html).
-Same loader James's embed code points at. It loads 3 s after window load when the browser is idle,
-or on the first tap, key press or wheel, whichever comes first, so it stays out of LCP and
-blocking time. 'scroll' is not a trigger: scroll restore and #hash landings fire it before load.
+Two modes, picked per page:
+- Load right away: individual puppy pages (the french-bulldog-puppies collection) and any page
+  with `hubspot_eager: true` in its front matter (the puppy grid, puppies.md). HubSpot's standard
+  async embed, so every page in the puppy funnel is recorded (James, Nov 12, 2026).
+- Delayed, everywhere else: loads 3 s after window load when the browser is idle, or on the first
+  tap, key press or wheel, whichever comes first, so it stays out of LCP and blocking time.
+  'scroll' is not a trigger: scroll restore and #hash landings fire it before load.
 id must stay "hs-script-loader": HubSpot's analytics script looks for it and embeds a second
 loader if it is missing. HubSpot's chat widget is switched off (loadImmediately=false): the
 site's chat is the Heymarket / iMessage bubble above.{% endcomment %}
+{% assign _hs_eager = false %}
+{% if page.collection == "french-bulldog-puppies" or page.hubspot_eager %}
+  {% assign _hs_eager = true %}
+{% endif %}
 <!-- Start of HubSpot Embed Code -->
+<script>window.hsConversationsSettings=window.hsConversationsSettings||{};window.hsConversationsSettings.loadImmediately=false;</script>
+{% if _hs_eager %}
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5322352.js"></script>
+{% else %}
 <script>
 (function(){
-  window.hsConversationsSettings=window.hsConversationsSettings||{};
-  window.hsConversationsSettings.loadImmediately=false;
   var done=false;
   function load(){
     if(done||document.getElementById('hs-script-loader'))return;
@@ -32,4 +42,5 @@ site's chat is the Heymarket / iMessage bubble above.{% endcomment %}
   });
 })();
 </script>
+{% endif %}
 <!-- End of HubSpot Embed Code -->
