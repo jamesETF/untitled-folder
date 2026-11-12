@@ -54,13 +54,13 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       PUPPY LISTINGS (14: 9 available — Sully, Dory, Anna, Koda, Elsa, Faline,
+       PUPPY LISTINGS (13: 8 available — Faline, Sully, Anna, Koda, Elsa,
        Woody, Marie, Dug;
        5 placed, pages kept live)
-       Updated 2026-11-12 (Wonka removed, Anna/Elsa/Woody/Dug added) — placed pups with full pages (Yoda/Paddington/Petunia/
+       Updated 2026-11-12 (Wonka and Dory removed, Anna/Elsa/Woody/Dug added) — placed pups with full pages (Yoda/Paddington/Petunia/
        Stitch/Perdita) stay listed for SEO equity; stub retirees
        (Cosmo/Diesel/Luke/Hobbes/Kronk) are excluded (sitemap: false + 301);
-       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf, Kuzco, Flower, Thumper, Wonka) are excluded (page deleted + 301).
+       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf, Kuzco, Flower, Thumper, Wonka, Dory) are excluded (page deleted + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
@@ -90,11 +90,6 @@
 
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/faline</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/dory</loc>
     <lastmod>2026-11-09</lastmod>
   </url>
 
