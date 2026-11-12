@@ -106,7 +106,7 @@ chat_autoload: true
       <span data-uk-icon="icon: comment; ratio: 2" style="color:#901941"></span>
       <h3 style="color:#333;margin:15px 0 8px">Message Us Instead</h3>
       <p class="uk-text-small" style="color:#5c5e65">Have questions first? Prefer to chat before committing to an application?</p>
-      <a id="message-us-btn" href="/contact-us/" class="uk-button uk-button-default uk-button-large" style="background:#fff;color:#901941;border:2px solid #901941;font-weight:700">Start a Conversation</a>
+      <a id="message-us-btn" href="/contact-us/" class="uk-button uk-button-default uk-button-large" style="background:#fff;color:#901941;border:2px solid #901941;font-weight:700">Chat with Us Now</a>
     </div>
   </div>
 
