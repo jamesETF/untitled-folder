@@ -1,10 +1,10 @@
 ---
-title: Woody
-description: Meet Woody, a lilac fawn French Bulldog boy with a pale cream coat, blue-grey eyes and tall ears — loyal, steadfast and big-hearted.
-subtitle: Lilac Fawn Frenchie Woody
+title: Lilo
+description: Meet Lilo, a black and tan French Bulldog girl with tan brows, a tan bib and tall fawn-edged ears — spirited, loyal and a little mischievous.
+subtitle: Black and Tan Frenchie Lilo
 width: full
-image: /uploads/french-bulldog-puppies/woody/woody-1.webp
-topics: [Our Puppies, "Lilac Fawn French Bulldog"]
+image: /uploads/french-bulldog-puppies/lilo/lilo-1.webp
+topics: [Our Puppies, "Black and Tan French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,22 +14,22 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/woody
+permalink: /french-bulldog-puppies/lilo
 hubspotneeded: true
 chat: true
 
-gender: Male
-color_coat: Lilac Fawn
-age_weeks: 10
-dob: 2026-08-29
-ready_date: 2026-10-24
-estimated_adult_weight_lbs: "25-28"
+gender: Female
+color_coat: Black and Tan
+age_weeks: 8
+dob: 2026-09-23
+ready_date: 2026-11-18
+estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 ---
 
 
@@ -1150,10 +1150,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Woody hero">
+<section class="luna-hero" aria-label="Lilo hero">
   <img
-    src="/uploads/french-bulldog-puppies/woody/woody-1.webp"
-    alt="Woody, a Lilac Fawn French Bulldog puppy with blue-grey eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/lilo/lilo-1.webp"
+    alt="Lilo, a Black and Tan French Bulldog puppy with dark eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1167,20 +1167,20 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Woody!</h1>
-      <p class="luna-hero__breed">Lilac Fawn French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Lilo!</h1>
+      <p class="luna-hero__breed">Black and Tan French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">10 Weeks</span>
+        <span class="luna-hero__stat-value">8 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">Male</span>
+        <span class="luna-hero__stat-value">Female</span>
         <span class="luna-hero__stat-label">Gender</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">~25-28 lbs</span>
+        <span class="luna-hero__stat-value">~22-25 lbs</span>
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
@@ -1197,12 +1197,12 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Woody">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Lilo">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac Fawn</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 10 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue-Grey Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Black and Tan</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Dark Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1261,14 +1261,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Woody's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Lilo's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/woody/woody-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Woody - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/lilo/lilo-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Lilo - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/woody/woody-1.webp"
-          alt="Woody the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/lilo/lilo-1.webp"
+          alt="Lilo the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1279,11 +1279,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/woody/woody-2.webp" class="luna-gallery__item" data-caption="Woody - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/lilo/lilo-2.webp" class="luna-gallery__item" data-caption="Lilo - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/woody/woody-2.webp"
-          alt="Woody the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/lilo/lilo-2.webp"
+          alt="Lilo the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1294,11 +1294,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/woody/woody-3.webp" class="luna-gallery__item" data-caption="Woody - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/lilo/lilo-3.webp" class="luna-gallery__item" data-caption="Lilo - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/woody/woody-3.webp"
-          alt="Woody the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/lilo/lilo-3.webp"
+          alt="Lilo the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1309,11 +1309,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/woody/woody-4.webp" class="luna-gallery__item" data-caption="Woody - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/lilo/lilo-4.webp" class="luna-gallery__item" data-caption="Lilo - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/woody/woody-4.webp"
-          alt="Woody the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/lilo/lilo-4.webp"
+          alt="Lilo the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1324,11 +1324,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/woody/woody-5.webp" class="luna-gallery__item" data-caption="Woody - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/lilo/lilo-5.webp" class="luna-gallery__item" data-caption="Lilo - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/woody/woody-5.webp"
-          alt="Woody the French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/lilo/lilo-5.webp"
+          alt="Lilo the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,11 +1339,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/woody/woody-6.webp" class="luna-gallery__item" data-caption="Woody - Lilac Fawn French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/lilo/lilo-6.webp" class="luna-gallery__item" data-caption="Lilo - Black and Tan French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/woody/woody-6.webp"
-          alt="Woody the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/lilo/lilo-6.webp"
+          alt="Lilo the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1362,27 +1362,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Woody">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Lilo">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Woody</span>
+        <span class="luna-eyebrow--accent">Meet Lilo</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Somewhere between the first leaf he chases and the second, Woody turns around to make sure you're still there. He always does.</p>
+          <p class="luna-personality__quote">Like the spirited girl from Lilo &amp; Stitch, Lilo believes family means nobody gets left behind, and she'll follow you from room to room to make sure of it.</p>
           <div class="luna-personality__body">
-            <p>You've got a friend in him, and he means it. Named for the sheriff who ran Andy's room in Toy Story, Woody is <strong>loyal, steadfast and quietly in charge</strong>. He leads the way across the lawn, stops to check that you're keeping up, and when the game is over he's the one who comes back to sit on your feet.</p>
-            <p>He even has the look of a hero. His <strong>lilac fawn coat</strong> is the pale cream of a well-worn hat, dusted with soft lilac through his mask and ears, with a pink nose and eyes so light they read blue-grey in the sun. Tall ears, a sturdy little frame and the kind of focus that can turn one fallen leaf into an entire afternoon.</p>
-            <p>Dependable with his people and curious about everything else, Woody is the puppy who grows into the friend who's always exactly where you left him. He is <strong>ready to come home now</strong>.</p>
+            <p>Named for the fearless little girl from Disney's Lilo &amp; Stitch, Lilo is <strong>spirited, loyal and a little bit mischievous</strong>. She marches out to inspect every new corner of the yard, then circles straight back to check on her people, as if making sure the whole family is still accounted for.</p>
+            <p>Her <strong>glossy black coat</strong> is trimmed in warm tan points: tan brows above dark, soulful eyes, tan cheeks, a tan bib across her chest and tan stockings on all four legs. Her tall ears are edged in pale fawn, and her wrinkled black face gives her a serious look that melts the second she's scooped up.</p>
+            <p>Bold, devoted and big-hearted, Lilo is a little adventurer who always comes home for cuddles. She is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#129312; Loyal</span>
-            <span class="luna-trait">&#127775; Steadfast</span>
-            <span class="luna-trait">&#129517; Leader</span>
-            <span class="luna-trait">&#127810; Curious</span>
-            <span class="luna-trait">&#128155; Big-hearted</span>
-            <span class="luna-trait">&#129309; Devoted</span>
+            <span class="luna-trait">&#127802; Spirited</span>
+            <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">&#128540; Mischievous</span>
+            <span class="luna-trait">&#129409; Bold</span>
+            <span class="luna-trait">&#128269; Curious</span>
+            <span class="luna-trait">&#128151; Loving</span>
           </div>
         </div>
       </div>
@@ -1411,7 +1411,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Woody — Apply Now
+            Reserve Lilo — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1439,11 +1439,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Woody's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Lilo's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Woody's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Lilo's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1457,7 +1457,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Woody has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Lilo has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1481,10 +1481,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Loyal, steadfast and quietly in charge — a lilac fawn boy who leads the walk and ends it sitting on your feet</li>
-              <li><strong>Ideal Home:</strong> A family or couple who want a devoted shadow: someone to lead the walk, greet every guest and settle beside them at night</li>
+              <li><strong>Personality:</strong> Spirited, loyal and a little mischievous — a black and tan girl who explores boldly and always circles back to her people</li>
+              <li><strong>Ideal Home:</strong> A family who wants a devoted shadow, city apartment or suburb, with time for a daily stroll and a lap at the end of the day</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate — bursts of backyard exploring, then long, contented naps</li>
+              <li><strong>Energy Level:</strong> Moderate to lively — a busy explorer outdoors, happy to curl up and nap once she has checked on everyone</li>
             </ul>
           </div>
         </div>
@@ -1502,12 +1502,12 @@ html, body {
           <div class="luna-accordion__body-inner">
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
-              <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Lilac Fawn</li>
-              <li><strong>Eye Color:</strong> Blue-Grey</li>
+              <li><strong>Gender:</strong> Female</li>
+              <li><strong>Color:</strong> Black and Tan</li>
+              <li><strong>Eye Color:</strong> Dark</li>
               <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
-              <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> August 29, 2026</li>
+              <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
+              <li><strong>Date of Birth:</strong> September 23, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1527,7 +1527,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Woody (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Lilo (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1591,11 +1591,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Woody">
+<section class="luna-final-cta luna-section" aria-label="Apply for Lilo">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Woody Before He's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Woody is ready to come home now — start your application today and take the first step toward bringing Woody home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Lilo Before She's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Lilo is ready to come home now — start your application today and take the first step toward bringing Lilo home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1624,11 +1624,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Woody">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Lilo">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Woody">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Lilo">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1746,31 +1746,31 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Woody - Lilac Fawn French Bulldog Puppy",
-  "description": "Meet Woody, a lilac fawn French Bulldog boy with a pale cream coat, blue-grey eyes and tall ears — loyal, steadfast and big-hearted.",
+  "name": "Lilo - Black and Tan French Bulldog Puppy",
+  "description": "Meet Lilo, a black and tan French Bulldog girl with tan brows, a tan bib and tall fawn-edged ears — spirited, loyal and a little mischievous.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/woody/woody-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/woody/woody-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/woody/woody-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/woody/woody-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/woody/woody-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/woody/woody-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/lilo/lilo-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/lilo/lilo-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/lilo/lilo-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/lilo/lilo-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/lilo/lilo-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/lilo/lilo-6.webp"
   ],
-  "sku": "woody-2026",
+  "sku": "lilo-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
-    { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac Fawn" },
+    { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Black and Tan" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
-    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
+    { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
     { "@type": "PropertyValue", "name": "AKC Papers", "value": "Yes" }
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/woody",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/lilo",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",

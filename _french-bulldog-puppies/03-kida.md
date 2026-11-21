@@ -1,10 +1,10 @@
 ---
-title: Elsa
-description: Meet Elsa, a fluffy lilac French Bulldog girl with a frosted silver coat and pale blue eyes — poised, gentle and quietly devoted.
-subtitle: Lilac Fluffy Frenchie Elsa
+title: Kida
+description: Meet Kida, a chocolate merle French Bulldog girl with bright blue eyes and a white forehead blaze — brave, curious and wonderfully affectionate.
+subtitle: Chocolate Merle Frenchie Kida
 width: full
-image: /uploads/french-bulldog-puppies/elsa/elsa-1.webp
-topics: [Our Puppies, "Lilac Fluffy French Bulldog"]
+image: /uploads/french-bulldog-puppies/kida/kida-1.webp
+topics: [Our Puppies, "Chocolate Merle French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,22 +14,22 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/elsa
+permalink: /french-bulldog-puppies/kida
 hubspotneeded: true
 chat: true
 
 gender: Female
-color_coat: Lilac Fluffy
-age_weeks: 7
-dob: 2026-09-19
-ready_date: 2026-11-14
+color_coat: Chocolate Merle
+age_weeks: 8
+dob: 2026-09-22
+ready_date: 2026-11-17
 estimated_adult_weight_lbs: "22-25"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 ---
 
 
@@ -1150,10 +1150,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Elsa hero">
+<section class="luna-hero" aria-label="Kida hero">
   <img
-    src="/uploads/french-bulldog-puppies/elsa/elsa-1.webp"
-    alt="Elsa, a fluffy Lilac French Bulldog puppy with pale blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/kida/kida-1.webp"
+    alt="Kida, a Chocolate Merle French Bulldog puppy with light blue eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1164,15 +1164,15 @@ html, body {
     <div class="luna-hero__text">
       <span class="luna-status luna-status--available">
         <span class="luna-status__dot" aria-hidden="true"></span>
-        Yours in 1 Week
+        Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Elsa!</h1>
-      <p class="luna-hero__breed">Lilac Fluffy French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Kida!</h1>
+      <p class="luna-hero__breed">Chocolate Merle French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">7 Weeks</span>
+        <span class="luna-hero__stat-value">8 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1184,7 +1184,7 @@ html, body {
         <span class="luna-hero__stat-label">Adult Size</span>
       </div>
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">1 Week</span>
+        <span class="luna-hero__stat-value">Ready Now</span>
         <span class="luna-hero__stat-label">Ready</span>
       </div>
     </div>
@@ -1197,13 +1197,13 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Elsa">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Kida">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9792;&#65039;</span> Female</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Lilac Fluffy</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 7 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Pale Blue Eyes</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Yours in 1 Week</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Chocolate Merle</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 8 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Light Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
     </ul>
@@ -1261,14 +1261,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Elsa's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Kida's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/elsa/elsa-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Elsa - Lilac Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kida/kida-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Kida - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/elsa/elsa-1.webp"
-          alt="Elsa the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/kida/kida-1.webp"
+          alt="Kida the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1279,11 +1279,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/elsa/elsa-2.webp" class="luna-gallery__item" data-caption="Elsa - Lilac Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kida/kida-2.webp" class="luna-gallery__item" data-caption="Kida - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/elsa/elsa-2.webp"
-          alt="Elsa the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/kida/kida-2.webp"
+          alt="Kida the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1294,11 +1294,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/elsa/elsa-3.webp" class="luna-gallery__item" data-caption="Elsa - Lilac Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kida/kida-3.webp" class="luna-gallery__item" data-caption="Kida - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/elsa/elsa-3.webp"
-          alt="Elsa the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/kida/kida-3.webp"
+          alt="Kida the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1309,11 +1309,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/elsa/elsa-4.webp" class="luna-gallery__item" data-caption="Elsa - Lilac Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kida/kida-4.webp" class="luna-gallery__item" data-caption="Kida - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/elsa/elsa-4.webp"
-          alt="Elsa the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/kida/kida-4.webp"
+          alt="Kida the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1324,11 +1324,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/elsa/elsa-5.webp" class="luna-gallery__item" data-caption="Elsa - Lilac Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kida/kida-5.webp" class="luna-gallery__item" data-caption="Kida - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/elsa/elsa-5.webp"
-          alt="Elsa the French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/kida/kida-5.webp"
+          alt="Kida the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,11 +1339,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/elsa/elsa-6.webp" class="luna-gallery__item" data-caption="Elsa - Lilac Fluffy French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/kida/kida-6.webp" class="luna-gallery__item" data-caption="Kida - Chocolate Merle French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/elsa/elsa-6.webp"
-          alt="Elsa the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/kida/kida-6.webp"
+          alt="Kida the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1362,27 +1362,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Elsa">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Kida">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Elsa</span>
+        <span class="luna-eyebrow--accent">Meet Kida</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Elsa pauses at the edge of every room, takes it all in, and then the room belongs to her.</p>
+          <p class="luna-personality__quote">Like the princess of Atlantis, Kida has striking blue eyes and a brave heart, and she's ready to explore every corner of her new world.</p>
           <div class="luna-personality__body">
-            <p>Named for the queen in the ice-blue gown, Elsa is <strong>poised, gentle and quietly devoted</strong>. She watches first, decides you're hers, and from then on it's settled: she's the calm one leaning against your leg while the world, and her sister, bounce around her.</p>
-            <p>She was made for the name. Her <strong>fluffy lilac coat</strong> is pale silver-grey with a faint warm undertone, like frost settling over fawn, with a soft lilac mask, a lilac nose and pale blue eyes. The long, downy coat stands up in a soft ruff around her ears and shoulders, and she carries herself with a stillness that's rare in a puppy this young.</p>
-            <p>Serene indoors and curious outdoors, Elsa is the puppy for a home that wants a gentle presence more than a whirlwind. Her sister Anna is listed alongside her. Elsa is <strong>ready to come home mid November</strong>, and her spot is open to reserve right now.</p>
+            <p>Named for the adventurous princess from Disney's Atlantis: The Lost Empire, Kida is <strong>brave, curious and wise beyond her weeks</strong>. She heads out to investigate every leaf and sound in the yard, then looks back at you with those big eyes as if to ask what's next.</p>
+            <p>Her <strong>chocolate merle coat</strong> mixes soft cocoa and taupe tones with darker chocolate patches, and a white blaze runs up her forehead to match the white on her chest and paws. Her eyes are a bright, clear blue, her nose is rosy brown, and her tall ears are edged in chocolate.</p>
+            <p>Adventurous, bright and affectionate, Kida is a little explorer who always comes back for a cuddle. She is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#10052;&#65039; Serene</span>
-            <span class="luna-trait">&#128081; Poised</span>
-            <span class="luna-trait">&#128153; Gentle</span>
-            <span class="luna-trait">&#129528; Cuddly</span>
-            <span class="luna-trait">&#128269; Observant</span>
-            <span class="luna-trait">&#128156; Devoted</span>
+            <span class="luna-trait">&#129517; Adventurous</span>
+            <span class="luna-trait">&#128142; Striking</span>
+            <span class="luna-trait">&#128269; Curious</span>
+            <span class="luna-trait">&#129409; Brave</span>
+            <span class="luna-trait">&#127891; Clever</span>
+            <span class="luna-trait">&#128151; Loving</span>
           </div>
         </div>
       </div>
@@ -1393,7 +1393,7 @@ html, body {
         <div class="luna-price">
           <span class="luna-status luna-status--available" style="margin-bottom:8px;">
             <span class="luna-status__dot" aria-hidden="true"></span>
-            Yours in 1 Week
+            Ready to Come Home
           </span>
           <!-- PRICING REMOVED — A/B test later. Original: $5,500 – $7,000 -->
           <div class="luna-price__amount" style="font-size: clamp(1.6rem, 3.5vw, 2.2rem);">Inquire for Pricing</div>
@@ -1411,7 +1411,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Elsa — Apply Now
+            Reserve Kida — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1439,11 +1439,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Elsa's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Kida's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Elsa's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Kida's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1457,7 +1457,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Elsa has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Kida has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1481,10 +1481,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Poised, gentle and quietly devoted — a fluffy lilac girl who watches first, then chooses you for good</li>
-              <li><strong>Ideal Home:</strong> A calm home, a first-time owner or a couple who want a soft, steady companion rather than a whirlwind</li>
+              <li><strong>Personality:</strong> Brave, curious and affectionate — a chocolate merle girl with bright blue eyes who loves to explore</li>
+              <li><strong>Ideal Home:</strong> An active, loving home, city apartment or suburb, with people who enjoy outings and evening cuddles</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Easygoing — short, curious outings, then content to be close and quiet</li>
+              <li><strong>Energy Level:</strong> Moderate to lively — curious bursts of exploring, then a long nap close to her people</li>
             </ul>
           </div>
         </div>
@@ -1503,11 +1503,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Female</li>
-              <li><strong>Color:</strong> Lilac Fluffy</li>
-              <li><strong>Eye Color:</strong> Pale Blue</li>
-              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready mid November)</li>
+              <li><strong>Color:</strong> Chocolate Merle</li>
+              <li><strong>Eye Color:</strong> Light Blue</li>
+              <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
               <li><strong>Estimated Adult Weight:</strong> 22-25 lbs</li>
-              <li><strong>Date of Birth:</strong> September 19, 2026</li>
+              <li><strong>Date of Birth:</strong> September 22, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1527,7 +1527,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Elsa (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Kida (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1591,11 +1591,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Elsa">
+<section class="luna-final-cta luna-section" aria-label="Apply for Kida">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Elsa Before She's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Elsa is ready to come home mid November — start your application today and take the first step toward bringing Elsa home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Kida Before She's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Kida is ready to come home now — start your application today and take the first step toward bringing Kida home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1624,11 +1624,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Elsa">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Kida">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Elsa">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Kida">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1746,23 +1746,23 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Elsa - Lilac Fluffy French Bulldog Puppy",
-  "description": "Meet Elsa, a fluffy lilac French Bulldog girl with a frosted silver coat and pale blue eyes — poised, gentle and quietly devoted.",
+  "name": "Kida - Chocolate Merle French Bulldog Puppy",
+  "description": "Meet Kida, a chocolate merle French Bulldog girl with bright blue eyes and a white forehead blaze — brave, curious and wonderfully affectionate.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/elsa/elsa-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/elsa/elsa-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/elsa/elsa-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/elsa/elsa-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/elsa/elsa-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/elsa/elsa-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kida/kida-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kida/kida-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kida/kida-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kida/kida-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kida/kida-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/kida/kida-6.webp"
   ],
-  "sku": "elsa-2026",
+  "sku": "kida-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Female" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Lilac Fluffy" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Chocolate Merle" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "22-25 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1770,7 +1770,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/elsa",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/kida",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",

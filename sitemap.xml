@@ -15,7 +15,7 @@
   <!-- Available Puppies Listing -->
   <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-20</lastmod>
   </url>
 
   <!-- Happy Tails — Social Proof / Alumni Page -->
@@ -54,32 +54,32 @@
   </url>
 
   <!-- ═══════════════════════════════════════════════════════════════════════
-       PUPPY LISTINGS (13: 8 available — Faline, Sully, Anna, Koda, Elsa,
-       Woody, Marie, Dug;
+       PUPPY LISTINGS (13: 8 available — Faline, Sully, Lilo, Koda, Penny,
+       Marie, Dug, Kida;
        5 placed, pages kept live)
-       Updated 2026-11-12 (Wonka and Dory removed, Anna/Elsa/Woody/Dug added) — placed pups with full pages (Yoda/Paddington/Petunia/
+       Updated 2026-11-20 (Anna, Elsa and Woody removed, Lilo/Penny/Kida added) — placed pups with full pages (Yoda/Paddington/Petunia/
        Stitch/Perdita) stay listed for SEO equity; stub retirees
        (Cosmo/Diesel/Luke/Hobbes/Kronk) are excluded (sitemap: false + 301);
-       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf, Kuzco, Flower, Thumper, Wonka, Dory) are excluded (page deleted + 301).
+       removed listings (Zapier, Mowgli, Eddie, Buzz, Patch, Olaf, Kuzco, Flower, Thumper, Wonka, Dory, Anna, Elsa, Woody) are excluded (page deleted + 301).
        ═══════════════════════════════════════════════════════════════════════ -->
 
   <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/kida</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/penny</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/lilo</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+
+  <url>
     <loc>https://ethicalfrenchie.com/french-bulldog-puppies/dug</loc>
-    <lastmod>2026-11-12</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/woody</loc>
-    <lastmod>2026-11-12</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/elsa</loc>
-    <lastmod>2026-11-12</lastmod>
-  </url>
-
-  <url>
-    <loc>https://ethicalfrenchie.com/french-bulldog-puppies/anna</loc>
     <lastmod>2026-11-12</lastmod>
   </url>
 
