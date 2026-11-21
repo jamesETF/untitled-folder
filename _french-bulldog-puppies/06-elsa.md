@@ -1374,7 +1374,7 @@ html, body {
           <div class="luna-personality__body">
             <p>Named for the queen in the ice-blue gown, Elsa is <strong>poised, gentle and quietly devoted</strong>. She watches first, decides you're hers, and from then on it's settled: she's the calm one leaning against your leg while the world, and her sister, bounce around her.</p>
             <p>She was made for the name. Her <strong>fluffy lilac coat</strong> is pale silver-grey with a faint warm undertone, like frost settling over fawn, with a soft lilac mask, a lilac nose and pale blue eyes. The long, downy coat stands up in a soft ruff around her ears and shoulders, and she carries herself with a stillness that's rare in a puppy this young.</p>
-            <p>Serene indoors and curious outdoors, Elsa is the puppy for a home that wants a gentle presence more than a whirlwind. Her sister Anna is listed alongside her. Elsa is <strong>ready to come home mid November</strong>, and her spot is open to reserve right now.</p>
+            <p>Serene indoors and curious outdoors, Elsa is the puppy for a home that wants a gentle presence more than a whirlwind. Elsa is <strong>ready to come home mid November</strong>, and her spot is open to reserve right now.</p>
           </div>
           <div class="luna-traits">
             <span class="luna-trait">&#10052;&#65039; Serene</span>
