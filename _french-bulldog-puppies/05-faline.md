@@ -432,6 +432,17 @@ html, body {
     grid-row: auto;
   }
 }
+/* Faline only: 1 hero + 10 thumbs in two columns of five (desktop). Phone keeps the single column. */
+@media (min-width: 641px) {
+  .luna-gallery.luna-gallery--split {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    aspect-ratio: 8 / 7;
+  }
+  .luna-gallery--split .luna-gallery__img {
+    object-position: center 30%;
+  }
+}
 .luna-gallery__img {
   width: 100%;
   height: 100%;
@@ -1263,7 +1274,7 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Faline's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(10, 1fr);">
+    <div class="luna-gallery luna-gallery--split" data-uk-lightbox="animation: slide">
       <a href="/uploads/french-bulldog-puppies/faline/faline-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Faline - Blue Fawn French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
