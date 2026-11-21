@@ -29,7 +29,7 @@ status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-20
 ---
 
 
@@ -430,6 +430,17 @@ html, body {
 @media (max-width: 640px) {
   .luna-gallery__item:first-child {
     grid-row: auto;
+  }
+}
+/* Faline only: 1 hero + 10 thumbs in two columns of five (desktop). Phone keeps the single column. */
+@media (min-width: 641px) {
+  .luna-gallery.luna-gallery--split {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    aspect-ratio: 8 / 7;
+  }
+  .luna-gallery--split .luna-gallery__img {
+    object-position: center 30%;
   }
 }
 .luna-gallery__img {
@@ -1263,7 +1274,7 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <section class="luna-section" style="background: var(--luna-bg);" aria-label="Faline's photos">
   <div class="luna-container luna-reveal">
-    <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
+    <div class="luna-gallery luna-gallery--split" data-uk-lightbox="animation: slide">
       <a href="/uploads/french-bulldog-puppies/faline/faline-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Faline - Blue Fawn French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
@@ -1344,6 +1355,81 @@ html, body {
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
           data-src="/uploads/french-bulldog-puppies/faline/faline-6.webp"
           alt="Faline the French Bulldog - Photo 6"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/faline/faline-7.webp" class="luna-gallery__item" data-caption="Faline - Blue Fawn French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/faline/faline-7.webp"
+          alt="Faline the French Bulldog - Photo 7"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/faline/faline-8.webp" class="luna-gallery__item" data-caption="Faline - Blue Fawn French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/faline/faline-8.webp"
+          alt="Faline the French Bulldog - Photo 8"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/faline/faline-9.webp" class="luna-gallery__item" data-caption="Faline - Blue Fawn French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/faline/faline-9.webp"
+          alt="Faline the French Bulldog - Photo 9"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/faline/faline-10.webp" class="luna-gallery__item" data-caption="Faline - Blue Fawn French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/faline/faline-10.webp"
+          alt="Faline the French Bulldog - Photo 10"
+          class="luna-gallery__img"
+          data-uk-img
+          loading="lazy"
+        >
+        <div class="luna-gallery__overlay" aria-hidden="true">
+          <div class="luna-gallery__zoom">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>
+          </div>
+        </div>
+      </a>
+      <a href="/uploads/french-bulldog-puppies/faline/faline-11.webp" class="luna-gallery__item" data-caption="Faline - Blue Fawn French Bulldog">
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="/uploads/french-bulldog-puppies/faline/faline-11.webp"
+          alt="Faline the French Bulldog - Photo 11"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1754,7 +1840,12 @@ block_title="false"
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-3.webp",
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-4.webp",
     "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-6.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-7.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-8.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-9.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-10.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/faline/faline-11.webp"
   ],
   "sku": "faline-2026",
   "productionDate": "{{ page.dob }}",
