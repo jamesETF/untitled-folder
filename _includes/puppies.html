@@ -133,7 +133,7 @@
 			  {% for post in puppies_available %}
 				  <li data-topic="{{ post.topics }}">
 					  <div class="uk-inline uk-light uk-transition-toggle">
-						  <span class="ef-status-badge ef-status-badge--available"><span class="ef-status-badge__dot"></span> Available</span>
+						  {% assign _ready = post.ready_date | date: "%Y-%m-%d" %}<span class="ef-status-badge ef-status-badge--available"><span class="ef-status-badge__dot"></span> Available{% if site.holiday.enabled and post.ready_date and _ready <= site.holiday.home_by %}<span class="ef-status-badge__holiday">for Christmas</span>{% endif %}</span>
 						  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% elsif post.image contains '/uploads/' %}{{ post.image | absolute_url }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }} {{ post.color_coat }} French Bulldog Puppy" data-uk-img>
 						  <a href="{{ post.url | absolute_url }}" class="uk-overlay uk-overlay-primary uk-position-cover uk-transition-fade">
 							  <div class="uk-position-center">

@@ -1,0 +1,87 @@
+{% comment %}
+Seasonal theme, head part (James, Nov 21, 2026). Settings: `holiday:` in _config.yml.
+
+The script below decides whether the theme is showing and adds `ef-holiday` to <html>.
+It runs before the page paints, so nothing shifts. The theme shows from site.holiday.start
+up to (not including) site.holiday.end, by the visitor's own date, so the code can be merged
+early and it switches itself off. `ef-holiday-home` is added while "home in time for
+Christmas" is still true (up to site.holiday.home_by).
+
+Preview any time: ?holiday=on, ?holiday=off or ?holiday=YYYY-MM-DD (pretend it is that
+date). The choice sticks for the browser tab.
+
+All CSS here is scoped under html.ef-holiday. The banner markup and the snow loader are
+in holiday/banner.html; the snow itself is assets/js/holiday-snow.js.
+{% endcomment %}
+<script>
+(function(){
+  var cfg={start:"{{ site.holiday.start }}",end:"{{ site.holiday.end }}",homeBy:"{{ site.holiday.home_by }}"};
+  function day(s){var p=String(s).split("-");return new Date(+p[0],p[1]-1,+p[2]);}
+  var force=null,m=/[?&]holiday=([^&#]+)/.exec(location.search);
+  try{if(m)sessionStorage.setItem("efHoliday",m[1]);force=sessionStorage.getItem("efHoliday");}catch(e){force=m?m[1]:null;}
+  if(force==="off")return;
+  var now=new Date();
+  if(force&&/^\d{4}-\d\d-\d\d$/.test(force)){now=day(force);force=null;}
+  var today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  if(force!=="on"&&(today<day(cfg.start)||today>=day(cfg.end)))return;
+  var xmas=new Date(day(cfg.start).getFullYear(),11,25),el=document.documentElement;
+  el.classList.add("ef-holiday");
+  if(today<=day(cfg.homeBy))el.classList.add("ef-holiday-home");
+  window.efHoliday={sleeps:Math.round((xmas-today)/864e5)};
+})();
+</script>
+<style>
+/* Seasonal theme. Evergreen #1b3b31 and pale gold #ecd9a0 join the brand wine. */
+.ef-hb{display:none}
+html.ef-holiday .ef-hb{display:flex;align-items:center;justify-content:center;position:relative;box-sizing:border-box;min-height:44px;padding:8px 52px 8px 14px;background:#1b3b31;color:#eef3ee;text-align:center}
+html.ef-holiday .ef-hb__msg{margin:0;font-family:'Montserrat',system-ui,sans-serif;font-size:.8125rem;line-height:1.5;color:#eef3ee}
+html.ef-holiday .ef-hb__count{margin-right:.5em;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:700;font-size:.9375rem;font-variant-numeric:lining-nums;color:#ecd9a0}
+html.ef-holiday .ef-hb a.ef-hb__link{display:inline-block;white-space:nowrap;color:#fff;font-weight:600;text-decoration:underline;text-decoration-color:rgba(236,217,160,.75);text-underline-offset:3px}
+html.ef-holiday .ef-hb a.ef-hb__link:hover,html.ef-holiday .ef-hb a.ef-hb__link:focus{color:#ecd9a0;text-decoration-color:currentColor}
+.ef-hb__long{display:none}
+.ef-hb__snow{display:none}
+html.ef-holiday .ef-hb__snow.is-ready{display:inline-flex;align-items:center;justify-content:center;gap:6px;position:absolute;right:10px;top:50%;transform:translateY(-50%);min-width:36px;min-height:36px;padding:4px;border:1px solid rgba(238,243,238,.35);border-radius:500px;background:transparent;color:#eef3ee;font:600 .75rem/1 'Montserrat',system-ui,sans-serif;cursor:pointer}
+html.ef-holiday .ef-hb__snow:hover{border-color:#ecd9a0;color:#ecd9a0}
+html.ef-holiday .ef-hb__snow:focus-visible,html.ef-holiday .ef-hb a.ef-hb__link:focus-visible{outline:2px solid #ecd9a0;outline-offset:2px}
+.ef-hb__snow svg{width:14px;height:14px;flex:none}
+.ef-hb__snow span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* Phones: the line count must not depend on which font has loaded, or the page would jump when
+   Playfair swaps in. Below 375px, and for the longer Christmas-week messages, the link always
+   sits on its own line. */
+@media(max-width:374px){
+  html.ef-holiday .ef-hb__count{display:block;margin-right:0}
+}
+@media(max-width:639px){
+  html.ef-holiday .ef-hb__msg--stack .ef-hb__count{display:block;margin-right:0}
+}
+@media(min-width:640px){
+  html.ef-holiday .ef-hb{padding:8px 52px}
+  html.ef-holiday .ef-hb__msg{font-size:.875rem}
+  html.ef-holiday .ef-hb__count{font-size:1.0625rem}
+  html.ef-holiday-home .ef-hb__long{display:inline}
+}
+@media(min-width:960px){
+  html.ef-holiday .ef-hb{padding:8px 150px}
+  html.ef-holiday .ef-hb__snow.is-ready{right:16px;min-height:30px;padding:4px 12px}
+  .ef-hb__snow span{position:static;width:auto;height:auto;overflow:visible;clip:auto}
+}
+.ef-snow{position:fixed;top:0;left:0;pointer-events:none;z-index:975}
+/* Evergreen takes over the two non-wine accents: the nav button and the chat bubble */
+html.ef-holiday .uk-navbar-container .uk-button-danger{background-color:#1b3b31;color:#fff}
+html.ef-holiday .uk-navbar-container .uk-button-danger:hover{background-color:#28503f;color:#fff}
+html.ef-holiday #heymk-facade{background:#1b3b31}
+/* "Available" on the grid and "Ready to Come Home" on a puppy page gain "for Christmas" */
+.ef-status-badge__holiday{display:none}
+html.ef-holiday-home .ef-status-badge__holiday{display:inline}
+html.ef-holiday-home .ef-status-badge--available{max-width:calc(100% - 20px);box-sizing:border-box;flex-wrap:wrap;border-radius:13px;text-align:left;line-height:1.3}
+@media(max-width:639px){
+  /* two-across cards on phones are narrower than the longer label: stack it under "Available" */
+  html.ef-holiday-home .ef-status-badge--available{padding:4px 10px;row-gap:0;line-height:1.25}
+  html.ef-holiday-home .ef-status-badge__holiday{flex-basis:100%;box-sizing:border-box;padding-left:11px;white-space:nowrap}
+}
+@media(max-width:339px){
+  html.ef-holiday-home .ef-status-badge__holiday{display:none}
+}
+html.ef-holiday-home .luna-status--available::after{content:"for Christmas"}
+@media print{.ef-hb,.ef-snow{display:none!important}}
+</style>

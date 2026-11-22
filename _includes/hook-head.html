@@ -3,3 +3,4 @@
 <!-- Hero name (h1.luna-hero__name) is Playfair italic 700 and above the fold; no other Playfair face is used there, so only this one is preloaded -->
 <link rel="preload" href="{{ '/assets/fonts/playfair-display-latin-700-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 {% endif %}
+{% if site.holiday.enabled %}{% include holiday/head.html %}{% endif %}
