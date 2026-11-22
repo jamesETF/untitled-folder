@@ -257,7 +257,7 @@ defaults:
 # ?holiday=on, ?holiday=off or ?holiday=YYYY-MM-DD. `enabled: false` takes it out of the build.
 holiday:
   enabled:              true
-  start:                "2026-11-27"  # first day shown (Black Friday)
+  start:                "2026-11-21"  # first day shown (live from Nov 22, 2026: James didn't wait for Black Friday)
   end:                  "2027-01-01"  # first day NOT shown
   home_by:              "2026-12-21"  # last day the "home in time for Christmas" wording shows
   link:                 /french-bulldog-puppies/  # where the banner link goes
