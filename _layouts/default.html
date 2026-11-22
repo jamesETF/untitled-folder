@@ -4,6 +4,7 @@
 {% include head.html %}
 
     <body>
+    {% if site.holiday.enabled %}{% include holiday/banner.html %}{% endif %}
 
 
     {% include partials/header.html %}

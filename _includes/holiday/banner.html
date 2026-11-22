@@ -1,0 +1,44 @@
+{% comment %}
+Seasonal theme, body part: the banner above the navbar, the Christmas countdown and the snow
+loader. Hidden unless holiday/head.html switched the theme on. The countdown text is filled in
+before the page paints. The snow script loads only after the page has finished loading, and
+not at all for visitors who ask for reduced motion or who paused it (remembered per browser).
+{% endcomment %}
+<div class="ef-hb" role="region" aria-label="Holiday message">
+  <p class="ef-hb__msg"><span class="ef-hb__count" id="ef-hb-count">Christmas is coming.</span><a class="ef-hb__link" href="{{ site.holiday.link | relative_url }}">Meet the pups<span class="ef-hb__long"> who could be home in time</span></a></p>
+  <button type="button" class="ef-hb__snow" id="ef-hb-snow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 2v20M3.3 7l17.4 10M3.3 17 20.7 7M12 6l-2.5-2M12 6l2.5-2M12 18l-2.5 2M12 18l2.5 2"/></svg><span>Pause snow</span></button>
+</div>
+<script>
+(function(){
+  var h=window.efHoliday;if(!h)return;
+  var n=h.sleeps,c=document.getElementById("ef-hb-count");
+  if(c){
+    c.textContent=n>1?n+" sleeps until Christmas.":n===1?"One more sleep until Christmas.":n===0?"Merry Christmas from all of us at Ethical Frenchie.":"Happy holidays from all of us at Ethical Frenchie.";
+    if(n<=1)c.parentNode.className+=" ef-hb__msg--stack";
+  }
+
+  var mq=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)");
+  if(mq&&mq.matches)return;
+  var btn=document.getElementById("ef-hb-snow");if(!btn||!window.requestAnimationFrame)return;
+  var label=btn.querySelector("span"),saved=null,loading=false;
+  try{saved=localStorage.getItem("efSnow");}catch(e){}
+  var off=saved==="off"||(saved!=="on"&&navigator.connection&&navigator.connection.saveData===true);
+  function paint(){var t=off?"Resume snow":"Pause snow";label.textContent=t;btn.setAttribute("aria-label",t);}
+  function start(){
+    if(window.efSnow){window.efSnow.start();return;}
+    if(loading)return;loading=true;
+    var s=document.createElement("script");s.async=true;
+    s.src="{{ '/assets/js/holiday-snow.js' | relative_url }}?v={{ site.time | date: '%s' }}";
+    s.onload=function(){if(off&&window.efSnow)window.efSnow.stop();};
+    document.body.appendChild(s);
+  }
+  btn.addEventListener("click",function(){
+    off=!off;try{localStorage.setItem("efSnow",off?"off":"on");}catch(e){}
+    paint();if(off){if(window.efSnow)window.efSnow.stop();}else start();
+  });
+  paint();btn.classList.add("is-ready");
+  if(off)return;
+  function soon(){(window.requestIdleCallback||function(f){setTimeout(f,400);})(start);}
+  if(document.readyState==="complete")soon();else window.addEventListener("load",soon);
+})();
+</script>
