@@ -67,14 +67,14 @@
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
     canvas.style.width = W + "px"; canvas.style.height = H + "px";
     full = W < 600 ? 14 : W < 1100 ? 24 : 38;
-    sprites = { dot: sprite("dot", 10), crystal: sprite("crystal", 18), paw: sprite("paw", 18) };
+    sprites = { dot: sprite("dot", 14), crystal: sprite("crystal", 26), paw: sprite("paw", 26) };
   }
 
   function place(f, first) {
     var roll = Math.random();
     f.kind = roll < 0.74 ? "dot" : roll < 0.92 ? "crystal" : "paw";
     var depth = Math.random(); // 0 far, 1 near: near flakes are bigger, faster, clearer
-    f.size = f.kind === "dot" ? 4 + depth * 6 : 11 + depth * 7;
+    f.size = f.kind === "dot" ? 6 + depth * 8 : 16 + depth * 10;
     f.vy = 20 + depth * 34 + rand(0, 8);
     f.alpha = f.kind === "dot" ? 0.55 + depth * 0.4 : 0.6 + depth * 0.35;
     f.sway = rand(6, 20);
