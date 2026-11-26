@@ -810,12 +810,6 @@ RUBY_VERSION = "3.2.2"
   force = true
 
 [[redirects]]
-  from = "/french-bulldog-puppies/thumper"
-  to = "/french-bulldog-puppies/"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/french-bulldog-puppies/wonka"
   to = "/french-bulldog-puppies/"
   status = 301
@@ -845,3 +839,9 @@ RUBY_VERSION = "3.2.2"
   status = 301
   force = true
 
+
+[[redirects]]
+  from = "/french-bulldog-puppies/koda"
+  to = "/french-bulldog-puppies/"
+  status = 301
+  force = true
