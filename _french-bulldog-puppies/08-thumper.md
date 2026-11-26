@@ -1,10 +1,10 @@
 ---
-title: Koda
-description: Meet Koda, a blue and tan French Bulldog with warm tan cheeks, soft ears and bright blue eyes — curious, playful, and a born tag-along.
-subtitle: Blue and Tan Frenchie Koda
+title: Thumper
+description: Meet Thumper, a solid blue French Bulldog with a velvety coat, a white chest blaze and blue-grey eyes — playful, cheeky, and loyal.
+subtitle: Blue Frenchie Thumper
 width: full
-image: /uploads/french-bulldog-puppies/koda/koda-1.webp
-topics: [Our Puppies, "Blue and Tan French Bulldog"]
+image: /uploads/french-bulldog-puppies/thumper/thumper-1.webp
+topics: [Our Puppies, "Blue French Bulldog"]
 
 navbar:
   sticky: true
@@ -14,22 +14,22 @@ navbar:
   transparent_color: light
 
 parallax: false
-permalink: /french-bulldog-puppies/koda
+permalink: /french-bulldog-puppies/thumper
 hubspotneeded: true
 chat: true
 
 gender: Male
-color_coat: Blue and Tan
-age_weeks: 11
-dob: 2026-08-23
-ready_date: 2026-10-18
+color_coat: Blue
+age_weeks: 14
+dob: 2026-08-15
+ready_date: 2026-10-10
 estimated_adult_weight_lbs: "25-28"
 price: 0
 status: available
 microchipped: true
 akc_papers: true
 parents: ""
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-26
 ---
 
 
@@ -1150,10 +1150,10 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      HERO SECTION — Full-bleed cinematic
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-hero" aria-label="Koda hero">
+<section class="luna-hero" aria-label="Thumper hero">
   <img
-    src="/uploads/french-bulldog-puppies/koda/koda-1.webp"
-    alt="Koda, a Blue and Tan French Bulldog puppy with bright blue eyes available from Ethical Frenchie"
+    src="/uploads/french-bulldog-puppies/thumper/thumper-1.webp"
+    alt="Thumper, a Blue French Bulldog puppy with blue-grey eyes available from Ethical Frenchie"
     class="luna-hero__img"
     fetchpriority="high"
     width="1200"
@@ -1167,12 +1167,12 @@ html, body {
         Ready to Come Home
       </span>
       <span class="luna-hero__greeting">Meet</span>
-      <h1 class="luna-hero__name">Hi, I'm Koda!</h1>
-      <p class="luna-hero__breed">Blue &amp; Tan French Bulldog</p>
+      <h1 class="luna-hero__name">Hi, I'm Thumper!</h1>
+      <p class="luna-hero__breed">Blue French Bulldog</p>
     </div>
     <div class="luna-hero__stats">
       <div class="luna-hero__stat">
-        <span class="luna-hero__stat-value">11 Weeks</span>
+        <span class="luna-hero__stat-value">14 Weeks</span>
         <span class="luna-hero__stat-label">Age</span>
       </div>
       <div class="luna-hero__stat">
@@ -1197,12 +1197,12 @@ html, body {
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-section--compact" style="background: var(--luna-bg);">
   <div class="luna-container luna-reveal">
-    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Koda">
+    <ul class="luna-pills luna-pills--scroll" aria-label="Quick details about Thumper">
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128054;</span> French Bulldog</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#9794;&#65039;</span> Male</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue and Tan</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 11 Weeks Old</li>
-      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Bright Blue Eyes</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#127912;</span> Blue</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128197;</span> 14 Weeks Old</li>
+      <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128154;</span> Blue-Grey Eyes</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128062;</span> Ready to Come Home</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128272;</span> Microchipped</li>
       <li class="luna-pill"><span class="luna-pill__icon" aria-hidden="true">&#128220;</span> AKC Registered</li>
@@ -1261,14 +1261,14 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PHOTO GALLERY — Bento grid layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Koda's photos">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Thumper's photos">
   <div class="luna-container luna-reveal">
     <div class="luna-gallery" data-uk-lightbox="animation: slide" style="grid-template-rows: repeat(5, 1fr);">
-      <a href="/uploads/french-bulldog-puppies/koda/koda-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Koda - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/thumper/thumper-1.webp" class="luna-gallery__item" style="grid-row: 1 / -1;" data-caption="Thumper - Blue French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/koda/koda-1.webp"
-          alt="Koda the French Bulldog - Photo 1"
+          data-src="/uploads/french-bulldog-puppies/thumper/thumper-1.webp"
+          alt="Thumper the French Bulldog - Photo 1"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1279,11 +1279,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/koda/koda-2.webp" class="luna-gallery__item" data-caption="Koda - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/thumper/thumper-2.webp" class="luna-gallery__item" data-caption="Thumper - Blue French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/koda/koda-2.webp"
-          alt="Koda the French Bulldog - Photo 2"
+          data-src="/uploads/french-bulldog-puppies/thumper/thumper-2.webp"
+          alt="Thumper the French Bulldog - Photo 2"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1294,11 +1294,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/koda/koda-3.webp" class="luna-gallery__item" data-caption="Koda - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/thumper/thumper-3.webp" class="luna-gallery__item" data-caption="Thumper - Blue French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/koda/koda-3.webp"
-          alt="Koda the French Bulldog - Photo 3"
+          data-src="/uploads/french-bulldog-puppies/thumper/thumper-3.webp"
+          alt="Thumper the French Bulldog - Photo 3"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1309,11 +1309,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/koda/koda-4.webp" class="luna-gallery__item" data-caption="Koda - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/thumper/thumper-4.webp" class="luna-gallery__item" data-caption="Thumper - Blue French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/koda/koda-4.webp"
-          alt="Koda the French Bulldog - Photo 4"
+          data-src="/uploads/french-bulldog-puppies/thumper/thumper-4.webp"
+          alt="Thumper the French Bulldog - Photo 4"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1324,11 +1324,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/koda/koda-5.webp" class="luna-gallery__item" data-caption="Koda - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/thumper/thumper-5.webp" class="luna-gallery__item" data-caption="Thumper - Blue French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/koda/koda-5.webp"
-          alt="Koda the French Bulldog - Photo 5"
+          data-src="/uploads/french-bulldog-puppies/thumper/thumper-5.webp"
+          alt="Thumper the French Bulldog - Photo 5"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1339,11 +1339,11 @@ html, body {
           </div>
         </div>
       </a>
-      <a href="/uploads/french-bulldog-puppies/koda/koda-6.webp" class="luna-gallery__item" data-caption="Koda - Blue and Tan French Bulldog">
+      <a href="/uploads/french-bulldog-puppies/thumper/thumper-6.webp" class="luna-gallery__item" data-caption="Thumper - Blue French Bulldog">
         <img
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="/uploads/french-bulldog-puppies/koda/koda-6.webp"
-          alt="Koda the French Bulldog - Photo 6"
+          data-src="/uploads/french-bulldog-puppies/thumper/thumper-6.webp"
+          alt="Thumper the French Bulldog - Photo 6"
           class="luna-gallery__img"
           data-uk-img
           loading="lazy"
@@ -1362,27 +1362,27 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      PERSONALITY CARD + PRICE — Two column layout
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Koda">
+<section class="luna-section" style="background: var(--luna-bg-muted);" aria-label="About Thumper">
   <div class="luna-container">
     <div class="luna-two-col">
 
       <!-- Personality Card -->
       <div class="luna-reveal">
-        <span class="luna-eyebrow--accent">Meet Koda</span>
+        <span class="luna-eyebrow--accent">Meet Thumper</span>
         <div class="luna-personality">
-          <p class="luna-personality__quote">Like the little bear cub from Brother Bear, Koda is always ready for the next adventure — as long as you're coming too.</p>
+          <p class="luna-personality__quote">Like the bunny from Bambi, Thumper meets every new friend with a happy little bounce — and plenty of opinions.</p>
           <div class="luna-personality__body">
-            <p>Named for the chatty, big-hearted cub from <strong>Brother Bear</strong>, Koda is <strong>curious, playful and eager to be included</strong>. He's the pup who follows the bigger kids around the yard, inspects every leaf, and then flops down for a nap the moment the excitement winds down.</p>
-            <p>He has a <strong>smoky blue coat</strong> with warm <strong>tan points</strong> on his cheeks, chest and legs, soft ears that are just starting to stand, and a pair of <strong>bright blue eyes</strong> you'll notice from across the room. He's compact and solid, with the open, trusting face of a pup who likes everyone he meets.</p>
-            <p><strong>Playful, affectionate and always up for company</strong>, Koda is happiest when he's part of the pack. At eleven weeks he is <strong>ready to come home now</strong>.</p>
+            <p>Named for Bambi's best buddy, <strong>Thumper</strong> is <strong>playful, cheeky and fiercely loyal</strong>. He's the first to scramble over and say hello, the one who turns any toy into a game, and the pup who'll keep you company through every movie night.</p>
+            <p>His <strong>solid blue coat</strong> is short, velvety and even from nose to tail, broken only by a <strong>little white blaze</strong> on his chest, with tall upright ears and a pair of <strong>soft blue-grey eyes</strong>. He's sturdy and well-built, with the deep chest and square frame the breed is loved for.</p>
+            <p><strong>Happy, playful and devoted</strong>, Thumper is a friend for life. At fourteen weeks he is <strong>ready to come home now</strong>.</p>
           </div>
           <div class="luna-traits">
-            <span class="luna-trait">&#128269; Curious</span>
-            <span class="luna-trait">&#127881; Playful</span>
+            <span class="luna-trait">&#128048; Playful</span>
+            <span class="luna-trait">&#128540; Cheeky</span>
+            <span class="luna-trait">&#129309; Loyal</span>
+            <span class="luna-trait">&#128516; Happy</span>
             <span class="luna-trait">&#128150; Affectionate</span>
-            <span class="luna-trait">&#128062; Adventurous</span>
-            <span class="luna-trait">&#129309; Friendly</span>
-            <span class="luna-trait">&#129528; Cuddly</span>
+            <span class="luna-trait">&#9889; Spirited</span>
           </div>
         </div>
       </div>
@@ -1411,7 +1411,7 @@ html, body {
           </ul>
           <a href="/application/" class="luna-btn luna-btn--primary luna-btn--full luna-btn--lg" style="margin-bottom:12px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            Reserve Koda — Apply Now
+            Reserve Thumper — Apply Now
           </a>
           <a href="tel:212-739-0182" class="luna-btn luna-btn--outline luna-btn--full">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -1439,11 +1439,11 @@ html, body {
 <!-- ═══════════════════════════════════════════════════════════
      DETAILS ACCORDION
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-section" style="background: var(--luna-bg);" aria-label="Koda's details">
+<section class="luna-section" style="background: var(--luna-bg);" aria-label="Thumper's details">
   <div class="luna-container luna-container--narrow">
     <div class="luna-reveal" style="text-align: center; margin-bottom: 40px;">
       <span class="luna-eyebrow">Everything You Need to Know</span>
-      <h2 class="luna-heading luna-heading--lg">Koda's Details</h2>
+      <h2 class="luna-heading luna-heading--lg">Thumper's Details</h2>
     </div>
 
     <div class="luna-accordion luna-reveal" id="luna-accordion" role="region" aria-label="Puppy details accordion">
@@ -1457,7 +1457,7 @@ html, body {
         </button>
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
-            <p>Koda has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
+            <p>Thumper has been thoroughly examined by a licensed veterinarian and comes with a clean bill of health.</p>
             <ul>
               <li><strong>Vaccinations:</strong> Up-to-date on DHPP</li>
               <li><strong>Deworming:</strong> Completed on schedule</li>
@@ -1481,10 +1481,10 @@ html, body {
         <div class="luna-accordion__body">
           <div class="luna-accordion__body-inner">
             <ul>
-              <li><strong>Personality:</strong> Curious, playful and affectionate — a blue and tan boy who wants to be included in everything</li>
-              <li><strong>Ideal Home:</strong> Great for families with children, multi-pet homes, or anyone looking for a social, easygoing companion</li>
+              <li><strong>Personality:</strong> Playful, cheeky and loyal — a solid blue boy with a happy, bouncy energy</li>
+              <li><strong>Ideal Home:</strong> Great for families with children, active couples, or homes with other furbabies</li>
               <li><strong>Training:</strong> Started on basic commands, crate training, and early socialization</li>
-              <li><strong>Energy Level:</strong> Moderate — loves to explore, then naps hard</li>
+              <li><strong>Energy Level:</strong> Moderate — loves a game, then a good snooze</li>
             </ul>
           </div>
         </div>
@@ -1503,11 +1503,11 @@ html, body {
             <ul>
               <li><strong>Breed:</strong> French Bulldog</li>
               <li><strong>Gender:</strong> Male</li>
-              <li><strong>Color:</strong> Blue and Tan</li>
-              <li><strong>Eye Color:</strong> Bright Blue</li>
+              <li><strong>Color:</strong> Blue</li>
+              <li><strong>Eye Color:</strong> Blue-Grey</li>
               <li><strong>Age:</strong> {% include puppy-age-weeks.html %} weeks old (ready now)</li>
               <li><strong>Estimated Adult Weight:</strong> 25-28 lbs</li>
-              <li><strong>Date of Birth:</strong> August 23, 2026</li>
+              <li><strong>Date of Birth:</strong> August 15, 2026</li>
               <li><strong>AKC Registration:</strong> Full AKC papers included</li>
             </ul>
           </div>
@@ -1527,7 +1527,7 @@ html, body {
             <ul>
               <li><strong>Payment Methods:</strong> Credit/Debit Cards, PayPal, Venmo, Zelle</li>
               <li><strong>Financing:</strong> Available to approved families</li>
-              <li><strong>Deposit:</strong> Required to reserve Koda (non-refundable, transferable to future litter)</li>
+              <li><strong>Deposit:</strong> Required to reserve Thumper (non-refundable, transferable to future litter)</li>
               <li><strong>Nationwide Delivery:</strong> We hand-deliver anywhere in the U.S. and personally hand-deliver in-cabin for a safe, low-stress experience</li>
               <li><strong>Local Pickup:</strong> Available in New York or Chicago</li>
             </ul>
@@ -1591,11 +1591,11 @@ block_title="false"
 <!-- ═══════════════════════════════════════════════════════════
      FINAL CTA — Conversion section
      ═══════════════════════════════════════════════════════════ -->
-<section class="luna-final-cta luna-section" aria-label="Apply for Koda">
+<section class="luna-final-cta luna-section" aria-label="Apply for Thumper">
   <div class="luna-container luna-container--narrow luna-reveal">
     <span class="luna-eyebrow" style="color: rgba(255,255,255,0.6);">Don't Wait</span>
-    <h2 class="luna-final-cta__heading">Reserve Koda Before He's Gone</h2>
-    <p class="luna-final-cta__sub">A puppy this special won't be available long. Koda is ready to come home now — start your application today and take the first step toward bringing Koda home.</p>
+    <h2 class="luna-final-cta__heading">Reserve Thumper Before He's Gone</h2>
+    <p class="luna-final-cta__sub">A puppy this special won't be available long. Thumper is ready to come home now — start your application today and take the first step toward bringing Thumper home.</p>
     <div class="luna-final-cta__buttons">
       <a href="/application/" class="luna-btn luna-btn--white luna-btn--lg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
@@ -1624,11 +1624,11 @@ block_title="false"
      STICKY CTA BAR (Mobile only)
      ═══════════════════════════════════════════════════════════ -->
 <div class="luna-cta-bar" id="luna-cta-bar" aria-label="Quick actions">
-  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Koda">
+  <button type="button" class="luna-cta-bar__btn luna-cta-bar__btn--primary" id="luna-mobile-chat" aria-label="Message us about Thumper">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
     Message Us
   </button>
-  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Koda">
+  <a href="tel:212-739-0182" class="luna-cta-bar__btn luna-cta-bar__btn--secondary" aria-label="Call us about Thumper">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Us
   </a>
@@ -1746,23 +1746,23 @@ block_title="false"
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Koda - Blue and Tan French Bulldog Puppy",
-  "description": "Meet Koda, a blue and tan French Bulldog with warm tan cheeks, soft ears and bright blue eyes — curious, playful, and a born tag-along.",
+  "name": "Thumper - Blue French Bulldog Puppy",
+  "description": "Meet Thumper, a solid blue French Bulldog with a velvety coat, a white chest blaze and blue-grey eyes — playful, cheeky, and loyal.",
   "image": [
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/koda/koda-1.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/koda/koda-2.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/koda/koda-3.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/koda/koda-4.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/koda/koda-5.webp",
-    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/koda/koda-6.webp"
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/thumper/thumper-1.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/thumper/thumper-2.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/thumper/thumper-3.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/thumper/thumper-4.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/thumper/thumper-5.webp",
+    "https://ethicalfrenchie.com/uploads/french-bulldog-puppies/thumper/thumper-6.webp"
   ],
-  "sku": "koda-2026",
+  "sku": "thumper-2026",
   "productionDate": "{{ page.dob }}",
   "brand": { "@type": "Organization", "name": "Ethical Frenchie" },
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Breed", "value": "French Bulldog" },
     { "@type": "PropertyValue", "name": "Gender", "value": "Male" },
-    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue and Tan" },
+    { "@type": "PropertyValue", "name": "Color/Coat", "value": "Blue" },
     { "@type": "PropertyValue", "name": "Age", "value": "{% include puppy-age-weeks.html %} weeks" },
     { "@type": "PropertyValue", "name": "Estimated Adult Weight", "value": "25-28 lbs" },
     { "@type": "PropertyValue", "name": "Microchipped", "value": "Yes" },
@@ -1770,7 +1770,7 @@ block_title="false"
   ],
   "offers": {
     "@type": "AggregateOffer",
-    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/koda",
+    "url": "https://ethicalfrenchie.com/french-bulldog-puppies/thumper",
     "priceCurrency": "USD",
     "lowPrice": "4000",
     "highPrice": "5500",
